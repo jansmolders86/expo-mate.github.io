@@ -62,7 +62,7 @@
                             },
                             "title": "ONZE MISSIE & VISIE",
                             "type": "textarea",
-                            "description": "EXPO-MATE wil het meest gewaardeerde full service project management bureau zijn binnen de branche en marktleider op het gebied van kwaliteit. Het creÃÂÃÂÃÂÃÂ«ren van authentieke, innovatieve en milieubewuste op maat gemaakte projecten zorgt ervoor dat onze klanten meer dan hun (beurs)doelstellingen bereiken. Door onze manier van werken zijn onze klanten niet alleen tevreden met het eindresultaat, maar ook met het totale proces dat daar naartoe leidt. Hierdoor zijn klanten niet langer klanten maar zijn het onze ambassadeurs."
+                            "description": "EXPO-MATE wil het meest gewaardeerde full service project management bureau zijn binnen de branche en marktleider op het gebied van kwaliteit. Het creÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ«ren van authentieke, innovatieve en milieubewuste op maat gemaakte projecten zorgt ervoor dat onze klanten meer dan hun (beurs)doelstellingen bereiken. Door onze manier van werken zijn onze klanten niet alleen tevreden met het eindresultaat, maar ook met het totale proces dat daar naartoe leidt. Hierdoor zijn klanten niet langer klanten maar zijn het onze ambassadeurs."
                         }
                     },
                     "aboutUs": {
@@ -319,7 +319,7 @@
                             },
                             "title": "ONZE MISSIE & VISIE",
                             "type": "textarea",
-                            "description": "EXPO-MATE wil het meest gewaardeerde full service project management bureau zijn binnen de branche en marktleider op het gebied van kwaliteit. Het creÃÂÃÂÃÂÃÂ«ren van authentieke, innovatieve en milieubewuste op maat gemaakte projecten zorgt ervoor dat onze klanten meer dan hun (beurs)doelstellingen bereiken. Door onze manier van werken zijn onze klanten niet alleen tevreden met het eindresultaat, maar ook met het totale proces dat daar naartoe leidt. Hierdoor zijn klanten niet langer klanten maar zijn het onze ambassadeurs."
+                            "description": "EXPO-MATE wil het meest gewaardeerde full service project management bureau zijn binnen de branche en marktleider op het gebied van kwaliteit. Het creÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ«ren van authentieke, innovatieve en milieubewuste op maat gemaakte projecten zorgt ervoor dat onze klanten meer dan hun (beurs)doelstellingen bereiken. Door onze manier van werken zijn onze klanten niet alleen tevreden met het eindresultaat, maar ook met het totale proces dat daar naartoe leidt. Hierdoor zijn klanten niet langer klanten maar zijn het onze ambassadeurs."
                         }
                     },
                     "aboutUs": {
@@ -536,7 +536,7 @@
                 },
                 "content": {
                     "intro": {
-                        "title": "Ons Verhaal",
+                        "title": "Our Story",
                         "description": "We geloven in de kracht van diversiteit. Diversiteit en het samenbrengen van verschillende disciplines zorgt er namelijk voor dat we iedere dag het beste resultaat voor, maar vooral met, onze klanten kunnen realiseren.",
                         "images": [
                             {
@@ -566,17 +566,17 @@
                             "image": {
                                 "src": "assets/images/1.jpg"
                             },
-                            "title": "ONS FUNDAMENT",
-                            "type": "textarea",
+                            "title": "Our Foundation",
+                            "type": "",
                             "description": "10 jaar kennis en ervaring in de beursindustrie gecombineerd met 10 jaar sales en marketing ervaring vormt onze basis. Hierdoor kunnen wij als geen ander unieke beursconcepten bedenken die zorgen voor de hoogste return on investment."
                         },
                         "row2": {
                             "image": {
                                 "src": "assets/images/2.jpg"
                             },
-                            "title": "ONZE MISSIE & VISIE",
-                            "type": "textarea",
-                            "description": "EXPO-MATE wil het meest gewaardeerde full service project management bureau zijn binnen de branche en marktleider op het gebied van kwaliteit. Het creÃÂÃÂÃÂÃÂ«ren van authentieke, innovatieve en milieubewuste op maat gemaakte projecten zorgt ervoor dat onze klanten meer dan hun (beurs)doelstellingen bereiken. Door onze manier van werken zijn onze klanten niet alleen tevreden met het eindresultaat, maar ook met het totale proces dat daar naartoe leidt. Hierdoor zijn klanten niet langer klanten maar zijn het onze ambassadeurs."
+                            "title": "Our Misson & Vision",
+                            "type": "",
+                            "description": "EXPO-MATE wil het meest gewaardeerde full service project management bureau zijn binnen de branche en marktleider op het gebied van kwaliteit. Het creÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ«ren van authentieke, innovatieve en milieubewuste op maat gemaakte projecten zorgt ervoor dat onze klanten meer dan hun (beurs)doelstellingen bereiken. Door onze manier van werken zijn onze klanten niet alleen tevreden met het eindresultaat, maar ook met het totale proces dat daar naartoe leidt. Hierdoor zijn klanten niet langer klanten maar zijn het onze ambassadeurs."
                         }
                     },
                     "aboutUs": {
