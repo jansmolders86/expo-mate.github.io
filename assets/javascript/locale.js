@@ -31,6 +31,7 @@ $(function(){
     $.getJSON(url, function(data) {
         var loc = getCookie('lang');
         var locData = data[loc];
+        var nav = locData.nav.labels;
         var homepage = locData.pages.homepage;
         var header = homepage.header.content;
         var intro = homepage.content.intro;
@@ -41,7 +42,15 @@ $(function(){
         var method = homepage.content.method;
         var projects = homepage.content.projects;
         var footer = homepage.content.footer;
-
+        
+        if(nav) {
+           var navItem = $('#nav > ul > li');
+           navItem.attr('href','#preabout').html(nav.about);
+           navItem.attr('href','#method').html(nav.method);
+           navItem.attr('href','#values').html(nav.values);
+           navItem.attr('href','#case-studies').html(nav.projects);
+           navItem.attr('href','#footer').html(nav.contact);
+        }
 
         if (header) {
             $('.background-video').css({'backgroundImage': header.backgroundImageSrc});
