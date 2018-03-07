@@ -44,12 +44,12 @@ $(function(){
         var footer = homepage.content.footer;
         
         if(nav) {
-           var navItem = $('#nav > ul > li > a');
-           navItem.attr('href','#preabout').html(nav.about);
-           navItem.attr('href','#method').html(nav.method);
-           navItem.attr('href','#values').html(nav.values);
-           navItem.attr('href','#case-studies').html(nav.projects);
-           navItem.attr('href','#footer').html(nav.contact);
+           var navItem = $('#nav > ul > li ');
+           navItem.find('a[href="#preabout"]').html(nav.about);
+           navItem.find('a[href="#method"]').html(nav.method);
+           navItem.find('a[href="#values"]').html(nav.values);
+           navItem.find('a[href="#case-studies"]').html(nav.projects);
+           navItem.find('a[href="#footer"]').html(nav.contact);
         }
 
         if (header) {
