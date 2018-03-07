@@ -66,7 +66,9 @@ $(function(){
 
             if($('.brandlist').length > 0){
                 $.each(brands, function (index, brand) {
-                    $body.find('.brandlist').append('<li><img src="'+brand.image.src+'" alt="'+brand.image.alt+'" /></li>');
+                    if(brand.image){
+                        $body.find('.brandlist').append('<li><img src="'+brand.image.src+'" alt="'+brand.image.alt+'" /></li>');
+                    }
                 });
             }
         }
