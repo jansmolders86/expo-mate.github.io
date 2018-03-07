@@ -44,7 +44,7 @@ $(function(){
         var footer = homepage.content.footer;
         
         if(nav) {
-           var navItem = $('#nav > ul > li');
+           var navItem = $('#nav > ul > li > a');
            navItem.attr('href','#preabout').html(nav.about);
            navItem.attr('href','#method').html(nav.method);
            navItem.attr('href','#values').html(nav.values);
