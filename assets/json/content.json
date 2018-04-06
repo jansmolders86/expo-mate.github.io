@@ -131,8 +131,8 @@
                             "quote": "Dit is een Quote van een klant die benadrukt hoe geweldig het is om met jullie samen te werken.",
                             "author": "John Doe",
                             "comparison": {
-                                "before": "https://codyhouse.co/demo/image-comparison-slider/img/img-modified.jpg",
-                                "after": "https://codyhouse.co/demo/image-comparison-slider/img/img-original.jpg"
+                                "before": "assets/images/slider-before.jpg",
+                                "after": "assets/images/slider-after.jpg"
                             },
                             "button": {
                                 "label": "Onze Projecten"
@@ -386,8 +386,8 @@
                             "quote": "Dit is een Quote van een klant die benadrukt hoe geweldig het is om met jullie samen te werken.",
                             "author": "John Doe",
                             "comparison": {
-                                "before": "https://codyhouse.co/demo/image-comparison-slider/img/img-modified.jpg",
-                                "after": "https://codyhouse.co/demo/image-comparison-slider/img/img-original.jpg"
+                                "before": "assets/images/slider-before.jpg",
+                                "after": "assets/images/slider-after.jpg"
                             },
                             "button": {
                                 "label": "Onze Projecten"
@@ -641,8 +641,8 @@
                             "quote": "Dit is een Quote van een klant die benadrukt hoe geweldig het is om met jullie samen te werken.",
                             "author": "John Doe",
                             "comparison": {
-                                "before": "https://codyhouse.co/demo/image-comparison-slider/img/img-modified.jpg",
-                                "after": "https://codyhouse.co/demo/image-comparison-slider/img/img-original.jpg"
+                                "before": "assets/images/slider-before.jpg",
+                                "after": "assets/images/slider-after.jpg"
                             },
                             "button": {
                                 "label": "Onze Projecten"
