@@ -60,7 +60,7 @@
                                 "src": "assets/images/2.jpg"
                             },
                             "title": "ONZE MISSIE & VISIE",
-                            "description": "EXPO-MATE wil het meest gewaardeerde full service project management bureau zijn binnen de branche en marktleider op het gebied van kwaliteit. Het creëren van authentieke, innovatieve en milieubewuste op maat gemaakte projecten zorgt ervoor dat onze klanten meer dan hun (beurs)doelstellingen bereiken. Door onze manier van werken zijn onze klanten niet alleen tevreden met het eindresultaat, maar ook met het totale proces dat daar naartoe leidt. Hierdoor zijn klanten niet langer klanten maar zijn het onze ambassadeurs."
+                            "description": "Onze missie is om uw beursdeelname succesvoller, efficiënter en gemakkerlijker te maken. EXPO-MATE wil het meest gewaardeerde full service project management bureau zijn binnen de branche en marktleider op het gebied van kwaliteit. Het creëren van authentieke, innovatieve en milieubewuste op maat gemaakte projecten zorgt ervoor dat onze klanten meer dan hun (beurs)doelstellingen bereiken. Door onze manier van werken zijn onze klanten niet alleen tevreden met het eindresultaat, maar ook met het totale proces dat daar naartoe leidt. Hierdoor zijn klanten niet langer klanten maar zijn het onze ambassadeurs."
                         }
                     },
                     "aboutUs": {
@@ -106,19 +106,19 @@
                         "method": {
                             "intro": {
                                 "title": "Introductie",
-                                "description": "In onze optiek de belangrijkste stap in het gehele proces. Door tijd te investeren en kennis te delen in het begin van het proces, hoeven er geen aannames te worden gedaan bij het ontwerp van het concept, maar gaat om datgene wat telt: Integreren van uw identiteit, wensen en behoeftes als beursdeelnemer."
+                                "description": "Een persoonlijke kennismaking waarbij de behoeftes, wensen en doelen worden besproken."
                             },
                             "design": {
                                 "title": "Design",
-                                "description": "Lorem Ipsum"
+                                "description": "Op basis van uw input aangevuld met de uitkomst van het “EXPO-MATE model” maken we een authentiek en innovatief op maat ontworpen beursconcept."
                             },
                             "tuning": {
-                                "title": "Tuning",
-                                "description": "Lorem Ipsum"
+                                "title": "Fine tunen",
+                                "description": "Gezamenlijk wordt het ontwerp besproken en eventueel aangepast om tot het optimale definitieve ontwerp te komen."
                             },
                             "construction": {
-                                "title": "Construction",
-                                "description": "Lorem Ipsum"
+                                "title": "Technische voorbereiding en realisatie",
+                                "description": "Wij verzorgen de volledige technische voorbereiding en opbouw van de stand. Vanzelfsprekend zijn we als uw samenwerkingspartnerpartner bij de opbouw aanwezig en zijn we uw aanspreekpunt op de beursvloer."
                             },
                             "eval": {
                                 "title": "Evaluatie",
