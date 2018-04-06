@@ -293,7 +293,7 @@
 #about .right-container .tile-image {
   background-repeat: no-repeat;
   background-size: 100% auto;
-  background-position: -240% center;
+  background-position: 0 -60px;
 }
 @media only screen and (max-width: 991px) {
   /* line 95, ../sass/_about.sass */
