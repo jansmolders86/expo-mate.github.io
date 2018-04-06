@@ -138,19 +138,19 @@
                                 "label": "Onze Projecten"
                             },
                             "project1": {
-                                "title": "Toshiba",
+                                "title": "Lamb Weston",
                                 "description": "Lorem Ipsum.",
                                 "image": {
-                                    "src": "https://i.pinimg.com/originals/76/b8/a7/76b8a7f9c9048e23c3e19e288f15212f.jpg",
-                                    "alt": ""
+                                    "src": "assets/images/home-project-1.jpg",
+                                    "alt": "Lamb Weston"
                                 }
                             },
                             "project2": {
-                                "title": "ONZE VISIE",
+                                "title": "Scelta",
                                 "description": "Lorem Ipsum.",
                                 "image": {
-                                    "src": "https://i.pinimg.com/originals/76/b8/a7/76b8a7f9c9048e23c3e19e288f15212f.jpg",
-                                    "alt": ""
+                                    "src": "assets/images/home-project-2.jpg",
+                                    "alt": "Scelta"
                                 }
                             }
                         }
