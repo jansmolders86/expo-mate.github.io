@@ -1,7 +1,7 @@
 $(function(){
     var userLang = navigator.language || navigator.userLanguage;
     var activeCookie = getCookie('lang');
-    if(activeCookie === undefined){
+    if(activeCookie === undefined || activeCookie === null || activeCookie === ''){
         if(userLang.match(/en/g)){
             setCookie('lang','en',7);
         } else if (userLang.match(/de/g)){
