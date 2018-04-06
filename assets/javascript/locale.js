@@ -114,19 +114,19 @@ $(function(){
             $body.find("[data-content='content-method-desc']").html(method.description);
 
             $body.find("[data-content='content-method-intro-title']").html(method.method.intro.title);
-            $body.find("[data-content='content-method-intro-desc']").html(method.method.intro.desc);
+            $body.find("[data-content='content-method-intro-desc']").html(method.method.intro.description);
 
             $body.find("[data-content='content-method-design-title']").html(method.method.design.title);
-            $body.find("[data-content='content-method-design-desc']").html(method.method.design.desc);
+            $body.find("[data-content='content-method-design-desc']").html(method.method.design.description);
 
             $body.find("[data-content='content-method-tuning-title']").html(method.method.tuning.title);
-            $body.find("[data-content='content-method-tuning-desc']").html(method.method.tuning.desc);
+            $body.find("[data-content='content-method-tuning-desc']").html(method.method.tuning.description);
 
             $body.find("[data-content='content-method-construction-title']").html(method.method.intro.title);
-            $body.find("[data-content='content-method-construction-desc']").html(method.method.intro.desc);
+            $body.find("[data-content='content-method-construction-desc']").html(method.method.intro.description);
 
             $body.find("[data-content='content-method-eval-title']").html(method.method.intro.title);
-            $body.find("[data-content='content-method-eval-desc']").html(method.method.intro.desc);
+            $body.find("[data-content='content-method-eval-desc']").html(method.method.intro.description);
         }
 
         if (projects) {
