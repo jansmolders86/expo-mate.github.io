@@ -65,7 +65,7 @@
                     },
                     "aboutUs": {
                         "title": "WIE ZIJN WIJ?",
-                        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sed est velit. Donec quis arcu pellentesque, egestas lacus non, sollicitudin mi. Mauris et metus est. Curabitur ut velit semper, pulvinar ante sed, varius mi. Nulla feugiat, lectus at finibus pellentesque, massa lorem tempus mi, id facilisis urna ante sodales libero.",
+                        "description": "",
                         "employees": {
                             "niek": {
                                 "title": "Niek van Gent",
@@ -77,7 +77,7 @@
                             },
                             "jan": {
                                 "title": "Jan Maas",
-                                "description": "10 jaar kennis en ervaring in de beursindustrie gecombineerd met 10 jaar sales en marketing ervaring vormt onze basis. ",
+                                "description": "Na 10 jaar werkzaam geweest te zijn als Project- en Accountmanager bij twee bedrijven die beiden actief zijn in de beurzen industrie, vond ik dat persoonlijke aandacht en echt luisteren naar de wensen van de klant het allerbelangrijkste is.  Om deze reden ben ik EXPO-MATE gestart. Door de ervaring op commercieel én technisch gebied kunnen we als volledig klankbord naar onze klanten acteren en hun tijdens het volledige proces ontzorgen. Gezamenlijk de (beurs) doelstellingen bereiken middels een prettige en persoonlijke samenwerking is waar ik voor sta! ",
                                 "image": {
                                     "src": "assets/images/jan.jpg",
                                     "alt": "Jan Maas"
@@ -129,8 +129,8 @@
                     "projects": {
                         "tile": "ONZE PROJECTEN",
                         "description": "Innovatief en authentiek. Dat zijn de sleutelwoorden van onze ontwerpen. Iedere stand is custom made ontworpen en gebouwd conform de hoogste kwaliteit. Bekijk hier enkele voorbeelden van door ons ontworpen en gerealiseerde stands. Bent u benieuwd wat we voor u kunnen ontwerpen? Neem dan gerust contact met ons op!",
-                        "quote": "Dit is een Quote van een klant die benadrukt hoe geweldig het is om met jullie samen te werken.",
-                        "author": "John Doe",
+                        "quote": "We hebben al op veel beurzen gestaan, maar nog nooit was een deelname zo goed georganiseerd, en de stand zo mooi!",
+                        "author": "Jan Smolders",
                         "comparison": {
                             "before": "assets/images/slider-before.jpg",
                             "after": "assets/images/slider-after.jpg"
@@ -217,7 +217,7 @@
                             "alt": "Toshiba"
                         },
                         {
-                            "src": "assets/images/projects/toshiba/2.jpg",
+                            "src": "assets/images/projects/toshiba/2.png",
                             "alt": "Toshiba"
                         },
                         {
@@ -503,47 +503,87 @@
             },
             "projects": [
                 {
-                    "title": "Toshiba",
-                    "subTitle": "CES 2018",
-                    "description": "Hashtag cred air plant drinking vinegar. Leggings yuccie chambray pop-up tousled hell of. Portland wolf mumblecore, synth cold-pressed polaroid poke cardigan gochujang",
+                    "title": "Toshiba Business Display Solutions",
+                    "subTitle": "ISE Amsterdam 2018",
+                    "description": "De uitdaging waar Toshiba voor stond was om de vele producten en diverse business units overzichtelijk te presenteren.",
                     "images": [
                         {
-                            "src": "https://i.pinimg.com/originals/76/b8/a7/76b8a7f9c9048e23c3e19e288f15212f.jpg",
+                            "src": "assets/images/projects/toshiba/1.jpg",
                             "alt": "Toshiba"
                         },
                         {
-                            "src": "https://i.pinimg.com/originals/76/b8/a7/76b8a7f9c9048e23c3e19e288f15212f.jpg",
+                            "src": "assets/images/projects/toshiba/2.png",
+                            "alt": "Toshiba"
+                        },
+                        {
+                            "src": "assets/images/projects/toshiba/3.jpg",
                             "alt": "Toshiba"
                         }
                     ]
                 },
                 {
-                    "title": "Nvidia",
-                    "subTitle": "GDC 2018",
-                    "description": "Hashtag cred air plant drinking vinegar. Leggings yuccie chambray pop-up tousled hell of. Portland wolf mumblecore, synth cold-pressed polaroid poke cardigan gochujang",
+                    "title": "Tomra Food Sorting NV",
+                    "subTitle": "Programma 2018",
+                    "description": "Standing out from the rest, clean en stopping power wilde Tomra graag terug zien. Omdat het een programma betreft moeten de materialen zoveel mogelijk her gebruikt kunnen worden.",
                     "images": [
                         {
-                            "src": "https://i.pinimg.com/originals/76/b8/a7/76b8a7f9c9048e23c3e19e288f15212f.jpg",
-                            "alt": "Toshiba"
-                        },
-                        {
-                            "src": "https://i.pinimg.com/originals/76/b8/a7/76b8a7f9c9048e23c3e19e288f15212f.jpg",
-                            "alt": "Toshiba"
+                            "src": "assets/images/projects/tomra/1.jpg",
+                            "alt": "Tomra Food Sorting NV"
+                        },{
+                            "src": "assets/images/projects/tomra/2.jpg",
+                            "alt": "Tomra Food Sorting NV"
+                        },{
+                            "src": "assets/images/projects/tomra/3.jpg",
+                            "alt": "Tomra Food Sorting NV"
+                        },{
+                            "src": "assets/images/projects/tomra/4.jpg",
+                            "alt": "Tomra Food Sorting NV"
+                        },{
+                            "src": "assets/images/projects/tomra/5.jpg",
+                            "alt": "Tomra Food Sorting NV"
+                        },{
+                            "src": "assets/images/projects/tomra/6.jpg",
+                            "alt": "Tomra Food Sorting NV"
                         }
                     ]
                 },
                 {
-                    "title": "Epic Games",
-                    "subTitle": "GDC 2018",
-                    "description": "Hashtag cred air plant drinking vinegar. Leggings yuccie chambray pop-up tousled hell of. Portland wolf mumblecore, synth cold-pressed polaroid poke cardigan gochujang",
+                    "title": "The Scelta Institute BV",
+                    "subTitle": "Anuga Keulen, Sial Parijs en FIE Frankfurt",
+                    "description": "Men wilde een nieuwe stand die voor alle beurzen modulair te bouwen is. Dezelfde look en feel waarbij hun producten worden gepresenteerd, zowel grafisch als door middel van live cooking. ",
                     "images": [
                         {
-                            "src": "https://i.pinimg.com/originals/76/b8/a7/76b8a7f9c9048e23c3e19e288f15212f.jpg",
-                            "alt": "Toshiba"
-                        },
+                            "src": "assets/images/projects/scelta/1.jpg",
+                            "alt": "The Scelta Institute BV"
+                        },{
+                            "src": "assets/images/projects/scelta/2.jpg",
+                            "alt": "The Scelta Institute BV"
+                        },{
+                            "src": "assets/images/projects/scelta/3.jpg",
+                            "alt": "The Scelta Institute BV"
+                        },{
+                            "src": "assets/images/projects/scelta/4.jpg",
+                            "alt": "The Scelta Institute BV"
+                        }
+                    ]
+                },
+                {
+                    "title": "Strong TV",
+                    "subTitle": "ANGA Keulen, IFA Berlijn",
+                    "description": "Men wilde een nieuwe stand die voor alle beurzen modulair te bouwen is. Dezelfde look en feel waarbij hun producten worden gepresenteerd, zowel grafisch als door middel van live cooking. ",
+                    "images": [
                         {
-                            "src": "https://i.pinimg.com/originals/76/b8/a7/76b8a7f9c9048e23c3e19e288f15212f.jpg",
-                            "alt": "Toshiba"
+                            "src": "assets/images/projects/strong/1.jpg",
+                            "alt": "Strong TV"
+                        },{
+                            "src": "assets/images/projects/strong/2.jpg",
+                            "alt": "Strong TV"
+                        },{
+                            "src": "assets/images/projects/strong/3.jpg",
+                            "alt": "Strong TV"
+                        },{
+                            "src": "assets/images/projects/strong/4.jpg",
+                            "alt": "Strong TV"
                         }
                     ]
                 }
@@ -758,47 +798,87 @@
             },
             "projects": [
                 {
-                    "title": "Toshiba",
-                    "subTitle": "CES 2018",
-                    "description": "Hashtag cred air plant drinking vinegar. Leggings yuccie chambray pop-up tousled hell of. Portland wolf mumblecore, synth cold-pressed polaroid poke cardigan gochujang",
+                    "title": "Toshiba Business Display Solutions",
+                    "subTitle": "ISE Amsterdam 2018",
+                    "description": "De uitdaging waar Toshiba voor stond was om de vele producten en diverse business units overzichtelijk te presenteren.",
                     "images": [
                         {
-                            "src": "https://i.pinimg.com/originals/76/b8/a7/76b8a7f9c9048e23c3e19e288f15212f.jpg",
+                            "src": "assets/images/projects/toshiba/1.jpg",
                             "alt": "Toshiba"
                         },
                         {
-                            "src": "https://i.pinimg.com/originals/76/b8/a7/76b8a7f9c9048e23c3e19e288f15212f.jpg",
+                            "src": "assets/images/projects/toshiba/2.png",
+                            "alt": "Toshiba"
+                        },
+                        {
+                            "src": "assets/images/projects/toshiba/3.jpg",
                             "alt": "Toshiba"
                         }
                     ]
                 },
                 {
-                    "title": "Nvidia",
-                    "subTitle": "GDC 2018",
-                    "description": "Hashtag cred air plant drinking vinegar. Leggings yuccie chambray pop-up tousled hell of. Portland wolf mumblecore, synth cold-pressed polaroid poke cardigan gochujang",
+                    "title": "Tomra Food Sorting NV",
+                    "subTitle": "Programma 2018",
+                    "description": "Standing out from the rest, clean en stopping power wilde Tomra graag terug zien. Omdat het een programma betreft moeten de materialen zoveel mogelijk her gebruikt kunnen worden.",
                     "images": [
                         {
-                            "src": "https://i.pinimg.com/originals/76/b8/a7/76b8a7f9c9048e23c3e19e288f15212f.jpg",
-                            "alt": "Toshiba"
-                        },
-                        {
-                            "src": "https://i.pinimg.com/originals/76/b8/a7/76b8a7f9c9048e23c3e19e288f15212f.jpg",
-                            "alt": "Toshiba"
+                            "src": "assets/images/projects/tomra/1.jpg",
+                            "alt": "Tomra Food Sorting NV"
+                        },{
+                            "src": "assets/images/projects/tomra/2.jpg",
+                            "alt": "Tomra Food Sorting NV"
+                        },{
+                            "src": "assets/images/projects/tomra/3.jpg",
+                            "alt": "Tomra Food Sorting NV"
+                        },{
+                            "src": "assets/images/projects/tomra/4.jpg",
+                            "alt": "Tomra Food Sorting NV"
+                        },{
+                            "src": "assets/images/projects/tomra/5.jpg",
+                            "alt": "Tomra Food Sorting NV"
+                        },{
+                            "src": "assets/images/projects/tomra/6.jpg",
+                            "alt": "Tomra Food Sorting NV"
                         }
                     ]
                 },
                 {
-                    "title": "Epic Games",
-                    "subTitle": "GDC 2018",
-                    "description": "Hashtag cred air plant drinking vinegar. Leggings yuccie chambray pop-up tousled hell of. Portland wolf mumblecore, synth cold-pressed polaroid poke cardigan gochujang",
+                    "title": "The Scelta Institute BV",
+                    "subTitle": "Anuga Keulen, Sial Parijs en FIE Frankfurt",
+                    "description": "Men wilde een nieuwe stand die voor alle beurzen modulair te bouwen is. Dezelfde look en feel waarbij hun producten worden gepresenteerd, zowel grafisch als door middel van live cooking. ",
                     "images": [
                         {
-                            "src": "https://i.pinimg.com/originals/76/b8/a7/76b8a7f9c9048e23c3e19e288f15212f.jpg",
-                            "alt": "Toshiba"
-                        },
+                            "src": "assets/images/projects/scelta/1.jpg",
+                            "alt": "The Scelta Institute BV"
+                        },{
+                            "src": "assets/images/projects/scelta/2.jpg",
+                            "alt": "The Scelta Institute BV"
+                        },{
+                            "src": "assets/images/projects/scelta/3.jpg",
+                            "alt": "The Scelta Institute BV"
+                        },{
+                            "src": "assets/images/projects/scelta/4.jpg",
+                            "alt": "The Scelta Institute BV"
+                        }
+                    ]
+                },
+                {
+                    "title": "Strong TV",
+                    "subTitle": "ANGA Keulen, IFA Berlijn",
+                    "description": "Men wilde een nieuwe stand die voor alle beurzen modulair te bouwen is. Dezelfde look en feel waarbij hun producten worden gepresenteerd, zowel grafisch als door middel van live cooking. ",
+                    "images": [
                         {
-                            "src": "https://i.pinimg.com/originals/76/b8/a7/76b8a7f9c9048e23c3e19e288f15212f.jpg",
-                            "alt": "Toshiba"
+                            "src": "assets/images/projects/strong/1.jpg",
+                            "alt": "Strong TV"
+                        },{
+                            "src": "assets/images/projects/strong/2.jpg",
+                            "alt": "Strong TV"
+                        },{
+                            "src": "assets/images/projects/strong/3.jpg",
+                            "alt": "Strong TV"
+                        },{
+                            "src": "assets/images/projects/strong/4.jpg",
+                            "alt": "Strong TV"
                         }
                     ]
                 }

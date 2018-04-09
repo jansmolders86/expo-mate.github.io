@@ -2,7 +2,7 @@ $(function(){
     // Load projects
     if ($('body').hasClass('projects')){
         var url = './assets/json/content.json';
-        var $body = $("body");
+        var hash = window.location.hash;
         $.getJSON(url, function(data) {
             var loc = getCookie('lang');
             var projectDetail = data[loc].pages.projects;
@@ -23,8 +23,7 @@ $(function(){
                 section.append('<div class="project" id="project'+count+'">\n' +
                     '               <div class="project-close"></div>\n' +
                     '               <div class="project-images">\n' +
-                    '                  <div class="slider slider-for">'+imageArray.join("")+'</div>\n' +
-                    '                  <div class="slider slider-nav">'+imageArray.join("")+'</div>\n' +
+                    '                  <div class="slider">'+imageArray.join("")+'</div>\n' +
                     '               </div>\n' +
                     '               <div class="project-desc-wrapper">\n' +
                     '                  <div class="project-desc-content">\n' +
@@ -40,42 +39,42 @@ $(function(){
 
                 $('.project-images').on('click', function(){
                     $(this).parent('.project').addClass('open');
+                    var parentID = $(this).parent('.project').attr('id');
+                    document.location.href="#"+parentID;
                     $('body').addClass('open');
-                    sliderInit();
+                    sliderInit(parentID);
                 });
 
                 $('.project-close').on('click', function() {
                     $('body').removeClass('open');
                     $(this).parent('.project').removeClass('open');
                     var parentID = $(this).parent('.project').attr('id');
-                    $('.slider-for').slick('unslick');
-                    $('.slider-nav').slick('unslick');
-                    document.location.href="#"+parentID;
+                    $('#'+parentID+' .slider').slick("unslick");
+                    document.getElementById(parentID).scrollIntoView(true);
                 });
 
-
+                if(hash && hash !== undefined){
+                    hash = window.location.hash.substring(1);
+                    var projectID = "project"+count;
+                    if (projectID === hash) {
+                        $('#'+hash).addClass('open');
+                        $('body').addClass('open');
+                        sliderInit(projectID);
+                    }
+                }
             });
         });
     }
 });
 
 
-function sliderInit(){
-    $('.slider-for').slick({
+function sliderInit(projectElem){
+    $('#'+projectElem+' .slider').not('.slick-initialized').slick({
         slidesToShow: 1,
         slidesToScroll: 1,
-        arrows: false,
-        fade: true,
-        asNavFor: '.slider-nav'
-    });
-
-    $('.slider-nav').slick({
-        slidesToShow: 4,
-        slidesToScroll: 1,
+        arrows: true,
         variableWidth: true,
-        asNavFor: '.slider-for',
-        dots: false,
-        focusOnSelect: true
+        swipeToSlide: true
     });
 }
 
