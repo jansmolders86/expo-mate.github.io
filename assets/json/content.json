@@ -193,7 +193,7 @@
                             "phone": "+31 6 50 28 18 91"
                         }
                     },
-                    "call": {
+                    "phone": {
                         "header": "Bel Ons"
                     },
                     "visit": {
@@ -448,7 +448,7 @@
                             "phone": "+31 6 50 28 18 91"
                         }
                     },
-                    "call": {
+                    "phone": {
                         "header": "Bel Ons"
                     },
                     "visit": {
@@ -703,7 +703,7 @@
                             "phone": "+31 6 50 28 18 91"
                         }
                     },
-                    "call": {
+                    "phone": {
                         "header": "Bel Ons"
                     },
                     "visit": {
