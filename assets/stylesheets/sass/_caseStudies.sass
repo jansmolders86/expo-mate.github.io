@@ -73,6 +73,8 @@
   .left-container
     background: url('../../images/tile-bg-dark.jpg') top left no-repeat
     background-size: cover
+    +respond-min-width(lg)
+      font-size: 1.3em
     +respond-max-width(sm)
       display: none
     .content
@@ -96,7 +98,7 @@
         font-family: $font_0
         position: absolute
         top: -40px
-        left: -50px
+        left: -80px
         font-size: 3em
         color: #4f4f4f
       p
