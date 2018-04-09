@@ -27,32 +27,33 @@
     </head>
 
     <body class="projects">
-        <nav id="nav">
-            <div class="hamburger" id="hamburger-6">
-                <span class="line"></span>
-                <span class="line"></span>
-                <span class="line"></span>
-            </div>
-            <ul>
-                <li><a href="index.html#preabout">Ons Verhaal</a></li>
-                <li><a href="index.html#method">Onze Werkwijze</a></li>
-                <li><a href="index.html#values">Onze Kernwaardes</a></li>
-                <li><a href="index.html#case-studies">Projecten</a></li>
-                <li><a href="index.html#footer">Contact</a></li>
-                <li class="sub">
-                    <a href="#">
-                        <i class="icon-earth"></i>
-                        <span>Taal</span>
-                    </a>
+    <nav id="nav">
+        <div class="hamburger" id="hamburger-6">
+            <span class="line"></span>
+            <span class="line"></span>
+            <span class="line"></span>
+        </div>
+        <ul>
+            <li><a href="index.html#preabout">Ons Verhaal</a></li>
+            <li><a href="index.html#method">Onze Werkwijze</a></li>
+            <li><a href="index.html#values">Onze Kernwaardes</a></li>
+            <li><a href="index.html#case-studies">Projecten</a></li>
+            <li><a href="#footer">Contact</a></li>
+            <li class="sub">
+                <a href="#">
+                    <i class="icon-earth"></i>
+                    <span class="active-loc"></span>
+                    <span>Taal</span>
+                </a>
 
-                    <ul class="sub-list">
-                        <li><a href="#nl">Nederlands</a></li>
-                        <li><a href="#en">English</a></li>
-                        <li><a href="#de">Deutsch</a></li>
-                    </ul>
-                </li>
-            </ul>
-        </nav>
+                <ul class="sub-list locales">
+                    <li><a class="loc" href="nl">Nederlands</a></li>
+                    <li><a class="loc" href="en">English</a></li>
+                    <li><a class="loc" href="de">Deutsch</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
         <section id="header">
             <div class="background-type htmlVideo">
                 <div class="background-wrapper">
@@ -98,8 +99,10 @@
 
 
         <footer id="footer">
-            <span data-content="footer-testimonials-title" class="hidden testimonial-caption">Testimonials</span>
-            <div id="google-reviews"></div>
+            <div id="google-reviews-wrapper">
+                <h3>Testimonials</h3>
+                <div id="google-reviews"></div>
+            </div>
             <div id="map-canvas"></div>
             <div id="contact-info">
                 <div class="container-fluid">
@@ -116,7 +119,7 @@
                             <a href="" data-content="footer-contacts-niek-email">n.van.gent@expo-mate.com</a>
                             <a href="" data-content="footer-contacts-linkedin-niek"><span data-content="footer-contacts-linkedin-jan-title">Niek on </span><i class="icon-linkedin"></i></a>
                         </div>
-                        <div class="col-sm-4 col-md-1 contact-heading"><h3 data-content="footer-contacts-call-header">Bel ons</h3></div>
+                        <div class="col-sm-4 col-md-1 contact-heading"><h3 data-content="footer-contacts-phone-header">Bel ons</h3></div>
                         <div class="col-sm-8 col-md-2 contact-content">
                             <strong data-content="footer-contacts-jan-title">Jan Maas</strong><br />
                             <span data-content="footer-contacts-call-jan-phone">+31 6 50 28 18 91</span><br /><br />

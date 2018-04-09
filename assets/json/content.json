@@ -208,47 +208,87 @@
             },
             "projects": [
                 {
-                    "title": "Toshiba",
-                    "subTitle": "CES 2018",
-                    "description": "Hashtag cred air plant drinking vinegar. Leggings yuccie chambray pop-up tousled hell of. Portland wolf mumblecore, synth cold-pressed polaroid poke cardigan gochujang",
+                    "title": "Toshiba Business Display Solutions",
+                    "subTitle": "ISE Amsterdam 2018",
+                    "description": "De uitdaging waar Toshiba voor stond was om de vele producten en diverse business units overzichtelijk te presenteren.",
                     "images": [
                         {
-                            "src": "https://i.pinimg.com/originals/76/b8/a7/76b8a7f9c9048e23c3e19e288f15212f.jpg",
+                            "src": "assets/images/projects/toshiba/1.jpg",
                             "alt": "Toshiba"
                         },
                         {
-                            "src": "https://i.pinimg.com/originals/76/b8/a7/76b8a7f9c9048e23c3e19e288f15212f.jpg",
+                            "src": "assets/images/projects/toshiba/2.jpg",
+                            "alt": "Toshiba"
+                        },
+                        {
+                            "src": "assets/images/projects/toshiba/3.jpg",
                             "alt": "Toshiba"
                         }
                     ]
                 },
                 {
-                    "title": "Nvidia",
-                    "subTitle": "GDC 2018",
-                    "description": "Hashtag cred air plant drinking vinegar. Leggings yuccie chambray pop-up tousled hell of. Portland wolf mumblecore, synth cold-pressed polaroid poke cardigan gochujang",
+                    "title": "Tomra Food Sorting NV",
+                    "subTitle": "Programma 2018",
+                    "description": "Standing out from the rest, clean en stopping power wilde Tomra graag terug zien. Omdat het een programma betreft moeten de materialen zoveel mogelijk her gebruikt kunnen worden.",
                     "images": [
                         {
-                            "src": "https://i.pinimg.com/originals/76/b8/a7/76b8a7f9c9048e23c3e19e288f15212f.jpg",
-                            "alt": "Toshiba"
-                        },
-                        {
-                            "src": "https://i.pinimg.com/originals/76/b8/a7/76b8a7f9c9048e23c3e19e288f15212f.jpg",
-                            "alt": "Toshiba"
+                            "src": "assets/images/projects/tomra/1.jpg",
+                            "alt": "Tomra Food Sorting NV"
+                        },{
+                            "src": "assets/images/projects/tomra/2.jpg",
+                            "alt": "Tomra Food Sorting NV"
+                        },{
+                            "src": "assets/images/projects/tomra/3.jpg",
+                            "alt": "Tomra Food Sorting NV"
+                        },{
+                            "src": "assets/images/projects/tomra/4.jpg",
+                            "alt": "Tomra Food Sorting NV"
+                        },{
+                            "src": "assets/images/projects/tomra/5.jpg",
+                            "alt": "Tomra Food Sorting NV"
+                        },{
+                            "src": "assets/images/projects/tomra/6.jpg",
+                            "alt": "Tomra Food Sorting NV"
                         }
                     ]
                 },
                 {
-                    "title": "Epic Games",
-                    "subTitle": "GDC 2018",
-                    "description": "Hashtag cred air plant drinking vinegar. Leggings yuccie chambray pop-up tousled hell of. Portland wolf mumblecore, synth cold-pressed polaroid poke cardigan gochujang",
+                    "title": "The Scelta Institute BV",
+                    "subTitle": "Anuga Keulen, Sial Parijs en FIE Frankfurt",
+                    "description": "Men wilde een nieuwe stand die voor alle beurzen modulair te bouwen is. Dezelfde look en feel waarbij hun producten worden gepresenteerd, zowel grafisch als door middel van live cooking. ",
                     "images": [
                         {
-                            "src": "https://i.pinimg.com/originals/76/b8/a7/76b8a7f9c9048e23c3e19e288f15212f.jpg",
-                            "alt": "Toshiba"
-                        },
+                            "src": "assets/images/projects/scelta/1.jpg",
+                            "alt": "The Scelta Institute BV"
+                        },{
+                            "src": "assets/images/projects/scelta/2.jpg",
+                            "alt": "The Scelta Institute BV"
+                        },{
+                            "src": "assets/images/projects/scelta/3.jpg",
+                            "alt": "The Scelta Institute BV"
+                        },{
+                            "src": "assets/images/projects/scelta/4.jpg",
+                            "alt": "The Scelta Institute BV"
+                        }
+                    ]
+                },
+                {
+                    "title": "Strong TV",
+                    "subTitle": "ANGA Keulen, IFA Berlijn",
+                    "description": "Men wilde een nieuwe stand die voor alle beurzen modulair te bouwen is. Dezelfde look en feel waarbij hun producten worden gepresenteerd, zowel grafisch als door middel van live cooking. ",
+                    "images": [
                         {
-                            "src": "https://i.pinimg.com/originals/76/b8/a7/76b8a7f9c9048e23c3e19e288f15212f.jpg",
-                            "alt": "Toshiba"
+                            "src": "assets/images/projects/strong/1.jpg",
+                            "alt": "Strong TV"
+                        },{
+                            "src": "assets/images/projects/strong/2.jpg",
+                            "alt": "Strong TV"
+                        },{
+                            "src": "assets/images/projects/strong/3.jpg",
+                            "alt": "Strong TV"
+                        },{
+                            "src": "assets/images/projects/strong/4.jpg",
+                            "alt": "Strong TV"
                         }
                     ]
                 }
