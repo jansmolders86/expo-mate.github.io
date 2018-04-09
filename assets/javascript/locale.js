@@ -129,11 +129,11 @@ $(function(){
 
             $body.find("[data-content='content-project1-image']").attr('src', projects.project1.image.src).attr('alt', projects.project1.image.alt);
             $body.find("[data-content='content-project1-title']").html(projects.project1.title);
-            $body.find("[data-content='content-project1-desc']").html(projects.project1.description);
+            $body.find("[data-content='content-project1-btn']").html(projects.project1.button);
 
             $body.find("[data-content='content-project2-image']").attr('src', projects.project2.image.src).attr('alt', projects.project2.image.alt);
             $body.find("[data-content='content-project2-title']").html(projects.project2.title);
-            $body.find("[data-content='content-project2-desc']").html(projects.project2.description);
+            $body.find("[data-content='content-project2-btn']").html(projects.project2.button);
         }
 
         if (footer) {

@@ -140,7 +140,7 @@
                         },
                         "project1": {
                             "title": "Lamb Weston",
-                            "description": "Lorem Ipsum.",
+                            "button": "Bekijk",
                             "image": {
                                 "src": "assets/images/home-project-1.jpg",
                                 "alt": "Lamb Weston"
@@ -148,7 +148,7 @@
                         },
                         "project2": {
                             "title": "Scelta",
-                            "description": "Lorem Ipsum.",
+                            "button": "Bekijk",
                             "image": {
                                 "src": "assets/images/home-project-2.jpg",
                                 "alt": "Scelta"
@@ -436,7 +436,7 @@
                         },
                         "project1": {
                             "title": "Toshiba",
-                            "description": "Lorem Ipsum.",
+                            "button": "Bekijk",
                             "image": {
                                 "src": "assets/images/home-project-1.jpg",
                                 "alt": ""
@@ -444,7 +444,7 @@
                         },
                         "project2": {
                             "title": "ONZE VISIE",
-                            "description": "Lorem Ipsum.",
+                            "button": "Bekijk",
                             "image": {
                                 "src": "assets/images/home-project-2.jpg",
                                 "alt": ""
@@ -731,7 +731,7 @@
                         },
                         "project1": {
                             "title": "Toshiba",
-                            "description": "Lorem Ipsum.",
+                            "button": "Bekijk",
                             "image": {
                                 "src": "assets/images/home-project-1.jpg",
                                 "alt": ""
@@ -739,7 +739,7 @@
                         },
                         "project2": {
                             "title": "ONZE VISIE",
-                            "description": "Lorem Ipsum.",
+                            "button": "Bekijk",
                             "image": {
                                 "src": "assets/images/home-project-2.jpg",
                                 "alt": ""
