@@ -124,37 +124,38 @@
                                 "title": "Evaluatie",
                                 "description": "Lorem Ipsum"
                             }
+                        }
+                    },
+                    "projects": {
+                        "tile": "ONZE PROJECTEN",
+                        "description": "Innovatief en authentiek. Dat zijn de sleutelwoorden van onze ontwerpen. Iedere stand is custom made ontworpen en gebouwd conform de hoogste kwaliteit. Bekijk hier enkele voorbeelden van door ons ontworpen en gerealiseerde stands. Bent u benieuwd wat we voor u kunnen ontwerpen? Neem dan gerust contact met ons op!",
+                        "quote": "Dit is een Quote van een klant die benadrukt hoe geweldig het is om met jullie samen te werken.",
+                        "author": "John Doe",
+                        "comparison": {
+                            "before": "assets/images/slider-before.jpg",
+                            "after": "assets/images/slider-after.jpg"
                         },
-                        "projects": {
-                            "tile": "ONZE PROJECTEN",
-                            "description": "Innovatief en authentiek. Dat zijn de sleutelwoorden van onze ontwerpen. Iedere stand is custom made ontworpen en gebouwd conform de hoogste kwaliteit. Bekijk hier enkele voorbeelden van door ons ontworpen en gerealiseerde stands. Bent u benieuwd wat we voor u kunnen ontwerpen? Neem dan gerust contact met ons op!",
-                            "quote": "Dit is een Quote van een klant die benadrukt hoe geweldig het is om met jullie samen te werken.",
-                            "author": "John Doe",
-                            "comparison": {
-                                "before": "assets/images/slider-before.jpg",
-                                "after": "assets/images/slider-after.jpg"
-                            },
-                            "button": {
-                                "label": "Onze Projecten"
-                            },
-                            "project1": {
-                                "title": "Lamb Weston",
-                                "description": "Lorem Ipsum.",
-                                "image": {
-                                    "src": "assets/images/home-project-1.jpg",
-                                    "alt": "Lamb Weston"
-                                }
-                            },
-                            "project2": {
-                                "title": "Scelta",
-                                "description": "Lorem Ipsum.",
-                                "image": {
-                                    "src": "assets/images/home-project-2.jpg",
-                                    "alt": "Scelta"
-                                }
+                        "button": {
+                            "label": "Onze Projecten"
+                        },
+                        "project1": {
+                            "title": "Lamb Weston",
+                            "description": "Lorem Ipsum.",
+                            "image": {
+                                "src": "assets/images/home-project-1.jpg",
+                                "alt": "Lamb Weston"
+                            }
+                        },
+                        "project2": {
+                            "title": "Scelta",
+                            "description": "Lorem Ipsum.",
+                            "image": {
+                                "src": "assets/images/home-project-2.jpg",
+                                "alt": "Scelta"
                             }
                         }
                     }
+                    
                 },
                 "footer": {
                     "testimonials": {
@@ -379,34 +380,34 @@
                                 "title": "Evaluatie",
                                 "description": "Lorem Ipsum"
                             }
+                        }
+                    },
+                    "projects": {
+                        "tile": "ONZE PROJECTEN",
+                        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sed est velit. Donec quis arcu pellentesque, egestas lacus non, sollicitudin mi. Mauris et metus est. Curabitur ut velit semper, pulvinar ante sed, varius mi.",
+                        "quote": "Dit is een Quote van een klant die benadrukt hoe geweldig het is om met jullie samen te werken.",
+                        "author": "John Doe",
+                        "comparison": {
+                            "before": "assets/images/slider-before.jpg",
+                            "after": "assets/images/slider-after.jpg"
                         },
-                        "projects": {
-                            "tile": "ONZE PROJECTEN",
-                            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sed est velit. Donec quis arcu pellentesque, egestas lacus non, sollicitudin mi. Mauris et metus est. Curabitur ut velit semper, pulvinar ante sed, varius mi.",
-                            "quote": "Dit is een Quote van een klant die benadrukt hoe geweldig het is om met jullie samen te werken.",
-                            "author": "John Doe",
-                            "comparison": {
-                                "before": "assets/images/slider-before.jpg",
-                                "after": "assets/images/slider-after.jpg"
-                            },
-                            "button": {
-                                "label": "Onze Projecten"
-                            },
-                            "project1": {
-                                "title": "Toshiba",
-                                "description": "Lorem Ipsum.",
-                                "image": {
-                                    "src": "assets/images/home-project-1.jpg",
-                                    "alt": ""
-                                }
-                            },
-                            "project2": {
-                                "title": "ONZE VISIE",
-                                "description": "Lorem Ipsum.",
-                                "image": {
-                                    "src": "assets/images/home-project-2.jpg",
-                                    "alt": ""
-                                }
+                        "button": {
+                            "label": "Onze Projecten"
+                        },
+                        "project1": {
+                            "title": "Toshiba",
+                            "description": "Lorem Ipsum.",
+                            "image": {
+                                "src": "assets/images/home-project-1.jpg",
+                                "alt": ""
+                            }
+                        },
+                        "project2": {
+                            "title": "ONZE VISIE",
+                            "description": "Lorem Ipsum.",
+                            "image": {
+                                "src": "assets/images/home-project-2.jpg",
+                                "alt": ""
                             }
                         }
                     }
@@ -634,34 +635,34 @@
                                 "title": "Evaluatie",
                                 "description": "Lorem Ipsum"
                             }
+                        }
+                    },
+                    "projects": {
+                        "tile": "ONZE PROJECTEN",
+                        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sed est velit. Donec quis arcu pellentesque, egestas lacus non, sollicitudin mi. Mauris et metus est. Curabitur ut velit semper, pulvinar ante sed, varius mi.",
+                        "quote": "Dit is een Quote van een klant die benadrukt hoe geweldig het is om met jullie samen te werken.",
+                        "author": "John Doe",
+                        "comparison": {
+                            "before": "assets/images/slider-before.jpg",
+                            "after": "assets/images/slider-after.jpg"
                         },
-                        "projects": {
-                            "tile": "ONZE PROJECTEN",
-                            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sed est velit. Donec quis arcu pellentesque, egestas lacus non, sollicitudin mi. Mauris et metus est. Curabitur ut velit semper, pulvinar ante sed, varius mi.",
-                            "quote": "Dit is een Quote van een klant die benadrukt hoe geweldig het is om met jullie samen te werken.",
-                            "author": "John Doe",
-                            "comparison": {
-                                "before": "assets/images/slider-before.jpg",
-                                "after": "assets/images/slider-after.jpg"
-                            },
-                            "button": {
-                                "label": "Onze Projecten"
-                            },
-                            "project1": {
-                                "title": "Toshiba",
-                                "description": "Lorem Ipsum.",
-                                "image": {
-                                    "src": "assets/images/home-project-1.jpg",
-                                    "alt": ""
-                                }
-                            },
-                            "project2": {
-                                "title": "ONZE VISIE",
-                                "description": "Lorem Ipsum.",
-                                "image": {
-                                    "src": "assets/images/home-project-2.jpg",
-                                    "alt": ""
-                                }
+                        "button": {
+                            "label": "Onze Projecten"
+                        },
+                        "project1": {
+                            "title": "Toshiba",
+                            "description": "Lorem Ipsum.",
+                            "image": {
+                                "src": "assets/images/home-project-1.jpg",
+                                "alt": ""
+                            }
+                        },
+                        "project2": {
+                            "title": "ONZE VISIE",
+                            "description": "Lorem Ipsum.",
+                            "image": {
+                                "src": "assets/images/home-project-2.jpg",
+                                "alt": ""
                             }
                         }
                     }
