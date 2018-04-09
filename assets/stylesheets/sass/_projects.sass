@@ -10,7 +10,7 @@ body.open
     +respond-max-width(md)
       height: 250px
     +respond-max-width(sm)
-      height: 100px
+      height: 400px
     @media screen and (min-width: 1100px) and (max-width: 1600px)
       height: 400px
     @media screen and (min-width: 1600px) and (max-width: 2000px)
@@ -135,10 +135,27 @@ body.open
         float: left
         position: relative
         overflow: hidden
+      .project-images
+        img
+          width: 100%
+          cursor: pointer
+        +respond-max-width(sm)
+          width: 100%
+          img
+            width: 150%
+
       .project-desc-wrapper
         padding: 7% 100px
         +respond-max-width(sm)
-          padding: 10px 20px
+          width: 70%
+          background: none
+          padding: 0
+          *
+            color: #fff
+            text-shadow: 0 0 5px #333
+          position: absolute
+          bottom: 20px
+          left: 20px
         text-align: left
         h2
           text-align: left

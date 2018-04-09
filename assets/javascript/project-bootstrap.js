@@ -50,6 +50,7 @@ $(function(){
                     $(this).parent('.project').removeClass('open');
                     var parentID = $(this).parent('.project').attr('id');
                     $('#'+parentID+' .slider').slick("unslick");
+                    window.location.hash="";
                     document.getElementById(parentID).scrollIntoView(true);
                 });
 

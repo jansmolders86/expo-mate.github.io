@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9a1da7e6-98c7-420d-a513-6021cd41a81a" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.sass-cache/4d832b0bccd74520a9847119988e88e6d7a2e033/_projects.sassc" beforeDir="false" afterPath="$PROJECT_DIR$/.sass-cache/4d832b0bccd74520a9847119988e88e6d7a2e033/_projects.sassc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/javascript/project-bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/javascript/project-bootstrap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/json/content.json" beforeDir="false" afterPath="$PROJECT_DIR$/assets/json/content.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/stylesheets/css/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/stylesheets/css/base.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/stylesheets/sass/_projects.sass" beforeDir="false" afterPath="$PROJECT_DIR$/assets/stylesheets/sass/_projects.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -42,11 +41,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="project-bootstrap.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="project-bootstrap.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/javascript/project-bootstrap.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="47" selection-start-line="3" selection-start-column="47" selection-end-line="3" selection-end-column="47" />
+            <state relative-caret-position="487">
+              <caret line="43" column="25" lean-forward="true" selection-start-line="43" selection-start-column="25" selection-end-line="43" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -78,11 +77,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_projects.sass" pinned="false" current-in-tab="false">
+      <file leaf-file-name="_projects.sass" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/stylesheets/sass/_projects.sass">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="65" column="18" lean-forward="true" selection-start-line="65" selection-start-column="18" selection-end-line="65" selection-end-column="18" />
+            <state relative-caret-position="527">
+              <caret line="58" column="26" lean-forward="true" selection-start-line="58" selection-start-column="26" selection-end-line="58" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -162,8 +161,8 @@
         <option value="$PROJECT_DIR$/assets/javascript/locale.js" />
         <option value="$PROJECT_DIR$/projects.html" />
         <option value="$PROJECT_DIR$/assets/json/content.json" />
-        <option value="$PROJECT_DIR$/assets/stylesheets/sass/_projects.sass" />
         <option value="$PROJECT_DIR$/assets/javascript/project-bootstrap.js" />
+        <option value="$PROJECT_DIR$/assets/stylesheets/sass/_projects.sass" />
       </list>
     </option>
   </component>
@@ -300,7 +299,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="77665000" />
+    <option name="totallyTimeSpent" value="78322000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="3832" y="-8" width="2576" height="1416" extended-state="6" />
@@ -673,17 +672,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/stylesheets/sass/_projects.sass">
+    <entry file="file://$PROJECT_DIR$/assets/javascript/project-bootstrap.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="65" column="18" lean-forward="true" selection-start-line="65" selection-start-column="18" selection-end-line="65" selection-end-column="18" />
+        <state relative-caret-position="487">
+          <caret line="43" column="25" lean-forward="true" selection-start-line="43" selection-start-column="25" selection-end-line="43" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/javascript/project-bootstrap.js">
+    <entry file="file://$PROJECT_DIR$/assets/stylesheets/sass/_projects.sass">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="47" selection-start-line="3" selection-start-column="47" selection-end-line="3" selection-end-column="47" />
+        <state relative-caret-position="527">
+          <caret line="58" column="26" lean-forward="true" selection-start-line="58" selection-start-column="26" selection-end-line="58" selection-end-column="26" />
         </state>
       </provider>
     </entry>
