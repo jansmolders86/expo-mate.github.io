@@ -139,7 +139,7 @@
                             "label": "Onze Projecten"
                         },
                         "project1": {
-                            "title": "Lamb Weston",
+                            "title": "Tomra Food Sorting NV",
                             "button": "Bekijk",
                             "image": {
                                 "src": "assets/images/home-project-1.jpg",
@@ -147,7 +147,7 @@
                             }
                         },
                         "project2": {
-                            "title": "Scelta",
+                            "title": "The Scelta Institute BV",
                             "button": "Bekijk",
                             "image": {
                                 "src": "assets/images/home-project-2.jpg",
