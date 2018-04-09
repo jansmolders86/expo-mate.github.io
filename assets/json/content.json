@@ -155,14 +155,14 @@
                             }
                         }
                     }
-                    
+
                 },
                 "footer": {
                     "testimonials": {
                         "title": "Testimonials"
                     },
                     "contacts": {
-                        "header": "Mail Ons",
+                        "header": "Schrijf Ons",
                         "jan": {
                             "title": "Jan Maas",
                             "links": {
@@ -672,7 +672,7 @@
                         "title": "Testimonials"
                     },
                     "contacts": {
-                        "header": "Schrijf Ons",
+                        "header": "Mail Ons",
                         "jan": {
                             "title": "Jan Maas",
                             "links": {

@@ -76,18 +76,17 @@ $(function () {
             , CaseStudyContainerOffset = ~~CaseStudyContainer.offset().top
             , aboutContainer = $('#about')
             , preAboutContainer = $('#preabout')
-            , preAboutContainerOffset = preAboutContainer.offset().top
-            , aboutContainerOffset = aboutContainer.offset().top;
+            , preAboutContainerOffset = preAboutContainer.offset().top;
 
-        if (~~viewPortOffset >= ~~methodContainerOffset) {
+        if (methodContainer.visible(true)) {
             methodContainer.addClass('show');
         }
 
-        if (~~viewPortOffset >= ~~aboutContainerOffset || ~~viewPortOffset >= ~~preAboutContainerOffset) {
+        if (aboutContainer.visible(true)) {
             aboutContainer.addClass('show');
         }
 
-        if(~~viewPortOffset >= ~~CaseStudyContainerOffset){
+        if(CaseStudyContainer.visible(true)){
             CaseStudyContainer.addClass('show');
         }
 
@@ -128,7 +127,7 @@ $(function () {
                         }
 
                         if (scroll >= methodContainerOffset + methodContainerHeight) {
-                            $('#case-studies').addClass('show');
+                            CaseStudyContainer.addClass('show');
                             methodContent.removeClass('show');
                             methodItem.removeClass('active');
                             methodScrollContainer.removeClass('fixed');

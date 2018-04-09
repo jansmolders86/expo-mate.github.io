@@ -12,8 +12,9 @@ $mobileTextOffset: 150px
   background: url(../../images/tile-bg.jpg) no-repeat
   background-size: contain
   +respond-max-width(md)
-    height: $imageScrollHeight * 2
+    height: $imageScrollHeight * 2 - 200
     background-size: cover
+    padding-top: 20px
   @media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5)
     background-size: cover
     height: $imageScrollHeight * 2

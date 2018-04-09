@@ -40,17 +40,17 @@ function googleMapsInit() {
 
 // Google review
 $(function(){
-    if ($("#google-reviews").length == 0) {
+    var $googleReviewEl = $("#google-reviews");
+
+    if ($googleReviewEl.length === 0) {
         return
     }
-    $("#google-reviews").googlePlaces({
-        placeId: 'ChIJt6JxUkxFx0cRWTzXobLcYGw',
-        header: "<h3>"+$('.testimonial-caption').html()+"</h3>", // html/text over Reviews
-        footer: '', // html/text under Reviews block
-        max_rows: 2, // max rows of reviews to be displayed
-        min_rating: 4, // minimum rating of reviews to be displayed
-        months: ["Jan", "Feb", "Mär", "Apr", "Mai", "Jun", "Jul", "Aug", "Sep", "Okt", "Nov", "Dez"],
-        text_break_length: "90", // length before a review box is set to max width
-        shorten_names: true // example: "Max Mustermann" -> "Max M.""
+    $googleReviewEl.googlePlaces({
+        placeId: 'ChIJt6JxUkxFx0cRWTzXobLcYGw'
+        , render: ['reviews']
+        , min_rating: 4
+        , max_rows:5
+        , rotateTime:5000
     });
 });
+

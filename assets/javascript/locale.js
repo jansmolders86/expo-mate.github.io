@@ -1,18 +1,6 @@
 $(function(){
-    var userLang = navigator.language || navigator.userLanguage;
-    var activeCookie = getCookie('lang');
-    if(activeCookie === undefined || activeCookie === null || activeCookie === ''){
-        if(userLang.match(/en/g)){
-            setCookie('lang','en',7);
-        } else if (userLang.match(/de/g)){
-            setCookie('lang','en',7);
-        } else if (userLang.match(/nl/g)) {
-            setCookie('lang','nl',7);
-        } else {
-            setCookie('lang','nl',7);
-        }
-    }
 
+    chooseCookie();
 
     $('#nav li .loc').on('click', function(e) {
         e.preventDefault();
@@ -22,12 +10,9 @@ $(function(){
         window.location.reload();
     });
 
-    if(activeCookie !== undefined) {
-        $('#nav .active-loc').html(activeCookie);
-    }
-
     var url = './assets/json/content.json';
     var $body = $("body");
+
     $.getJSON(url, function(data) {
         var loc = getCookie('lang');
         var locData = data[loc];
@@ -41,8 +26,12 @@ $(function(){
         var values = homepage.content.values;
         var method = homepage.content.method;
         var projects = homepage.content.projects;
-        var footer = homepage.content.footer;
-        
+        var footer = homepage.footer;
+
+        if (locData) {
+            $body.removeClass('loading');
+        }
+
         if(nav) {
            var navItem = $('#nav > ul > li ');
            navItem.find('a[href="#preabout"]').html(nav.about);
@@ -138,7 +127,7 @@ $(function(){
             $body.find("[data-content='content-comparison-before']").attr('src', projects.comparison.before);
             $body.find("[data-content='content-comparison-after']").css({'backgroundImage': projects.comparison.after});
 
-            $body.find("[data-content='content-project1-image']").attr('src', projects.project1.image.src).attr('alt', projects.project1image.alt);
+            $body.find("[data-content='content-project1-image']").attr('src', projects.project1.image.src).attr('alt', projects.project1.image.alt);
             $body.find("[data-content='content-project1-title']").html(projects.project1.title);
             $body.find("[data-content='content-project1-desc']").html(projects.project1.description);
 
@@ -163,11 +152,11 @@ $(function(){
             $body.find("[data-content='footer-contacts-linkedin-niek-title']").attr('href', footer.contacts.niek.links.linkedin.title);
             $body.find("[data-content='footer-contacts-call-niek-phone']").attr('href', footer.contacts.niek.phone);
 
-            $body.find("[data-content='footer-contacts-call-header]").attr('href', footer.call.header);
-            $body.find("[data-content='footer-contacts-visit-header]").attr('href', footer.contacts.visit.header);
+            $body.find("[data-content='footer-contacts-phone-header']").attr('href', footer.phone.header);
+            $body.find("[data-content='footer-contacts-visit-header']").attr('href', footer.visit.header);
 
-            $body.find("[data-content='footer-contacts-visit-desc]").attr('href', footer.contacts.visit.description);
-            $body.find("[data-content='footer-copyright-desc]").attr('href', footer.copyright.description);
+            $body.find("[data-content='footer-contacts-visit-desc']").attr('href', footer.visit.description);
+            $body.find("[data-content='footer-copyright-desc']").attr('href', footer.copyright.description);
         }
 
     });
@@ -196,4 +185,24 @@ function getCookie(name) {
 }
 function eraseCookie(name) {
     document.cookie = name+'=; Max-Age=-99999999;';
+}
+
+function chooseCookie(){
+    var userLang = navigator.language || navigator.userLanguage;
+    var activeCookie = getCookie('lang');
+    if(activeCookie === undefined || activeCookie === null || activeCookie === ''){
+        if(userLang.match(/en/g)){
+            setCookie('lang','en',7);
+        } else if (userLang.match(/de/g)){
+            setCookie('lang','en',7);
+        } else if (userLang.match(/nl/g)) {
+            setCookie('lang','nl',7);
+        } else {
+            setCookie('lang','nl',7);
+        }
+    }
+
+    setTimeout(function(){
+        $('#nav .active-loc').html(getCookie('lang'));
+    },200);
 }

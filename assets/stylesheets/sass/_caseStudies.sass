@@ -3,9 +3,13 @@
   position: relative
   opacity: 1
   transition: opacity ease 1s
+  &.show
+    #comparison
+      right: 0
+      transition: .8s right ease .6s
   #comparison
     position: absolute
-    right: 0
+    right: -1600px
     top: 60px
     width: 1200px
     height: 675px
@@ -19,9 +23,13 @@
     +respond-max-width(md)
       width: 800px
       height: 450px
-    +respond-max-width(xs)
+    +respond-max-width(sm)
       width: 320px
       height: 179px
+      left: 0
+      right: 0
+      margin-left: auto
+      margin-right: auto
     @media screen and (min-width: 550px) and (max-width: 1000px)
       width: 560px
       height: 315px
@@ -38,6 +46,7 @@
 
   .left-container,
   .right-container
+    position: relative
     float: left
     width: 50%
     height: 1400px
@@ -49,7 +58,6 @@
       height: 900px
     +respond-max-width(xs)
       height: 750px
-    position: relative
     .content
       position: absolute
       bottom: 60px
@@ -65,8 +73,8 @@
   .left-container
     background: url('../../images/tile-bg-dark.jpg') top left no-repeat
     background-size: cover
-    +respond-max-width(xs)
-      width: 35%
+    +respond-max-width(sm)
+      display: none
     .content
       bottom: 0
       margin: 0 auto
@@ -99,8 +107,8 @@
           width: 100%
           padding: 0 60px
   .right-container
-    +respond-max-width(xs)
-      width: 65%
+    +respond-max-width(sm)
+      width: 100%
 
 
   +respond-max-width(md)
