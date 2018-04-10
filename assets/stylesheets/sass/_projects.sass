@@ -44,7 +44,7 @@ body.open
           z-index: 999999
       .project-images,
       .project-desc-wrapper
-        width: 50%
+        width: 70%
         float: left
         +respond-max-width(md)
           width: 100%
@@ -61,17 +61,18 @@ body.open
           margin: auto
           position: absolute
           top: 0
-          left: 0
+          left: 50px
           bottom: 0
           right: 0
           height: 400px
-          max-width: 800px
+          width: 80%
           +respond-max-width(md)
             max-width: 600px
             height: 300px
           +respond-max-width(sm)
             max-width: 300px
       .project-desc-wrapper
+        width: 30%
         +respond-max-width(md)
           height: 40%
       &:nth-child(odd)
