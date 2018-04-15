@@ -70,11 +70,13 @@ body.open
             max-width: 600px
             height: 300px
           +respond-max-width(sm)
-            max-width: 300px
+            max-width: 100%
       .project-desc-wrapper
         width: 30%
         +respond-max-width(md)
           height: 40%
+        +respond-max-width(sm)
+          width: 100%
       &:nth-child(odd)
         +respond-min-width(lg)
           display: flex
