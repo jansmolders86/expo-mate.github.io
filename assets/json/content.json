@@ -157,11 +157,11 @@
                             }
                         },
                         "project2": {
-                            "title": "The Scelta Institute BV",
+                            "title": "Lamb Weston/Meijer",
                             "button": "Bekijk",
                             "image": {
-                                "src": "assets/images/home-project-2.jpg",
-                                "alt": "Scelta"
+                                "src": "assets/images/projects/lamb/1.jpg",
+                                "alt": "Lamb Weston/Meijer"
                             }
                         }
                     }
@@ -220,7 +220,7 @@
                 {
                     "title": "Toshiba Business Display Solutions",
                     "subTitle": "ISE Amsterdam 2018",
-                    "description": "De uitdaging waar Toshiba voor stond was om de vele producten en diverse business units overzichtelijk te presenteren.",
+                    "description": "Vraagstelling: De uitdaging waar Toshiba voor stond was om de vele producten en diverse business units overzichtelijk te presenteren.",
                     "images": [
                         {
                             "src": "assets/images/projects/toshiba/1.jpg",
@@ -239,7 +239,7 @@
                 {
                     "title": "Tomra Food Sorting NV",
                     "subTitle": "Programma 2018",
-                    "description": "Standing out from the rest, clean en stopping power wilde Tomra graag terug zien. Omdat het een programma betreft moeten de materialen zoveel mogelijk her gebruikt kunnen worden.",
+                    "description": "Vraagstelling: Standing out from the rest, clean en stopping power wilde Tomra graag terug zien. Omdat het een programma betreft moeten de materialen zoveel mogelijk her gebruikt kunnen worden.",
                     "images": [
                         {
                             "src": "assets/images/projects/tomra/1.jpg",
@@ -263,9 +263,29 @@
                     ]
                 },
                 {
+                    "title": "Lamb Weston/Meijer",
+                    "subTitle": "Casual Dining Show London 2018",
+                    "description": "Vraagstelling: Creeer een concept waarmee we laten zien dat we de key spelers in de Engelse markt begrijpen. Dit is het groeiende pub segement in de UK. Hoe kan je dat beter doen dan door de Lamb Weston pub te ontwerpen?",
+                    "images": [
+                        {
+                            "src": "assets/images/projects/lamb/1.jpg",
+                            "alt": "Lamb Weston/Meijer"
+                        },{
+                            "src": "assets/images/projects/lamb/2.jpg",
+                            "alt": "Lamb Weston/Meijer"
+                        },{
+                            "src": "assets/images/projects/lamb/3.jpg",
+                            "alt": "Lamb Weston/Meijer"
+                        },{
+                            "src": "assets/images/projects/lamb/4.jpg",
+                            "alt": "Lamb Weston/Meijer"
+                        }
+                    ]
+                },
+                {
                     "title": "The Scelta Institute BV",
                     "subTitle": "Anuga Keulen, Sial Parijs en FIE Frankfurt",
-                    "description": "Men wilde een nieuwe stand die voor alle beurzen modulair te bouwen is. Dezelfde look en feel waarbij hun producten worden gepresenteerd, zowel grafisch als door middel van live cooking. ",
+                    "description": "Vraagstelling: Men wilde een nieuwe stand die voor alle beurzen modulair te bouwen is. Dezelfde look en feel waarbij hun producten worden gepresenteerd, zowel grafisch als door middel van live cooking. ",
                     "images": [
                         {
                             "src": "assets/images/projects/scelta/1.jpg",
@@ -283,14 +303,31 @@
                     ]
                 },
                 {
-                    "title": "Strong TV",
-                    "subTitle": "ANGA Keulen, IFA Berlijn",
-                    "description": "Men wilde een nieuwe stand die voor alle beurzen modulair te bouwen is. Dezelfde look en feel waarbij hun producten worden gepresenteerd, zowel grafisch als door middel van live cooking. ",
+                    "title": "Frankort & Koning BV",
+                    "subTitle": "Fruit Logistica Berlijn 2017-2019",
+                    "description": "Vraagstelling: Men wilde een nieuwe stand die voor alle beurzen modulair te bouwen is. Dezelfde look en feel waarbij hun producten worden gepresenteerd, zowel grafisch als door middel van live cooking. ",
                     "images": [
                         {
-                            "src": "assets/images/projects/strong/1.jpg",
-                            "alt": "Strong TV"
+                            "src": "assets/images/projects/frankfort/1.jpg",
+                            "alt": "Frankort & Koning BV"
                         },{
+                            "src": "assets/images/projects/frankfort/2.jpg",
+                            "alt": "Frankort & Koning BV"
+                        },{
+                            "src": "assets/images/projects/frankfort/3.jpg",
+                            "alt": "Frankort & Koning BV"
+                        },{
+                            "src": "assets/images/projects/frankfort/4.jpg",
+                            "alt": "Frankort & Koning BV"
+                        }
+                    ]
+                },
+                {
+                    "title": "Strong TV",
+                    "subTitle": "ANGA Keulen, IFA Berlijn",
+                    "description": "Vraagstelling: Men wilde een nieuwe stand die voor alle beurzen modulair te bouwen is. Dezelfde look en feel waarbij hun producten worden gepresenteerd, zowel grafisch als door middel van live cooking. ",
+                    "images": [
+                        {
                             "src": "assets/images/projects/strong/2.jpg",
                             "alt": "Strong TV"
                         },{
@@ -299,6 +336,23 @@
                         },{
                             "src": "assets/images/projects/strong/4.jpg",
                             "alt": "Strong TV"
+                        }
+                    ]
+                },
+                {
+                    "title": "Aluminium Verkoop Zuid BV (AVZ)",
+                    "subTitle": "ANGA Keulen, IFA Berlijn",
+                    "description": "Vraagstelling: Men wilde een nieuwe stand die voor alle beurzen modulair te bouwen is. Dezelfde look en feel waarbij hun producten worden gepresenteerd, zowel grafisch als door middel van live cooking. ",
+                    "images": [
+                        {
+                            "src": "assets/images/projects/avz/1.jpg",
+                            "alt": "AVZ"
+                        },{
+                            "src": "assets/images/projects/avz/2.jpg",
+                            "alt": "AVZ"
+                        },{
+                            "src": "assets/images/projects/avz/3.jpg",
+                            "alt": "AVZ"
                         }
                     ]
                 }

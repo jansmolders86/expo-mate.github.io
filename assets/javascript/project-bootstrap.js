@@ -45,6 +45,14 @@ $(function(){
                     sliderInit(parentID);
                 });
 
+                $('.project-title').on('click', function(){
+                    $(this).parent().parent().parent().parent().addClass('open');
+                    var parentID = $(this).parent().parent().parent().parent().attr('id');
+                    document.location.href="#"+parentID;
+                    $('body').addClass('open');
+                    sliderInit(parentID);
+                });
+
                 $('.project-close').on('click', function() {
                     $('body').removeClass('open');
                     $(this).parent('.project').removeClass('open');
@@ -70,12 +78,13 @@ $(function(){
 
 
 function sliderInit(projectElem){
-    $('#'+projectElem+' .slider').not('.slick-initialized').slick({
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        arrows: true,
-        variableWidth: true,
-        swipeToSlide: true
-    });
+    if(typeof projectElem === 'string'){
+        $('#'+projectElem+' .slider').not('.slick-initialized').slick({
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            arrows: true,
+            variableWidth: true
+        });
+    }
 }
 
