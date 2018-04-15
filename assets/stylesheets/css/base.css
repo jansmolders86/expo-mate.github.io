@@ -137,12 +137,13 @@
 /* line 3, ../sass/_about.sass */
 #about.show .left-container,
 #about.show .right-container, #preabout.show .left-container,
-#preabout.show .right-container {
+#preabout.show .right-container, #model.show .left-container,
+#model.show .right-container {
   opacity: 1;
   transition: all 0.5s ease;
 }
 /* line 8, ../sass/_about.sass */
-#about .brandlist, #preabout .brandlist {
+#about .brandlist, #preabout .brandlist, #model .brandlist {
   list-style: none;
   margin: 50px auto;
   width: 100%;
@@ -150,7 +151,7 @@
   text-align: center;
 }
 /* line 14, ../sass/_about.sass */
-#about .brandlist li, #preabout .brandlist li {
+#about .brandlist li, #preabout .brandlist li, #model .brandlist li {
   display: inline-block;
   margin: 0 50px 30px 0;
   max-width: 12%;
@@ -158,33 +159,33 @@
 }
 @media only screen and (max-width: 767px) {
   /* line 14, ../sass/_about.sass */
-  #about .brandlist li, #preabout .brandlist li {
+  #about .brandlist li, #preabout .brandlist li, #model .brandlist li {
     max-width: 20%;
   }
 }
 @media only screen and (max-width: 1199px) {
   /* line 14, ../sass/_about.sass */
-  #about .brandlist li, #preabout .brandlist li {
+  #about .brandlist li, #preabout .brandlist li, #model .brandlist li {
     max-width: 15%;
   }
 }
 @media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
   /* line 14, ../sass/_about.sass */
-  #about .brandlist li, #preabout .brandlist li {
+  #about .brandlist li, #preabout .brandlist li, #model .brandlist li {
     max-width: 15%;
   }
 }
 /* line 25, ../sass/_about.sass */
-#about .brandlist li img, #preabout .brandlist li img {
+#about .brandlist li img, #preabout .brandlist li img, #model .brandlist li img {
   width: 100%;
   opacity: 1;
 }
 /* line 28, ../sass/_about.sass */
-#about .brandlist li:last-child, #preabout .brandlist li:last-child {
+#about .brandlist li:last-child, #preabout .brandlist li:last-child, #model .brandlist li:last-child {
   margin-right: 0;
 }
 /* line 30, ../sass/_about.sass */
-#about .btn-secondary, #preabout .btn-secondary {
+#about .btn-secondary, #preabout .btn-secondary, #model .btn-secondary {
   margin-bottom: 150px;
   width: 200px;
   height: 55px;
@@ -194,7 +195,8 @@
 /* line 36, ../sass/_about.sass */
 #about .btn-secondary .open,
 #about .btn-secondary .closed, #preabout .btn-secondary .open,
-#preabout .btn-secondary .closed {
+#preabout .btn-secondary .closed, #model .btn-secondary .open,
+#model .btn-secondary .closed {
   position: absolute;
   top: 14px;
   left: 0;
@@ -204,29 +206,29 @@
   transition: all ease 0.5s;
 }
 /* line 46, ../sass/_about.sass */
-#about .btn-secondary.open .closed, #preabout .btn-secondary.open .closed {
+#about .btn-secondary.open .closed, #preabout .btn-secondary.open .closed, #model .btn-secondary.open .closed {
   opacity: 0;
 }
 /* line 48, ../sass/_about.sass */
-#about .btn-secondary.open .open, #preabout .btn-secondary.open .open {
+#about .btn-secondary.open .open, #preabout .btn-secondary.open .open, #model .btn-secondary.open .open {
   opacity: 1;
 }
 /* line 50, ../sass/_about.sass */
-#about .btn-secondary .open, #preabout .btn-secondary .open {
+#about .btn-secondary .open, #preabout .btn-secondary .open, #model .btn-secondary .open {
   opacity: 0;
 }
 /* line 52, ../sass/_about.sass */
-#about .btn-secondary .closed, #preabout .btn-secondary .closed {
+#about .btn-secondary .closed, #preabout .btn-secondary .closed, #model .btn-secondary .closed {
   opacity: 1;
 }
 @media only screen and (max-width: 991px) {
   /* line 30, ../sass/_about.sass */
-  #about .btn-secondary, #preabout .btn-secondary {
+  #about .btn-secondary, #preabout .btn-secondary, #model .btn-secondary {
     margin-bottom: 50px;
   }
 }
 /* line 57, ../sass/_about.sass */
-#about h4, #preabout h4 {
+#about h4, #preabout h4, #model h4 {
   text-align: left;
   padding: 0;
   margin-left: -15px;
@@ -234,22 +236,23 @@
   font-size: 1em;
 }
 /* line 63, ../sass/_about.sass */
-#about .signature, #preabout .signature {
+#about .signature, #preabout .signature, #model .signature {
   margin: 20px 0 0 -40px;
 }
 /* line 65, ../sass/_about.sass */
-#about .signature img, #preabout .signature img {
+#about .signature img, #preabout .signature img, #model .signature img {
   opacity: 0.6;
 }
 
 /* line 68, ../sass/_about.sass */
-#about {
+#about, #model {
   position: relative;
   overflow: hidden;
 }
 /* line 71, ../sass/_about.sass */
 #about .left-container,
-#about .right-container {
+#about .right-container, #model .left-container,
+#model .right-container {
   float: left;
   width: 50%;
   height: 50vh;
@@ -259,7 +262,8 @@
 @media only screen and (max-width: 991px) {
   /* line 71, ../sass/_about.sass */
   #about .left-container,
-  #about .right-container {
+  #about .right-container, #model .left-container,
+  #model .right-container {
     width: 100%;
     float: none;
     overflow: hidden;
@@ -267,7 +271,8 @@
 }
 /* line 82, ../sass/_about.sass */
 #about .left-container.content-wrapper,
-#about .right-container.content-wrapper {
+#about .right-container.content-wrapper, #model .left-container.content-wrapper,
+#model .right-container.content-wrapper {
   position: relative;
   width: 50%;
   height: 50vh;
@@ -277,14 +282,16 @@
 @media only screen and (max-width: 991px) {
   /* line 82, ../sass/_about.sass */
   #about .left-container.content-wrapper,
-  #about .right-container.content-wrapper {
+  #about .right-container.content-wrapper, #model .left-container.content-wrapper,
+  #model .right-container.content-wrapper {
     width: 100%;
     height: auto;
   }
 }
 /* line 91, ../sass/_about.sass */
 #about .left-container .tile-image,
-#about .right-container .tile-image {
+#about .right-container .tile-image, #model .left-container .tile-image,
+#model .right-container .tile-image {
   background-repeat: no-repeat;
   background-size: 100% auto;
   background-position: 0 -60px;
@@ -292,21 +299,24 @@
 @media only screen and (max-width: 991px) {
   /* line 91, ../sass/_about.sass */
   #about .left-container .tile-image,
-  #about .right-container .tile-image {
+  #about .right-container .tile-image, #model .left-container .tile-image,
+  #model .right-container .tile-image {
     height: 100%;
   }
 }
 @media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
   /* line 91, ../sass/_about.sass */
   #about .left-container .tile-image,
-  #about .right-container .tile-image {
+  #about .right-container .tile-image, #model .left-container .tile-image,
+  #model .right-container .tile-image {
     background-position: 0 center;
     height: 100%;
   }
 }
 /* line 100, ../sass/_about.sass */
 #about .left-container .content,
-#about .right-container .content {
+#about .right-container .content, #model .left-container .content,
+#model .right-container .content {
   position: absolute;
   top: 40%;
   left: 50%;
@@ -317,7 +327,8 @@
 @media only screen and (max-width: 991px) {
   /* line 100, ../sass/_about.sass */
   #about .left-container .content,
-  #about .right-container .content {
+  #about .right-container .content, #model .left-container .content,
+  #model .right-container .content {
     position: relative;
     overflow: hidden;
     top: 0;
@@ -358,32 +369,37 @@
   }
 
   /* line 138, ../sass/_about.sass */
-  #about .left-container {
+  #about .left-container, #model .left-container {
     opacity: 1;
   }
   /* line 140, ../sass/_about.sass */
-  #about .right-container {
+  #about .right-container, #model .right-container {
     opacity: 1;
   }
   /* line 142, ../sass/_about.sass */
-  #about .second-row {
+  #about .second-row, #model .second-row {
     display: flex;
     flex-flow: row wrap;
   }
   /* line 145, ../sass/_about.sass */
-  #about .second-row .left-container {
+  #about .second-row .left-container, #model .second-row .left-container {
     order: 2;
   }
   /* line 147, ../sass/_about.sass */
-  #about .second-row .right-container {
+  #about .second-row .right-container, #model .second-row .right-container {
     order: 1;
   }
   /* line 149, ../sass/_about.sass */
-  #about .tile-image {
+  #about .tile-image, #model .tile-image {
     background-position: left top !important;
     background-size: cover !important;
   }
 }
+/* line 154, ../sass/_about.sass */
+#model * {
+  opacity: 1 !important;
+}
+
 /* line 2, ../sass/_type.sass */
 h1, h2, h3, h4 {
   color: #2a2a2a;

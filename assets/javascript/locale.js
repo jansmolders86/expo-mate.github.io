@@ -25,6 +25,7 @@ $(function(){
         var aboutUs = homepage.content.aboutUs;
         var values = homepage.content.values;
         var method = homepage.content.method;
+        var model = homepage.content.model;
         var projects = homepage.content.projects;
         var footer = homepage.footer;
 
@@ -116,6 +117,12 @@ $(function(){
 
             $body.find("[data-content='content-method-eval-title']").html(method.method.eval.title);
             $body.find("[data-content='content-method-eval-desc']").html(method.method.eval.description);
+        }
+
+        if (model) {
+            $body.find("[data-content='content-model-title']").html(model.title);
+            $body.find("[data-content='content-model-image']").css({'backgroundImage': model.image.src});
+            $body.find("[data-content='content-model-desc']").html(model.description);
         }
 
         if (projects) {

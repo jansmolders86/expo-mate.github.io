@@ -126,6 +126,14 @@
                             }
                         }
                     },
+                    "model": {
+                        "image": {
+                            "src": "assets/images/model.jpg"
+                        },
+                        "title": "Het EXPO-MATE model – van introductie naar design",
+                        "description": "In onze optiek de belangrijkste stap in het gehele proces. Door tijd te investeren en kennis te delen in het begin van het proces, hoeven er geen aannames te worden gedaan bij het ontwerp van het concept, maar gaat om datgene wat telt: Integreren van uw identiteit, wensen en behoeftes als beursdeelnemer. EXPO-MATE heeft een eigen -uniek- model ontwikkeld dat ons in staat stelt om uw belangrijkste organisatie kenmerken/waardes en uw identiteit concreet te verwerken in het ontwerp voorstel. Wij geloven erin dat alleen dan de hoogste return on investment kan worden behaald. We komen dit model graag gedetailleerd aan u uitleggen en met u in de praktijk brengen."
+
+                    },
                     "projects": {
                         "tile": "ONZE PROJECTEN",
                         "description": "Innovatief en authentiek. Dat zijn de sleutelwoorden van onze ontwerpen. Iedere stand is custom made ontworpen en gebouwd conform de hoogste kwaliteit. Bekijk hier enkele voorbeelden van door ons ontworpen en gerealiseerde stands. Bent u benieuwd wat we voor u kunnen ontwerpen? Neem dan gerust contact met ons op!",
