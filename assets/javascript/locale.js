@@ -111,11 +111,11 @@ $(function(){
             $body.find("[data-content='content-method-tuning-title']").html(method.method.tuning.title);
             $body.find("[data-content='content-method-tuning-desc']").html(method.method.tuning.description);
 
-            $body.find("[data-content='content-method-construction-title']").html(method.method.intro.title);
-            $body.find("[data-content='content-method-construction-desc']").html(method.method.intro.description);
+            $body.find("[data-content='content-method-construction-title']").html(method.method.construction.title);
+            $body.find("[data-content='content-method-construction-desc']").html(method.method.construction.description);
 
-            $body.find("[data-content='content-method-eval-title']").html(method.method.intro.title);
-            $body.find("[data-content='content-method-eval-desc']").html(method.method.intro.description);
+            $body.find("[data-content='content-method-eval-title']").html(method.method.eval.title);
+            $body.find("[data-content='content-method-eval-desc']").html(method.method.eval.description);
         }
 
         if (projects) {
@@ -124,6 +124,16 @@ $(function(){
             $body.find("[data-content='content-projects-quote']").html(projects.quote);
             $body.find("[data-content='content-projects-author']").html(projects.author);
             $body.find("[data-content='content-projects-button']").html(projects.button.label);
+
+            var comparisonWrapper = $("#comparison");
+            var comparisonItem = projects.comparisons || '';
+            $.each(comparisonItem, function (index, item) {
+                comparisonWrapper.append('<div class="item"><img data-content="content-comparison-before" src="'+item.before+'" class="before" alt>\n' +
+                                '<div data-content="content-comparison-after" class="after" style="background-image: url('+item.after+')"></div></div>');
+            });
+
+            sliderInit(comparisonWrapper);
+
             $body.find("[data-content='content-comparison-before']").attr('src', projects.comparison.before);
             $body.find("[data-content='content-comparison-after']").css({'backgroundImage': projects.comparison.after});
 
@@ -206,3 +216,46 @@ function chooseCookie(){
         $('#nav .active-loc').html(getCookie('lang'));
     },200);
 }
+
+function sliderInit(projectElem){
+    projectElem.not('.slick-initialized').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 3000,
+        nextArrow: '.icon-arrow-right',
+        prevArrow: '.icon-arrow-left',
+        swipeToSlide: false
+    });
+    projectElem.on('setPosition', function(event, slick, currentSlide, nextSlide){
+        var inkbox = projectElem.find('.slick-active');
+        if (inkbox) {
+            inkbox.on("mousemove",trackLocation);
+            inkbox.on("touchstart",trackLocation);
+            inkbox.on("touchmove",trackLocation);
+        }
+    });
+
+    projectElem.on('afterChange', function(event, slick, currentSlide, nextSlide){
+        var inkbox = projectElem.find('.slick-active');
+        if (inkbox) {
+            inkbox.on("mousemove",trackLocation);
+            inkbox.on("touchstart",trackLocation);
+            inkbox.on("touchmove",trackLocation);
+        }
+    });
+
+}
+
+function trackLocation(e){
+    var colorbox = $('.slick-active .after')
+    , fillerImage = $('.slick-active .before')
+    , rect = fillerImage[0].getBoundingClientRect()
+    , fillerImageOw = fillerImage.outerWidth()
+    , position = ((e.pageX - rect.left) / fillerImageOw)*100;
+
+    if(position <= 100){
+        colorbox.css('width', position+"%");
+    }
+}
+

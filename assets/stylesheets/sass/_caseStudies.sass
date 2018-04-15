@@ -9,11 +9,12 @@
       transition: .8s right ease .6s
   #comparison
     position: absolute
-    right: -1600px
+    right: 0
+    left: 0
+    margin: 0 auto
     top: 60px
     width: 1200px
     height: 675px
-    overflow: hidden
     @media screen and (min-width: 1800px)
       width: 1600px
       height: 900px
@@ -33,16 +34,29 @@
     @media screen and (min-width: 550px) and (max-width: 1000px)
       width: 560px
       height: 315px
-    img
-      width: 100%
-      height: auto
-    #after
-      position: absolute
-      top: 0
-      left: 0
-      height: 100%
-      width: 50%
-      background-size: cover
+    .item
+      position: relative
+      img
+        width: 100%
+        height: auto
+      .after
+        position: absolute
+        top: 0
+        left: 0
+        height: 100%
+        width: 50%
+        background-size: cover
+    .slick-prev
+      left: -60px
+      +respond-max-width(sm)
+        left: -20px
+    .slick-next
+      right: -60px
+      &:before
+        color: #000
+      +respond-max-width(sm)
+        right: -20px
+
 
   .left-container,
   .right-container

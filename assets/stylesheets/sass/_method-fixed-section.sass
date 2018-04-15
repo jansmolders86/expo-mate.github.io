@@ -8,12 +8,16 @@ $mobileTextOffset: 150px
   overflow: hidden
   width: 100%
   padding-top: 100px
-  min-height: 90vh
+  height: $imageScrollHeight * 5
   background: url(../../images/tile-bg.jpg) no-repeat
-  background-size: cover
+  background-size: contain
   +respond-max-width(md)
     height: $imageScrollHeight * 2 - 200
+    background-size: cover
     padding-top: 20px
+  @media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5)
+    background-size: cover
+    height: $imageScrollHeight * 2
   &.show
     .method-scroll-wrapper
       #diagram,
@@ -50,7 +54,6 @@ $mobileTextOffset: 150px
         .construction
           &.show
             opacity: 1
-            padding: 80px 60px 0
             @media screen and (min-width: 1100px)
               top: 150px
               left: 165px
@@ -154,7 +157,7 @@ $mobileTextOffset: 150px
         width: $methodSize
         border: 0
         color: $method-text-color
-        font-size: .875em
+        font-size: 1em
         text-transform: uppercase
         background: $method-bubble-color
         font-weight: 600
@@ -167,9 +170,6 @@ $mobileTextOffset: 150px
         transition: all .3s ease
         cursor: pointer
         pointer-events: all
-        &.active
-          animation: pulse 2s infinite
-          z-index: 9999
         &.focused
           z-index: 9
         +respond-max-width(md)
@@ -190,9 +190,6 @@ $mobileTextOffset: 150px
           span, i
             display: block
             color: $method-text-color
-          > span
-            display: inline-block
-            margin-top: 10px
           i
             font-size: 2em
             +respond-max-width(xs)
@@ -220,8 +217,6 @@ $mobileTextOffset: 150px
         background: rgba(61,190,232,.4)
         &.active
           background: rgba(61,190,232,1)
-          padding-left: 0!important
-          padding-right: 0
         +respond-max-width(md)
           background: rgba(61,190,232,1)
       .design
@@ -234,7 +229,6 @@ $mobileTextOffset: 150px
           background: rgba(54,68,173,1) !important
         &.active
           background: rgba(54,68,173,1)
-          padding-top: $methodSize / 2.5!important
         +respond-max-width(md)
           background: rgba(54,68,173,1)
       .tuning
@@ -247,9 +241,6 @@ $mobileTextOffset: 150px
           background: rgba(141,199,1,1) !important
         &.active
           background: rgba(141,199,1,1)
-          padding-left: 0  !important
-          padding-right: 0  !important
-          text-align: center  !important
         +respond-max-width(md)
           background: rgba(141,199,1,1)
       .construction
@@ -368,14 +359,3 @@ $mobileTextOffset: 150px
   100%
     left: 15px
     opacity: 1
-
-
-@keyframes pulse
-  0%
-    box-shadow: 0 0 0 0 rgba(0,0,0, 0.2)
-
-  70%
-    box-shadow: 0 0 0 10px rgba(0,0,0, 0)
-
-  100%
-    box-shadow: 0 0 0 0 rgba(0,0,0, 0)

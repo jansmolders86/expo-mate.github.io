@@ -67,6 +67,18 @@ $(function () {
         animationIncrements = $(window).height() / 100 * 20;
     });
 
+    $(methodItem).on('mouseenter', function(){
+        var item = $(this).attr('data-item');
+        console.log(item)
+        $(this).addClass('active');
+        $('.fadeIn.'+ item).addClass('active');
+
+    }).on('mouseleave',function(){
+        var item = $(this).attr('data-item');
+        $(this).removeClass('active');
+        $('.fadeIn.'+ item).removeClass('active');
+    });
+
     if(isHomePage !== undefined && isHomePage.length > 0){
         var methodContainer = $('#method')
             , methodScrollContainer = $('.method-scroll-wrapper')
@@ -76,7 +88,9 @@ $(function () {
             , CaseStudyContainerOffset = ~~CaseStudyContainer.offset().top
             , aboutContainer = $('#about')
             , preAboutContainer = $('#preabout')
-            , preAboutContainerOffset = preAboutContainer.offset().top;
+            , preAboutContainerOffset = preAboutContainer.offset().top
+            , toggleClassName = 'active'
+            , visibleClassName = 'show';
 
         if (methodContainer.visible(true)) {
             methodContainer.addClass('show');
@@ -109,6 +123,8 @@ $(function () {
                 animationIncrements = 1050;
             }
 
+            methodItem.removeClass(toggleClassName);
+
             getDirection(scroll, lastScrollTop, function(direction, scroll){
                 lastScrollTop = scroll;
 
@@ -119,23 +135,26 @@ $(function () {
                         //on
                         if (scroll >= methodContainerOffset) {
                             if (!hasSnapped) {
-                                methodContent.removeClass('show');
-                                methodItem.removeClass('active');
-                                methodScrollContainer.addClass('fixed');
+                                methodContent.removeClass(visibleClassName);
+                                //methodItem.removeClass('active');
+                               // methodScrollContainer.addClass('fixed');
+                                methodScrollContainer.addClass(visibleClassName);
+                                handleMethodScroll(5);
                             }
-                            hasSnapped = true;
+                            //hasSnapped = true;
                         }
 
                         if (scroll >= methodContainerOffset + methodContainerHeight) {
-                            CaseStudyContainer.addClass('show');
-                            methodContent.removeClass('show');
-                            methodItem.removeClass('active');
-                            methodScrollContainer.removeClass('fixed');
-                            hasSnapped = false;
+                            CaseStudyContainer.addClass(visibleClassName);
+                            methodContent.removeClass(visibleClassName);
+                            //methodItem.removeClass('active');
+                            //methodScrollContainer.removeClass('fixed');
+                            methodScrollContainer.removeClass(visibleClassName);
+                            //hasSnapped = false;
                         }
 
                         if (scroll >= preAboutContainerOffset) {
-                            aboutContainer.addClass('show');
+                            aboutContainer.addClass(visibleClassName);
                         }
                     }
 
@@ -143,17 +162,19 @@ $(function () {
                         //on
                         if (scroll < CaseStudyContainerOffset - animationIncrements) {
                             if (!hasSnapped) {
-                                methodItem.removeClass('active');
-                                methodScrollContainer.addClass('fixed');
+                                //methodItem.removeClass(toggleClassName);
+                                //methodScrollContainer.addClass('fixed');
+                                methodScrollContainer.addClass(visibleClassName);
+                                handleMethodScroll(5);
                             }
-                            hasSnapped = true;
+                            //hasSnapped = true;
                         }
 
                         if (scroll <= methodContainerOffset - 100 ) {
-                            methodContent.removeClass('active');
-                            methodItem.removeClass('active');
-                            methodScrollContainer.removeClass('fixed');
-                            hasSnapped = false;
+                            methodContent.removeClass(toggleClassName);
+                            //methodItem.removeClass('active');
+                            //methodScrollContainer.removeClass('fixed');
+                            //hasSnapped = false;
                         }
                     }
 
@@ -198,7 +219,7 @@ function getDirection (scroll, lastScrollTop, callback){
 
 
 function handleMethodScroll(step){
-    var toggleClassName = 'active'
+    var toggleClassName = 'method'
         , fadeInElemClass = '.fadeIn'
         , methodElem = '.method-item'
         , introElemClass = '.intro'
