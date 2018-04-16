@@ -38,7 +38,7 @@ $(function(){
 
 
                 $('.project-images').on('click', function(){
-                    if(!$(body).hasClass('open')) {
+                    if(!$('body').hasClass('open')) {
                         $(this).parent('.project').addClass('open');
                         var parentID = $(this).parent('.project').attr('id');
                         document.location.href = "#" + parentID;
@@ -48,7 +48,7 @@ $(function(){
                 });
 
                 $('.project-title').on('click', function(){
-                    if(!$(body).hasClass('open')){
+                    if(!$('body').hasClass('open')){
                         var parentElem = $(this).parent().parent().parent().parent();
                         parentElem.addClass('open');
                         var parentID = parentElem.attr('id');
