@@ -40,8 +40,21 @@
                     <span class="line"></span>
                 </div>
                 <ul>
-                    <li><a href="#preabout">Ons Verhaal</a></li>
-                    <li><a href="#method">Onze Werkwijze</a></li>
+                    <li class="sub">
+                        <a href="#preabout">Ons Verhaal</a>
+                        <ul class="sub-list">
+                            <li><a href="#foundation">Ons Fundament</a></li>
+                            <li><a href="#mission">Missie & Visie</a></li>
+                        </ul>
+                    </li>
+                    <li class="sub">
+                        <a href="#method">Onze Werkwijze</a>
+                        <ul class="sub-list">
+                            <li><a href="#method">Full service proces</a></li>
+                            <li><a href="#model">Ons Model</a></li>
+                            <li><a href="#comparison">Van design naar realisatie</a></li>
+                        </ul>
+                    </li>
                     <li><a href="#values">Onze Kernwaardes</a></li>
                     <li><a href="projects.html">Projecten</a></li>
                     <li><a href="#footer">Contact</a></li>
@@ -107,7 +120,7 @@
                                             <div class="youtube-video-embed embed-responsive embed-responsive-16by9" id="video">
                                                 <span>
                                                     <iframe
-                                                        id="2q2U1bRuy2I"
+                                                        id="player"
                                                         class="youtube-video embed-responsive-item"
                                                         frameborder="0"
                                                         allowfullscreen="1"
@@ -154,7 +167,7 @@
                     <div class="left-container">
                         <div class="tile-image" data-content="content-about-row1-image" style="background-image: url(assets/images/1.jpg);"></div>
                     </div>
-                    <div class="right-container content-wrapper">
+                    <div class="right-container content-wrapper" id="foundation">
                         <div class="content">
                             <h2 data-content="content-about-row1-title">Ons Fundament</h2>
                             <p data-content="content-about-row1-desc">
@@ -164,7 +177,7 @@
                     </div>
                 </div>
                 <div class="second-row">
-                    <div class="left-container content-wrapper">
+                    <div class="left-container content-wrapper" id="mission">
                         <div class="content">
                             <h2 data-content="content-about-row2-title">Onze Missie & Visie</h2>
                             <p data-content="content-about-row2-desc">
@@ -476,6 +489,7 @@
         <script src="//cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"></script>
         <script src="//maps.googleapis.com/maps/api/js?v=3.exp&libraries=places&key=AIzaSyAZ2sHKoiBP2NRT4dbuCf2a6xh-p5ryvjk"></script>
         <script src="//cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+        <script src="//www.youtube.com/player_api"></script>
         <script src="assets/javascript/vendor/jquery-google-reviews.js"></script>
         <script src="assets/javascript/locale.js"></script>
         <script src="assets/javascript/bootstrap.js"></script>

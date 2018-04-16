@@ -38,19 +38,24 @@ $(function(){
 
 
                 $('.project-images').on('click', function(){
-                    $(this).parent('.project').addClass('open');
-                    var parentID = $(this).parent('.project').attr('id');
-                    document.location.href="#"+parentID;
-                    $('body').addClass('open');
-                    sliderInit(parentID);
+                    if(!$(body).hasClass('open')) {
+                        $(this).parent('.project').addClass('open');
+                        var parentID = $(this).parent('.project').attr('id');
+                        document.location.href = "#" + parentID;
+                        $('body').addClass('open');
+                        sliderInit(parentID);
+                    }
                 });
 
                 $('.project-title').on('click', function(){
-                    $(this).parent().parent().parent().parent().addClass('open');
-                    var parentID = $(this).parent().parent().parent().parent().attr('id');
-                    document.location.href="#"+parentID;
-                    $('body').addClass('open');
-                    sliderInit(parentID);
+                    if(!$(body).hasClass('open')){
+                        var parentElem = $(this).parent().parent().parent().parent();
+                        parentElem.addClass('open');
+                        var parentID = parentElem.attr('id');
+                        document.location.href="#"+parentID;
+                        $('body').addClass('open');
+                        sliderInit(parentID);
+                    }
                 });
 
                 $('.project-close').on('click', function() {

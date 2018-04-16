@@ -16,7 +16,7 @@ $(function () {
         , hasSnapped = false
         , navIsOpen = false
         , viewPortOffset = $(window).scrollTop()
-        , mobileNav = $('#nav ul')
+        , mobileNav = $('#nav > ul')
         , methodItem = $('.method-item')
         , methodContent = $('.fadeIn')
         , isMobile = window.orientation > -1 && screen.width <= 640
@@ -28,11 +28,6 @@ $(function () {
 
     //********* Event Handlers
 
-    $('.close-btn').on('click', function(){
-        $('body').toggleClass('isPlaying');
-        headerElem.removeClass('play');
-        headerElem.find('.video-container').removeClass('play');
-    });
 
     $('.contact-btn').on('click', function(){
         var footerOffset = $('footer').offset().top;
@@ -67,18 +62,6 @@ $(function () {
         animationIncrements = $(window).height() / 100 * 20;
     });
 
-    $(methodItem).on('mouseenter', function(){
-        var item = $(this).attr('data-item');
-        console.log(item)
-        $(this).addClass('active');
-        $('.fadeIn.'+ item).addClass('active');
-
-    }).on('mouseleave',function(){
-        var item = $(this).attr('data-item');
-        $(this).removeClass('active');
-        $('.fadeIn.'+ item).removeClass('active');
-    });
-
     if(isHomePage !== undefined && isHomePage.length > 0){
         var methodContainer = $('#method')
             , methodScrollContainer = $('.method-scroll-wrapper')
@@ -104,10 +87,38 @@ $(function () {
             CaseStudyContainer.addClass('show');
         }
 
+        $(methodItem).on('mouseenter', function(){
+            var item = $(this).attr('data-item');
+            console.log(item)
+            $(this).addClass('active');
+            $('.fadeIn.'+ item).addClass('active');
+
+        }).on('mouseleave',function(){
+            var item = $(this).attr('data-item');
+            $(this).removeClass('active');
+            $('.fadeIn.'+ item).removeClass('active');
+        });
+
+        $('.close-btn').on('click', function(){
+            $('body').toggleClass('isPlaying');
+            headerElem.removeClass('play');
+            headerElem.find('.video-container').removeClass('play');
+            $('.youtube-video-embed iframe').attr('id', '').attr('src', '');
+        });
+
         $('.play-video-wrapper').on('click', function(){
             $('body').toggleClass('isPlaying');
             headerElem.addClass('play');
             headerElem.find('.video-container').addClass('play');
+            var url = './assets/json/content.json';
+            $.getJSON(url, function(data) {
+                var loc = getCookie('lang');
+                var locData = data[loc];
+                var homepage = locData.pages.homepage;
+                var header = homepage.header.content;
+
+                $('.youtube-video-embed iframe').attr('id', header.youtubeURL).attr('src', 'https://www.youtube.com/embed/' + header.youtubeURL + '?autoplay=0&rel=0&fs=1&enablejsapi=1')
+            });
         });
 
         hamburgerElem.click(function(){

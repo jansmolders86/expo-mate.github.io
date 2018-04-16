@@ -40,6 +40,11 @@ $(function(){
            navItem.find('a[href="#values"]').html(nav.values);
            navItem.find('a[href="#case-studies"]').html(nav.projects);
            navItem.find('a[href="#footer"]').html(nav.contact);
+
+           navItem.find('a[href="#mission"]').html(nav.mission);
+           navItem.find('a[href="#model"]').html(nav.model);
+           navItem.find('a[href="#foundation"]').html(nav.foundation);
+           navItem.find('a[href="#comparision"]').html(nav.comparision);
         }
 
         if (header) {
