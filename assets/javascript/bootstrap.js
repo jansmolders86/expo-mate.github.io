@@ -37,12 +37,11 @@ $(function () {
     $('#nav li a').on('click', function(e){
         e.preventDefault();
         var link = $(this).attr('href');
-
-        if(isHomePage.length > 0){
+        if(link.indexOf('.') !== -1) {
+            window.location.href = link;
+        } else {
             var linkPos = $(link).offset().top;
             $("html, body").animate({ scrollTop: linkPos });
-        } else {
-            window.location.href = link;
         }
 
         if (navIsOpen) {
@@ -76,15 +75,21 @@ $(function () {
             , visibleClassName = 'show';
 
         if (methodContainer.visible(true)) {
-            methodContainer.addClass('show');
+            methodContainer.addClass(visibleClassName);
         }
 
         if (aboutContainer.visible(true)) {
-            aboutContainer.addClass('show');
+            aboutContainer.addClass(visibleClassName);
         }
 
         if(CaseStudyContainer.visible(true)){
-            CaseStudyContainer.addClass('show');
+            CaseStudyContainer.addClass(visibleClassName);
+        }
+
+        if(isMobile || is_iPad) {
+            CaseStudyContainer.addClass(visibleClassName);
+            methodContent.addClass(visibleClassName);
+            aboutContainer.addClass(visibleClassName);
         }
 
         $(methodItem).on('mouseenter', function(){
@@ -167,6 +172,10 @@ $(function () {
                         if (scroll >= preAboutContainerOffset) {
                             aboutContainer.addClass(visibleClassName);
                         }
+                    } else {
+                        CaseStudyContainer.addClass(visibleClassName);
+                        methodContent.addClass(visibleClassName);
+                        aboutContainer.addClass(visibleClassName);
                     }
 
                     if(direction === 'up') {
