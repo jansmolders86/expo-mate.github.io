@@ -1670,7 +1670,7 @@ section#image-scroll .image-scroll-wrapper.fixed .background-image {
   width: 562.5px;
   height: 750px;
   position: relative;
-  float: right;
+  margin: 50px auto 0;
   z-index: 3;
   opacity: 0;
   transition: opacity 0.3s ease;
@@ -1678,7 +1678,7 @@ section#image-scroll .image-scroll-wrapper.fixed .background-image {
 @media screen and (min-width: 1600px) {
   /* line 92, ../sass/_method.sass */
   #method .method-scroll-wrapper #diagram {
-    margin-top: 150px;
+    margin-top: 100px;
   }
 }
 @media only screen and (max-width: 1199px) {
@@ -2059,6 +2059,12 @@ section#image-scroll .image-scroll-wrapper.fixed .background-image {
   position: relative;
   z-index: 2;
 }
+@media only screen and (min-width: 992px) {
+  /* line 298, ../sass/_method.sass */
+  #method .method-info-container {
+    min-height: 100px;
+  }
+}
 @media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
   /* line 298, ../sass/_method.sass */
   #method .method-info-container {
@@ -2074,108 +2080,112 @@ section#image-scroll .image-scroll-wrapper.fixed .background-image {
     left: 250px;
   }
 }
-/* line 308, ../sass/_method.sass */
+/* line 310, ../sass/_method.sass */
 #method .method-info-container .fadeIn {
   opacity: 0;
   position: absolute;
-  top: 100px;
+  top: 0;
   left: -100px;
   width: 100%;
 }
-@media screen and (min-width: 1600px) {
-  /* line 308, ../sass/_method.sass */
+@media only screen and (min-width: 992px) {
+  /* line 310, ../sass/_method.sass */
   #method .method-info-container .fadeIn {
-    top: 200px;
+    text-align: center;
+  }
+  /* line 316, ../sass/_method.sass */
+  #method .method-info-container .fadeIn * {
+    text-align: center;
   }
 }
 @media only screen and (max-width: 1199px) {
-  /* line 308, ../sass/_method.sass */
+  /* line 310, ../sass/_method.sass */
   #method .method-info-container .fadeIn {
     opacity: 1;
     left: auto;
     right: 0;
     width: 53%;
   }
-  /* line 321, ../sass/_method.sass */
+  /* line 325, ../sass/_method.sass */
   #method .method-info-container .fadeIn.intro {
     top: 120px;
   }
-  /* line 323, ../sass/_method.sass */
+  /* line 327, ../sass/_method.sass */
   #method .method-info-container .fadeIn.design {
     top: 390px;
   }
-  /* line 325, ../sass/_method.sass */
+  /* line 329, ../sass/_method.sass */
   #method .method-info-container .fadeIn.tuning {
     top: 660px;
   }
-  /* line 327, ../sass/_method.sass */
+  /* line 331, ../sass/_method.sass */
   #method .method-info-container .fadeIn.construction {
     top: 930px;
   }
-  /* line 329, ../sass/_method.sass */
+  /* line 333, ../sass/_method.sass */
   #method .method-info-container .fadeIn.eval {
     top: 1200px;
   }
 }
 @media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
-  /* line 308, ../sass/_method.sass */
+  /* line 310, ../sass/_method.sass */
   #method .method-info-container .fadeIn {
     opacity: 1;
     left: auto;
     right: 0;
     width: 53%;
   }
-  /* line 336, ../sass/_method.sass */
+  /* line 340, ../sass/_method.sass */
   #method .method-info-container .fadeIn.intro {
     top: 120px;
   }
-  /* line 338, ../sass/_method.sass */
+  /* line 342, ../sass/_method.sass */
   #method .method-info-container .fadeIn.design {
     top: 390px;
   }
-  /* line 340, ../sass/_method.sass */
+  /* line 344, ../sass/_method.sass */
   #method .method-info-container .fadeIn.tuning {
     top: 660px;
   }
-  /* line 342, ../sass/_method.sass */
+  /* line 346, ../sass/_method.sass */
   #method .method-info-container .fadeIn.construction {
     top: 930px;
   }
-  /* line 344, ../sass/_method.sass */
+  /* line 348, ../sass/_method.sass */
   #method .method-info-container .fadeIn.eval {
     top: 1200px;
   }
 }
 @media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1.5) {
-  /* line 308, ../sass/_method.sass */
+  /* line 310, ../sass/_method.sass */
   #method .method-info-container .fadeIn {
     opacity: 1;
     left: auto;
     right: 0;
     width: 53%;
   }
-  /* line 351, ../sass/_method.sass */
+  /* line 355, ../sass/_method.sass */
   #method .method-info-container .fadeIn.intro {
     top: 120px;
   }
-  /* line 353, ../sass/_method.sass */
+  /* line 357, ../sass/_method.sass */
   #method .method-info-container .fadeIn.design {
     top: 390px;
   }
-  /* line 355, ../sass/_method.sass */
+  /* line 359, ../sass/_method.sass */
   #method .method-info-container .fadeIn.tuning {
     top: 660px;
   }
-  /* line 357, ../sass/_method.sass */
+  /* line 361, ../sass/_method.sass */
   #method .method-info-container .fadeIn.construction {
     top: 930px;
   }
-  /* line 359, ../sass/_method.sass */
+  /* line 363, ../sass/_method.sass */
   #method .method-info-container .fadeIn.eval {
     top: 1200px;
   }
 }
-/* line 361, ../sass/_method.sass */
+/* line 365, ../sass/_method.sass */
 #method .method-info-container .fadeIn.active {
   animation: fadeIn cubic-bezier(0.77, 0, 0.175, 1) 0.5s forwards;
 }
@@ -2184,7 +2194,7 @@ section#image-scroll .image-scroll-wrapper.fixed .background-image {
   #method .method-info-container {
     font-size: 0.875em;
   }
-  /* line 365, ../sass/_method.sass */
+  /* line 369, ../sass/_method.sass */
   #method .method-info-container .fadeIn {
     width: 85%;
   }
