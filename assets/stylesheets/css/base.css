@@ -2205,12 +2205,18 @@ section#image-scroll .image-scroll-wrapper.fixed .background-image {
   left: -100px;
   width: 100%;
 }
+/* line 294, ../sass/_method.sass */
+#method .method-info-container .fadeIn.active {
+  opacity: 1;
+  transition: all 0.5s ease;
+  left: 15px;
+}
 @media only screen and (min-width: 992px) {
   /* line 290, ../sass/_method.sass */
   #method .method-info-container .fadeIn {
     text-align: center;
   }
-  /* line 297, ../sass/_method.sass */
+  /* line 300, ../sass/_method.sass */
   #method .method-info-container .fadeIn * {
     text-align: center;
   }
@@ -2223,23 +2229,23 @@ section#image-scroll .image-scroll-wrapper.fixed .background-image {
     right: 0;
     width: 53%;
   }
-  /* line 306, ../sass/_method.sass */
+  /* line 309, ../sass/_method.sass */
   #method .method-info-container .fadeIn.intro {
     top: 120px;
   }
-  /* line 308, ../sass/_method.sass */
+  /* line 311, ../sass/_method.sass */
   #method .method-info-container .fadeIn.design {
     top: 390px;
   }
-  /* line 310, ../sass/_method.sass */
+  /* line 313, ../sass/_method.sass */
   #method .method-info-container .fadeIn.tuning {
     top: 660px;
   }
-  /* line 312, ../sass/_method.sass */
+  /* line 315, ../sass/_method.sass */
   #method .method-info-container .fadeIn.construction {
     top: 930px;
   }
-  /* line 314, ../sass/_method.sass */
+  /* line 317, ../sass/_method.sass */
   #method .method-info-container .fadeIn.eval {
     top: 1200px;
   }
@@ -2253,23 +2259,23 @@ section#image-scroll .image-scroll-wrapper.fixed .background-image {
     width: 53%;
     font-size: 0.875em;
   }
-  /* line 321, ../sass/_method.sass */
+  /* line 324, ../sass/_method.sass */
   #method .method-info-container .fadeIn.intro {
     top: 120px;
   }
-  /* line 323, ../sass/_method.sass */
+  /* line 326, ../sass/_method.sass */
   #method .method-info-container .fadeIn.design {
     top: 390px;
   }
-  /* line 325, ../sass/_method.sass */
+  /* line 328, ../sass/_method.sass */
   #method .method-info-container .fadeIn.tuning {
     top: 660px;
   }
-  /* line 327, ../sass/_method.sass */
+  /* line 330, ../sass/_method.sass */
   #method .method-info-container .fadeIn.construction {
     top: 930px;
   }
-  /* line 329, ../sass/_method.sass */
+  /* line 332, ../sass/_method.sass */
   #method .method-info-container .fadeIn.eval {
     top: 1200px;
   }

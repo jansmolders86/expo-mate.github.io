@@ -94,7 +94,6 @@ $(function () {
 
         $(methodItem).on('mouseenter', function(){
             var item = $(this).attr('data-item');
-            console.log(item)
             $(this).addClass('active');
             $('.fadeIn.'+ item).addClass('active');
 
