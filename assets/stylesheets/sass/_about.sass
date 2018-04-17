@@ -169,8 +169,38 @@
     .right-container,
     .content-wrapper
       width: 100%!important
-
-
+  #about, #model
+    .left-container
+      opacity: 1
+    .right-container
+      opacity: 1
+    .second-row
+      display: flex
+      width: 100%
+      flex-flow: row wrap
+      .left-container
+        order: 2
+      .right-container
+        order: 1
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5)
+  #about
+    .left-container,
+    .right-container,
+    .content-wrapper
+      width: 100%!important
+  #about, #model
+    .left-container
+      opacity: 1
+    .right-container
+      opacity: 1
+    .second-row
+      display: flex
+      width: 100%
+      flex-flow: row wrap
+      .left-container
+        order: 2
+      .right-container
+        order: 1
 #model
   *
     opacity: 1!important
