@@ -1,78 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fa71c386-158c-4b99-8fc9-625785d9d631" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.sass-cache/4d832b0bccd74520a9847119988e88e6d7a2e033/_method.sassc" beforeDir="false" afterPath="$PROJECT_DIR$/.sass-cache/4d832b0bccd74520a9847119988e88e6d7a2e033/_method.sassc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/javascript/animations.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/javascript/bootstrap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/javascript/header.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/javascript/imageComparison.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/javascript/locale.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/javascript/mapsInit.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/javascript/project-bootstrap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/javascript/vendor/TweenMax.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/javascript/vendor/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/javascript/vendor/jquery-1.11.3.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/javascript/vendor/jquery-google-reviews.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/json/content.json" beforeDir="false" afterPath="$PROJECT_DIR$/assets/json/content.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/stylesheets/css/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/stylesheets/css/base.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/stylesheets/sass/_method.sass" beforeDir="false" afterPath="$PROJECT_DIR$/assets/stylesheets/sass/_method.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    <list default="true" id="f575b471-ab28-496b-95c0-a958cd2c45e1" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/projects.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects.html" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/.tmp/" />
-    <ignored path="$PROJECT_DIR$/temp/" />
-    <ignored path="$PROJECT_DIR$/tmp/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="DockManager">
-    <window id="1">
-      <content type="file-editors">
-        <state>
-          <leaf>
-            <file leaf-file-name="content.json" pinned="false" current-in-tab="true">
-              <entry file="file://$PROJECT_DIR$/assets/json/content.json">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="968">
-                    <caret line="915" column="38" lean-forward="true" selection-start-line="915" selection-start-column="38" selection-end-line="915" selection-end-column="56" />
-                    <folding>
-                      <element signature="n#!!block;n#pages#0;n#!!block;n#nl#0;n#!!top" />
-                      <element signature="n#!!block;n#homepage#0;n#!!block;n#pages#0;n#!!block;n#nl#0;n#!!top" />
-                      <element signature="n#!!block;n#pages#0;n#!!block;n#de#0;n#!!top" />
-                      <element signature="n#!!block;n#homepage#0;n#!!block;n#pages#0;n#!!block;n#de#0;n#!!top" />
-                      <element signature="e#58676#66035#0" />
-                    </folding>
-                  </state>
-                </provider>
-              </entry>
-            </file>
-          </leaf>
-        </state>
-      </content>
-    </window>
-  </component>
   <component name="FileEditorManager">
     <leaf>
       <file leaf-file-name="_method.sass" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/stylesheets/sass/_method.sass">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1904">
+            <state relative-caret-position="-4427">
               <caret line="50" column="33" selection-start-line="50" selection-start-column="33" selection-end-line="50" selection-end-column="33" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-752">
-              <caret line="401" column="104" selection-start-line="401" selection-start-column="104" selection-end-line="401" selection-end-column="104" />
+            <state relative-caret-position="316">
+              <caret line="463" column="65" lean-forward="true" selection-start-line="463" selection-start-column="65" selection-end-line="463" selection-end-column="65" />
               <folding>
                 <element signature="e#10795#10801#0" expanded="true" />
                 <element signature="e#11004#11010#0" expanded="true" />
@@ -81,11 +34,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="projects.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="projects.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/projects.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2363">
-              <caret line="139" column="42" lean-forward="true" selection-start-line="139" selection-start-column="42" selection-end-line="139" selection-end-column="42" />
+            <state relative-caret-position="557">
+              <caret line="145" column="91" selection-start-line="145" selection-start-column="91" selection-end-line="145" selection-end-column="91" />
             </state>
           </provider>
         </entry>
@@ -93,8 +46,8 @@
       <file leaf-file-name="project-bootstrap.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/javascript/_dev/project-bootstrap.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+            <state relative-caret-position="-245">
+              <caret line="21" selection-start-line="21" selection-end-line="21" />
             </state>
           </provider>
         </entry>
@@ -107,10 +60,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/assets/stylesheets/sass/_method.sass" />
         <option value="$PROJECT_DIR$/projects.html" />
-        <option value="$PROJECT_DIR$/assets/json/content.json" />
-        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -120,12 +70,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="3832" />
-    <option name="y" value="-8" />
-    <option name="width" value="2576" />
-    <option name="height" value="1416" />
-  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -154,21 +99,6 @@
               <item name="expo-mate.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="expo-mate.github.io" type="462c0819:PsiDirectoryNode" />
               <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="javascript" type="462c0819:PsiDirectoryNode" />
-              <item name="_dev" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="expo-mate.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="expo-mate.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="javascript" type="462c0819:PsiDirectoryNode" />
-              <item name="_dev" type="462c0819:PsiDirectoryNode" />
-              <item name="vendor" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="expo-mate.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="expo-mate.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
               <item name="json" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -177,24 +107,11 @@
               <item name="assets" type="462c0819:PsiDirectoryNode" />
               <item name="stylesheets" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="expo-mate.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="expo-mate.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="stylesheets" type="462c0819:PsiDirectoryNode" />
-              <item name="sass" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
     </panes>
-  </component>
-  <component name="PropertiesComponent">
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="node.js.detected.package.prettier" value="true" />
-    <property name="node.js.path.for.package.prettier" value="project" />
-    <property name="node.js.selected.package.prettier" value="" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -218,12 +135,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1524040927136</updated>
-      <workItem from="1524040928478" duration="959000" />
+      <workItem from="1524040928478" duration="1369000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="959000" />
+    <option name="totallyTimeSpent" value="107000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="3832" y="-8" width="2576" height="1416" extended-state="6" />
@@ -248,56 +165,46 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
     </layout>
   </component>
-  <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
-  </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
-  </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/assets/json/content.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1242">
+          <caret line="1114" column="1" selection-start-line="1114" selection-start-column="1" selection-end-line="1114" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/javascript/compressed.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="463" column="65" lean-forward="true" selection-start-line="463" selection-start-column="65" selection-end-line="463" selection-end-column="65" />
+          <folding>
+            <element signature="e#10795#10801#0" expanded="true" />
+            <element signature="e#11004#11010#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/javascript/_dev/project-bootstrap.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-245">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/assets/stylesheets/sass/_method.sass">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1904">
+        <state relative-caret-position="-4427">
           <caret line="50" column="33" selection-start-line="50" selection-start-column="33" selection-end-line="50" selection-end-column="33" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/projects.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2363">
-          <caret line="139" column="42" lean-forward="true" selection-start-line="139" selection-start-column="42" selection-end-line="139" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/javascript/_dev/project-bootstrap.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/json/content.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="968">
-          <caret line="915" column="38" lean-forward="true" selection-start-line="915" selection-start-column="38" selection-end-line="915" selection-end-column="56" />
-          <folding>
-            <element signature="n#!!block;n#pages#0;n#!!block;n#nl#0;n#!!top" />
-            <element signature="n#!!block;n#homepage#0;n#!!block;n#pages#0;n#!!block;n#nl#0;n#!!top" />
-            <element signature="n#!!block;n#pages#0;n#!!block;n#de#0;n#!!top" />
-            <element signature="n#!!block;n#homepage#0;n#!!block;n#pages#0;n#!!block;n#de#0;n#!!top" />
-            <element signature="e#58676#66035#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-752">
-          <caret line="401" column="104" selection-start-line="401" selection-start-column="104" selection-end-line="401" selection-end-column="104" />
-          <folding>
-            <element signature="e#10795#10801#0" expanded="true" />
-            <element signature="e#11004#11010#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="557">
+          <caret line="145" column="91" selection-start-line="145" selection-start-column="91" selection-end-line="145" selection-end-column="91" />
         </state>
       </provider>
     </entry>
