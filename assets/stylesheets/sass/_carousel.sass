@@ -1,0 +1,56 @@
+.slick-prev,
+.slick-next
+  background: none
+  border-radius: 9999px
+  border: 0
+  font-size: 1px
+  outline: none
+  color: transparent
+  width: 30px
+  height: 30px
+  position: absolute
+  top: 45%
+  @media only screen and (min-device-width: 300px) and (max-device-width: 850px) and (orientation: landscape)
+    top: 30%
+  left: 20px
+  z-index: 8
+  &:before
+    font-family: $font_0
+    content: "\e905"
+    font-weight: bold
+    color: #fff
+    width: 30px
+    height: 30px
+    font-size: 35em
+    position: absolute
+    top: 2px
+    left: 2px
+    text-shadow: 0 0 5px #333
+.slick-next
+  left: auto
+  right: 20px
+  &:before
+    content: "\e906"
+.slick-track
+  img
+    cursor: pointer
+
+.icon-arrow-left,
+.icon-arrow-right
+  font-size: 3em
+  color: #fff
+  position: absolute
+  top: 26%
+  left: 40px
+  z-index: 9
+  +respond-max-width(sm)
+    top: 10%
+    color: #000
+    left: 5px
+  cursor: pointer
+.icon-arrow-right
+  color: #000
+  left: auto
+  right: 40px
+  +respond-max-width(sm)
+    right: 5px
