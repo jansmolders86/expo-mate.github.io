@@ -57,6 +57,9 @@ body.open
           font-size: 2em
           color: #fff
           text-shadow: 5px 5px 5px rgba(0,0,0,.7)
+          @media screen and (max-device-width: 767px) and (orientation: portrait)
+            color: #222
+            text-shadow: none
           z-index: 999999
       .project-images
         width: 100vw
@@ -70,6 +73,10 @@ body.open
         margin: 0
         .project-image
           background-size: cover
+          background-repeat: no-repeat
+          @media screen and (max-device-width: 767px) and (orientation: portrait)
+            background-size: contain
+            background-position: center
           width: 100vw
           height: 100vh
 
@@ -77,10 +84,15 @@ body.open
       .project-images,
       .project-desc-wrapper
         width: 50%
+        +respond-max-width(sm)
+          width: 100% !important
         float: left
         position: relative
         overflow: hidden
       .project-images
+        width: 50%
+        +respond-max-width(sm)
+          width: 100%
         .slider
           height: 100%
           width: 100%

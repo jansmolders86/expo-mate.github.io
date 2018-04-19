@@ -1566,14 +1566,7 @@ section#image-scroll .image-scroll-wrapper.fixed .background-image {
   left: 20px;
   z-index: 8;
 }
-@media only screen and (min-device-width: 300px) and (max-device-width: 850px) and (orientation: landscape) {
-  /* line 1, ../sass/_carousel.sass */
-  .slick-prev,
-  .slick-next {
-    top: 30%;
-  }
-}
-/* line 17, ../sass/_carousel.sass */
+/* line 15, ../sass/_carousel.sass */
 .slick-prev:before,
 .slick-next:before {
   font-family: "icomoon";
@@ -1589,22 +1582,22 @@ section#image-scroll .image-scroll-wrapper.fixed .background-image {
   text-shadow: 0 0 5px #333;
 }
 
-/* line 29, ../sass/_carousel.sass */
+/* line 27, ../sass/_carousel.sass */
 .slick-next {
   left: auto;
   right: 20px;
 }
-/* line 32, ../sass/_carousel.sass */
+/* line 30, ../sass/_carousel.sass */
 .slick-next:before {
   content: "";
 }
 
-/* line 35, ../sass/_carousel.sass */
+/* line 33, ../sass/_carousel.sass */
 .slick-track img {
   cursor: pointer;
 }
 
-/* line 38, ../sass/_carousel.sass */
+/* line 36, ../sass/_carousel.sass */
 .icon-arrow-left,
 .icon-arrow-right {
   font-size: 3em;
@@ -1616,7 +1609,7 @@ section#image-scroll .image-scroll-wrapper.fixed .background-image {
   cursor: pointer;
 }
 @media only screen and (max-width: 991px) {
-  /* line 38, ../sass/_carousel.sass */
+  /* line 36, ../sass/_carousel.sass */
   .icon-arrow-left,
   .icon-arrow-right {
     top: 12%;
@@ -1626,14 +1619,14 @@ section#image-scroll .image-scroll-wrapper.fixed .background-image {
   }
 }
 
-/* line 52, ../sass/_carousel.sass */
+/* line 50, ../sass/_carousel.sass */
 .icon-arrow-right {
   color: #000;
   left: auto;
   right: 40px;
 }
 @media only screen and (max-width: 991px) {
-  /* line 52, ../sass/_carousel.sass */
+  /* line 50, ../sass/_carousel.sass */
   .icon-arrow-right {
     right: -5px;
   }
@@ -2786,28 +2779,43 @@ body.open #nav {
   text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.7);
   z-index: 999999;
 }
-/* line 61, ../sass/_projects.sass */
+@media screen and (max-device-width: 767px) and (orientation: portrait) {
+  /* line 53, ../sass/_projects.sass */
+  .projects-wrapper .project.open .project-close:before {
+    color: #222;
+    text-shadow: none;
+  }
+}
+/* line 64, ../sass/_projects.sass */
 .projects-wrapper .project.open .project-images {
   width: 100vw;
   height: 100vh;
 }
-/* line 64, ../sass/_projects.sass */
+/* line 67, ../sass/_projects.sass */
 .projects-wrapper .project.open .project-desc-wrapper {
   display: none;
 }
-/* line 67, ../sass/_projects.sass */
+/* line 70, ../sass/_projects.sass */
 .projects-wrapper .project.open .slider {
   height: 100vh;
   width: 100vw;
   margin: 0;
 }
-/* line 71, ../sass/_projects.sass */
+/* line 74, ../sass/_projects.sass */
 .projects-wrapper .project.open .slider .project-image {
   background-size: cover;
+  background-repeat: no-repeat;
   width: 100vw;
   height: 100vh;
 }
-/* line 77, ../sass/_projects.sass */
+@media screen and (max-device-width: 767px) and (orientation: portrait) {
+  /* line 74, ../sass/_projects.sass */
+  .projects-wrapper .project.open .slider .project-image {
+    background-size: contain;
+    background-position: center;
+  }
+}
+/* line 84, ../sass/_projects.sass */
 .projects-wrapper .project:not(.open) .project-images,
 .projects-wrapper .project:not(.open) .project-desc-wrapper {
   width: 50%;
@@ -2815,31 +2823,48 @@ body.open #nav {
   position: relative;
   overflow: hidden;
 }
-/* line 84, ../sass/_projects.sass */
+@media only screen and (max-width: 991px) {
+  /* line 84, ../sass/_projects.sass */
+  .projects-wrapper .project:not(.open) .project-images,
+  .projects-wrapper .project:not(.open) .project-desc-wrapper {
+    width: 100% !important;
+  }
+}
+/* line 92, ../sass/_projects.sass */
+.projects-wrapper .project:not(.open) .project-images {
+  width: 50%;
+}
+@media only screen and (max-width: 991px) {
+  /* line 92, ../sass/_projects.sass */
+  .projects-wrapper .project:not(.open) .project-images {
+    width: 100%;
+  }
+}
+/* line 96, ../sass/_projects.sass */
 .projects-wrapper .project:not(.open) .project-images .slider {
   height: 100%;
   width: 100%;
   margin: 0;
 }
-/* line 88, ../sass/_projects.sass */
+/* line 100, ../sass/_projects.sass */
 .projects-wrapper .project:not(.open) .project-images .slider .project-image {
   background-size: cover;
   display: none;
   height: 100%;
   width: 100%;
 }
-/* line 93, ../sass/_projects.sass */
+/* line 105, ../sass/_projects.sass */
 .projects-wrapper .project:not(.open) .project-images .slider .project-image:first-child {
   display: block;
   cursor: pointer;
 }
-/* line 96, ../sass/_projects.sass */
+/* line 108, ../sass/_projects.sass */
 .projects-wrapper .project:not(.open) .project-desc-wrapper {
   padding: 7% 100px;
   text-align: left;
 }
 @media only screen and (max-width: 991px) {
-  /* line 96, ../sass/_projects.sass */
+  /* line 108, ../sass/_projects.sass */
   .projects-wrapper .project:not(.open) .project-desc-wrapper {
     width: 70%;
     background: none;
@@ -2848,62 +2873,62 @@ body.open #nav {
     bottom: 20px;
     left: 20px;
   }
-  /* line 102, ../sass/_projects.sass */
+  /* line 114, ../sass/_projects.sass */
   .projects-wrapper .project:not(.open) .project-desc-wrapper * {
     color: #fff;
     text-shadow: 0 0 5px #333;
   }
 }
 @media only screen and (min-device-width: 300px) and (max-device-width: 850px) and (orientation: landscape) {
-  /* line 96, ../sass/_projects.sass */
+  /* line 108, ../sass/_projects.sass */
   .projects-wrapper .project:not(.open) .project-desc-wrapper {
     background: rgba(0, 0, 0, 0.7);
     padding: 20px;
   }
 }
-/* line 112, ../sass/_projects.sass */
+/* line 124, ../sass/_projects.sass */
 .projects-wrapper .project:not(.open) .project-desc-wrapper h2 {
   text-align: left;
   cursor: pointer;
   font-weight: 700;
   margin-bottom: 10px;
 }
-/* line 117, ../sass/_projects.sass */
+/* line 129, ../sass/_projects.sass */
 .projects-wrapper .project:not(.open) .project-desc-wrapper .project-desc {
   max-width: 800px;
   font-size: 1em;
   line-height: 1.85em;
 }
 @media only screen and (max-width: 1199px) {
-  /* line 117, ../sass/_projects.sass */
+  /* line 129, ../sass/_projects.sass */
   .projects-wrapper .project:not(.open) .project-desc-wrapper .project-desc {
     display: none;
   }
 }
 @media only screen and (min-device-width: 300px) and (max-device-width: 1025px) and (orientation: landscape) {
-  /* line 117, ../sass/_projects.sass */
+  /* line 129, ../sass/_projects.sass */
   .projects-wrapper .project:not(.open) .project-desc-wrapper .project-desc {
     display: block;
     font-size: 0.875em;
   }
 }
-/* line 126, ../sass/_projects.sass */
+/* line 138, ../sass/_projects.sass */
 .projects-wrapper .project:not(.open) .project-sub-title {
   margin-bottom: 20px;
   font-weight: bold;
   font-size: 1.1em;
 }
-/* line 131, ../sass/_projects.sass */
+/* line 143, ../sass/_projects.sass */
 .projects-wrapper .project:not(.open) .slider-for img {
   display: none;
 }
-/* line 133, ../sass/_projects.sass */
+/* line 145, ../sass/_projects.sass */
 .projects-wrapper .project:not(.open) .slider-for img:first-child {
   display: block;
   width: 100%;
   cursor: pointer;
 }
-/* line 137, ../sass/_projects.sass */
+/* line 149, ../sass/_projects.sass */
 .projects-wrapper .project:not(.open) .slider-nav {
   display: none;
 }
