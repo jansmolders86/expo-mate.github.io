@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="de3ed022-46e2-42c0-a4b5-f2b44ac82e7a" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/assets/images/brands/Borusan.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/javascript/_dev/locale.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/javascript/_dev/locale.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/json/content.json" beforeDir="false" afterPath="$PROJECT_DIR$/assets/json/content.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -19,8 +22,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="265">
-              <caret line="94" column="44" lean-forward="true" selection-start-line="94" selection-start-column="44" selection-end-line="94" selection-end-column="44" />
+            <state relative-caret-position="799">
+              <caret line="152" column="50" selection-start-line="152" selection-start-column="50" selection-end-line="152" selection-end-column="50" />
             </state>
           </provider>
         </entry>
@@ -73,12 +76,12 @@
       <file leaf-file-name="content.json" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/json/content.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="29" column="47" lean-forward="true" selection-start-line="29" selection-start-column="47" selection-end-line="29" selection-end-column="47" />
+            <state relative-caret-position="595">
+              <caret line="777" column="72" selection-start-line="777" selection-start-column="72" selection-end-line="777" selection-end-column="72" />
               <folding>
+                <element signature="n#!!block;n#nl#0;n#!!top" />
                 <element signature="e#14642#22001#0" />
                 <element signature="n#!!block;n#nl#1;n#!!top" />
-                <element signature="n#!!block;n#nl#2;n#!!top" />
               </folding>
             </state>
           </provider>
@@ -92,8 +95,8 @@
       <file leaf-file-name="locale.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/javascript/_dev/locale.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="401">
-              <caret line="109" column="80" selection-start-line="109" selection-start-column="74" selection-end-line="109" selection-end-column="80" />
+            <state relative-caret-position="214">
+              <caret line="35" column="17" lean-forward="true" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -116,9 +119,9 @@
       <find>compas</find>
       <find>loading</find>
       <find>50%</find>
+      <find>video</find>
       <find>hover</find>
       <find>enterpr</find>
-      <find>video</find>
       <find>content-method-hoverLabel</find>
     </findStrings>
   </component>
@@ -136,11 +139,11 @@
         <option value="$PROJECT_DIR$/assets/stylesheets/sass/_carousel.sass" />
         <option value="$PROJECT_DIR$/assets/stylesheets/sass/_projects.sass" />
         <option value="$PROJECT_DIR$/assets/javascript/_dev/bootstrap.js" />
-        <option value="$PROJECT_DIR$/assets/javascript/_dev/locale.js" />
         <option value="$PROJECT_DIR$/assets/stylesheets/sass/_method.sass" />
         <option value="$PROJECT_DIR$/assets/stylesheets/sass/_caseStudies.sass" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/assets/stylesheets/sass/_header.sass" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/assets/javascript/_dev/locale.js" />
         <option value="$PROJECT_DIR$/assets/json/content.json" />
       </list>
     </option>
@@ -241,12 +244,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1524145066849</updated>
-      <workItem from="1524145068026" duration="7270000" />
+      <workItem from="1524145068026" duration="7462000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7270000" />
+    <option name="totallyTimeSpent" value="7462000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="3832" y="-8" width="2576" height="1416" extended-state="6" />
@@ -377,13 +380,6 @@
     <entry file="file://$PROJECT_DIR$/assets/javascript/_dev/header.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="94" column="44" lean-forward="true" selection-start-line="94" selection-start-column="44" selection-end-line="94" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/stylesheets/sass/_header.sass">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -391,21 +387,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="799">
+          <caret line="152" column="50" selection-start-line="152" selection-start-column="50" selection-end-line="152" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/assets/javascript/_dev/locale.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="401">
-          <caret line="109" column="80" selection-start-line="109" selection-start-column="74" selection-end-line="109" selection-end-column="80" />
+        <state relative-caret-position="214">
+          <caret line="35" column="17" lean-forward="true" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/json/content.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="47" lean-forward="true" selection-start-line="29" selection-start-column="47" selection-end-line="29" selection-end-column="47" />
+        <state relative-caret-position="595">
+          <caret line="777" column="72" selection-start-line="777" selection-start-column="72" selection-end-line="777" selection-end-column="72" />
           <folding>
+            <element signature="n#!!block;n#nl#0;n#!!top" />
             <element signature="e#14642#22001#0" />
             <element signature="n#!!block;n#nl#1;n#!!top" />
-            <element signature="n#!!block;n#nl#2;n#!!top" />
           </folding>
         </state>
       </provider>
