@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="de3ed022-46e2-42c0-a4b5-f2b44ac82e7a" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.sass-cache/4d832b0bccd74520a9847119988e88e6d7a2e033/_header.sassc" beforeDir="false" afterPath="$PROJECT_DIR$/.sass-cache/4d832b0bccd74520a9847119988e88e6d7a2e033/_header.sassc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/json/content.json" beforeDir="false" afterPath="$PROJECT_DIR$/assets/json/content.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/stylesheets/css/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/stylesheets/css/base.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/stylesheets/sass/_header.sass" beforeDir="false" afterPath="$PROJECT_DIR$/assets/stylesheets/sass/_header.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -77,8 +73,8 @@
       <file leaf-file-name="content.json" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/json/content.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="669">
-              <caret line="853" column="96" selection-start-line="853" selection-start-column="96" selection-end-line="853" selection-end-column="96" />
+            <state relative-caret-position="856">
+              <caret line="109" column="62" selection-start-line="109" selection-start-column="62" selection-end-line="109" selection-end-column="62" />
               <folding>
                 <element signature="e#14642#22001#0" />
               </folding>
@@ -243,12 +239,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1524145066849</updated>
-      <workItem from="1524145068026" duration="7088000" />
+      <workItem from="1524145068026" duration="7139000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7088000" />
+    <option name="totallyTimeSpent" value="7139000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="3832" y="-8" width="2576" height="1416" extended-state="6" />
@@ -402,8 +398,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/json/content.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="669">
-          <caret line="853" column="96" selection-start-line="853" selection-start-column="96" selection-end-line="853" selection-end-column="96" />
+        <state relative-caret-position="856">
+          <caret line="109" column="62" selection-start-line="109" selection-start-column="62" selection-end-line="109" selection-end-column="62" />
           <folding>
             <element signature="e#14642#22001#0" />
           </folding>
