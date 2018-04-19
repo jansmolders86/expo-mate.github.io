@@ -68,56 +68,49 @@
 #about, #model
   position: relative
   overflow: hidden
+  .first-row,
+  .second-row
+    display: flex
+    +respond-max-width(md)
+      display: block
   .left-container,
   .right-container
-    float: left
+    flex-wrap: wrap
+    +respond-max-width(md)
+      display: block
+      width: 100%
     width: 50%
-    height: auto
-    min-height: 65vh
     overflow: hidden
     opacity: 0
-    +respond-max-width(sm)
-      width: 100%
-      float: none
-      overflow: hidden
     &.content-wrapper
       position: relative
       width: 50%
-      +respond-max-width(sm)
-        width: 100%
-        height: auto
-      min-height: 65vh
+      height: 100%
       vertical-align: middle
       text-align: center
+      display: table
+      padding: 50px
+      +respond-max-width(md)
+        padding: 20px
+        width: 100%
     .tile-image
       background-repeat: no-repeat
       background-size: cover
-      min-height: 65vh
+      background-position: right top
+      min-height: 50vh
+      +respond-max-width(md)
+        min-height: 40vh
       +respond-max-width(sm)
-        min-height: 85vh
         background-position: 0 -50px
     .content
-      position: absolute
-      top: 40%
-      left: 50%
-      transform: translate(-50%,-50%)
-      width: 75%
-      height: 45%
-      +respond-max-width(sm)
-        position: relative
-        overflow: hidden
-        top: 0
-        left: 0
-        width: 70%
-        margin: 50px auto
-        height: auto
-        transform: none
+      position: relative
+      display: table-cell
+      vertical-align: middle
+
 
 #preabout
   min-height: auto
   padding-bottom: 50px
-  margin-bottom: 50px
-
 
 #about-us
   background: #fafafa
@@ -148,20 +141,6 @@
     .tile-image
       background-position: left top!important
       background-size: cover!important
-
-@media screen and (min-device-width: 768px) and (max-device-width: 1024px)
-  #preabout
-    margin-bottom: 0
-    padding-bottom: 10px
-
-  #about,
-    .first-row
-      .right-container
-        height: auto!important
-        min-height: 30vh!important
-    .second-row
-      .tile-image
-        background-position: right top!important
 
 @media screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape)
   #about

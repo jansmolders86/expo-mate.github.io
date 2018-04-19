@@ -17,6 +17,16 @@ $mobileTextOffset: 150px
   @media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5)
     height: $imageScrollHeight * 2 - 200
     padding-top: 20px
+  .placeholder
+    margin-bottom: 40px
+    text-transform: none
+    font-size: 1.2em
+    position: absolute
+    top: 200px
+    width: 100%
+    text-align: center
+    +respond-max-width(md)
+      display: none
   &.show
     .method-scroll-wrapper
       #diagram,
@@ -42,12 +52,12 @@ $mobileTextOffset: 150px
             @media screen and (min-width: 1367px)
               left: $methodSize + $methodSize / 3.5
               top: $methodSize / 2
-              padding-left: $methodSize / 2.5
-              padding-right: 0
+              padding-left: $methodSize / 1.9
+              padding-right: $methodSize / 3
         .construction
           &.show
             opacity: 1
-            padding: 80px 60px 0
+            padding: 50px 60px 0
             +respond-max-width(md)
               padding: 22px 17px 0
 
@@ -145,13 +155,14 @@ $mobileTextOffset: 150px
         font-weight: 600
         position: absolute
         text-align: center
-        padding:  $methodSize / 2.5 $methodSize / 3 0
+        padding:  $methodSize / 3.5 $methodSize / 3 0
         opacity: 1
         top: $methodSize / 2
         left: 0
         transition: all .3s ease
         cursor: pointer
         pointer-events: all
+        box-shadow: -2px 11px 17px 0px rgba(0,0,0,.1)
         &.active
           animation: pulse 2s infinite
           z-index: 9999
@@ -172,6 +183,13 @@ $mobileTextOffset: 150px
           padding: $mobileMethodSize / 2.5 $mobileMethodSize / 5 0
           top: $mobileMethodSize
         .step-content
+          > span.count
+            text-align:  center
+            width: 100%
+            color: $method-text-color
+            font-size: 2em
+            +respond-max-width(md)
+              display: none
           span, i
             display: block
             color: $method-text-color
@@ -189,8 +207,8 @@ $mobileTextOffset: 150px
         border: 0
         color: $method-highlight-bubble-text
         .step-content
-          i, span
-            color: $method-highlight-bubble-text
+          .count, i, span
+            color: $method-highlight-bubble-text!important
       .intro
         top: $methodSize / 2
         +respond-max-width(md)
@@ -240,6 +258,7 @@ $mobileTextOffset: 150px
           background: rgba(141,199,1,1)
       .construction
         z-index: 6
+        box-shadow: none
         +respond-max-width(md)
           top: $mobileMethodSize * 4 + $mobileTextOffset * 3
         @media screen and (min-device-width: 768px) and (max-device-width: 1366px)

@@ -107,6 +107,7 @@ $(function(){
         if (method) {
             $body.find("[data-content='content-method-title']").html(method.title);
             $body.find("[data-content='content-method-desc']").html(method.description);
+            $body.find("[data-content='content-method-hoverLabel']").html(method.hoverLabel);
 
             $body.find("[data-content='content-method-intro-title']").html(method.method.intro.title);
             $body.find("[data-content='content-method-intro-desc']").html(method.method.intro.description);
@@ -136,6 +137,7 @@ $(function(){
             $body.find("[data-content='content-projects-quote']").html(projects.quote);
             $body.find("[data-content='content-projects-author']").html(projects.author);
             $body.find("[data-content='content-projects-button']").html(projects.button.label);
+            $body.find("[data-content='content-projects-comparisonHeader']").html(projects.comparisonHeader);
 
             $body.find("[data-content='content-project1-image']").attr('src', projects.project1.image.src).attr('alt', projects.project1.image.alt);
             $body.find("[data-content='content-project1-title']").html(projects.project1.title);

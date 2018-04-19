@@ -256,7 +256,7 @@
                     "description": "Vraagstelling: Standing out from the rest, clean en stopping power wilde Tomra graag terug zien. Omdat het een programma betreft moeten de materialen zoveel mogelijk her gebruikt kunnen worden.",
                     "images": [
                         {
-                            "src": "assets/images/projects/tomra/1.jpg",
+                            "src": "assets/images/projects/tomra/1.JPG",
                             "alt": "Tomra Food Sorting NV"
                         },{
                             "src": "assets/images/projects/tomra/2.jpg",
@@ -479,6 +479,7 @@
                     "method": {
                         "title": "ONZE WERKWIJZE",
                         "description": "Totale ontzorging. Minder vinden we niet goed genoeg voor onze relaties. Door onze verschillende achtergronden en ervaringen hebben we een werkwijze kunnen ontwikkelen die uniek is in de branche en welke ons in staat stelt de hoogst mogelijke return on investment voor onze relaties te behalen.",
+                        "hoverLabel": "Beweeg met uw muis over de bollen hieronder voor meer informatie.",
                         "method": {
                             "intro": {
                                 "title": "Introductie",

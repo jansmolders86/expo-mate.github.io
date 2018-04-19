@@ -15,7 +15,7 @@ $(function(){
                 if (imageContent && imageContent.length > 0) {
                     $.each(imageContent, function (index, item) {
                         if(item){
-                            imageArray.push('<img src="'+item.src+'" alt="'+item.alt+'" />')
+                            imageArray.push('<div class="project-image" style="background-image: url('+item.src+')"></div>')
                         }
                     });
                 }
@@ -87,8 +87,9 @@ function sliderInit(projectElem){
         $('#'+projectElem+' .slider').not('.slick-initialized').slick({
             slidesToShow: 1,
             slidesToScroll: 1,
-            arrows: true,
-            variableWidth: true
+            autoplay: true,
+            autoplaySpeed: 8000,
+            arrows: true
         });
     }
 }
