@@ -73,10 +73,12 @@
       <file leaf-file-name="content.json" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/json/content.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="856">
-              <caret line="109" column="62" selection-start-line="109" selection-start-column="62" selection-end-line="109" selection-end-column="62" />
+            <state relative-caret-position="493">
+              <caret line="29" column="47" lean-forward="true" selection-start-line="29" selection-start-column="47" selection-end-line="29" selection-end-column="47" />
               <folding>
                 <element signature="e#14642#22001#0" />
+                <element signature="n#!!block;n#nl#1;n#!!top" />
+                <element signature="n#!!block;n#nl#2;n#!!top" />
               </folding>
             </state>
           </provider>
@@ -239,12 +241,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1524145066849</updated>
-      <workItem from="1524145068026" duration="7139000" />
+      <workItem from="1524145068026" duration="7270000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7139000" />
+    <option name="totallyTimeSpent" value="7270000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="3832" y="-8" width="2576" height="1416" extended-state="6" />
@@ -398,10 +400,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/json/content.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="856">
-          <caret line="109" column="62" selection-start-line="109" selection-start-column="62" selection-end-line="109" selection-end-column="62" />
+        <state relative-caret-position="493">
+          <caret line="29" column="47" lean-forward="true" selection-start-line="29" selection-start-column="47" selection-end-line="29" selection-end-column="47" />
           <folding>
             <element signature="e#14642#22001#0" />
+            <element signature="n#!!block;n#nl#1;n#!!top" />
+            <element signature="n#!!block;n#nl#2;n#!!top" />
           </folding>
         </state>
       </provider>

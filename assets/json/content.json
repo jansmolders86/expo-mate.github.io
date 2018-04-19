@@ -31,24 +31,24 @@
                         "description": "We geloven in de kracht van diversiteit. Diversiteit en het samenbrengen van verschillende disciplines zorgt er namelijk voor dat we iedere dag het beste resultaat voor, maar vooral met, onze klanten kunnen realiseren.",
                         "images": [
                             {
+                                "src": "assets/images/brands/borusan.jpg",
+                                "alt": "Borusan"
+                            },
+                            {
+                                "src": "assets/images/brands/tomra.jpg",
+                                "alt": "Tomra"
+                            },
+                            {
                                 "src": "assets/images/brands/toshiba.jpg",
                                 "alt": "Toshiba"
-                            },
-                            {
-                                "src": "assets/images/brands/avz.jpg",
-                                "alt": "AVZ"
-                            },
-                            {
-                                "src": "assets/images/brands/frankort.jpg",
-                                "alt": "Frankort en Koning"
                             },
                             {
                                 "src": "assets/images/brands/lamb.jpg",
                                 "alt": "LambWeston"
                             },
                             {
-                                "src": "assets/images/brands/strong.jpg",
-                                "alt": "Strong"
+                                "src": "assets/images/brands/ra.jpg",
+                                "alt": "Rolled Alloys"
                             }
                         ]
                     },
@@ -403,24 +403,24 @@
                         "description": "We geloven in de kracht van diversiteit. Diversiteit en het samenbrengen van verschillende disciplines zorgt er namelijk voor dat we iedere dag het beste resultaat voor, maar vooral met, onze klanten kunnen realiseren.",
                         "images": [
                             {
+                                "src": "assets/images/brands/borusan.jpg",
+                                "alt": "Borusan"
+                            },
+                            {
+                                "src": "assets/images/brands/tomra.jpg",
+                                "alt": "Tomra"
+                            },
+                            {
                                 "src": "assets/images/brands/toshiba.jpg",
                                 "alt": "Toshiba"
-                            },
-                            {
-                                "src": "assets/images/brands/avz.jpg",
-                                "alt": "AVZ"
-                            },
-                            {
-                                "src": "assets/images/brands/frankort.jpg",
-                                "alt": "Frankort en Koning"
                             },
                             {
                                 "src": "assets/images/brands/lamb.jpg",
                                 "alt": "LambWeston"
                             },
                             {
-                                "src": "assets/images/brands/strong.jpg",
-                                "alt": "Strong"
+                                "src": "assets/images/brands/ra.jpg",
+                                "alt": "Rolled Alloys"
                             }
                         ]
                     },
@@ -775,24 +775,24 @@
                         "description": "We geloven in de kracht van diversiteit. Diversiteit en het samenbrengen van verschillende disciplines zorgt er namelijk voor dat we iedere dag het beste resultaat voor, maar vooral met, onze klanten kunnen realiseren.",
                         "images": [
                             {
+                                "src": "assets/images/brands/borusan.jpg",
+                                "alt": "Borusan"
+                            },
+                            {
+                                "src": "assets/images/brands/tomra.jpg",
+                                "alt": "Tomra"
+                            },
+                            {
                                 "src": "assets/images/brands/toshiba.jpg",
                                 "alt": "Toshiba"
-                            },
-                            {
-                                "src": "assets/images/brands/avz.jpg",
-                                "alt": "AVZ"
-                            },
-                            {
-                                "src": "assets/images/brands/frankort.jpg",
-                                "alt": "Frankort en Koning"
                             },
                             {
                                 "src": "assets/images/brands/lamb.jpg",
                                 "alt": "LambWeston"
                             },
                             {
-                                "src": "assets/images/brands/strong.jpg",
-                                "alt": "Strong"
+                                "src": "assets/images/brands/ra.jpg",
+                                "alt": "Rolled Alloys"
                             }
                         ]
                     },
