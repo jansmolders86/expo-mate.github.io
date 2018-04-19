@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="de3ed022-46e2-42c0-a4b5-f2b44ac82e7a" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/assets/images/brands/Borusan.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/javascript/_dev/locale.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/javascript/_dev/locale.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/json/content.json" beforeDir="false" afterPath="$PROJECT_DIR$/assets/json/content.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/stylesheets/sass/_about.sass" beforeDir="false" afterPath="$PROJECT_DIR$/assets/stylesheets/sass/_about.sass" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -73,16 +70,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="content.json" pinned="false" current-in-tab="true">
+      <file leaf-file-name="content.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/json/content.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="595">
-              <caret line="777" column="72" selection-start-line="777" selection-start-column="72" selection-end-line="777" selection-end-column="72" />
+            <state relative-caret-position="187">
+              <caret line="753" column="37" lean-forward="true" selection-start-line="753" selection-start-column="37" selection-end-line="753" selection-end-column="37" />
               <folding>
                 <element signature="n#!!block;n#nl#0;n#!!top" />
                 <element signature="e#14642#22001#0" />
                 <element signature="n#!!block;n#nl#1;n#!!top" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_about.sass" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/assets/stylesheets/sass/_about.sass">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -101,15 +107,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_projects.sass" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/stylesheets/sass/_projects.sass">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="42" column="19" lean-forward="true" selection-start-line="42" selection-start-column="19" selection-end-line="42" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FindInProjectRecents">
@@ -120,9 +117,9 @@
       <find>loading</find>
       <find>50%</find>
       <find>video</find>
-      <find>hover</find>
       <find>enterpr</find>
       <find>content-method-hoverLabel</find>
+      <find>hover</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -133,7 +130,6 @@
       <list>
         <option value="$PROJECT_DIR$/assets/stylesheets/sass/_loading.sass" />
         <option value="$PROJECT_DIR$/assets/stylesheets/sass/_values.sass" />
-        <option value="$PROJECT_DIR$/assets/stylesheets/sass/_about.sass" />
         <option value="$PROJECT_DIR$/projects.html" />
         <option value="$PROJECT_DIR$/assets/javascript/_dev/project-bootstrap.js" />
         <option value="$PROJECT_DIR$/assets/stylesheets/sass/_carousel.sass" />
@@ -145,6 +141,7 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/assets/javascript/_dev/locale.js" />
         <option value="$PROJECT_DIR$/assets/json/content.json" />
+        <option value="$PROJECT_DIR$/assets/stylesheets/sass/_about.sass" />
       </list>
     </option>
   </component>
@@ -244,12 +241,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1524145066849</updated>
-      <workItem from="1524145068026" duration="7462000" />
+      <workItem from="1524145068026" duration="7539000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7462000" />
+    <option name="totallyTimeSpent" value="7539000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="3832" y="-8" width="2576" height="1416" extended-state="6" />
@@ -305,13 +302,6 @@
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/stylesheets/sass/_about.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="61" column="18" lean-forward="true" selection-start-line="61" selection-start-column="18" selection-end-line="61" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -403,13 +393,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/json/content.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="777" column="72" selection-start-line="777" selection-start-column="72" selection-end-line="777" selection-end-column="72" />
+        <state relative-caret-position="187">
+          <caret line="753" column="37" lean-forward="true" selection-start-line="753" selection-start-column="37" selection-end-line="753" selection-end-column="37" />
           <folding>
             <element signature="n#!!block;n#nl#0;n#!!top" />
             <element signature="e#14642#22001#0" />
             <element signature="n#!!block;n#nl#1;n#!!top" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/stylesheets/sass/_about.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
         </state>
       </provider>
     </entry>
