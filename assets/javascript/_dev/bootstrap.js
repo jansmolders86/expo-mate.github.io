@@ -94,14 +94,14 @@ $(function () {
 
         $(methodItem).on('mouseenter', function(){
             var item = $(this).attr('data-item');
-            var placeholder = $(this).attr('content-method-hoverLabel');
+            var placeholder = $('body').find("[data-content='content-method-hoverLabel']")
             $(this).addClass('active');
             placeholder.addClass('hidden');
             $('.fadeIn.'+ item).addClass('active');
 
         }).on('mouseleave',function(){
             var item = $(this).attr('data-item');
-            var placeholder = $(this).attr('content-method-hoverLabel');
+            var placeholder = $('body').find("[data-content='content-method-hoverLabel']")
             $(this).removeClass('active');
             placeholder.removeClass('hidden');
             $('.fadeIn.'+ item).removeClass('active');

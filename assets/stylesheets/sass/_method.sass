@@ -37,19 +37,19 @@ $mobileTextOffset: 150px
           &.show
             opacity: 1
           &.slideOut
-            @media screen and (min-width: 1367px)
+            @media screen and (min-width: 1200px)
               padding-left: $methodSize / 8
         .design
           &.show
             opacity: 1
-            @media screen and (min-width: 1367px)
+            @media screen and (min-width: 1200px)
               top: 0
               left: $methodSize / 2 + $methodSize / 6
               padding-top: $methodSize / 6
         .tuning
           &.show
             opacity: 1
-            @media screen and (min-width: 1367px)
+            @media screen and (min-width: 1200px)
               left: $methodSize + $methodSize / 3.5
               top: $methodSize / 2
               padding-left: $methodSize / 1.9
@@ -63,13 +63,13 @@ $mobileTextOffset: 150px
 
             @media screen and (min-device-width: 768px) and (max-device-width:  1366px)
               padding: 22px 17px 0
-            @media screen and (min-width: 1367px)
+            @media screen and (min-width: 1200px)
               top: 150px
               left: 165px
         .eval
           &.show
             opacity: 1
-            @media screen and (min-width: 1367px)
+            @media screen and (min-width: 1200px)
               transform: scale(1)
               top: $methodSize + ($methodSize / 2)
               left: $methodSize - $methodSize / 3
@@ -235,7 +235,7 @@ $mobileTextOffset: 150px
           top: $mobileMethodSize * 2 + $mobileTextOffset!important
         &.active
           background: rgba(54,68,173,1)
-          padding-top: $methodSize / 2.5!important
+          padding-top: $methodSize / 4!important
         +respond-max-width(md)
           background: rgba(54,68,173,1)
         @media screen and (min-device-width: 768px) and (max-device-width: 1366px)
