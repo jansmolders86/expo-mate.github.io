@@ -6,16 +6,15 @@ $(function () {
 
     $('#nav li a').on('click', function(e){
         e.preventDefault();
-        var link = $(this).attr('href');
-        if(link.indexOf('.') !== -1) {
-            window.location.href = link;
+        var navLink = $(this).attr('href');
+        if(navLink.indexOf('.') !== -1) {
+            window.location.href = navLink;
         } else if ($(this).hasClass('loc')){
-            var link = $(this).attr('href');
             eraseCookie('lang');
-            setCookie('lang',link,7);
+            setCookie('lang',navLink,7);
             window.location.reload();
-        } else {
-            var linkPos = $(link).offset().top;
+        } else if(navLink.indexOf('#') !== -1) {
+            var linkPos = $(navLink).offset().top;
             $("html, body").animate({ scrollTop: linkPos });
         }
 
