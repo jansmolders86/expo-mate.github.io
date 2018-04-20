@@ -163,6 +163,8 @@ $mobileTextOffset: 150px
         cursor: pointer
         pointer-events: all
         box-shadow: -2px 11px 17px 0px rgba(0,0,0,.1)
+        +respond-max-width(md)
+          box-shadow: none
         &.active
           animation: pulse 2s infinite
           z-index: 9999
