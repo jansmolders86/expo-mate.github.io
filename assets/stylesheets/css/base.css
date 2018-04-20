@@ -2961,7 +2961,7 @@ body.open #nav {
 
 /* line 1, ../sass/_values.sass */
 #values {
-  min-height: 95vh;
+  height: 100vh;
   overflow: hidden;
   background: #efefef;
 }
