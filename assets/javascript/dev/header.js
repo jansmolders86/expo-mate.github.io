@@ -7,23 +7,6 @@ $(function () {
     $('#nav li a').on('click', function(e){
         e.preventDefault();
         var link = $(this).attr('href');
-
-        if(link === '#footer' ){
-            var linkPos = $(link).offset().top;
-            $("html, body").animate({ scrollTop: linkPos });
-        } else {
-            window.location.href = '/'+link;
-        }
-
-        if (navIsOpen) {
-            hamburgerElem.removeClass("is-active");
-            mobileNav.removeClass("open");
-        }
-    });
-
-    $('#nav li a').on('click', function(e){
-        e.preventDefault();
-        var link = $(this).attr('href');
         if(link.indexOf('.') !== -1) {
             window.location.href = link;
         } else if ($(this).hasClass('loc')){
