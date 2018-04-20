@@ -2,19 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="de3ed022-46e2-42c0-a4b5-f2b44ac82e7a" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/assets/javascript/_dev/animations.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/javascript/_dev/bootstrap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/javascript/_dev/header.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/javascript/_dev/imageComparison.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/javascript/_dev/jquery-google-reviews.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/javascript/_dev/locale.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/javascript/_dev/mapsInit.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/javascript/_dev/project-bootstrap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/javascript/_dev/vendor/TweenMax.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/javascript/_dev/vendor/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/javascript/_dev/vendor/jquery-1.11.3.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/projects/avz/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/projects/avz/1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/projects/avz/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/projects/avz/2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/projects/avz/3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/projects/avz/3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/projects/frankfort/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/projects/frankfort/1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/projects/frankfort/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/projects/frankfort/2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/projects/frankfort/3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/projects/frankfort/3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/projects/frankfort/4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/projects/frankfort/4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/projects/lamb/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/projects/lamb/1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/projects/lamb/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/projects/lamb/2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/projects/lamb/3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/projects/lamb/3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/projects/lamb/4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/projects/lamb/4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/projects/scelta/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/projects/scelta/1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/projects/scelta/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/projects/scelta/2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/projects/scelta/3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/projects/scelta/3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/projects/scelta/4.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/projects/scelta/4.JPG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/projects/strong/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/projects/strong/1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/projects/strong/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/projects/strong/2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/projects/strong/3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/projects/strong/3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/projects/strong/4.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/projects/strong/4.JPG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/projects/tomra/1.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/projects/tomra/1.JPG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/projects/tomra/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/projects/tomra/2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/projects/tomra/3.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/projects/tomra/3.JPG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/projects/tomra/4.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/projects/tomra/4.JPG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/projects/tomra/5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/projects/tomra/5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/projects/toshiba/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/projects/toshiba/1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/projects/toshiba/3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/projects/toshiba/3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/json/content.json" beforeDir="false" afterPath="$PROJECT_DIR$/assets/json/content.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -31,17 +45,17 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="968">
+            <state relative-caret-position="1186">
               <caret line="480" column="40" selection-start-line="480" selection-start-column="40" selection-end-line="480" selection-end-column="40" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="projects.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="projects.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/projects.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1029">
-              <caret line="150" column="39" selection-start-line="150" selection-start-column="39" selection-end-line="150" selection-end-column="39" />
+            <state relative-caret-position="502">
+              <caret line="119" column="71" selection-start-line="119" selection-start-column="71" selection-end-line="119" selection-end-column="71" />
             </state>
           </provider>
         </entry>
@@ -82,15 +96,18 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="content.json" pinned="false" current-in-tab="false">
+      <file leaf-file-name="content.json" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/json/content.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="186">
-              <caret line="753" column="37" selection-start-line="753" selection-start-column="37" selection-end-line="753" selection-end-column="37" />
+            <state relative-caret-position="51">
+              <caret line="1245" column="5" selection-start-line="1245" selection-start-column="5" selection-end-line="1245" selection-end-column="5" />
               <folding>
                 <element signature="n#!!block;n#nl#0;n#!!top" />
+                <element signature="n#!!block;n#content#0;n#!!block;n#homepage#0;n#!!block;n#pages#0;n#!!block;n#nl#0;n#!!top" />
+                <element signature="n#!!block;n#footer#0;n#!!block;n#homepage#0;n#!!block;n#pages#0;n#!!block;n#nl#0;n#!!top" />
                 <element signature="e#14642#22001#0" />
                 <element signature="n#!!block;n#nl#1;n#!!top" />
+                <element signature="n#!!block;n#nl#2;n#!!top" />
               </folding>
             </state>
           </provider>
@@ -136,10 +153,10 @@
         <option value="$PROJECT_DIR$/assets/stylesheets/sass/_caseStudies.sass" />
         <option value="$PROJECT_DIR$/assets/stylesheets/sass/_header.sass" />
         <option value="$PROJECT_DIR$/assets/javascript/_dev/locale.js" />
-        <option value="$PROJECT_DIR$/assets/json/content.json" />
         <option value="$PROJECT_DIR$/assets/stylesheets/sass/_about.sass" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/projects.html" />
+        <option value="$PROJECT_DIR$/assets/json/content.json" />
       </list>
     </option>
   </component>
@@ -232,12 +249,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1524145066849</updated>
-      <workItem from="1524145068026" duration="8032000" />
+      <workItem from="1524145068026" duration="9237000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8032000" />
+    <option name="totallyTimeSpent" value="9237000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="3832" y="-8" width="2576" height="1416" extended-state="6" />
@@ -375,29 +392,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/json/content.json">
+    <entry file="file://$PROJECT_DIR$/projects.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="753" column="37" selection-start-line="753" selection-start-column="37" selection-end-line="753" selection-end-column="37" />
-          <folding>
-            <element signature="n#!!block;n#nl#0;n#!!top" />
-            <element signature="e#14642#22001#0" />
-            <element signature="n#!!block;n#nl#1;n#!!top" />
-          </folding>
+        <state relative-caret-position="502">
+          <caret line="119" column="71" selection-start-line="119" selection-start-column="71" selection-end-line="119" selection-end-column="71" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="968">
+        <state relative-caret-position="1186">
           <caret line="480" column="40" selection-start-line="480" selection-start-column="40" selection-end-line="480" selection-end-column="40" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/projects.html">
+    <entry file="file://$PROJECT_DIR$/assets/json/content.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1029">
-          <caret line="150" column="39" selection-start-line="150" selection-start-column="39" selection-end-line="150" selection-end-column="39" />
+        <state relative-caret-position="51">
+          <caret line="1245" column="5" selection-start-line="1245" selection-start-column="5" selection-end-line="1245" selection-end-column="5" />
+          <folding>
+            <element signature="n#!!block;n#nl#0;n#!!top" />
+            <element signature="n#!!block;n#content#0;n#!!block;n#homepage#0;n#!!block;n#pages#0;n#!!block;n#nl#0;n#!!top" />
+            <element signature="n#!!block;n#footer#0;n#!!block;n#homepage#0;n#!!block;n#pages#0;n#!!block;n#nl#0;n#!!top" />
+            <element signature="e#14642#22001#0" />
+            <element signature="n#!!block;n#nl#1;n#!!top" />
+            <element signature="n#!!block;n#nl#2;n#!!top" />
+          </folding>
         </state>
       </provider>
     </entry>
