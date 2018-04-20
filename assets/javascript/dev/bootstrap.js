@@ -14,42 +14,13 @@ $(function () {
         , step = 0
         , scroll = 0
         , hasSnapped = false
-        , navIsOpen = false
-        , viewPortOffset = $(window).scrollTop()
-        , mobileNav = $('#nav > ul')
         , methodItem = $('.method-item')
         , methodContent = $('.fadeIn')
         , isMobile = window.orientation > -1 && screen.width <= 640
-        , hamburgerElem = $('.hamburger')
         , is_iPad = navigator.userAgent.match(/iPad/i) != null;
-
-    fixNav(viewPortOffset);
 
 
     //********* Event Handlers
-
-
-    $('.contact-btn').on('click', function(){
-        var footerOffset = $('footer').offset().top;
-        $("html, body").animate({ scrollTop: footerOffset });
-    });
-
-    $('#nav li a').on('click', function(e){
-        e.preventDefault();
-        var link = $(this).attr('href');
-        if(link.indexOf('.') !== -1) {
-            window.location.href = link;
-        } else {
-            var linkPos = $(link).offset().top;
-            $("html, body").animate({ scrollTop: linkPos });
-        }
-
-        if (navIsOpen) {
-            hamburgerElem.removeClass("is-active");
-            mobileNav.removeClass("open");
-            navIsOpen = false;
-        }
-    });
 
     $(window).on('mousewheel DOMMouseScroll touchmove', function() {
         hasScrolled = true;
@@ -74,15 +45,15 @@ $(function () {
             , toggleClassName = 'active'
             , visibleClassName = 'show';
 
-        if (methodContainer.visible(true)) {
+        if (methodContainer.isOnScreen()) {
             methodContainer.addClass(visibleClassName);
         }
 
-        if (aboutContainer.visible(true)) {
+        if (aboutContainer.isOnScreen()) {
             aboutContainer.addClass(visibleClassName);
         }
 
-        if(CaseStudyContainer.visible(true)){
+        if(CaseStudyContainer.isOnScreen()){
             CaseStudyContainer.addClass(visibleClassName);
         }
 
@@ -129,12 +100,6 @@ $(function () {
             });
         });
 
-        hamburgerElem.click(function(){
-            $(this).toggleClass("is-active");
-            mobileNav.toggleClass("open");
-            navIsOpen = true;
-        });
-
         $(window).on('scroll', function(){
             scroll = ~~$(this).scrollTop();
 
@@ -146,8 +111,6 @@ $(function () {
 
             getDirection(scroll, lastScrollTop, function(direction, scroll){
                 lastScrollTop = scroll;
-
-                fixNav(scroll);
 
                 if(scroll && hasScrolled && !isMobile && viewPortWidth > 1200 && !is_iPad) {
                     if(direction === 'down') {
@@ -223,6 +186,12 @@ $(function () {
     }
 });
 
+$.fn.isOnScreen = function(){
+    var element = this.get(0);
+    var bounds = element.getBoundingClientRect();
+    return bounds.top < window.innerHeight && bounds.bottom > 0;
+}
+
 function getDirection (scroll, lastScrollTop, callback){
     var direction = null
         , delta = 5;
@@ -239,8 +208,8 @@ function getDirection (scroll, lastScrollTop, callback){
     callback(direction, scroll);
 }
 
-
-
+// This function showed the appropriate bubble
+// currently not used as the scrolling function is disabled
 function handleMethodScroll(step){
     var toggleClassName = 'method'
         , fadeInElemClass = '.fadeIn'
@@ -281,57 +250,3 @@ function handleMethodScroll(step){
         $(methodElem+evalElemClass).addClass(toggleClassName);
     }
 }
-
-function fixNav(scroll){
-    var nav = $("#nav");
-    if (scroll >= 500) {
-        nav.addClass("fixed");
-    } else {
-        nav.removeClass("fixed");
-    }
-}
-
-
-
-/*
-function handleImageScroll(scroll, direction){
-    var imageScroll = $(".image-scroll-wrapper")
-        , foregroundImageOffset = $('.foreground-image').offset().top
-        , scrollContainerOffsetTop = imageScroll.offset().top
-        , methodContainer = $('#method')
-        , methodContainerOffset = methodContainer.offset().top
-        , aboutContainer = $('#about')
-        , aboutContainerOffset = aboutContainer.offset().top
-        , mobileNav = $('#nav ul')
-        , hamburgerElem = $('.hamburger');
-
-    if(direction === 'down') {
-        //on
-        if (scroll > scrollContainerOffsetTop) {
-            imageScroll.addClass('fixed');
-        }
-
-        //off
-        if (foregroundImageOffset === scrollContainerOffsetTop) {
-            imageScroll.removeClass('fixed');
-        }
-    }
-
-    if(direction === 'up') {
-        //off
-        if (scroll < scrollContainerOffsetTop) {
-            imageScroll.removeClass('fixed');
-        }
-    }
-
-    // show sections
-    if (scroll >= methodContainerOffset) {
-        methodContainer.addClass('show');
-        aboutContainer.removeClass('show');
-    }
-
-    if (scroll >= aboutContainerOffset) {
-        aboutContainer.addClass('show');
-    }
-}
-*/

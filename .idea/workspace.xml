@@ -2,7 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="de3ed022-46e2-42c0-a4b5-f2b44ac82e7a" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/assets/stylesheets/sass/_values.sass" beforeDir="false" afterPath="$PROJECT_DIR$/assets/stylesheets/sass/_values.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/javascript/dev/cookies.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/javascript/compressed.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/javascript/compressed.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/javascript/compressed_projects.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/javascript/compressed_projects.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/javascript/dev/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/javascript/dev/bootstrap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/javascript/dev/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/javascript/dev/header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/javascript/dev/locale.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/javascript/dev/locale.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/json/content.json" beforeDir="false" afterPath="$PROJECT_DIR$/assets/json/content.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -19,8 +26,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="934">
-              <caret line="457" column="65" lean-forward="true" selection-start-line="457" selection-start-column="65" selection-end-line="457" selection-end-column="65" />
+            <state relative-caret-position="203">
+              <caret line="396" column="130" lean-forward="true" selection-start-line="396" selection-start-column="130" selection-end-line="396" selection-end-column="130" />
             </state>
           </provider>
         </entry>
@@ -28,7 +35,7 @@
       <file leaf-file-name="projects.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/projects.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1063">
+            <state relative-caret-position="1230">
               <caret line="145" column="61" selection-start-line="145" selection-start-column="61" selection-end-line="145" selection-end-column="61" />
             </state>
           </provider>
@@ -43,46 +50,63 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_method.sass" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/stylesheets/sass/_method.sass">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="850">
-              <caret line="71" column="46" selection-start-line="71" selection-start-column="46" selection-end-line="71" selection-end-column="46" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_values.sass" pinned="false" current-in-tab="true">
+      <file leaf-file-name="_values.sass" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/stylesheets/sass/_values.sass">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="14" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
+            <state relative-caret-position="323">
+              <caret line="19" column="26" lean-forward="true" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_caseStudies.sass" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/stylesheets/sass/_caseStudies.sass">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="697">
-              <caret line="151" column="17" selection-start-line="151" selection-start-column="17" selection-end-line="151" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="content.json" pinned="false" current-in-tab="false">
+      <file leaf-file-name="content.json" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/json/content.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="1247" lean-forward="true" selection-start-line="1247" selection-end-line="1247" />
+            <state relative-caret-position="1054">
+              <caret line="1105" column="69" selection-start-line="1105" selection-start-column="69" selection-end-line="1105" selection-end-column="69" />
               <folding>
                 <element signature="n#!!block;n#nl#0;n#!!top" />
                 <element signature="n#!!block;n#content#0;n#!!block;n#homepage#0;n#!!block;n#pages#0;n#!!block;n#nl#0;n#!!top" />
-                <element signature="n#!!block;n#footer#0;n#!!block;n#homepage#0;n#!!block;n#pages#0;n#!!block;n#nl#0;n#!!top" />
-                <element signature="e#14642#22001#0" />
                 <element signature="n#!!block;n#nl#1;n#!!top" />
-                <element signature="n#!!block;n#nl#2;n#!!top" />
+                <element signature="n#!!block;n#homepage#0;n#!!block;n#pages#0;n#!!block;n#nl#1;n#!!top" />
+                <element signature="n#!!block;n#homepage#0;n#!!block;n#pages#0;n#!!block;n#nl#2;n#!!top" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bootstrap.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/javascript/dev/bootstrap.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="locale.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/javascript/dev/locale.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2754">
+              <caret line="162" column="7" selection-start-line="162" selection-start-column="7" selection-end-line="162" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cookies.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/javascript/dev/cookies.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="36" lean-forward="true" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/javascript/dev/header.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="969">
+              <caret line="57" column="41" selection-start-line="57" selection-start-column="41" selection-end-line="57" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -108,6 +132,7 @@
       <find>video</find>
       <find>content-method-hoverLabel</find>
       <find>hover</find>
+      <find>animationIncrements</find>
       <find>enterpr</find>
     </findStrings>
   </component>
@@ -126,11 +151,15 @@
         <option value="$PROJECT_DIR$/assets/stylesheets/sass/_caseStudies.sass" />
         <option value="$PROJECT_DIR$/assets/stylesheets/sass/_header.sass" />
         <option value="$PROJECT_DIR$/assets/javascript/_dev/locale.js" />
-        <option value="$PROJECT_DIR$/assets/json/content.json" />
         <option value="$PROJECT_DIR$/projects.html" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/assets/stylesheets/sass/_about.sass" />
         <option value="$PROJECT_DIR$/assets/stylesheets/sass/_values.sass" />
+        <option value="$PROJECT_DIR$/assets/javascript/dev/cookies.js" />
+        <option value="$PROJECT_DIR$/assets/javascript/dev/locale.js" />
+        <option value="$PROJECT_DIR$/assets/javascript/dev/header.js" />
+        <option value="$PROJECT_DIR$/assets/javascript/dev/bootstrap.js" />
+        <option value="$PROJECT_DIR$/assets/json/content.json" />
       </list>
     </option>
   </component>
@@ -230,12 +259,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1524145066849</updated>
-      <workItem from="1524145068026" duration="10239000" />
+      <workItem from="1524145068026" duration="12944000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10239000" />
+    <option name="totallyTimeSpent" value="12944000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="3832" y="-8" width="2576" height="1416" extended-state="6" />
@@ -359,35 +388,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/json/content.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="1247" lean-forward="true" selection-start-line="1247" selection-end-line="1247" />
-          <folding>
-            <element signature="n#!!block;n#nl#0;n#!!top" />
-            <element signature="n#!!block;n#content#0;n#!!block;n#homepage#0;n#!!block;n#pages#0;n#!!block;n#nl#0;n#!!top" />
-            <element signature="n#!!block;n#footer#0;n#!!block;n#homepage#0;n#!!block;n#pages#0;n#!!block;n#nl#0;n#!!top" />
-            <element signature="e#14642#22001#0" />
-            <element signature="n#!!block;n#nl#1;n#!!top" />
-            <element signature="n#!!block;n#nl#2;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projects.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1063">
-          <caret line="145" column="61" selection-start-line="145" selection-start-column="61" selection-end-line="145" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="934">
-          <caret line="457" column="65" lean-forward="true" selection-start-line="457" selection-start-column="65" selection-end-line="457" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/stylesheets/sass/_about.sass">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -397,8 +397,64 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/stylesheets/sass/_values.sass">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="14" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
+        <state relative-caret-position="323">
+          <caret line="19" column="26" lean-forward="true" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/javascript/dev/locale.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2754">
+          <caret line="162" column="7" selection-start-line="162" selection-start-column="7" selection-end-line="162" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/javascript/dev/header.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="969">
+          <caret line="57" column="41" selection-start-line="57" selection-start-column="41" selection-end-line="57" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/javascript/dev/cookies.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="36" lean-forward="true" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/javascript/dev/bootstrap.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="396" column="130" lean-forward="true" selection-start-line="396" selection-start-column="130" selection-end-line="396" selection-end-column="130" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1230">
+          <caret line="145" column="61" selection-start-line="145" selection-start-column="61" selection-end-line="145" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/json/content.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1054">
+          <caret line="1105" column="69" selection-start-line="1105" selection-start-column="69" selection-end-line="1105" selection-end-column="69" />
+          <folding>
+            <element signature="n#!!block;n#nl#0;n#!!top" />
+            <element signature="n#!!block;n#content#0;n#!!block;n#homepage#0;n#!!block;n#pages#0;n#!!block;n#nl#0;n#!!top" />
+            <element signature="n#!!block;n#nl#1;n#!!top" />
+            <element signature="n#!!block;n#homepage#0;n#!!block;n#pages#0;n#!!block;n#nl#1;n#!!top" />
+            <element signature="n#!!block;n#homepage#0;n#!!block;n#pages#0;n#!!block;n#nl#2;n#!!top" />
+          </folding>
         </state>
       </provider>
     </entry>
