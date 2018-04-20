@@ -2,33 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="de3ed022-46e2-42c0-a4b5-f2b44ac82e7a" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/assets/images/projects/avz/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/projects/avz/1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/projects/avz/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/projects/avz/2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/projects/avz/3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/projects/avz/3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/projects/frankfort/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/projects/frankfort/1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/projects/frankfort/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/projects/frankfort/2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/projects/frankfort/3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/projects/frankfort/3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/projects/frankfort/4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/projects/frankfort/4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/projects/lamb/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/projects/lamb/1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/projects/lamb/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/projects/lamb/2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/projects/lamb/3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/projects/lamb/3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/projects/lamb/4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/projects/lamb/4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/projects/scelta/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/projects/scelta/1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/projects/scelta/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/projects/scelta/2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/projects/scelta/3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/projects/scelta/3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/projects/scelta/4.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/projects/scelta/4.JPG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/projects/strong/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/projects/strong/1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/projects/strong/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/projects/strong/2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/projects/strong/3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/projects/strong/3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/projects/strong/4.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/projects/strong/4.JPG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/projects/tomra/1.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/projects/tomra/1.JPG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/projects/tomra/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/projects/tomra/2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/projects/tomra/3.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/projects/tomra/3.JPG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/projects/tomra/4.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/projects/tomra/4.JPG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/projects/tomra/5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/projects/tomra/5.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/projects/toshiba/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/projects/toshiba/1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/projects/toshiba/3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/projects/toshiba/3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/json/content.json" beforeDir="false" afterPath="$PROJECT_DIR$/assets/json/content.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.sass-cache/4d832b0bccd74520a9847119988e88e6d7a2e033/_about.sassc" beforeDir="false" afterPath="$PROJECT_DIR$/.sass-cache/4d832b0bccd74520a9847119988e88e6d7a2e033/_about.sassc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.sass-cache/4d832b0bccd74520a9847119988e88e6d7a2e033/_values.sassc" beforeDir="false" afterPath="$PROJECT_DIR$/.sass-cache/4d832b0bccd74520a9847119988e88e6d7a2e033/_values.sassc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/javascript/compressed.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/javascript/compressed.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/javascript/compressed_projects.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/javascript/compressed_projects.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/stylesheets/css/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/stylesheets/css/base.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/stylesheets/sass/_about.sass" beforeDir="false" afterPath="$PROJECT_DIR$/assets/stylesheets/sass/_about.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/stylesheets/sass/_values.sass" beforeDir="false" afterPath="$PROJECT_DIR$/assets/stylesheets/sass/_values.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -45,8 +27,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1186">
-              <caret line="480" column="40" selection-start-line="480" selection-start-column="40" selection-end-line="480" selection-end-column="40" />
+            <state relative-caret-position="934">
+              <caret line="457" column="65" lean-forward="true" selection-start-line="457" selection-start-column="65" selection-end-line="457" selection-end-column="65" />
             </state>
           </provider>
         </entry>
@@ -54,8 +36,8 @@
       <file leaf-file-name="projects.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/projects.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="502">
-              <caret line="119" column="71" selection-start-line="119" selection-start-column="71" selection-end-line="119" selection-end-column="71" />
+            <state relative-caret-position="1063">
+              <caret line="145" column="61" selection-start-line="145" selection-start-column="61" selection-end-line="145" selection-end-column="61" />
             </state>
           </provider>
         </entry>
@@ -81,8 +63,8 @@
       <file leaf-file-name="_values.sass" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/stylesheets/sass/_values.sass">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="27" column="26" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
+            <state relative-caret-position="17">
+              <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -96,11 +78,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="content.json" pinned="false" current-in-tab="true">
+      <file leaf-file-name="content.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/json/content.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="1245" column="5" selection-start-line="1245" selection-start-column="5" selection-end-line="1245" selection-end-column="5" />
+            <state relative-caret-position="85">
+              <caret line="1247" lean-forward="true" selection-start-line="1247" selection-end-line="1247" />
               <folding>
                 <element signature="n#!!block;n#nl#0;n#!!top" />
                 <element signature="n#!!block;n#content#0;n#!!block;n#homepage#0;n#!!block;n#pages#0;n#!!block;n#nl#0;n#!!top" />
@@ -113,11 +95,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_about.sass" pinned="false" current-in-tab="false">
+      <file leaf-file-name="_about.sass" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/stylesheets/sass/_about.sass">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+            <state relative-caret-position="1060">
+              <caret line="95" column="27" selection-start-line="95" selection-start-column="27" selection-end-line="95" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -144,7 +126,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/assets/stylesheets/sass/_loading.sass" />
-        <option value="$PROJECT_DIR$/assets/stylesheets/sass/_values.sass" />
         <option value="$PROJECT_DIR$/assets/javascript/_dev/project-bootstrap.js" />
         <option value="$PROJECT_DIR$/assets/stylesheets/sass/_carousel.sass" />
         <option value="$PROJECT_DIR$/assets/stylesheets/sass/_projects.sass" />
@@ -153,10 +134,11 @@
         <option value="$PROJECT_DIR$/assets/stylesheets/sass/_caseStudies.sass" />
         <option value="$PROJECT_DIR$/assets/stylesheets/sass/_header.sass" />
         <option value="$PROJECT_DIR$/assets/javascript/_dev/locale.js" />
-        <option value="$PROJECT_DIR$/assets/stylesheets/sass/_about.sass" />
-        <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/projects.html" />
         <option value="$PROJECT_DIR$/assets/json/content.json" />
+        <option value="$PROJECT_DIR$/assets/stylesheets/sass/_values.sass" />
+        <option value="$PROJECT_DIR$/projects.html" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/assets/stylesheets/sass/_about.sass" />
       </list>
     </option>
   </component>
@@ -194,6 +176,13 @@
               <item name="expo-mate.github.io" type="462c0819:PsiDirectoryNode" />
               <item name="assets" type="462c0819:PsiDirectoryNode" />
               <item name="javascript" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="expo-mate.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="expo-mate.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="javascript" type="462c0819:PsiDirectoryNode" />
+              <item name="dev" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="expo-mate.github.io" type="b2602c69:ProjectViewProjectNode" />
@@ -249,12 +238,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1524145066849</updated>
-      <workItem from="1524145068026" duration="9237000" />
+      <workItem from="1524145068026" duration="10020000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9237000" />
+    <option name="totallyTimeSpent" value="10020000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="3832" y="-8" width="2576" height="1416" extended-state="6" />
@@ -354,13 +343,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/stylesheets/sass/_values.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="26" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/stylesheets/sass/_caseStudies.sass">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="697">
@@ -385,31 +367,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/stylesheets/sass/_about.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projects.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="502">
-          <caret line="119" column="71" selection-start-line="119" selection-start-column="71" selection-end-line="119" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1186">
-          <caret line="480" column="40" selection-start-line="480" selection-start-column="40" selection-end-line="480" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/json/content.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="1245" column="5" selection-start-line="1245" selection-start-column="5" selection-end-line="1245" selection-end-column="5" />
+        <state relative-caret-position="85">
+          <caret line="1247" lean-forward="true" selection-start-line="1247" selection-end-line="1247" />
           <folding>
             <element signature="n#!!block;n#nl#0;n#!!top" />
             <element signature="n#!!block;n#content#0;n#!!block;n#homepage#0;n#!!block;n#pages#0;n#!!block;n#nl#0;n#!!top" />
@@ -418,6 +379,34 @@
             <element signature="n#!!block;n#nl#1;n#!!top" />
             <element signature="n#!!block;n#nl#2;n#!!top" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/stylesheets/sass/_values.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1063">
+          <caret line="145" column="61" selection-start-line="145" selection-start-column="61" selection-end-line="145" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="934">
+          <caret line="457" column="65" lean-forward="true" selection-start-line="457" selection-start-column="65" selection-end-line="457" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/stylesheets/sass/_about.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1060">
+          <caret line="95" column="27" selection-start-line="95" selection-start-column="27" selection-end-line="95" selection-end-column="27" />
         </state>
       </provider>
     </entry>
