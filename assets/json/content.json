@@ -65,7 +65,7 @@
                                 "src": "assets/images/2.jpg"
                             },
                             "title": "ONZE MISSIE & VISIE",
-                            "description": "<h3>Onze missie</h3> Onze missie is om uw beursdeelname succesvoller, effici&euml;nter en gemakkerlijker te maken. <h3>Onze Visie</h3> EXPO-MATE wil het meest gewaardeerde full service project management bureau zijn binnen de branche en marktleider op het gebied van kwaliteit. Het cre&euml;ren van authentieke, innovatieve en milieubewuste op maat gemaakte projecten zorgt ervoor dat onze klanten meer dan hun (beurs)doelstellingen bereiken. Door onze manier van werken zijn onze klanten niet alleen tevreden met het eindresultaat, maar ook met het totale proces dat daar naartoe leidt. Hierdoor zijn klanten niet langer klanten maar zijn het onze ambassadeurs."
+                            "description": "<p>De kapstok van EXPO-MATE. Alles wat we doen is afgeleid van ons bestaansrecht en onze droom; onze missie en visie.</p><h3>Onze missie</h3> <p>Beursdeelnames succesvoller, efficiënter en gemakkelijker maken. </p><h3>Onze Visie</h3> <p>EXPO-MATE wil het meest gewaardeerde full service project management bureau zijn binnen de branche en marktleider op het gebied van kwaliteit. Het cre&euml;ren van authentieke, innovatieve en milieubewuste op maat gemaakte projecten zorgt ervoor dat onze klanten meer dan hun (beurs)doelstellingen bereiken. Door onze manier van werken zijn onze klanten niet alleen tevreden met het eindresultaat, maar ook met het totale proces dat daar naartoe leidt. Hierdoor zijn klanten niet langer klanten maar zijn het onze ambassadeurs.</p>"
                         }
                     },
                     "aboutUs": {
@@ -137,12 +137,12 @@
                             "src": "assets/images/model.jpg"
                         },
                         "title": "Het EXPO-MATE model – van introductie naar design",
-                        "description": "In onze optiek de belangrijkste stap in het gehele proces. Door tijd te investeren en kennis te delen in het begin van het proces, hoeven er geen aannames te worden gedaan bij het ontwerp van het concept, maar gaat om datgene wat telt: Integreren van uw identiteit, wensen en behoeftes als beursdeelnemer. EXPO-MATE heeft een eigen -uniek- model ontwikkeld dat ons in staat stelt om uw belangrijkste organisatie kenmerken/waardes en uw identiteit concreet te verwerken in het ontwerp voorstel. Wij geloven erin dat alleen dan de hoogste return on investment kan worden behaald. We komen dit model graag gedetailleerd aan u uitleggen en met u in de praktijk brengen."
+                        "description": "EXPO-MATE model – van introductie naar design In onze optiek de belangrijkste stap in het gehele proces. Door tijd te investeren en kennis te delen in het begin van het proces, hoeven er geen aannames te worden gedaan bij het ontwerp van het concept, maar gaat om datgene wat telt: Integreren van uw identiteit, wensen en behoeftes als beursdeelnemer. EXPO-MATE heeft een eigen -uniek- model ontwikkeld dat ons in staat stelt om de belangrijkste organisatie kenmerken/waardes en identiteit concreet te verwerken in het ontwerpvoorstel. Wij geloven erin dat alleen dan de hoogste return on investment kan worden behaald. We komen dit model graag gedetailleerd uitleggen en gezamenlijk in de praktijk brengen."
 
                     },
                     "projects": {
                         "tile": "ONZE PROJECTEN",
-                        "description": "Innovatief en authentiek. Dat zijn de sleutelwoorden van onze ontwerpen. Iedere stand is custom made ontworpen en gebouwd conform de hoogste kwaliteit. Bekijk hier enkele voorbeelden van door ons ontworpen en gerealiseerde stands. Bent u benieuwd wat we voor u kunnen ontwerpen? Neem dan gerust contact met ons op!",
+                        "description": "Innovatief en authentiek. Dat zijn de sleutelwoorden van onze ontwerpen. Iedere stand is custom made ontworpen en gebouwd conform de hoogste kwaliteit. Bekijk hier enkele voorbeelden van door ons ontworpen en gerealiseerde stands. Benieuwd naar wat we voor uw organisatie kunnen betekenen? Neem dan gerust contact met ons op!",
                         "quote": "We hebben al op veel beurzen gestaan, maar nog nooit was een deelname zo goed georganiseerd, en de stand zo mooi!",
                         "author": "Jan Smolders",
                         "comparisonHeader": "Van design naar realisatie",
@@ -270,7 +270,7 @@
                 {
                     "title": "Tomra Food Sorting NV",
                     "subTitle": "Programma 2018",
-                    "description": "Vraagstelling: Standing out from the rest, clean en stopping power wilde Tomra graag terug zien. Omdat het een programma betreft moeten de materialen zoveel mogelijk her gebruikt kunnen worden.",
+                    "description": "Vraagstelling: Outstanding design, clean en stopping power wilde Tomra graag terugzien in hun beursprogramma. Het modulair bouwen was noodzakelijk vanwege het programma dat Tomra draait en de verschillende stand groottes die men geboekt heeft. Uitwisselbaar grafisch zodat elke productgroep gecommuniceerd kan worden",
                     "images": [
                         {
                             "src": "assets/images/projects/tomra/tom-1.jpg",
@@ -351,7 +351,7 @@
                 {
                     "title": "Frankort & Koning BV",
                     "subTitle": "Fruit Logistica Berlijn 2017-2019",
-                    "description": "Vraagstelling: Men wilde een nieuwe stand die voor alle beurzen modulair te bouwen is. Dezelfde look en feel waarbij hun producten worden gepresenteerd, zowel grafisch als door middel van live cooking. ",
+                    "description": "Vraagstelling: Verwelkomen van voornamelijk bestaande relaties en hen een welkom gevoel geven. Mogelijkheden tot aanbieden van een drankje en een hapje. Een stand waarop men zich uitgenodigd voelt en er ruimte is om een goed, informeel gesprek met elkaar aan te gaan.",
                     "images": [
                         {
                             "src": "assets/images/projects/frankfort/1.jpg",
@@ -371,7 +371,7 @@
                 {
                     "title": "Strong TV",
                     "subTitle": "ANGA Keulen, IFA Berlijn",
-                    "description": "Vraagstelling: Men wilde een nieuwe stand die voor alle beurzen modulair te bouwen is. Dezelfde look en feel waarbij hun producten worden gepresenteerd, zowel grafisch als door middel van live cooking. ",
+                    "description": "Vraagstelling: Presentatie van verschillende productgroepen waar naast de tv’s ook ruimte is om de receivers en de diverse Wifi-oplossingen te presenteren. Een open stand waarop ruimte is om de diverse bezoekers te kunnen begroeten. ",
                     "images": [
                         {
                             "src": "assets/images/projects/strong/2.jpg",
