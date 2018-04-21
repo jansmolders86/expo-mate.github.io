@@ -319,14 +319,6 @@
   background-position: right top;
   min-height: 50vh;
 }
-@media screen and (max-width: 768px) and (orientation: landscape) {
-  /* line 100, ../sass/_about.sass */
-  #about .left-container .tile-image,
-  #about .right-container .tile-image, #model .left-container .tile-image,
-  #model .right-container .tile-image {
-    min-height: 650px;
-  }
-}
 @media only screen and (max-width: 1199px) {
   /* line 100, ../sass/_about.sass */
   #about .left-container .tile-image,
@@ -341,6 +333,14 @@
   #about .right-container .tile-image, #model .left-container .tile-image,
   #model .right-container .tile-image {
     background-position: 0 -50px;
+  }
+}
+@media screen and (max-width: 768px) and (orientation: landscape) {
+  /* line 100, ../sass/_about.sass */
+  #about .left-container .tile-image,
+  #about .right-container .tile-image, #model .left-container .tile-image,
+  #model .right-container .tile-image {
+    min-height: 650px;
   }
 }
 /* line 111, ../sass/_about.sass */
@@ -980,7 +980,7 @@ section.content .secondary-offset-bg-color {
 #header .background-video .screen video {
   vertical-align: bottom;
 }
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 1199px) {
   /* line 11, ../sass/_header.sass */
   #header .background-wrapper,
   #header .background-video {
