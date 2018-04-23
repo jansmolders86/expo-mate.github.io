@@ -340,7 +340,7 @@
   #about .left-container .tile-image,
   #about .right-container .tile-image, #model .left-container .tile-image,
   #model .right-container .tile-image {
-    min-height: 650px;
+    min-height: 40vh;
   }
 }
 /* line 111, ../sass/_about.sass */
