@@ -144,20 +144,20 @@ $(function(){
             $body.find("[data-content='footer-contacts-jan-title']").html(footer.contacts.jan.title);
             $body.find("[data-content='footer-contacts-jan-email']").attr('href', footer.contacts.jan.links.email.src).html(footer.contacts.jan.links.email.title);
             $body.find("[data-content='footer-contacts-linkedin-jan']").attr('href', footer.contacts.jan.links.linkedin.src);
-            $body.find("[data-content='footer-contacts-linkedin-jan-title']").attr('href', footer.contacts.jan.links.linkedin.title);
+            $body.find("[data-content='footer-contacts-linkedin-jan-title']").html( footer.contacts.jan.links.linkedin.title);
             $body.find("[data-content='footer-contacts-call-jan-phone']").attr('href', footer.contacts.jan.phone);
 
             $body.find("[data-content='footer-contacts-niek-title']").html(footer.contacts.niek.title);
             $body.find("[data-content='footer-contacts-niek-email']").attr('href', footer.contacts.niek.links.email.src).html(footer.contacts.niek.links.email.title);
             $body.find("[data-content='footer-contacts-linkedin-niek']").attr('href', footer.contacts.niek.links.linkedin.src);
-            $body.find("[data-content='footer-contacts-linkedin-niek-title']").attr('href', footer.contacts.niek.links.linkedin.title);
+            $body.find("[data-content='footer-contacts-linkedin-niek-title']").html(footer.contacts.niek.links.linkedin.title);
             $body.find("[data-content='footer-contacts-call-niek-phone']").attr('href', footer.contacts.niek.phone);
 
-            $body.find("[data-content='footer-contacts-phone-header']").attr('href', footer.phone.header);
-            $body.find("[data-content='footer-contacts-visit-header']").attr('href', footer.visit.header);
+            $body.find("[data-content='footer-contacts-phone-header']").html(footer.phone.header);
+            $body.find("[data-content='footer-contacts-visit-header']").html(footer.visit.header);
 
-            $body.find("[data-content='footer-contacts-visit-desc']").attr('href', footer.visit.description);
-            $body.find("[data-content='footer-copyright-desc']").attr('href', footer.copyright.description);
+            $body.find("[data-content='footer-contacts-visit-desc']").html(footer.visit.description);
+            $body.find("[data-content='footer-copyright-desc']").html(footer.copyright.description);
         }
 
     });
