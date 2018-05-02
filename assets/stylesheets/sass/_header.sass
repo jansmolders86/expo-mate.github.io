@@ -72,24 +72,6 @@
       +respond-max-width(xs)
         margin: 10px auto
         font-size: 3em
-.dark
-  #header
-    .background-type
-      +respond-min-width(md)
-        &:after
-          content: ''
-          position: absolute
-          bottom: 0
-          left: 0
-          width: 100%
-          height: 350px
-          background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(20,21,25,1) 100%)
-          z-index: 0
-      @media screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape)
-        &:after
-          display: none
-    .background-wrapper
-      opacity: .4
 
 .close-btn
   position: absolute
@@ -100,7 +82,7 @@
     top: -54px
   border-radius: 0
   cursor: pointer
-  z-index: 1
+  z-index: 999
   background: $cta-color
   padding: 13px
   i
@@ -115,6 +97,7 @@
     opacity: 1
     visibility: visible
     pointer-events: all
+    z-index: 99
 
 .logo
   width: 100%

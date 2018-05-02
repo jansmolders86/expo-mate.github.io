@@ -82,7 +82,7 @@
                             },
                             "jan": {
                                 "title": "Jan Maas",
-                                "description": "Na 10 jaar werkzaam geweest te zijn als Project- en Accountmanager bij twee bedrijven die beiden actief zijn in de beurzen industrie, vond ik dat persoonlijke aandacht en echt luisteren naar de wensen van de klant het allerbelangrijkste is.  Om deze reden ben ik EXPO-MATE gestart. Door de ervaring op commercieel én technisch gebied kunnen we als volledig klankbord naar onze klanten acteren en hun tijdens het volledige proces ontzorgen. Gezamenlijk de (beurs) doelstellingen bereiken middels een prettige en persoonlijke samenwerking is waar ik voor sta! ",
+                                "description": "Na 10 jaar werkzaam geweest te zijn als Project- en Accountmanager bij twee bedrijven binnen de beurzen industrie, ben ik van mening dat persoonlijke aandacht en echt luisteren naar de wensen van de klant het allerbelangrijkste is.Dit was de belangrijkste reden om EXPO-MATE te starten. Door de ervaring op commercieel én technisch gebied kunnen we als volledig klankbord naar onze klanten acteren en hen tijdens het volledige proces ontzorgen. Gezamenlijk de (beurs) doelstellingen bereiken middels een prettige en persoonlijke samenwerking is waar ik voor sta!",
                                 "image": {
                                     "src": "assets/images/jan.jpg",
                                     "alt": "Jan Maas"
@@ -92,7 +92,7 @@
                     },
                     "values": {
                         "title": "ONZE KERNWAARDES",
-                        "description": "Of we een adviesgesprek voeren, een ontwerp presenteren, of de uiteindelijke stand aan u opleveren, alles wat we doen is gebaseerd op onze kernwaardes welke hieronder zijn weergegeven.",
+                        "description": "Of we een adviesgesprek voeren, een ontwerp presenteren, of de uiteindelijke stand opleveren, alles wat we doen is gebaseerd op onze kernwaardes welke hieronder zijn weergegeven.",
                         "image": {
                             "src": "assets/images/wall.jpg"
                         },
@@ -164,7 +164,7 @@
                             "label": "Onze Projecten"
                         },
                         "project1": {
-                            "title": "Borusan",
+                            "title": "Borusan Mannesmann",
                             "button": "Bekijk",
                             "image": {
                                 "src": "assets/images/projects/borusan/1.jpg",
@@ -224,7 +224,7 @@
                     },
                     "visit": {
                         "header": "Bezoek Ons",
-                        "description": "Garnizoenweg 3 <br/>  Building A <br/> 5928 NA Venlo <br/> The Netherlands"
+                        "description": "Garnizoenweg 3 <br/> Building A <br/> PO Box 8064 <br/> 5928 NA Venlo <br/> The Netherlands"
                     },
                     "copyright": {
                         "description": "Copyright 2018, Expo-Mate - None of the Images on the website are owned or affiliated with Expo-mate and are copyrighted by their respectful owners."
@@ -233,29 +233,29 @@
             },
             "projects": [
                 {
-                    "title": "Borusan",
-                    "subTitle": "Borusan",
-                    "description": "Vraagstelling: Borusan",
+                    "title": "Borusan Mannesmann",
+                    "subTitle": "TUBE2018",
+                    "description": "Vraagstelling: Ontwikkelen van een beurs concept waarin Borusan Mannesmann de belangrijkste klanten kan ontvangen tijdens het 60 jarige bestaan. Prestige om het mooiste concept neer te zetten waarin bezoekers comfortabel wat kunnen eten en drinken. ",
                     "images": [
                         {
                             "src": "assets/images/projects/borusan/1.jpg",
-                            "alt": "Borusan"
+                            "alt": "Borusan Mannesmann"
                         },
                         {
                             "src": "assets/images/projects/borusan/2.jpg",
-                            "alt": "Borusan"
+                            "alt": "Borusan Mannesmann"
                         },
                         {
                             "src": "assets/images/projects/borusan/3.jpg",
-                            "alt": "Borusan"
+                            "alt": "Borusan Mannesmann"
                         },
                         {
                             "src": "assets/images/projects/borusan/4.jpg",
-                            "alt": "Borusan"
+                            "alt": "Borusan Mannesmann"
                         },
                         {
                             "src": "assets/images/projects/borusan/5.jpg",
-                            "alt": "Borusan"
+                            "alt": "Borusan Mannesmann"
                         },
                         {
                             "src": "assets/images/projects/borusan/6.jpg",
@@ -263,15 +263,15 @@
                         },
                         {
                             "src": "assets/images/projects/borusan/7.jpg",
-                            "alt": "Borusan"
+                            "alt": "Borusan Mannesmann"
                         },
                         {
                           "src": "assets/images/projects/borusan/8.jpg",
-                          "alt": "Borusan"
+                          "alt": "Borusan Mannesmann"
                         },
                         {
                           "src": "assets/images/projects/borusan/9.jpg",
-                          "alt": "Borusan"
+                          "alt": "Borusan Mannesmann"
                         }
                     ]
                 },
@@ -313,7 +313,7 @@
                 {
                     "title": "Lamb Weston/Meijer",
                     "subTitle": "Casual Dining Show London 2018",
-                    "description": "Vraagstelling: Creeer een concept waarmee we laten zien dat we de key spelers in de Engelse markt begrijpen. Dit is het groeiende pub segement in de UK. Hoe kan je dat beter doen dan door de Lamb Weston pub te ontwerpen?",
+                    "description": "Vraagstelling: Creëer een concept waarmee we laten zien dat we de key spelers in de Engelse markt begrijpen. Dit is het groeiende pub segment in de UK. Hoe kan men dat beter doen dan door de LambWeston pub te ontwerpen?",
                     "images": [
                         {
                             "src": "assets/images/projects/lamb/1.jpg",
@@ -342,7 +342,7 @@
                 {
                     "title": "Tomra Food Sorting NV",
                     "subTitle": "Programma 2018",
-                    "description": "Vraagstelling: Standing out from the rest, clean en stopping power wilde Tomra graag terug zien. Omdat het een programma betreft moeten de materialen zoveel mogelijk her gebruikt kunnen worden.",
+                    "description": "Vraagstelling: Standing out from the rest, clean & stopping power wilde Tomra graag terug zien. Vanwege het programma met verschillende afmetingen en locaties moeten materialen zoveel mogelijk herbruikbaar zijn. Zodoende kan hier kosten efficient mee omgegaan worden.",
                     "images": [
                         {
                             "src": "assets/images/projects/tomra/tom-1.jpg",
@@ -371,7 +371,7 @@
                 {
                     "title": "Aluminium Verkoop Zuid BV (AVZ)",
                     "subTitle": "R+T Stuttgart 2018",
-                    "description": "Vraagstelling: AVZ wilde een open en toegankelijke stand die hun de mogelijkheid gaf zowel hun nieuwe huisstijl te presenteren op de grootste beurs op hun vakgebied alsmede hun belangrijkste producten",
+                    "description": "Vraagstelling: AVZ wilde graag een open en toegankelijke stand die hen de mogelijkheid gaf op de grootste beurs binnen hun vakgebied zowel de nieuwe huisstijl te presenteren alsmede de belangrijkste producten tentoon te stellen. ",
                     "images": [
                         {
                             "src": "assets/images/projects/avz/1.jpg",
@@ -418,9 +418,12 @@
                 {
                     "title": "Strong TV",
                     "subTitle": "ANGA Keulen, IFA Berlijn",
-                    "description": "Vraagstelling: Men wilde een nieuwe stand die voor alle beurzen modulair te bouwen is. Dezelfde look en feel waarbij hun producten worden gepresenteerd, zowel grafisch als door middel van live cooking. ",
+                    "description": "Vraagstelling: Het presenteren van WiFi producten maar ook de televisies op 1 stand waarbij de klanten de mogelijkheid wordt geboden om een privé gesprek te kunnen voeren in de meeting ruimtes of een informele kop koffie aan de bar. Producten voeren de boventoon op de technische beurzen waar ze aan deelnemen.",
                     "images": [
                         {
+                            "src": "assets/images/projects/strong/1.jpg",
+                            "alt": "Strong TV"
+                        }, {
                             "src": "assets/images/projects/strong/2.jpg",
                             "alt": "Strong TV"
                         },{
@@ -438,7 +441,7 @@
                 {
                     "title": "Frankort & Koning BV",
                     "subTitle": "Fruit Logistica Berlijn 2017-2019",
-                    "description": "Vraagstelling: Men wilde een nieuwe stand die voor alle beurzen modulair te bouwen is. Dezelfde look en feel waarbij hun producten worden gepresenteerd, zowel grafisch als door middel van live cooking. ",
+                    "description": "Vraagstelling: De jaarlijkse fruitbeurs in Berlijn biedt Frankort & Koning de mogelijkheid om leveranciers en klanten over de hele wereld te ontmoeten. Een laagdrempelige stand waarbij hospitality hoog in het vaandel staat was het uitgangspunt. ",
                     "images": [
                         {
                             "src": "assets/images/projects/frankfort/1.jpg",
@@ -683,7 +686,7 @@
                     },
                     "visit": {
                         "header": "Bezoek Ons",
-                        "description": "Garnizoenweg 3 <br/>  Building A <br/> 5928 NA Venlo <br/> The Netherlands"
+                        "description": "Garnizoenweg 3 <br/>  Building A <br/> PO Box 8064 <br/> 5928 NA Venlo <br/> The Netherlands"
                     },
                     "copyright": {
                         "description": "Copyright 2018, Expo-Mate - None of the Images on the website are owned or affiliated with Expo-mate and are copyrighted by their respectful owners."

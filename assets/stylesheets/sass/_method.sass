@@ -287,20 +287,12 @@ $mobileTextOffset: 150px
         @media screen and (min-device-width: 768px) and (max-device-width: 1366px)
           background: #fff
           border: 1px solid #e2e2e2
-      .goo1,
+      .goo1
+        +respond-min-width(md)
+          -webkit-filter: url('#goo1')
       .goo2
         +respond-min-width(md)
-          filter: url('#goo1')
-        position: absolute
-        top: 0
-        left: 0
-        bottom: 0
-        right: 0
-        pointer-events: none
-        z-index: 9
-      .goo2
-        +respond-min-width(md)
-          filter: url('#goo2')
+          -webkit-filter: url('#goo2')
 
 
 
