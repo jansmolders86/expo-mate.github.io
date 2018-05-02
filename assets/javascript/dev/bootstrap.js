@@ -45,18 +45,6 @@ $(function () {
             , toggleClassName = 'active'
             , visibleClassName = 'show';
 
-        if (methodContainer.isOnScreen()) {
-            methodContainer.addClass(visibleClassName);
-        }
-
-        if (aboutContainer.isOnScreen()) {
-            aboutContainer.addClass(visibleClassName);
-        }
-
-        if(CaseStudyContainer.isOnScreen()){
-            CaseStudyContainer.addClass(visibleClassName);
-        }
-
         if(isMobile || is_iPad) {
             CaseStudyContainer.addClass(visibleClassName);
             methodContent.addClass(visibleClassName);
@@ -185,12 +173,6 @@ $(function () {
         });
     }
 });
-
-$.fn.isOnScreen = function(){
-    var element = this.get(0);
-    var bounds = element.getBoundingClientRect();
-    return bounds.top < window.innerHeight && bounds.bottom > 0;
-}
 
 function getDirection (scroll, lastScrollTop, callback){
     var direction = null

@@ -270,7 +270,7 @@
   flex-wrap: wrap;
   width: 50%;
   overflow: hidden;
-  opacity: 0;
+  opacity: 1;
   min-height: 50vh;
 }
 @media only screen and (max-width: 1199px) {
