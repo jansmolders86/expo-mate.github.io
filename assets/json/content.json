@@ -142,7 +142,7 @@
                     },
                     "projects": {
                         "tile": "ONZE PROJECTEN",
-                        "description": "Innovatief en authentiek. Dat zijn de sleutelwoorden van onze ontwerpen. Iedere stand is custom made ontworpen en gebouwd conform de hoogste kwaliteit. Bekijk hier enkele voorbeelden van door ons ontworpen en gerealiseerde stands. Benieuwd naar wat we voor uw organisatie kunnen betekenen? Neem dan gerust contact met ons op!",
+                        "description": "Innovatief en authentiek. Dat zijn de sleutelwoorden van onze ontwerpen. Iedere stand is custom made ontworpen en gebouwd conform de hoogste kwaliteitsnormen. Bekijk hier enkele voorbeelden van door ons ontworpen en gerealiseerde stands. Benieuwd naar wat we voor uw organisatie kunnen betekenen? Neem dan gerust contact met ons op!",
                         "quote": "We hebben al op veel beurzen gestaan, maar nog nooit was een deelname zo goed georganiseerd, en de stand zo mooi!",
                         "author": "Jan Smolders",
                         "comparisonHeader": "Van design naar realisatie",
@@ -202,7 +202,7 @@
                                 },
                                 "linkedin": {
                                     "title": "Jan on",
-                                    "src": "http://google.com",
+                                    "src": "https://nl.linkedin.com/in/maasjan",
                                     "alt": "Jan On LinkedIn"
                                 }
                             },
@@ -217,7 +217,7 @@
                                 },
                                 "linkedin": {
                                     "title": "Niek on",
-                                    "src": "http://google.com"
+                                    "src": "https://nl.linkedin.com/in/niek-van-gent-b538781b"
                                 }
                             },
                             "phone": "+31 6 50 28 18 91"
@@ -238,7 +238,7 @@
             "projects": [
                 {
                     "title": "Borusan Mannesmann",
-                    "subTitle": "TUBE2018",
+                    "subTitle": "TUBE 2018 Düsseldorf",
                     "description": "Vraagstelling: Ontwikkelen van een beurs concept waarin Borusan Mannesmann de belangrijkste klanten kan ontvangen tijdens het 60 jarige bestaan. Prestige om het mooiste concept neer te zetten waarin bezoekers comfortabel wat kunnen eten en drinken. ",
                     "images": [
                         {
@@ -345,7 +345,7 @@
                 },
                 {
                     "title": "WvanderZwan",
-                    "subTitle": "Seafood Expo",
+                    "subTitle": "Seafood Expo Global Brussel 2018",
                     "description": "Vraagstelling: Omzetting van het bestaande concept in een hoogwaardige stand waarbij de bezoekers ook de mogelijkheid wordt geboden om op de bovenverdieping plaats te nemen in de lounge. Klanten kleine hapjes en drankjes aan te bieden in een ongedwongen sfeer.",
                     "images": [
                         {
