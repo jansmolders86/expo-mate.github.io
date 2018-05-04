@@ -1634,6 +1634,21 @@ section#image-scroll .image-scroll-wrapper.fixed .background-image {
   }
 }
 
+/* line 60, ../sass/_carousel.sass */
+#google-reviews .slick-prev:before,
+#google-reviews .slick-next:before {
+  color: #000;
+  text-shadow: none;
+}
+/* line 64, ../sass/_carousel.sass */
+#google-reviews .slick-prev {
+  left: 0;
+}
+/* line 66, ../sass/_carousel.sass */
+#google-reviews .slick-next {
+  right: 0;
+}
+
 /* line 6, ../sass/_method.sass */
 #method {
   position: relative;
@@ -2820,6 +2835,28 @@ body.open #nav {
 /* line 155, ../sass/_projects.sass */
 .projects-wrapper .project:not(.open) .slider-nav {
   display: none;
+}
+
+/* line 1, ../sass/_reviews.sass */
+.review {
+  padding: 0 75px;
+}
+@media only screen and (max-width: 767px) {
+  /* line 1, ../sass/_reviews.sass */
+  .review {
+    padding: 0 25px;
+  }
+}
+/* line 5, ../sass/_reviews.sass */
+.review .review-author,
+.review .review-date,
+.review .review-stars {
+  width: 100%;
+  text-align: center;
+}
+/* line 12, ../sass/_reviews.sass */
+.review .review-stars i {
+  color: #eb6e00;
 }
 
 /* line 1, ../sass/_values.sass */

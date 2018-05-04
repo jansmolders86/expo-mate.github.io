@@ -277,7 +277,13 @@
                           "src": "assets/images/projects/borusan/9.jpg",
                           "alt": "Borusan Mannesmann"
                         }
-                    ]
+                    ],
+                    "review": {
+                        "author": "Borusan Mannesmann",
+                        "date": "6 maart, 2018",
+                        "stars": 5,
+                        "description": "De samenwerking met Expo-Mate verliep vlekkeloos. Alle afspraken zijn goed nagekomen. Ondanks de vele aanpassingen vanuit onze kant, zag de stand er geweldig uit, werd het op tijd opgeleverd en zag de stand er in werkelijkheid hetzelfde uit zoals het ontwerp. Bedankt Expo-Mate!"
+                    }
                 },
                 {
                     "title": "Toshiba Business Display Solutions",
@@ -312,7 +318,13 @@
                             "src": "assets/images/projects/toshiba/7.jpg",
                             "alt": "Toshiba"
                         }
-                    ]
+                    ],
+                    "review": {
+                        "author": "Toshiba Business Display Solutions",
+                        "date": "12 maart, 2018",
+                        "stars": 5,
+                        "description": "Ondanks het korte tijdsbestek heeft Expo-Mate een perfect resultaat neergezet.  Door ons volledig te ontzorgen met organisatie en begeleiding, zijn wij ondertussen in staat geweest onze volledige focus te houden op andere zaken. Namens Team Grootkeuken Gilde, Chapeau!"
+                    }
                 },
                 {
                     "title": "Lamb Weston/Meijer",
@@ -341,7 +353,13 @@
                             "src": "assets/images/projects/lamb/7.jpg",
                             "alt": "Lamb Weston/Meijer"
                         }
-                    ]
+                    ],
+                    "review": {
+                        "author": "Lamb Weston/Meijer",
+                        "date": "6 maart, 2018",
+                        "stars": 5,
+                        "description": "Een zeer professionele maar ook persoonlijke samenwerking met Expo Mate voor onze stand op de Fruit Logistica in Berlijn. Afspraken zijn nagekomen, werkelijkheid was zoals het ontwerp. Met een paar aanpassingen zijn we weer klaar voor editie 2018! Frankort & Koning BV"
+                    }
                 },
                 {
                     "title": "WvanderZwan",
@@ -367,7 +385,13 @@
                             "src": "assets/images/projects/zwan/6.jpg",
                             "alt": "WvanderZwan"
                         }
-                    ]
+                    ],
+                    "review": {
+                        "author": "WvanderZwan",
+                        "date": "12 maart, 2018",
+                        "stars": 5,
+                        "description": "Zeer tevreden over de succesvolle realisatie van onze nieuwe stand en de betrouwbare begeleiding richting onze deelname aan de SIAL in 2016. Er werd goed meegedacht om van idee en tekening tot een succesvolle beursdeelname te komen."
+                    }
                 },
                 {
                     "title": "Tomra Food Sorting NV",
@@ -396,7 +420,13 @@
                             "src": "assets/images/projects/tomra/7.jpg",
                             "alt": "Tomra Food Sorting NV"
                         }
-                    ]
+                    ],
+                    "review": {
+                        "author": "Tomra Food Sorting NV",
+                        "date": "6 maart, 2018",
+                        "stars": 5,
+                        "description": "It was a pleasure working with Expo-Mate from the early planning stages through to the execution at the event. Everything was effortless and well thought out - communicative, friendly team. We were very pleased with the end result and received much positive feedback on the Toshiba Business Display Solutions stand itself at ISE 2018, Amsterdam. We look forward to working with you again in the future thanks again, Expo-Mate."
+                    }
                 },
                 {
                     "title": "Aluminium Verkoop Zuid BV (AVZ)",
@@ -419,7 +449,13 @@
                             "src": "assets/images/projects/avz/5.jpg",
                             "alt": "AVZ"
                         }
-                    ]
+                    ],
+                    "review": {
+                        "author": "Aluminium Verkoop Zuid BV (AVZ)",
+                        "date": "12 maart, 2018",
+                        "stars": 5,
+                        "description": "It was a pleasure working with the Expo Mate team for the Fruit Logistica Fair in Berlin. From the design phase all the way to the end result at the show, the team helped us realize our ideas. They suggested a creative design, detailed cost overview and the roll-out of the approved plan was good. The booth looked professional, gave us at TOMRA good exposure and branding. The thing I liked most is the personal and close follow-up. If there is anything that was not right (and as all of us know, these things happen during an exhibition :-) ), the team was there to come up with a solution."
+                    }
                 },
 
                 {
@@ -443,7 +479,13 @@
                             "src": "assets/images/projects/scelta/5.jpg",
                             "alt": "The Scelta Institute BV"
                         }
-                    ]
+                    ],
+                    "review": {
+                        "author": "The Scelta Institute BV",
+                        "date": "6 maart, 2018",
+                        "stars": 5,
+                        "description": "Very professional, friendly and helpful booth builder from the Netherlands."
+                    }
                 },
                 {
                     "title": "Strong TV",
@@ -466,7 +508,13 @@
                             "src": "assets/images/projects/strong/5.jpg",
                             "alt": "Strong TV"
                         }
-                    ]
+                    ],
+                    "review": {
+                        "author": "Strong TV",
+                        "date": "12 maart, 2018",
+                        "stars": 5,
+                        "description": "The booth was completely built up on the day of arrival and all installations had been done. Small last-minute changes where no problem. Also, the communication with the booth builder team was easy (English/German/Dutch) and the team was very helpful."
+                    }
                 },
                 {
                     "title": "Frankort & Koning BV",
@@ -486,7 +534,13 @@
                             "src": "assets/images/projects/frankfort/4.jpg",
                             "alt": "Frankort & Koning BV"
                         }
-                    ]
+                    ],
+                    "review": {
+                        "author": "Borusan Mannesmann",
+                        "date": "6 maart, 2018",
+                        "stars": 5,
+                        "description": "Really Awesome!"
+                    }
                 }
             ]
         }
@@ -634,7 +688,7 @@
                     },
                     "projects": {
                         "tile": "ONZE PROJECTEN",
-                        "description": "Innovatief en authentiek. Dat zijn de sleutelwoorden van onze ontwerpen. Iedere stand is custom made ontworpen en gebouwd conform de hoogste kwaliteit. Bekijk hier enkele voorbeelden van door ons ontworpen en gerealiseerde stands. Benieuwd naar wat we voor uw organisatie kunnen betekenen? Neem dan gerust contact met ons op!",
+                        "description": "Innovatief en authentiek. Dat zijn de sleutelwoorden van onze ontwerpen. Iedere stand is custom made ontworpen en gebouwd conform de hoogste kwaliteitsnormen. Bekijk hier enkele voorbeelden van door ons ontworpen en gerealiseerde stands. Benieuwd naar wat we voor uw organisatie kunnen betekenen? Neem dan gerust contact met ons op!",
                         "quote": "We hebben al op veel beurzen gestaan, maar nog nooit was een deelname zo goed georganiseerd, en de stand zo mooi!",
                         "author": "Jan Smolders",
                         "comparisonHeader": "Van design naar realisatie",
@@ -694,7 +748,7 @@
                                 },
                                 "linkedin": {
                                     "title": "Jan on",
-                                    "src": "http://google.com",
+                                    "src": "https://nl.linkedin.com/in/maasjan",
                                     "alt": "Jan On LinkedIn"
                                 }
                             },
@@ -709,7 +763,7 @@
                                 },
                                 "linkedin": {
                                     "title": "Niek on",
-                                    "src": "http://google.com"
+                                    "src": "https://nl.linkedin.com/in/niek-van-gent-b538781b"
                                 }
                             },
                             "phone": "+31 6 50 28 18 91"
@@ -730,7 +784,7 @@
             "projects": [
                 {
                     "title": "Borusan Mannesmann",
-                    "subTitle": "TUBE2018",
+                    "subTitle": "TUBE 2018 Düsseldorf",
                     "description": "Vraagstelling: Ontwikkelen van een beurs concept waarin Borusan Mannesmann de belangrijkste klanten kan ontvangen tijdens het 60 jarige bestaan. Prestige om het mooiste concept neer te zetten waarin bezoekers comfortabel wat kunnen eten en drinken. ",
                     "images": [
                         {
@@ -769,7 +823,13 @@
                           "src": "assets/images/projects/borusan/9.jpg",
                           "alt": "Borusan Mannesmann"
                         }
-                    ]
+                    ],
+                    "review": {
+                        "author": "Borusan Mannesmann",
+                        "date": "6 maart, 2018",
+                        "stars": 5,
+                        "description": "Really Awesome!"
+                    }
                 },
                 {
                     "title": "Toshiba Business Display Solutions",
@@ -804,7 +864,13 @@
                             "src": "assets/images/projects/toshiba/7.jpg",
                             "alt": "Toshiba"
                         }
-                    ]
+                    ],
+                    "review": {
+                        "author": "Borusan Mannesmann",
+                        "date": "6 maart, 2018",
+                        "stars": 5,
+                        "description": "Really Awesome!"
+                    }
                 },
                 {
                     "title": "Lamb Weston/Meijer",
@@ -833,11 +899,17 @@
                             "src": "assets/images/projects/lamb/7.jpg",
                             "alt": "Lamb Weston/Meijer"
                         }
-                    ]
+                    ],
+                    "review": {
+                        "author": "Borusan Mannesmann",
+                        "date": "6 maart, 2018",
+                        "stars": 5,
+                        "description": "Really Awesome!"
+                    }
                 },
                 {
                     "title": "WvanderZwan",
-                    "subTitle": "Seafood Expo",
+                    "subTitle": "Seafood Expo Global Brussel 2018",
                     "description": "Vraagstelling: Omzetting van het bestaande concept in een hoogwaardige stand waarbij de bezoekers ook de mogelijkheid wordt geboden om op de bovenverdieping plaats te nemen in de lounge. Klanten kleine hapjes en drankjes aan te bieden in een ongedwongen sfeer.",
                     "images": [
                         {
@@ -859,7 +931,13 @@
                             "src": "assets/images/projects/zwan/6.jpg",
                             "alt": "WvanderZwan"
                         }
-                    ]
+                    ],
+                    "review": {
+                        "author": "Borusan Mannesmann",
+                        "date": "6 maart, 2018",
+                        "stars": 5,
+                        "description": "Really Awesome!"
+                    }
                 },
                 {
                     "title": "Tomra Food Sorting NV",
@@ -888,7 +966,13 @@
                             "src": "assets/images/projects/tomra/7.jpg",
                             "alt": "Tomra Food Sorting NV"
                         }
-                    ]
+                    ],
+                    "review": {
+                        "author": "Borusan Mannesmann",
+                        "date": "6 maart, 2018",
+                        "stars": 5,
+                        "description": "Really Awesome!"
+                    }
                 },
                 {
                     "title": "Aluminium Verkoop Zuid BV (AVZ)",
@@ -911,7 +995,13 @@
                             "src": "assets/images/projects/avz/5.jpg",
                             "alt": "AVZ"
                         }
-                    ]
+                    ],
+                    "review": {
+                        "author": "Borusan Mannesmann",
+                        "date": "6 maart, 2018",
+                        "stars": 5,
+                        "description": "Really Awesome!"
+                    }
                 },
 
                 {
@@ -935,7 +1025,13 @@
                             "src": "assets/images/projects/scelta/5.jpg",
                             "alt": "The Scelta Institute BV"
                         }
-                    ]
+                    ],
+                    "review": {
+                        "author": "Borusan Mannesmann",
+                        "date": "6 maart, 2018",
+                        "stars": 5,
+                        "description": "Really Awesome!"
+                    }
                 },
                 {
                     "title": "Strong TV",
@@ -958,7 +1054,13 @@
                             "src": "assets/images/projects/strong/5.jpg",
                             "alt": "Strong TV"
                         }
-                    ]
+                    ],
+                    "review": {
+                        "author": "Borusan Mannesmann",
+                        "date": "6 maart, 2018",
+                        "stars": 5,
+                        "description": "Really Awesome!"
+                    }
                 },
                 {
                     "title": "Frankort & Koning BV",
@@ -978,7 +1080,13 @@
                             "src": "assets/images/projects/frankfort/4.jpg",
                             "alt": "Frankort & Koning BV"
                         }
-                    ]
+                    ],
+                    "review": {
+                        "author": "Borusan Mannesmann",
+                        "date": "6 maart, 2018",
+                        "stars": 5,
+                        "description": "Really Awesome!"
+                    }
                 }
             ]
         }
@@ -1126,7 +1234,7 @@
                     },
                     "projects": {
                         "tile": "ONZE PROJECTEN",
-                        "description": "Innovatief en authentiek. Dat zijn de sleutelwoorden van onze ontwerpen. Iedere stand is custom made ontworpen en gebouwd conform de hoogste kwaliteit. Bekijk hier enkele voorbeelden van door ons ontworpen en gerealiseerde stands. Benieuwd naar wat we voor uw organisatie kunnen betekenen? Neem dan gerust contact met ons op!",
+                        "description": "Innovatief en authentiek. Dat zijn de sleutelwoorden van onze ontwerpen. Iedere stand is custom made ontworpen en gebouwd conform de hoogste kwaliteitsnormen. Bekijk hier enkele voorbeelden van door ons ontworpen en gerealiseerde stands. Benieuwd naar wat we voor uw organisatie kunnen betekenen? Neem dan gerust contact met ons op!",
                         "quote": "We hebben al op veel beurzen gestaan, maar nog nooit was een deelname zo goed georganiseerd, en de stand zo mooi!",
                         "author": "Jan Smolders",
                         "comparisonHeader": "Van design naar realisatie",
@@ -1186,7 +1294,7 @@
                                 },
                                 "linkedin": {
                                     "title": "Jan on",
-                                    "src": "http://google.com",
+                                    "src": "https://nl.linkedin.com/in/maasjan",
                                     "alt": "Jan On LinkedIn"
                                 }
                             },
@@ -1201,7 +1309,7 @@
                                 },
                                 "linkedin": {
                                     "title": "Niek on",
-                                    "src": "http://google.com"
+                                    "src": "https://nl.linkedin.com/in/niek-van-gent-b538781b"
                                 }
                             },
                             "phone": "+31 6 50 28 18 91"
@@ -1222,7 +1330,7 @@
             "projects": [
                 {
                     "title": "Borusan Mannesmann",
-                    "subTitle": "TUBE2018",
+                    "subTitle": "TUBE 2018 Düsseldorf",
                     "description": "Vraagstelling: Ontwikkelen van een beurs concept waarin Borusan Mannesmann de belangrijkste klanten kan ontvangen tijdens het 60 jarige bestaan. Prestige om het mooiste concept neer te zetten waarin bezoekers comfortabel wat kunnen eten en drinken. ",
                     "images": [
                         {
@@ -1261,7 +1369,13 @@
                           "src": "assets/images/projects/borusan/9.jpg",
                           "alt": "Borusan Mannesmann"
                         }
-                    ]
+                    ],
+                    "review": {
+                        "author": "Borusan Mannesmann",
+                        "date": "6 maart, 2018",
+                        "stars": 5,
+                        "description": "Really Awesome!"
+                    }
                 },
                 {
                     "title": "Toshiba Business Display Solutions",
@@ -1296,7 +1410,13 @@
                             "src": "assets/images/projects/toshiba/7.jpg",
                             "alt": "Toshiba"
                         }
-                    ]
+                    ],
+                    "review": {
+                        "author": "Borusan Mannesmann",
+                        "date": "6 maart, 2018",
+                        "stars": 5,
+                        "description": "Really Awesome!"
+                    }
                 },
                 {
                     "title": "Lamb Weston/Meijer",
@@ -1325,11 +1445,17 @@
                             "src": "assets/images/projects/lamb/7.jpg",
                             "alt": "Lamb Weston/Meijer"
                         }
-                    ]
+                    ],
+                    "review": {
+                        "author": "Borusan Mannesmann",
+                        "date": "6 maart, 2018",
+                        "stars": 5,
+                        "description": "Really Awesome!"
+                    }
                 },
                 {
                     "title": "WvanderZwan",
-                    "subTitle": "Seafood Expo",
+                    "subTitle": "Seafood Expo Global Brussel 2018",
                     "description": "Vraagstelling: Omzetting van het bestaande concept in een hoogwaardige stand waarbij de bezoekers ook de mogelijkheid wordt geboden om op de bovenverdieping plaats te nemen in de lounge. Klanten kleine hapjes en drankjes aan te bieden in een ongedwongen sfeer.",
                     "images": [
                         {
@@ -1351,7 +1477,13 @@
                             "src": "assets/images/projects/zwan/6.jpg",
                             "alt": "WvanderZwan"
                         }
-                    ]
+                    ],
+                    "review": {
+                        "author": "Borusan Mannesmann",
+                        "date": "6 maart, 2018",
+                        "stars": 5,
+                        "description": "Really Awesome!"
+                    }
                 },
                 {
                     "title": "Tomra Food Sorting NV",
@@ -1380,7 +1512,13 @@
                             "src": "assets/images/projects/tomra/7.jpg",
                             "alt": "Tomra Food Sorting NV"
                         }
-                    ]
+                    ],
+                    "review": {
+                        "author": "Borusan Mannesmann",
+                        "date": "6 maart, 2018",
+                        "stars": 5,
+                        "description": "Really Awesome!"
+                    }
                 },
                 {
                     "title": "Aluminium Verkoop Zuid BV (AVZ)",
@@ -1403,7 +1541,13 @@
                             "src": "assets/images/projects/avz/5.jpg",
                             "alt": "AVZ"
                         }
-                    ]
+                    ],
+                    "review": {
+                        "author": "Borusan Mannesmann",
+                        "date": "6 maart, 2018",
+                        "stars": 5,
+                        "description": "Really Awesome!"
+                    }
                 },
 
                 {
@@ -1427,7 +1571,13 @@
                             "src": "assets/images/projects/scelta/5.jpg",
                             "alt": "The Scelta Institute BV"
                         }
-                    ]
+                    ],
+                    "review": {
+                        "author": "Borusan Mannesmann",
+                        "date": "6 maart, 2018",
+                        "stars": 5,
+                        "description": "Really Awesome!"
+                    }
                 },
                 {
                     "title": "Strong TV",
@@ -1450,7 +1600,13 @@
                             "src": "assets/images/projects/strong/5.jpg",
                             "alt": "Strong TV"
                         }
-                    ]
+                    ],
+                    "review": {
+                        "author": "Borusan Mannesmann",
+                        "date": "6 maart, 2018",
+                        "stars": 5,
+                        "description": "Really Awesome!"
+                    }
                 },
                 {
                     "title": "Frankort & Koning BV",
@@ -1470,7 +1626,13 @@
                             "src": "assets/images/projects/frankfort/4.jpg",
                             "alt": "Frankort & Koning BV"
                         }
-                    ]
+                    ],
+                    "review": {
+                        "author": "Borusan Mannesmann",
+                        "date": "6 maart, 2018",
+                        "stars": 5,
+                        "description": "Really Awesome!"
+                    }
                 }
             ]
         }

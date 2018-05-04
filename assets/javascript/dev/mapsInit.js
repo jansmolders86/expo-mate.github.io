@@ -37,20 +37,3 @@ function googleMapsInit() {
         infowindow.open(map,marker);
     });
 }
-
-// Google review
-$(function(){
-    var $googleReviewEl = $("#google-reviews");
-
-    if ($googleReviewEl.length === 0) {
-        return
-    }
-    $googleReviewEl.googlePlaces({
-        placeId: 'ChIJt6JxUkxFx0cRWTzXobLcYGw'
-        , render: ['reviews']
-        , min_rating: 4
-        , max_rows:5
-        , rotateTime:5000
-    });
-});
-
