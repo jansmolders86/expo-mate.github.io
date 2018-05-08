@@ -1618,7 +1618,7 @@ section#image-scroll .image-scroll-wrapper.fixed .background-image {
   /* line 36, ../sass/_carousel.sass */
   .icon-arrow-left,
   .icon-arrow-right {
-    top: 16%;
+    top: 20%;
     color: #000;
     left: -5px;
     font-size: 2em;
@@ -1648,9 +1648,21 @@ section#image-scroll .image-scroll-wrapper.fixed .background-image {
 #google-reviews .slick-prev {
   left: 0;
 }
-/* line 66, ../sass/_carousel.sass */
+@media only screen and (max-width: 991px) {
+  /* line 64, ../sass/_carousel.sass */
+  #google-reviews .slick-prev {
+    left: -20px;
+  }
+}
+/* line 68, ../sass/_carousel.sass */
 #google-reviews .slick-next {
   right: 0;
+}
+@media only screen and (max-width: 991px) {
+  /* line 68, ../sass/_carousel.sass */
+  #google-reviews .slick-next {
+    right: -20px;
+  }
 }
 
 /* line 6, ../sass/_method.sass */
@@ -2560,8 +2572,9 @@ body:not(.loading) .content-wrapper {
   top: 0;
   bottom: 0;
   margin: auto;
+  padding: 50px;
 }
-/* line 126, ../sass/_caseStudies.sass */
+/* line 127, ../sass/_caseStudies.sass */
 #case-studies .tile-image .desc h2, #case-studies .tile-image .desc p {
   color: #f5f5f5;
 }

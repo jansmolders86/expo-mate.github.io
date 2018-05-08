@@ -42,7 +42,7 @@
   left: 40px
   z-index: 9
   +respond-max-width(sm)
-    top: 16%
+    top: 20%
     color: #000
     left: -5px
     font-size: 2em
@@ -63,5 +63,9 @@
 
   .slick-prev
     left: 0
+    +respond-max-width(sm)
+      left: -20px
   .slick-next
     right: 0
+    +respond-max-width(sm)
+      right: -20px
