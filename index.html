@@ -29,7 +29,7 @@
 
     <body class="homepage loading">
         <div class="loading-logo">
-            <img src="assets/images/loading-logo.jpg" class="img-responsive"/>
+            <img src="assets/images/loading-logo.png" class="img-responsive"/>
         </div>
         <div class="content-wrapper">
             <nav id="nav">
@@ -184,6 +184,15 @@
                 </div>
             </section>
 
+            <section id="comparison-wrapper">
+                <h2 class="comparison-header" data-content="content-projects-comparisonHeader"> Van Design naar Realisatie</h2>
+
+                <i class="icon-arrow-left"></i>
+                <i class="icon-arrow-right"></i>
+
+                <div id="comparison" data-content="content-comparison"></div>
+            </section>
+
             <section id="about-us">
                 <div class="container">
                     <div class="row">
@@ -253,69 +262,83 @@
                                 <p class="text-centered" data-content="content-method-desc">
                                     Totale ontzorging. Minder vinden we niet goed genoeg voor onze relaties. Door onze verschillende achtergronden en ervaringen hebben we een werkwijze kunnen ontwikkelen die uniek is in de branche en welke ons in staat stelt de hoogst mogelijke return on investment voor onze relaties te behalen.
                                 </p>
-                                <h4 class="text-centered placeholder" data-content="content-method-hoverLabel">Beweeg met uw muis over de bollen.</h4>
                             </div>
 
-                            <div class="col-xs-12 method-info-container">
-                                <div class="fadeIn intro" data-item="intro">
-                                    <h3 class="left-align" data-content="content-method-intro-title">Introductie</h3>
-                                    <p data-content="content-method-intro-desc">Een persoonlijke kennismaking waarbij de behoeftes, wensen en doelen worden besproken.</p>
-                                </div>
-                                <div class="fadeIn design" data-item="design">
-                                    <h3 class="left-align" data-content="content-method-design-title">Design</h3>
-                                    <p data-content="content-method-design-desc">Op basis van uw input aangevuld met de uitkomst van het “EXPO-MATE model” maken we een authentiek en innovatief op maat ontworpen beursconcept.</p>
-                                </div>
-                                <div class="fadeIn tuning" data-item="tuning">
-                                    <h3 class="left-align" data-content="content-method-tuning-title">Fine Tuning</h3>
-                                    <p data-content="content-method-tuning-desc">Gezamenlijk wordt het ontwerp besproken en eventueel aangepast om tot het optimale definitieve ontwerp te komen.</p>
-                                </div>
-                                <div class="fadeIn construction" data-item="construction">
-                                    <h3 class="left-align" data-content="content-method-construction-title">Constructie</h3>
-                                    <p data-content="content-method-construction-desc">
-                                        Wij verzorgen de volledige technische voorbereiding en opbouw van de stand. Vanzelfsprekend zijn we als uw samenwerkingspartnerpartner bij de opbouw aanwezig en zijn we uw aanspreekpunt op de beursvloer.
-                                    </p>
-                                </div>
-                                <div class="fadeIn eval" data-item="eval">
-                                    <h3 class="left-align" data-content="content-method-eval-title">Evaluatie</h3>
-                                    <p data-content="content-method-eval-desc">Na afloop bespreken we altijd het project om te zien of doelstellingen zijn behaald, de stand naar tevredenheid is geweest en of er eventuele verbeterpunten zijn voor het eerstvolgende project.</p>
-                                </div>
-                            </div>
+
                             <div class="col-xs-12">
                                 <div id="diagram">
-                                    <div class="intro show slideOut method-item" data-item="intro">
-                                        <div class="step-content">
-                                            <span class="count">1</span>
-                                            <i class="icon-intro"></i>
-                                            <span data-content="content-method-intro-title">Introductie</span>
+                                    <div class="method-item-wrapper">
+                                        <div class="intro method-item" data-item="intro">
+                                            <div class="step-content">
+                                                <span class="count">1</span>
+                                                <i class="icon-intro"></i>
+                                                <span data-content="content-method-intro-title">Introductie</span>
+                                            </div>
                                         </div>
                                     </div>
-                                    <div class="design show method-item" data-item="design">
-                                        <div class="step-content">
-                                            <span class="count">2</span>
-                                            <i class="icon-design"></i>
-                                            <span data-content="content-method-design-title">Design</span>
+                                    <div class="method-item-wrapper">
+                                        <div class="design method-item" data-item="design">
+                                            <div class="step-content">
+                                                <span class="count">2</span>
+                                                <i class="icon-design"></i>
+                                                <span data-content="content-method-design-title">Design</span>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="method-item-wrapper">
+                                        <div class="tuning method-item" data-item="tuning">
+                                            <div class="step-content">
+                                                <span class="count">3</span>
+                                                <i class="icon-tune"></i>
+                                                <span data-content="content-method-tuning-title">Finetuning</span>
+                                            </div>
                                         </div>
                                     </div>
-                                    <div class="tuning show method-item" data-item="tuning">
-                                        <div class="step-content">
-                                            <span class="count">3</span>
-                                            <i class="icon-tune"></i>
-                                            <span data-content="content-method-tuning-title">Finetuning</span>
+                                    <div class="method-item-wrapper">
+                                        <div class="construction method-item" data-item="construction">
+                                            <div class="step-content">
+                                                <span class="count">4</span>
+                                                <i class="icon-construction"></i>
+                                                <span data-content="content-method-construction-title">Constructie</span>
+                                            </div>
                                         </div>
                                     </div>
-                                    <div class="construction show method-item" data-item="construction">
-                                        <div class="step-content">
-                                            <span class="count">4</span>
-                                            <i class="icon-construction"></i>
-                                            <span data-content="content-method-construction-title">Constructie</span>
+                                    <div class="method-item-wrapper">
+                                        <div class="eval method-item" data-item="eval">
+                                            <div class="step-content">
+                                                <span class="count">5</span>
+                                                <i class="icon-eval"></i>
+                                                <span data-content="content-method-eval-title">Evaluatie</span>
+                                            </div>
                                         </div>
                                     </div>
-                                    <div class="eval show method-item" data-item="eval">
-                                        <div class="step-content">
-                                            <span class="count">5</span>
-                                            <i class="icon-eval"></i>
-                                            <span data-content="content-method-eval-title">Evaluatie</span>
-                                        </div>
+                                    <div class="diagram-logo"></div>
+                                </div>
+
+
+                                <div class="method-desc-wrapper">
+                                    <div class="method-desc intro" data-item="intro">
+                                        <h3 class="left-align" data-content="content-method-intro-title">Introductie</h3>
+                                        <p data-content="content-method-intro-desc">Een persoonlijke kennismaking waarbij de behoeftes, wensen en doelen worden besproken.</p>
+                                    </div>
+                                    <div class="method-desc design" data-item="design">
+                                        <h3 class="left-align" data-content="content-method-design-title">Design</h3>
+                                        <p data-content="content-method-design-desc">Op basis van uw input aangevuld met de uitkomst van het “EXPO-MATE model” maken we een authentiek en innovatief op maat ontworpen beursconcept.</p>
+                                    </div>
+                                    <div class="method-desc tuning" data-item="tuning">
+                                        <h3 class="left-align" data-content="content-method-tuning-title">Fine Tuning</h3>
+                                        <p data-content="content-method-tuning-desc">Gezamenlijk wordt het ontwerp besproken en eventueel aangepast om tot het optimale definitieve ontwerp te komen.</p>
+                                    </div>
+                                    <div class="method-desc construction" data-item="construction">
+                                        <h3 class="left-align" data-content="content-method-construction-title">Constructie</h3>
+                                        <p data-content="content-method-construction-desc">
+                                            Wij verzorgen de volledige technische voorbereiding en opbouw van de stand. Vanzelfsprekend zijn we als uw samenwerkingspartnerpartner bij de opbouw aanwezig en zijn we uw aanspreekpunt op de beursvloer.
+                                        </p>
+                                    </div>
+                                    <div class="method-desc eval" data-item="eval">
+                                        <h3 class="left-align" data-content="content-method-eval-title">Evaluatie</h3>
+                                        <p data-content="content-method-eval-desc">Na afloop bespreken we altijd het project om te zien of doelstellingen zijn behaald, de stand naar tevredenheid is geweest en of er eventuele verbeterpunten zijn voor het eerstvolgende project.</p>
                                     </div>
                                 </div>
                             </div>
@@ -341,14 +364,6 @@
             </section>
 
             <section id="case-studies">
-
-                <h2 class="comparison-header" data-content="content-projects-comparisonHeader"> Van Design naar Realisatie</h2>
-
-                <i class="icon-arrow-left"></i>
-                <i class="icon-arrow-right"></i>
-
-                <div id="comparison" data-content="content-comparison"></div>
-
                 <div class="container-fluid">
                     <div class="row">
                         <div class="col-xs-12 project-intro-wrapper">

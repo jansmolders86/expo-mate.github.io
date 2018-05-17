@@ -17,8 +17,8 @@ $(function () {
         , methodItem = $('.method-item')
         , methodContent = $('.fadeIn')
         , isMobile = window.orientation > -1 && screen.width <= 640
-        , is_iPad = navigator.userAgent.match(/iPad/i) != null;
-
+        , is_iPad = navigator.userAgent.match(/iPad/i) != null
+        , placeholder = $('body').find("[data-content='content-method-hoverLabel']");
 
     //********* Event Handlers
 
@@ -53,17 +53,20 @@ $(function () {
 
         $(methodItem).on('mouseenter', function(){
             var item = $(this).attr('data-item');
-            var placeholder = $('body').find("[data-content='content-method-hoverLabel']")
             $(this).addClass('active');
-            placeholder.addClass('hidden');
-            $('.fadeIn.'+ item).addClass('active');
-
+            $('.diagram-logo').addClass('hidden');
+            if(placeholder.length > 0){
+                placeholder.addClass('hidden');
+            }
+            $('.method-desc.'+ item).addClass('active');
         }).on('mouseleave',function(){
             var item = $(this).attr('data-item');
-            var placeholder = $('body').find("[data-content='content-method-hoverLabel']")
             $(this).removeClass('active');
-            placeholder.removeClass('hidden');
-            $('.fadeIn.'+ item).removeClass('active');
+            $('.diagram-logo').removeClass('hidden');
+            if(placeholder.length > 0){
+                placeholder.removeClass('hidden');
+            }
+            $('.method-desc.'+ item).removeClass('active');
         });
 
         $('.close-btn').on('click', function(){

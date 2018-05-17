@@ -10,40 +10,38 @@
       opacity: 0
   .background-wrapper,
   .background-video
-    max-height: 88vh
+    height: 95vh
     position: relative
     overflow: hidden
     opacity: .7
-    .screen
-      video
-        vertical-align: bottom
+    video
+      height: 100%
+      vertical-align: bottom
     +respond-max-width(md)
-      height: 90vh
       .screen
         display: none
-    @media screen and (min-device-width: 300px) and (max-device-width: 768px) and (orientation: landscape)
-      height: 96vh
-      max-height: 100vh
-    @media screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape)
-      height: 70vh
+  .background-video
+    width: 110%
   .container
     position: absolute
     left: 0
     right: 0
-    top: 60%
-    @media screen and (min-device-width: 1600px)
-      top: 50%
+    top: 50%
     transform: translateY(-50%)
     z-index: 2
     h1
       text-transform: uppercase
       font-size: 3em
       opacity: 0
+      +respond-max-width(md)
+        font-size: 2.5em
       +respond-max-width(sm)
         font-size: 1.5em
       +respond-max-width(xs)
         margin-top: 0
         font-size: 1.5em
+      @media screen and (min-width: 1100px) and (min-width: 1280px)
+        font-size: 2.5em
       @media screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape)
         font-size: 1.8em
       @media screen and (min-device-width: 300px) and (max-device-width: 768px) and (orientation: landscape)
@@ -56,6 +54,8 @@
     *
       color: #fff
       text-align: center
+  .container.vid
+    top: 64%
   .play-video-wrapper
     i
       font-size: 5em
@@ -93,6 +93,8 @@
   visibility: hidden
   pointer-events: none
   transition: all .6s ease
+  .container.vid
+    width: 90% !important
   &.play
     opacity: 1
     visibility: visible
