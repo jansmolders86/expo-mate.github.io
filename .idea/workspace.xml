@@ -2,24 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="98432c1c-f5b3-4fbf-a686-14df8c0a3d1f" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.sass-cache/4d832b0bccd74520a9847119988e88e6d7a2e033/_method.sassc" beforeDir="false" afterPath="$PROJECT_DIR$/.sass-cache/4d832b0bccd74520a9847119988e88e6d7a2e033/_method.sassc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.sass-cache/4d832b0bccd74520a9847119988e88e6d7a2e033/_projects.sassc" beforeDir="false" afterPath="$PROJECT_DIR$/.sass-cache/4d832b0bccd74520a9847119988e88e6d7a2e033/_projects.sassc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.sass-cache/4d832b0bccd74520a9847119988e88e6d7a2e033/_reviews.sassc" beforeDir="false" afterPath="$PROJECT_DIR$/.sass-cache/4d832b0bccd74520a9847119988e88e6d7a2e033/_reviews.sassc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/diagram.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/diagram.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/diagram.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/javascript/compressed.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/javascript/compressed.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/javascript/compressed_projects.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/javascript/dev/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/javascript/dev/bootstrap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/javascript/dev/locale.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/javascript/dev/locale.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/javascript/dev/project-bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/javascript/dev/project-bootstrap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/javascript/dev/reviews.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/javascript/dev/reviews.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/json/content.json" beforeDir="false" afterPath="$PROJECT_DIR$/assets/json/content.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/stylesheets/css/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/stylesheets/css/base.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/stylesheets/sass/_method.sass" beforeDir="false" afterPath="$PROJECT_DIR$/assets/stylesheets/sass/_method.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/stylesheets/sass/_projects.sass" beforeDir="false" afterPath="$PROJECT_DIR$/assets/stylesheets/sass/_projects.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/stylesheets/sass/_reviews.sass" beforeDir="false" afterPath="$PROJECT_DIR$/assets/stylesheets/sass/_reviews.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -81,7 +64,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_method.sass" pinned="false" current-in-tab="true">
+      <file leaf-file-name="_method.sass" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/stylesheets/sass/_method.sass">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="476">
@@ -108,12 +91,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="content.json" pinned="false" current-in-tab="false">
+      <file leaf-file-name="content.json" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/json/content.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="602">
-              <caret line="537" column="44" selection-start-line="537" selection-start-column="44" selection-end-line="537" selection-end-column="45" />
+            <state relative-caret-position="85">
+              <caret line="1637" lean-forward="true" selection-start-line="1637" selection-end-line="1637" />
               <folding>
+                <element signature="n#!!block;n#nl#0;n#!!top" />
                 <element signature="n#!!block;n#homepage#0;n#!!block;n#pages#0;n#!!block;n#nl#0;n#!!top" />
                 <element signature="n#!!block;n#header#0;n#!!block;n#homepage#0;n#!!block;n#pages#0;n#!!block;n#nl#0;n#!!top" />
                 <element signature="n#!!block;n#content#0;n#!!block;n#homepage#0;n#!!block;n#pages#0;n#!!block;n#nl#0;n#!!top" />
@@ -124,6 +108,8 @@
                 <element signature="e#22436#23377#0" />
                 <element signature="e#24319#25490#0" />
                 <element signature="e#26611#27358#0" />
+                <element signature="n#!!block;n#nl#1;n#!!top" />
+                <element signature="n#!!block;n#nl#2;n#!!top" />
               </folding>
             </state>
           </provider>
@@ -158,7 +144,6 @@
         <option value="$PROJECT_DIR$/assets/stylesheets/sass/_comparison.sass" />
         <option value="$PROJECT_DIR$/assets/javascript/dev/locale.js" />
         <option value="$PROJECT_DIR$/assets/stylesheets/sass/_reviews.sass" />
-        <option value="$PROJECT_DIR$/assets/json/content.json" />
         <option value="$PROJECT_DIR$/projects.html" />
         <option value="$PROJECT_DIR$/assets/javascript/dev/reviews.js" />
         <option value="$PROJECT_DIR$/assets/javascript/dev/project-bootstrap.js" />
@@ -166,6 +151,7 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/assets/javascript/dev/bootstrap.js" />
         <option value="$PROJECT_DIR$/assets/stylesheets/sass/_method.sass" />
+        <option value="$PROJECT_DIR$/assets/json/content.json" />
       </list>
     </option>
   </component>
@@ -266,12 +252,12 @@
       <option name="presentableId" value="Default" />
       <updated>1526382084786</updated>
       <workItem from="1526382087297" duration="38000" />
-      <workItem from="1526545368074" duration="24041000" />
+      <workItem from="1526545368074" duration="24208000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24079000" />
+    <option name="totallyTimeSpent" value="24246000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="3832" y="-8" width="2576" height="1416" extended-state="6" />
@@ -379,25 +365,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/json/content.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="602">
-          <caret line="537" column="44" selection-start-line="537" selection-start-column="44" selection-end-line="537" selection-end-column="45" />
-          <folding>
-            <element signature="n#!!block;n#homepage#0;n#!!block;n#pages#0;n#!!block;n#nl#0;n#!!top" />
-            <element signature="n#!!block;n#header#0;n#!!block;n#homepage#0;n#!!block;n#pages#0;n#!!block;n#nl#0;n#!!top" />
-            <element signature="n#!!block;n#content#0;n#!!block;n#homepage#0;n#!!block;n#pages#0;n#!!block;n#nl#0;n#!!top" />
-            <element signature="n#!!block;n#intro#0;n#!!block;n#content#0;n#!!block;n#homepage#0;n#!!block;n#pages#0;n#!!block;n#nl#0;n#!!top" />
-            <element signature="e#15577#17236#0" />
-            <element signature="e#18113#19346#0" />
-            <element signature="e#20312#21451#0" />
-            <element signature="e#22436#23377#0" />
-            <element signature="e#24319#25490#0" />
-            <element signature="e#26611#27358#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/projects.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="363">
@@ -454,6 +421,28 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
           <caret line="67" column="65" lean-forward="true" selection-start-line="67" selection-start-column="65" selection-end-line="67" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/json/content.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="1637" lean-forward="true" selection-start-line="1637" selection-end-line="1637" />
+          <folding>
+            <element signature="n#!!block;n#nl#0;n#!!top" />
+            <element signature="n#!!block;n#homepage#0;n#!!block;n#pages#0;n#!!block;n#nl#0;n#!!top" />
+            <element signature="n#!!block;n#header#0;n#!!block;n#homepage#0;n#!!block;n#pages#0;n#!!block;n#nl#0;n#!!top" />
+            <element signature="n#!!block;n#content#0;n#!!block;n#homepage#0;n#!!block;n#pages#0;n#!!block;n#nl#0;n#!!top" />
+            <element signature="n#!!block;n#intro#0;n#!!block;n#content#0;n#!!block;n#homepage#0;n#!!block;n#pages#0;n#!!block;n#nl#0;n#!!top" />
+            <element signature="e#15577#17236#0" />
+            <element signature="e#18113#19346#0" />
+            <element signature="e#20312#21451#0" />
+            <element signature="e#22436#23377#0" />
+            <element signature="e#24319#25490#0" />
+            <element signature="e#26611#27358#0" />
+            <element signature="n#!!block;n#nl#1;n#!!top" />
+            <element signature="n#!!block;n#nl#2;n#!!top" />
+          </folding>
         </state>
       </provider>
     </entry>
