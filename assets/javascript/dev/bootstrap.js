@@ -59,6 +59,7 @@ $(function () {
                 placeholder.addClass('hidden');
             }
             $('.method-desc.'+ item).addClass('active');
+            $('#diagram').addClass(item);
         }).on('mouseleave',function(){
             var item = $(this).attr('data-item');
             $(this).removeClass('active');
@@ -67,6 +68,7 @@ $(function () {
                 placeholder.removeClass('hidden');
             }
             $('.method-desc.'+ item).removeClass('active');
+            $('#diagram').removeClass(item);
         });
 
         $('.close-btn').on('click', function(){

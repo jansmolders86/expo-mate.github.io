@@ -58,10 +58,20 @@ $mobileTextOffset: 150px
     +respond-min-width(lg)
       height: 1000px
       width: 1000px
-      background: url(../../images/diagram.png) no-repeat
+      background: url(../../images/diagram/diagram.png) no-repeat
       background-size: cover
       margin: 0 auto
       position: relative
+      &.intro
+        background-image: url(../../images/diagram/diagram-1.png)
+      &.design
+        background-image: url(../../images/diagram/diagram-2.png)
+      &.tuning
+        background-image: url(../../images/diagram/diagram-3.png)
+      &.construction
+        background-image: url(../../images/diagram/diagram-4.png)
+      &.eval
+        background-image: url(../../images/diagram/diagram-5.png)
       .diagram-logo
         background: url(../../images/loading-logo.png) no-repeat
         background-size: contain

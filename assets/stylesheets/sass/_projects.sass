@@ -7,19 +7,9 @@ body.open
 .projects-wrapper
   .slick-slider
     height: 100%
-  .project
-    &:nth-child(odd)
-      display: flex
-      .project-images
-        order: 1
-      .project-desc-wrapper
-        order: 2
-    &:nth-child(even)
-      display: flex
-      .project-images
-        order: 2
-      .project-desc-wrapper
-        order: 1
+
+  .project,
+  .project-wrapper
     height: 650px
     +respond-max-width(md)
       height: 250px
@@ -35,6 +25,27 @@ body.open
     @media only screen and (min-device-width: 300px) and (max-device-width: 850px) and (orientation: landscape)
       display: block!important
       height: auto!important
+
+  .project
+    width: 100%
+    .project-wrapper,
+    .project-review
+      width: 100%
+      clear: both
+    &:nth-child(odd)
+      .project-wrapper
+        display: flex
+        .project-images
+          order: 1
+        .project-desc-wrapper
+          order: 2
+    &:nth-child(even)
+      .project-wrapper
+        display: flex
+        .project-images
+          order: 2
+        .project-desc-wrapper
+          order: 1
     position: relative
     overflow: hidden
     transition: all ease .5s
@@ -85,6 +96,53 @@ body.open
           height: 100vh
 
     &:not(.open)
+      &.show-review
+        height: 800px
+        +respond-max-width(md)
+          height: auto
+      .project-review
+        height: 0
+        width: 100%
+        padding: 0
+        clear: both
+        position: relative
+        .review-text
+          text-align: center
+          +respond-max-width(sm)
+            margin: 5px 0 0 0
+        .review
+          *
+            +respond-max-width(sm)
+              text-align: left !important
+        .review
+          opacity: 0
+        &.show
+          height: 100%
+          background: #fdfdfd
+          padding: 50px 0
+          +respond-max-width(sm)
+            padding: 20px 0 50px 0
+          .review
+            opacity: 1
+          .review-close
+            position: absolute
+            right: 50px
+            top: 20px
+            cursor: pointer
+            z-index: 999
+            &:before
+              content: "\e904"
+              position: absolute
+              font-family: $font_0
+              font-size: 2em
+              color: #000
+      .read-review
+        margin-top: 20px
+        font-weight: bold
+        cursor: pointer
+        display: block
+        color: #000
+
       .project-images,
       .project-desc-wrapper
         width: 50%
@@ -95,6 +153,7 @@ body.open
         overflow: hidden
       .project-images
         width: 50%
+        height: 100%
         +respond-max-width(sm)
           width: 100%
           height: 320px
@@ -114,6 +173,8 @@ body.open
               cursor: pointer
       .project-desc-wrapper
         padding: 7% 100px
+        +respond-max-width(md)
+          padding-top: 3%
         +respond-max-width(sm)
           background: $bg-color
           position: relative

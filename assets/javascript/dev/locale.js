@@ -123,8 +123,6 @@ $(function(){
         if (projects) {
             $body.find("[data-content='content-projects-title']").html(projects.title);
             $body.find("[data-content='content-projects-desc']").html(projects.description);
-            $body.find("[data-content='content-projects-quote']").html(projects.quote);
-            $body.find("[data-content='content-projects-author']").html(projects.author);
             $body.find("[data-content='content-projects-button']").html(projects.button.label);
             $body.find("[data-content='content-projects-comparisonHeader']").html(projects.comparisonHeader);
 

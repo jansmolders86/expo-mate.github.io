@@ -143,8 +143,7 @@
                     "projects": {
                         "tile": "ONZE PROJECTEN",
                         "description": "Innovatief en authentiek. Dat zijn de sleutelwoorden van onze ontwerpen. Iedere stand is custom made ontworpen en gebouwd conform de hoogste kwaliteitsnormen. Bekijk hier enkele voorbeelden van door ons ontworpen en gerealiseerde stands. Benieuwd naar wat we voor uw organisatie kunnen betekenen? Neem dan gerust contact met ons op!",
-                        "quote": "We hebben al op veel beurzen gestaan, maar nog nooit was een deelname zo goed georganiseerd, en de stand zo mooi!",
-                        "author": "Jan Smolders",
+                        "reviewLink": "Bekijk hier de review van deze client.",
                         "comparisonHeader": "Van design naar realisatie",
                         "comparisons": [
                             {
@@ -239,7 +238,7 @@
                 {
                     "title": "Borusan Mannesmann",
                     "subTitle": "TUBE 2018 Düsseldorf",
-                    "description": "Vraagstelling: Ontwikkelen van een beurs concept waarin Borusan Mannesmann de belangrijkste klanten kan ontvangen tijdens het 60 jarige bestaan. Prestige om het mooiste concept neer te zetten waarin bezoekers comfortabel wat kunnen eten en drinken. ",
+                    "description": "Ontwikkelen van een beurs concept waarin Borusan Mannesmann de belangrijkste klanten kan ontvangen tijdens het 60 jarige bestaan. Prestige om het mooiste concept neer te zetten waarin bezoekers comfortabel wat kunnen eten en drinken. ",
                     "images": [
                         {
                             "src": "assets/images/projects/borusan/1.jpg",
@@ -288,7 +287,7 @@
                 {
                     "title": "Toshiba Business Display Solutions",
                     "subTitle": "ISE Amsterdam 2018",
-                    "description": "Vraagstelling: De uitdaging waar Toshiba voor stond was om de vele producten en diverse business units overzichtelijk te presenteren.",
+                    "description": "De uitdaging waar Toshiba voor stond was om de vele producten en diverse business units overzichtelijk te presenteren.",
                     "images": [
                         {
                             "src": "assets/images/projects/toshiba/1.jpg",
@@ -329,7 +328,7 @@
                 {
                     "title": "Lamb Weston/Meijer",
                     "subTitle": "Casual Dining Show London 2018",
-                    "description": "Vraagstelling: Creëer een concept waarmee we laten zien dat we de key spelers in de Engelse markt begrijpen. Dit is het groeiende pub segment in de UK. Hoe kan men dat beter doen dan door de LambWeston pub te ontwerpen?",
+                    "description": "Creëer een concept waarmee we laten zien dat we de key spelers in de Engelse markt begrijpen. Dit is het groeiende pub segment in de UK. Hoe kan men dat beter doen dan door de LambWeston pub te ontwerpen?",
                     "images": [
                         {
                             "src": "assets/images/projects/lamb/1.jpg",
@@ -364,7 +363,7 @@
                 {
                     "title": "WvanderZwan",
                     "subTitle": "Seafood Expo Global Brussel 2018",
-                    "description": "Vraagstelling: Omzetting van het bestaande concept in een hoogwaardige stand waarbij de bezoekers ook de mogelijkheid wordt geboden om op de bovenverdieping plaats te nemen in de lounge. Klanten kleine hapjes en drankjes aan te bieden in een ongedwongen sfeer.",
+                    "description": "Omzetting van het bestaande concept in een hoogwaardige stand waarbij de bezoekers ook de mogelijkheid wordt geboden om op de bovenverdieping plaats te nemen in de lounge. Klanten kleine hapjes en drankjes aan te bieden in een ongedwongen sfeer.",
                     "images": [
                         {
                             "src": "assets/images/projects/zwan/1.jpg",
@@ -396,7 +395,7 @@
                 {
                     "title": "Tomra Food Sorting NV",
                     "subTitle": "Programma 2018",
-                    "description": "Vraagstelling: Standing out from the rest, clean & stopping power wilde Tomra graag terug zien. Vanwege het programma met verschillende afmetingen en locaties moeten materialen zoveel mogelijk herbruikbaar zijn. Zodoende kan hier kosten efficient mee omgegaan worden.",
+                    "description": "Standing out from the rest, clean & stopping power wilde Tomra graag terug zien. Vanwege het programma met verschillende afmetingen en locaties moeten materialen zoveel mogelijk herbruikbaar zijn. Zodoende kan hier kosten efficient mee omgegaan worden.",
                     "images": [
                         {
                             "src": "assets/images/projects/tomra/tom-1.jpg",
@@ -431,7 +430,7 @@
                 {
                     "title": "Aluminium Verkoop Zuid BV (AVZ)",
                     "subTitle": "R+T Stuttgart 2018",
-                    "description": "Vraagstelling: AVZ wilde graag een open en toegankelijke stand die hen de mogelijkheid gaf op de grootste beurs binnen hun vakgebied zowel de nieuwe huisstijl te presenteren alsmede de belangrijkste producten tentoon te stellen. ",
+                    "description": "AVZ wilde graag een open en toegankelijke stand die hen de mogelijkheid gaf op de grootste beurs binnen hun vakgebied zowel de nieuwe huisstijl te presenteren alsmede de belangrijkste producten tentoon te stellen. ",
                     "images": [
                         {
                             "src": "assets/images/projects/avz/1.jpg",
@@ -461,7 +460,7 @@
                 {
                     "title": "The Scelta Institute BV",
                     "subTitle": "Anuga Keulen, Sial Parijs en FIE Frankfurt",
-                    "description": "Vraagstelling: Men wilde een nieuwe stand die voor alle beurzen modulair te bouwen is. Dezelfde look en feel waarbij hun producten worden gepresenteerd, zowel grafisch als door middel van live cooking. ",
+                    "description": "Men wilde een nieuwe stand die voor alle beurzen modulair te bouwen is. Dezelfde look en feel waarbij hun producten worden gepresenteerd, zowel grafisch als door middel van live cooking. ",
                     "images": [
                         {
                             "src": "assets/images/projects/scelta/1.jpg",
@@ -490,7 +489,7 @@
                 {
                     "title": "Strong TV",
                     "subTitle": "ANGA Keulen, IFA Berlijn",
-                    "description": "Vraagstelling: Het presenteren van WiFi producten maar ook de televisies op 1 stand waarbij de klanten de mogelijkheid wordt geboden om een privé gesprek te kunnen voeren in de meeting ruimtes of een informele kop koffie aan de bar. Producten voeren de boventoon op de technische beurzen waar ze aan deelnemen.",
+                    "description": "Het presenteren van WiFi producten maar ook de televisies op 1 stand waarbij de klanten de mogelijkheid wordt geboden om een privé gesprek te kunnen voeren in de meeting ruimtes of een informele kop koffie aan de bar. Producten voeren de boventoon op de technische beurzen waar ze aan deelnemen.",
                     "images": [
                         {
                             "src": "assets/images/projects/strong/1.jpg",
@@ -519,7 +518,7 @@
                 {
                     "title": "Frankort & Koning BV",
                     "subTitle": "Fruit Logistica Berlijn 2017-2019",
-                    "description": "Vraagstelling: De jaarlijkse fruitbeurs in Berlijn biedt Frankort & Koning de mogelijkheid om leveranciers en klanten over de hele wereld te ontmoeten. Een laagdrempelige stand waarbij hospitality hoog in het vaandel staat was het uitgangspunt. ",
+                    "description": "De jaarlijkse fruitbeurs in Berlijn biedt Frankort & Koning de mogelijkheid om leveranciers en klanten over de hele wereld te ontmoeten. Een laagdrempelige stand waarbij hospitality hoog in het vaandel staat was het uitgangspunt. ",
                     "images": [
                         {
                             "src": "assets/images/projects/frankfort/1.jpg",
@@ -536,7 +535,7 @@
                         }
                     ],
                     "review": {
-                        "author": "Borusan Mannesmann",
+                        "author": "Frankort & Koning BV",
                         "date": "6 maart, 2018",
                         "stars": 5,
                         "description": "Really Awesome!"
