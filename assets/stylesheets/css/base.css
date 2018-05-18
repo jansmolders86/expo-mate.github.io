@@ -1708,28 +1708,36 @@ section#image-scroll .image-scroll-wrapper.fixed .background-image {
     background-size: cover;
     margin: 0 auto;
     position: relative;
+    transition: all 0.5s ease;
+    -webkit-backface-visibility: hidden;
+    transform: translate3d(0, 0, 0);
   }
-  /* line 65, ../sass/_method.sass */
+  /* line 68, ../sass/_method.sass */
   #method #diagram.intro {
     background-image: url(../../images/diagram/diagram-1.png);
-  }
-  /* line 67, ../sass/_method.sass */
-  #method #diagram.design {
-    background-image: url(../../images/diagram/diagram-2.png);
-  }
-  /* line 69, ../sass/_method.sass */
-  #method #diagram.tuning {
-    background-image: url(../../images/diagram/diagram-3.png);
+    transition: all 0.5s ease;
   }
   /* line 71, ../sass/_method.sass */
+  #method #diagram.design {
+    background-image: url(../../images/diagram/diagram-2.png);
+    transition: all 0.5s ease;
+  }
+  /* line 74, ../sass/_method.sass */
+  #method #diagram.tuning {
+    background-image: url(../../images/diagram/diagram-3.png);
+    transition: all 0.5s ease;
+  }
+  /* line 77, ../sass/_method.sass */
   #method #diagram.construction {
     background-image: url(../../images/diagram/diagram-4.png);
+    transition: all 0.5s ease;
   }
-  /* line 73, ../sass/_method.sass */
+  /* line 80, ../sass/_method.sass */
   #method #diagram.eval {
     background-image: url(../../images/diagram/diagram-5.png);
+    transition: all 0.5s ease;
   }
-  /* line 75, ../sass/_method.sass */
+  /* line 83, ../sass/_method.sass */
   #method #diagram .diagram-logo {
     background: url(../../images/loading-logo.png) no-repeat;
     background-size: contain;
@@ -1740,83 +1748,83 @@ section#image-scroll .image-scroll-wrapper.fixed .background-image {
     left: 390px;
   }
 }
-/* line 83, ../sass/_method.sass */
+/* line 91, ../sass/_method.sass */
 #method #diagram .method-item-wrapper {
   position: absolute;
   height: 250px;
   width: 250px;
 }
 @media only screen and (max-width: 1199px) {
-  /* line 83, ../sass/_method.sass */
+  /* line 91, ../sass/_method.sass */
   #method #diagram .method-item-wrapper {
     height: 120px;
   }
 }
-/* line 89, ../sass/_method.sass */
+/* line 97, ../sass/_method.sass */
 #method #diagram .method-item-wrapper:nth-child(1) {
   top: 0;
   left: 50%;
   margin-left: -125px;
 }
 @media only screen and (max-width: 1199px) {
-  /* line 89, ../sass/_method.sass */
+  /* line 97, ../sass/_method.sass */
   #method #diagram .method-item-wrapper:nth-child(1) {
     top: 0;
     left: 0;
     margin-left: 0;
   }
 }
-/* line 97, ../sass/_method.sass */
+/* line 105, ../sass/_method.sass */
 #method #diagram .method-item-wrapper:nth-child(2) {
   top: 250px;
   right: 50px;
 }
 @media only screen and (max-width: 1199px) {
-  /* line 97, ../sass/_method.sass */
+  /* line 105, ../sass/_method.sass */
   #method #diagram .method-item-wrapper:nth-child(2) {
     top: 160px;
     left: 0;
   }
 }
-/* line 103, ../sass/_method.sass */
+/* line 111, ../sass/_method.sass */
 #method #diagram .method-item-wrapper:nth-child(3) {
   top: 620px;
   right: 150px;
 }
 @media only screen and (max-width: 1199px) {
-  /* line 103, ../sass/_method.sass */
+  /* line 111, ../sass/_method.sass */
   #method #diagram .method-item-wrapper:nth-child(3) {
     top: 320px;
     left: 0;
   }
 }
-/* line 109, ../sass/_method.sass */
+/* line 117, ../sass/_method.sass */
 #method #diagram .method-item-wrapper:nth-child(4) {
   top: 620px;
   left: 25%;
   margin-left: -83.33333px;
 }
 @media only screen and (max-width: 1199px) {
-  /* line 109, ../sass/_method.sass */
+  /* line 117, ../sass/_method.sass */
   #method #diagram .method-item-wrapper:nth-child(4) {
     top: 480px;
     left: 0;
     margin-left: 0;
   }
 }
-/* line 117, ../sass/_method.sass */
+/* line 125, ../sass/_method.sass */
 #method #diagram .method-item-wrapper:nth-child(5) {
   top: 250px;
   left: 40px;
 }
 @media only screen and (max-width: 1199px) {
-  /* line 117, ../sass/_method.sass */
+  /* line 125, ../sass/_method.sass */
   #method #diagram .method-item-wrapper:nth-child(5) {
     top: 640px;
     left: 0;
   }
 }
-/* line 123, ../sass/_method.sass */
+/* line 131, ../sass/_method.sass */
 #method #diagram .method-item {
   height: 250px;
   width: 250px;
@@ -1836,7 +1844,7 @@ section#image-scroll .image-scroll-wrapper.fixed .background-image {
   pointer-events: all;
 }
 @media only screen and (max-width: 1199px) {
-  /* line 123, ../sass/_method.sass */
+  /* line 131, ../sass/_method.sass */
   #method #diagram .method-item {
     border-radius: 9999px;
     font-size: 0.75em;
@@ -1849,7 +1857,7 @@ section#image-scroll .image-scroll-wrapper.fixed .background-image {
     opacity: 1;
   }
 }
-/* line 151, ../sass/_method.sass */
+/* line 159, ../sass/_method.sass */
 #method #diagram .method-item .step-content > span.count {
   text-align: center;
   width: 100%;
@@ -1857,65 +1865,65 @@ section#image-scroll .image-scroll-wrapper.fixed .background-image {
   font-size: 2em;
 }
 @media only screen and (max-width: 1199px) {
-  /* line 151, ../sass/_method.sass */
+  /* line 159, ../sass/_method.sass */
   #method #diagram .method-item .step-content > span.count {
     display: none;
   }
 }
-/* line 158, ../sass/_method.sass */
+/* line 166, ../sass/_method.sass */
 #method #diagram .method-item .step-content span, #method #diagram .method-item .step-content i {
   display: block;
   color: #fff;
 }
-/* line 161, ../sass/_method.sass */
+/* line 169, ../sass/_method.sass */
 #method #diagram .method-item .step-content > span {
   display: inline-block;
   margin-top: 10px;
 }
-/* line 164, ../sass/_method.sass */
+/* line 172, ../sass/_method.sass */
 #method #diagram .method-item .step-content i {
   font-size: 2em;
   color: #fff;
 }
 @media only screen and (max-width: 767px) {
-  /* line 164, ../sass/_method.sass */
+  /* line 172, ../sass/_method.sass */
   #method #diagram .method-item .step-content i {
     font-size: 1.5em;
   }
 }
 @media only screen and (max-width: 1199px) {
-  /* line 169, ../sass/_method.sass */
+  /* line 177, ../sass/_method.sass */
   #method #diagram .method-item.intro {
     background: #3dbee8;
   }
 }
 @media only screen and (max-width: 1199px) {
-  /* line 172, ../sass/_method.sass */
+  /* line 180, ../sass/_method.sass */
   #method #diagram .method-item.design {
     background: #3644ad;
   }
 }
 @media only screen and (max-width: 1199px) {
-  /* line 175, ../sass/_method.sass */
+  /* line 183, ../sass/_method.sass */
   #method #diagram .method-item.tuning {
     background: #8dc701;
   }
 }
 @media only screen and (max-width: 1199px) {
-  /* line 178, ../sass/_method.sass */
+  /* line 186, ../sass/_method.sass */
   #method #diagram .method-item.construction {
     padding: 24px 19px 0;
   }
 }
 @media only screen and (max-width: 1199px) {
-  /* line 181, ../sass/_method.sass */
+  /* line 189, ../sass/_method.sass */
   #method #diagram .method-item.construction, #method #diagram .method-item.eval {
     background: #f5f9fd;
     color: #000;
     z-index: 6;
     border: 1px solid #ccc;
   }
-  /* line 189, ../sass/_method.sass */
+  /* line 197, ../sass/_method.sass */
   #method #diagram .method-item.construction .step-content .count, #method #diagram .method-item.construction .step-content i, #method #diagram .method-item.construction .step-content span, #method #diagram .method-item.eval .step-content .count, #method #diagram .method-item.eval .step-content i, #method #diagram .method-item.eval .step-content span {
     color: #000;
   }

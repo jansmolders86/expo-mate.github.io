@@ -62,16 +62,24 @@ $mobileTextOffset: 150px
       background-size: cover
       margin: 0 auto
       position: relative
+      transition: all .5s ease
+      -webkit-backface-visibility: hidden
+      transform: translate3d(0,0,0)
       &.intro
         background-image: url(../../images/diagram/diagram-1.png)
+        transition: all .5s ease
       &.design
         background-image: url(../../images/diagram/diagram-2.png)
+        transition: all .5s ease
       &.tuning
         background-image: url(../../images/diagram/diagram-3.png)
+        transition: all .5s ease
       &.construction
         background-image: url(../../images/diagram/diagram-4.png)
+        transition: all .5s ease
       &.eval
         background-image: url(../../images/diagram/diagram-5.png)
+        transition: all .5s ease
       .diagram-logo
         background: url(../../images/loading-logo.png) no-repeat
         background-size: contain
