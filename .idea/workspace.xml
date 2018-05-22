@@ -1,37 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="98432c1c-f5b3-4fbf-a686-14df8c0a3d1f" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.sass-cache/4d832b0bccd74520a9847119988e88e6d7a2e033/_about.sassc" beforeDir="false" afterPath="$PROJECT_DIR$/.sass-cache/4d832b0bccd74520a9847119988e88e6d7a2e033/_about.sassc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.sass-cache/4d832b0bccd74520a9847119988e88e6d7a2e033/_method.sassc" beforeDir="false" afterPath="$PROJECT_DIR$/.sass-cache/4d832b0bccd74520a9847119988e88e6d7a2e033/_method.sassc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.sass-cache/4d832b0bccd74520a9847119988e88e6d7a2e033/_projects.sassc" beforeDir="false" afterPath="$PROJECT_DIR$/.sass-cache/4d832b0bccd74520a9847119988e88e6d7a2e033/_projects.sassc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.sass-cache/4d832b0bccd74520a9847119988e88e6d7a2e033/_values.sassc" beforeDir="false" afterPath="$PROJECT_DIR$/.sass-cache/4d832b0bccd74520a9847119988e88e6d7a2e033/_values.sassc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/diagram/diagram-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/diagram/diagram-1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/diagram/diagram-2.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/diagram/diagram-2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/diagram/diagram-3.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/diagram/diagram-3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/diagram/diagram-4.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/diagram/diagram-4.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/diagram/diagram-5.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/diagram/diagram-5.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/diagram/diagram.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/diagram/diagram.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/projects/zwan/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/projects/zwan/1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/projects/zwan/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/projects/zwan/2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/projects/zwan/3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/projects/zwan/3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/projects/zwan/4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/projects/zwan/4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/projects/zwan/5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/projects/zwan/5.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/projects/zwan/6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/projects/zwan/6.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/javascript/compressed.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/javascript/compressed.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/javascript/dev/animations.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/javascript/dev/animations.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/javascript/dev/imageComparison.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/javascript/dev/imageComparison.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/javascript/dev/locale.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/javascript/dev/locale.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/javascript/dev/project-bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/javascript/dev/project-bootstrap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/javascript/projects/compressed.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/javascript/projects/compressed.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/json/content.json" beforeDir="false" afterPath="$PROJECT_DIR$/assets/json/content.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/stylesheets/css/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/stylesheets/css/base.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/stylesheets/sass/_about.sass" beforeDir="false" afterPath="$PROJECT_DIR$/assets/stylesheets/sass/_about.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/stylesheets/sass/_method.sass" beforeDir="false" afterPath="$PROJECT_DIR$/assets/stylesheets/sass/_method.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/stylesheets/sass/_projects.sass" beforeDir="false" afterPath="$PROJECT_DIR$/assets/stylesheets/sass/_projects.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/stylesheets/sass/_values.sass" beforeDir="false" afterPath="$PROJECT_DIR$/assets/stylesheets/sass/_values.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -123,9 +97,10 @@
       <file leaf-file-name="content.json" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/json/content.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="293">
-              <caret line="205" column="52" selection-start-line="205" selection-start-column="52" selection-end-line="205" selection-end-column="52" />
+            <state relative-caret-position="51">
+              <caret line="1157" column="5" selection-start-line="1157" selection-start-column="5" selection-end-line="1157" selection-end-column="5" />
               <folding>
+                <element signature="n#!!block;n#nl#0;n#!!top" />
                 <element signature="n#!!block;n#nl#1;n#!!top" />
                 <element signature="n#!!block;n#nl#2;n#!!top" />
               </folding>
@@ -136,8 +111,8 @@
       <file leaf-file-name="locale.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/javascript/dev/locale.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="805">
-              <caret line="140" column="39" selection-start-line="140" selection-start-column="39" selection-end-line="140" selection-end-column="71" />
+            <state relative-caret-position="255">
+              <caret line="15" column="52" selection-start-line="15" selection-start-column="52" selection-end-line="15" selection-end-column="52" />
             </state>
           </provider>
         </entry>
@@ -166,13 +141,13 @@
         <option value="$PROJECT_DIR$/projects.html" />
         <option value="$PROJECT_DIR$/assets/stylesheets/sass/_about.sass" />
         <option value="$PROJECT_DIR$/assets/javascript/dev/animations.js" />
-        <option value="$PROJECT_DIR$/assets/javascript/dev/locale.js" />
         <option value="$PROJECT_DIR$/assets/javascript/dev/imageComparison.js" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/assets/stylesheets/sass/_projects.sass" />
         <option value="$PROJECT_DIR$/assets/stylesheets/sass/_values.sass" />
         <option value="$PROJECT_DIR$/assets/stylesheets/sass/_method.sass" />
         <option value="$PROJECT_DIR$/assets/javascript/dev/project-bootstrap.js" />
+        <option value="$PROJECT_DIR$/assets/javascript/dev/locale.js" />
         <option value="$PROJECT_DIR$/assets/json/content.json" />
       </list>
     </option>
@@ -283,12 +258,12 @@
       <updated>1526382084786</updated>
       <workItem from="1526382087297" duration="38000" />
       <workItem from="1526545368074" duration="28028000" />
-      <workItem from="1526979514477" duration="3519000" />
+      <workItem from="1526979514477" duration="3765000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31585000" />
+    <option name="totallyTimeSpent" value="31831000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="3832" y="-8" width="2576" height="1416" extended-state="6" />
@@ -389,6 +364,7 @@
         <state relative-caret-position="18581">
           <caret line="1637" lean-forward="true" selection-start-line="1637" selection-end-line="1637" />
           <folding>
+            <element signature="n#!!block;n#nl#0;n#!!top" />
             <element signature="n#!!block;n#nl#1;n#!!top" />
             <element signature="n#!!block;n#nl#2;n#!!top" />
           </folding>
@@ -471,13 +447,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/javascript/dev/locale.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="805">
-          <caret line="140" column="39" selection-start-line="140" selection-start-column="39" selection-end-line="140" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
@@ -537,11 +506,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/assets/javascript/dev/locale.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="52" selection-start-line="15" selection-start-column="52" selection-end-line="15" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/assets/json/content.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="205" column="52" selection-start-line="205" selection-start-column="52" selection-end-line="205" selection-end-column="52" />
+        <state relative-caret-position="51">
+          <caret line="1157" column="5" selection-start-line="1157" selection-start-column="5" selection-end-line="1157" selection-end-column="5" />
           <folding>
+            <element signature="n#!!block;n#nl#0;n#!!top" />
             <element signature="n#!!block;n#nl#1;n#!!top" />
             <element signature="n#!!block;n#nl#2;n#!!top" />
           </folding>
