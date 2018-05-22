@@ -2073,17 +2073,23 @@ body:not(.loading) .content-wrapper {
 #comparison-wrapper {
   position: relative;
   overflow: hidden;
+  margin-top: 50px;
 }
-/* line 5, ../sass/_comparison.sass */
+/* line 6, ../sass/_comparison.sass */
+#comparison-wrapper p {
+  text-align: center;
+  margin-bottom: 50px;
+}
+/* line 11, ../sass/_comparison.sass */
 #comparison-wrapper h2.comparison-header {
   padding: 50px 0;
 }
-/* line 8, ../sass/_comparison.sass */
+/* line 14, ../sass/_comparison.sass */
 #comparison-wrapper h2.comparison-header.show #comparison {
   right: 0;
   transition: 0.8s right ease 0.6s;
 }
-/* line 11, ../sass/_comparison.sass */
+/* line 17, ../sass/_comparison.sass */
 #comparison-wrapper #comparison {
   width: 1200px;
   height: 675px;
@@ -2091,28 +2097,28 @@ body:not(.loading) .content-wrapper {
   background: #fafafa;
 }
 @media screen and (min-width: 1800px) {
-  /* line 11, ../sass/_comparison.sass */
+  /* line 17, ../sass/_comparison.sass */
   #comparison-wrapper #comparison {
     width: 1600px;
     height: 900px;
   }
 }
 @media screen and (min-width: 2200px) {
-  /* line 11, ../sass/_comparison.sass */
+  /* line 17, ../sass/_comparison.sass */
   #comparison-wrapper #comparison {
     width: 1750px;
     height: 984px;
   }
 }
 @media only screen and (max-width: 1199px) {
-  /* line 11, ../sass/_comparison.sass */
+  /* line 17, ../sass/_comparison.sass */
   #comparison-wrapper #comparison {
     width: 800px;
     height: 450px;
   }
 }
 @media only screen and (max-width: 991px) {
-  /* line 11, ../sass/_comparison.sass */
+  /* line 17, ../sass/_comparison.sass */
   #comparison-wrapper #comparison {
     width: 320px;
     height: 179px;
@@ -2123,22 +2129,22 @@ body:not(.loading) .content-wrapper {
   }
 }
 @media screen and (min-width: 550px) and (max-width: 1000px) {
-  /* line 11, ../sass/_comparison.sass */
+  /* line 17, ../sass/_comparison.sass */
   #comparison-wrapper #comparison {
     width: 560px;
     height: 315px;
   }
 }
-/* line 35, ../sass/_comparison.sass */
+/* line 41, ../sass/_comparison.sass */
 #comparison-wrapper #comparison .item {
   position: relative;
 }
-/* line 37, ../sass/_comparison.sass */
+/* line 43, ../sass/_comparison.sass */
 #comparison-wrapper #comparison .item img {
   width: 100%;
   height: auto;
 }
-/* line 40, ../sass/_comparison.sass */
+/* line 46, ../sass/_comparison.sass */
 #comparison-wrapper #comparison .item .after {
   position: absolute;
   top: 0;
@@ -2147,32 +2153,32 @@ body:not(.loading) .content-wrapper {
   width: 50%;
   background-size: cover;
 }
-/* line 47, ../sass/_comparison.sass */
+/* line 53, ../sass/_comparison.sass */
 #comparison-wrapper #comparison .slick-prev {
   left: -60px;
 }
 @media only screen and (max-width: 991px) {
-  /* line 47, ../sass/_comparison.sass */
+  /* line 53, ../sass/_comparison.sass */
   #comparison-wrapper #comparison .slick-prev {
     left: -20px;
   }
 }
-/* line 51, ../sass/_comparison.sass */
+/* line 57, ../sass/_comparison.sass */
 #comparison-wrapper #comparison .slick-next {
   right: -60px;
 }
-/* line 53, ../sass/_comparison.sass */
+/* line 59, ../sass/_comparison.sass */
 #comparison-wrapper #comparison .slick-next:before {
   color: #000;
 }
 @media only screen and (max-width: 991px) {
-  /* line 51, ../sass/_comparison.sass */
+  /* line 57, ../sass/_comparison.sass */
   #comparison-wrapper #comparison .slick-next {
     right: -20px;
   }
 }
 
-/* line 58, ../sass/_comparison.sass */
+/* line 64, ../sass/_comparison.sass */
 .icon-arrow-left,
 .icon-arrow-right {
   font-size: 3em;
@@ -2184,7 +2190,7 @@ body:not(.loading) .content-wrapper {
   cursor: pointer;
 }
 @media only screen and (max-width: 1199px) {
-  /* line 58, ../sass/_comparison.sass */
+  /* line 64, ../sass/_comparison.sass */
   .icon-arrow-left,
   .icon-arrow-right {
     top: 20%;
@@ -2195,27 +2201,27 @@ body:not(.loading) .content-wrapper {
   }
 }
 @media screen and (min-width: 1100px) and (min-width: 1280px) {
-  /* line 58, ../sass/_comparison.sass */
+  /* line 64, ../sass/_comparison.sass */
   .icon-arrow-left,
   .icon-arrow-right {
     color: #ccc;
   }
 }
 
-/* line 75, ../sass/_comparison.sass */
+/* line 81, ../sass/_comparison.sass */
 .icon-arrow-right {
   color: #000;
   left: auto;
   right: 40px;
 }
 @media only screen and (max-width: 991px) {
-  /* line 75, ../sass/_comparison.sass */
+  /* line 81, ../sass/_comparison.sass */
   .icon-arrow-right {
     right: -5px;
   }
 }
 @media screen and (min-width: 1100px) and (min-width: 1280px) {
-  /* line 75, ../sass/_comparison.sass */
+  /* line 81, ../sass/_comparison.sass */
   .icon-arrow-right {
     color: #ccc;
   }
