@@ -100,8 +100,8 @@
       <file leaf-file-name="content.json" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/json/content.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1029">
-              <caret line="445" column="704" selection-start-line="445" selection-start-column="704" selection-end-line="445" selection-end-column="704" />
+            <state relative-caret-position="978">
+              <caret line="241" column="50" selection-start-line="241" selection-start-column="50" selection-end-line="241" selection-end-column="50" />
               <folding>
                 <element signature="n#!!block;n#de#0;n#!!top" />
                 <element signature="n#!!block;n#en#0;n#!!top" />
@@ -263,12 +263,12 @@
       <updated>1526382084786</updated>
       <workItem from="1526382087297" duration="38000" />
       <workItem from="1526545368074" duration="28028000" />
-      <workItem from="1526979514477" duration="5639000" />
+      <workItem from="1526979514477" duration="5779000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33705000" />
+    <option name="totallyTimeSpent" value="33845000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="3832" y="-8" width="2576" height="1416" extended-state="6" />
@@ -519,8 +519,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/json/content.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1029">
-          <caret line="445" column="704" selection-start-line="445" selection-start-column="704" selection-end-line="445" selection-end-column="704" />
+        <state relative-caret-position="978">
+          <caret line="241" column="50" selection-start-line="241" selection-start-column="50" selection-end-line="241" selection-end-column="50" />
           <folding>
             <element signature="n#!!block;n#de#0;n#!!top" />
             <element signature="n#!!block;n#en#0;n#!!top" />
