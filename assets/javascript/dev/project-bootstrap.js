@@ -42,7 +42,7 @@ $(function(){
                                 '				</div>\n' +
                                 '				<div class="project-desc"> \n' +
                                 '				   <span>'+item.description+'</span> \n' +
-                                '				   <a class="read-review" data-count="'+count+'">'+reviewLink+'</a> \n' +
+                                '				   <a class="read-review" data-count="'+count+'">'+reviewLink+' '+item.title+'</a> \n' +
                                 '			   </div>\n' +
                                 '			</div>\n' +
                                 '		</div> \n' +

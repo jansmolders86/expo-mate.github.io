@@ -5,6 +5,555 @@
                 "about": "Ons Verhaal",
                 "foundation": "Ons Fundament",
                 "mission": "Onze Missie &amp; Visie",
+                "aboutUs": "Wie zijn wij",
+                "method": "Onze Werkwijze",
+                "process": "Full service Proces",
+                "model": "Ons Expo-Mate Model",
+                "comparision": "Van Design naar Realisatie",
+                "values": "Onze Kernwaardes",
+                "projects": "Projecten",
+                "contact": "Contact"
+            }
+        },
+        "pages": {
+            "homepage": {
+                "header": {
+                    "content": {
+                        "title": "Management in Authentic and Trending Exhibition Participations",
+                        "backgroundImageSrc": "assets/images/mobile-bg.jpg",
+                        "backgroundVideoMp4Src": "assets/video/expo-mate.mp4",
+                        "backgroundVideoWebMSrc": "assets/video/expo-mate.webm",
+                        "youtubeURL": "zxgIFrCk_uo"
+                    }
+                },
+                "content": {
+                    "intro": {
+                        "title": "Ons Verhaal",
+                        "description": "We geloven in de kracht van diversiteit. Diversiteit en het samenbrengen van verschillende disciplines zorgt er namelijk voor dat we iedere dag het beste resultaat voor, maar vooral met, onze klanten kunnen realiseren.",
+                        "images": [
+                            {
+                                "src": "assets/images/brands/bo-logo.png",
+                                "alt": "Borusan"
+                            },
+                            {
+                                "src": "assets/images/brands/tomra.jpg",
+                                "alt": "Tomra"
+                            },
+                            {
+                                "src": "assets/images/brands/toshiba.jpg",
+                                "alt": "Toshiba"
+                            },
+                            {
+                                "src": "assets/images/brands/lamb.jpg",
+                                "alt": "LambWeston"
+                            },
+                            {
+                                "src": "assets/images/brands/strong.jpg",
+                                "alt": "Strong TV"
+                            }
+                        ]
+                    },
+                    "about": {
+                        "row1": {
+                            "image": {
+                                "src": "assets/images/1.jpg"
+                            },
+                            "title": "ONS FUNDAMENT",
+                            "description": "10 jaar kennis en ervaring in de beursindustrie gecombineerd met 10 jaar sales en marketing ervaring vormt onze basis. Hierdoor kunnen wij als geen ander unieke beursconcepten bedenken die zorgen voor de hoogste return on investment."
+                        },
+                        "row2": {
+                            "image": {
+                                "src": "assets/images/2.jpg"
+                            },
+                            "title": "ONZE MISSIE & VISIE",
+                            "description": "<p>De kapstok van EXPO-MATE. Alles wat we doen is afgeleid van ons bestaansrecht en onze droom; onze missie en visie.</p><p>Onze missie; Beursdeelnames succesvoller, efficiënter en gemakkelijker maken. </p><p>Onze Visie; EXPO-MATE wil het meest gewaardeerde full service project management bureau zijn binnen de branche en marktleider op het gebied van kwaliteit. Het cre&euml;ren van authentieke, innovatieve en milieubewuste op maat gemaakte projecten zorgt ervoor dat onze klanten meer dan hun (beurs)doelstellingen bereiken. Door onze manier van werken zijn onze klanten niet alleen tevreden met het eindresultaat, maar ook met het totale proces dat daar naartoe leidt. Hierdoor zijn klanten niet langer klanten maar zijn het onze ambassadeurs.</p>"
+                        }
+                    },
+                    "aboutUs": {
+                        "title": "WIE ZIJN WIJ?",
+                        "description": "",
+                        "employees": {
+                            "niek": {
+                                "title": "Niek van Gent",
+                                "description": "Door zelf als commercieel manager te hebben gewerkt begrijp ik als geen ander waar onze klanten behoeftes aan hebben. Iets waarvan ik merk dat het echt een meerwaarde is tijdens het designproces. Doordat ik zelf op de positie zat van mijn gesprekpartner kan ik me goed inleven in de behoeftes. De omzetting van organisatie naar een concreet concept samen met onze klanten is mijn grootste drijfveer! ",
+                                "image": {
+                                    "src": "assets/images/niek.jpg",
+                                    "alt": "Niek van Gent"
+                                }
+                            },
+                            "jan": {
+                                "title": "Jan Maas",
+                                "description": "Na 10 jaar werkzaam geweest te zijn als Project- en Accountmanager bij twee bedrijven binnen de beurzen industrie, ben ik van mening dat persoonlijke aandacht en echt luisteren naar de wensen van de klant het allerbelangrijkste is.Dit was de belangrijkste reden om EXPO-MATE te starten. Door de ervaring op commercieel én technisch gebied kunnen we als volledig klankbord naar onze klanten acteren en hen tijdens het volledige proces ontzorgen. Gezamenlijk de (beurs) doelstellingen bereiken middels een prettige en persoonlijke samenwerking is waar ik voor sta!",
+                                "image": {
+                                    "src": "assets/images/jan.jpg",
+                                    "alt": "Jan Maas"
+                                }
+                            }
+                        }
+                    },
+                    "values": {
+                        "title": "ONZE KERNWAARDES",
+                        "description": "Of we een adviesgesprek voeren, een ontwerp presenteren, of de uiteindelijke stand opleveren, alles wat we doen is gebaseerd op onze kernwaardes welke hieronder zijn weergegeven.",
+                        "image": {
+                            "src": "assets/images/wall.jpg"
+                        },
+                        "values": {
+                            "value1": "De Hoogste Kwaliteit",
+                            "value2": "Full Service",
+                            "value3": "Innovatief & Authentiek",
+                            "value4": "Onafhankelijkheid",
+                            "value5": "Duurzaam",
+                            "value6": "Operational Excellence"
+                        }
+                    },
+                    "method": {
+                        "title": "ONZE WERKWIJZE",
+                        "hoverLabel": "Beweeg met uw muis over de bollen voor meer informatie.",
+                        "description": "Totale ontzorging. Minder vinden we niet goed genoeg voor onze relaties. Door onze verschillende achtergronden en ervaringen hebben we een werkwijze kunnen ontwikkelen die uniek is in de branche en welke ons in staat stelt de hoogst mogelijke return on investment voor onze relaties te behalen.",
+                        "method": {
+                            "intro": {
+                                "title": "Introductie",
+                                "description": "Een persoonlijke kennismaking waarbij de behoeftes, wensen en doelen worden besproken."
+                            },
+                            "design": {
+                                "title": "Design",
+                                "description": "Op basis van uw input aangevuld met de uitkomst van het “EXPO-MATE model” maken we een authentiek en innovatief op maat ontworpen beursconcept."
+                            },
+                            "tuning": {
+                                "title": "Fine tunen",
+                                "description": "Gezamenlijk wordt het ontwerp besproken en eventueel aangepast om tot het optimale definitieve ontwerp te komen."
+                            },
+                            "construction": {
+                                "title": "Technische voorbereiding en realisatie",
+                                "description": "Wij verzorgen de volledige technische voorbereiding en opbouw van de stand. Vanzelfsprekend zijn we als uw samenwerkingspartnerpartner bij de opbouw aanwezig en zijn we uw aanspreekpunt op de beursvloer."
+                            },
+                            "eval": {
+                                "title": "Evaluatie",
+                                "description": "Na afloop bespreken we altijd het project om te zien of doelstellingen zijn behaald, de stand naar tevredenheid is geweest en of er eventuele verbeterpunten zijn voor het eerstvolgende project."
+                            }
+                        }
+                    },
+                    "model": {
+                        "image": {
+                            "src": "assets/images/model.jpg"
+                        },
+                        "title": "Het EXPO-MATE model – van introductie naar design",
+                        "description": "In onze optiek de belangrijkste stap in het gehele proces. Door tijd te investeren en kennis te delen in het begin van het proces, hoeven er geen aannames te worden gedaan bij het ontwerp van het concept, maar gaat om datgene wat telt: Integreren van uw identiteit, wensen en behoeftes als beursdeelnemer. EXPO-MATE heeft een eigen -uniek- model ontwikkeld dat ons in staat stelt om de belangrijkste organisatie kenmerken/waardes en identiteit concreet te verwerken in het ontwerpvoorstel. Wij geloven erin dat alleen dan de hoogste return on investment kan worden behaald. We komen dit model graag gedetailleerd uitleggen en gezamenlijk in de praktijk brengen."
+
+                    },
+                    "projects": {
+                        "tile": "ONZE PROJECTEN",
+                        "description": "Innovatief en authentiek. Dat zijn de sleutelwoorden van onze ontwerpen. Iedere stand is custom made ontworpen en gebouwd conform de hoogste kwaliteitsnormen. Bekijk hier enkele voorbeelden van door ons ontworpen en gerealiseerde stands. Benieuwd naar wat we voor uw organisatie kunnen betekenen? Neem dan gerust contact met ons op!",
+                        "reviewLink": "Bekijk hier de review van",
+                        "button": {
+                            "label": "Onze Projecten"
+                        },
+                        "project1": {
+                            "title": "Borusan Mannesmann",
+                            "button": "Bekijk",
+                            "image": {
+                                "src": "assets/images/projects/borusan/1.jpg",
+                                "alt": "Borusan"
+                            }
+                        },
+                        "project2": {
+                            "title": "Toshiba",
+                            "button": "Bekijk",
+                            "image": {
+                                "src": "assets/images/projects/toshiba/1.jpg",
+                                "alt": "Toshiba"
+                            }
+                        }
+                    }
+                },
+                "comparison": {
+                    "title": "Van design naar realisatie",
+                    "description": "Vanaf de eerste schetsen wordt er nagedacht dat het uiteindelijke design ook perfect omgezet moet worden in realiteit. Bekijk hieronder enkele voorbeelden van ontwerpen en het eindresultaat",
+                    "comparisons": [
+                        {
+                            "before": "assets/images/comparison/borusan/slider-before.jpg",
+                            "after": "assets/images/comparison/borusan/slider-after.jpg"
+                        },
+                        {
+                            "before": "assets/images/comparison/toshiba/slider-before.jpg",
+                            "after": "assets/images/comparison/toshiba/slider-after.jpg"
+                        },
+                        {
+                            "before": "assets/images/comparison/lamb/slider-before.jpg",
+                            "after": "assets/images/comparison/lamb/slider-after.jpg"
+                        },
+                        {
+                            "before": "assets/images/comparison/zwan/slider-before.jpg",
+                            "after": "assets/images/comparison/zwan/slider-after.jpg"
+                        }
+                    ]
+                },
+                "footer": {
+                    "testimonials": {
+                        "title": "Testimonials"
+                    },
+                    "contacts": {
+                        "header": "Mail Ons",
+                        "jan": {
+                            "title": "Jan Maas",
+                            "links": {
+                                "email": {
+                                    "title": "j.maas@expo-mate.com",
+                                    "src": "mailto:j.maas@expo-mate.com",
+                                    "alt": "Email Jan"
+                                },
+                                "linkedin": {
+                                    "title": "Jan op",
+                                    "src": "https://nl.linkedin.com/in/maasjan",
+                                    "alt": "Jan On LinkedIn"
+                                }
+                            },
+                            "phone": "+31 6 50 28 18 91"
+                        },
+                        "niek": {
+                            "title": "Niek van Gent",
+                            "links": {
+                                "email": {
+                                    "title": "n.van.gent@expo-mate.com",
+                                    "src": "mailto:n.van.gent@expo-mate.com"
+                                },
+                                "linkedin": {
+                                    "title": "Niek op",
+                                    "src": "https://nl.linkedin.com/in/niek-van-gent-b538781b"
+                                }
+                            },
+                            "phone": "+31 6 50 28 18 91"
+                        }
+                    },
+                    "phone": {
+                        "header": "Bel Ons"
+                    },
+                    "visit": {
+                        "header": "Bezoek Ons",
+                        "description": "Garnizoenweg 3 <br/> Building A <br/> Postbus 8064 <br/> 5928 NA Venlo <br/> The Netherlands"
+                    },
+                    "copyright": {
+                        "description": "Copyright 2018, Expo-Mate - None of the Images on the website are owned or affiliated with Expo-mate and are copyrighted by their respectful owners."
+                    }
+                }
+            },
+            "projects": [
+                {
+                    "title": "Borusan Mannesmann",
+                    "subTitle": "TUBE 2018 Düsseldorf",
+                    "description": "Ontwikkelen van een beurs concept waarin Borusan Mannesmann de belangrijkste klanten kan ontvangen tijdens het 60 jarige bestaan. Prestige om het mooiste concept neer te zetten waarin bezoekers comfortabel wat kunnen eten en drinken. ",
+                    "images": [
+                        {
+                            "src": "assets/images/projects/borusan/1.jpg",
+                            "alt": "Borusan Mannesmann"
+                        },
+                        {
+                            "src": "assets/images/projects/borusan/2.jpg",
+                            "alt": "Borusan Mannesmann"
+                        },
+                        {
+                            "src": "assets/images/projects/borusan/3.jpg",
+                            "alt": "Borusan Mannesmann"
+                        },
+                        {
+                            "src": "assets/images/projects/borusan/4.jpg",
+                            "alt": "Borusan Mannesmann"
+                        },
+                        {
+                            "src": "assets/images/projects/borusan/5.jpg",
+                            "alt": "Borusan Mannesmann"
+                        },
+                        {
+                            "src": "assets/images/projects/borusan/6.jpg",
+                            "alt": "Borusan"
+                        },
+                        {
+                            "src": "assets/images/projects/borusan/7.jpg",
+                            "alt": "Borusan Mannesmann"
+                        },
+                        {
+                          "src": "assets/images/projects/borusan/8.jpg",
+                          "alt": "Borusan Mannesmann"
+                        },
+                        {
+                          "src": "assets/images/projects/borusan/9.jpg",
+                          "alt": "Borusan Mannesmann"
+                        }
+                    ],
+                    "review": {
+                        "author": "Borusan Mannesmann",
+                        "date": "6 maart, 2018",
+                        "stars": 5,
+                        "description": "De samenwerking met Expo-Mate verliep vlekkeloos. Alle afspraken zijn goed nagekomen. Ondanks de vele aanpassingen vanuit onze kant, zag de stand er geweldig uit, werd het op tijd opgeleverd en zag de stand er in werkelijkheid hetzelfde uit zoals het ontwerp. Bedankt Expo-Mate!"
+                    }
+                },
+                {
+                    "title": "Toshiba Business Display Solutions",
+                    "subTitle": "ISE Amsterdam 2018",
+                    "description": "De uitdaging waar Toshiba voor stond was om de vele producten en diverse business units overzichtelijk te presenteren.",
+                    "images": [
+                        {
+                            "src": "assets/images/projects/toshiba/1.jpg",
+                            "alt": "Toshiba"
+                        },
+                        {
+                            "src": "assets/images/projects/toshiba/2.jpg",
+                            "alt": "Toshiba"
+                        },
+                        {
+                            "src": "assets/images/projects/toshiba/3.jpg",
+                            "alt": "Toshiba"
+                        },
+                        {
+                            "src": "assets/images/projects/toshiba/4.jpg",
+                            "alt": "Toshiba"
+                        },
+                        {
+                            "src": "assets/images/projects/toshiba/5.jpg",
+                            "alt": "Toshiba"
+                        },
+                        {
+                            "src": "assets/images/projects/toshiba/6.jpg",
+                            "alt": "Toshiba"
+                        },
+                        {
+                            "src": "assets/images/projects/toshiba/7.jpg",
+                            "alt": "Toshiba"
+                        }
+                    ],
+                    "review": {
+                        "author": "Toshiba Business Display Solutions",
+                        "date": "12 maart, 2018",
+                        "stars": 5,
+                        "description": "Ondanks het korte tijdsbestek heeft Expo-Mate een perfect resultaat neergezet.  Door ons volledig te ontzorgen met organisatie en begeleiding, zijn wij ondertussen in staat geweest onze volledige focus te houden op andere zaken. Namens Team Grootkeuken Gilde, Chapeau!"
+                    }
+                },
+                {
+                    "title": "Lamb Weston/Meijer",
+                    "subTitle": "Casual Dining Show London 2018",
+                    "description": "Creëer een concept waarmee we laten zien dat we de key spelers in de Engelse markt begrijpen. Dit is het groeiende pub segment in de UK. Hoe kan men dat beter doen dan door de LambWeston pub te ontwerpen?",
+                    "images": [
+                        {
+                            "src": "assets/images/projects/lamb/1.jpg",
+                            "alt": "Lamb Weston/Meijer"
+                        },{
+                            "src": "assets/images/projects/lamb/2.jpg",
+                            "alt": "Lamb Weston/Meijer"
+                        },{
+                            "src": "assets/images/projects/lamb/3.jpg",
+                            "alt": "Lamb Weston/Meijer"
+                        },{
+                            "src": "assets/images/projects/lamb/4.jpg",
+                            "alt": "Lamb Weston/Meijer"
+                        },{
+                            "src": "assets/images/projects/lamb/5.jpg",
+                            "alt": "Lamb Weston/Meijer"
+                        },{
+                            "src": "assets/images/projects/lamb/6.jpg",
+                            "alt": "Lamb Weston/Meijer"
+                        },{
+                            "src": "assets/images/projects/lamb/7.jpg",
+                            "alt": "Lamb Weston/Meijer"
+                        }
+                    ],
+                    "review": {
+                        "author": "Lamb Weston Meijer",
+                        "date": "6 maart, 2018",
+                        "stars": 5,
+                        "description": "Een zeer professionele maar ook persoonlijke samenwerking met Expo Mate voor onze stand op de Fruit Logistica in Berlijn. Afspraken zijn nagekomen, werkelijkheid was zoals het ontwerp. Met een paar aanpassingen zijn we weer klaar voor editie 2018! Frankort & Koning BV"
+                    }
+                },
+                {
+                    "title": "WvanderZwan",
+                    "subTitle": "Seafood Expo Global Brussel 2018",
+                    "description": "Omzetting van het bestaande concept in een hoogwaardige stand waarbij de bezoekers ook de mogelijkheid wordt geboden om op de bovenverdieping plaats te nemen in de lounge. Klanten kleine hapjes en drankjes aan te bieden in een ongedwongen sfeer.",
+                    "images": [
+                        {
+                            "src": "assets/images/projects/zwan/1.jpg",
+                            "alt": "WvanderZwan"
+                        },{
+                            "src": "assets/images/projects/zwan/2.jpg",
+                            "alt": "WvanderZwan"
+                        },{
+                            "src": "assets/images/projects/zwan/3.jpg",
+                            "alt": "WvanderZwan"
+                        },{
+                            "src": "assets/images/projects/zwan/4.jpg",
+                            "alt": "WvanderZwan"
+                        },{
+                            "src": "assets/images/projects/zwan/5.jpg",
+                            "alt": "WvanderZwan"
+                        },{
+                            "src": "assets/images/projects/zwan/6.jpg",
+                            "alt": "WvanderZwan"
+                        }
+                    ],
+                    "review": {
+                        "author": "WvanderZwan",
+                        "date": "12 maart, 2018",
+                        "stars": 5,
+                        "description": "Zeer tevreden over de succesvolle realisatie van onze nieuwe stand en de betrouwbare begeleiding richting onze deelname aan de SIAL in 2016. Er werd goed meegedacht om van idee en tekening tot een succesvolle beursdeelname te komen."
+                    }
+                },
+                {
+                    "title": "Tomra Food Sorting NV",
+                    "subTitle": "Programma 2018",
+                    "description": "Standing out from the rest, clean & stopping power wilde Tomra graag terug zien. Vanwege het programma met verschillende afmetingen en locaties moeten materialen zoveel mogelijk herbruikbaar zijn. Zodoende kan hier kosten efficient mee omgegaan worden.",
+                    "images": [
+                        {
+                            "src": "assets/images/projects/tomra/tom-1.jpg",
+                            "alt": "Tomra Food Sorting NV"
+                        },{
+                            "src": "assets/images/projects/tomra/2.jpg",
+                            "alt": "Tomra Food Sorting NV"
+                        },{
+                            "src": "assets/images/projects/tomra/3.jpg",
+                            "alt": "Tomra Food Sorting NV"
+                        },{
+                            "src": "assets/images/projects/tomra/4.jpg",
+                            "alt": "Tomra Food Sorting NV"
+                        },{
+                            "src": "assets/images/projects/tomra/5.jpg",
+                            "alt": "Tomra Food Sorting NV"
+                        },{
+                            "src": "assets/images/projects/tomra/6.jpg",
+                            "alt": "Tomra Food Sorting NV"
+                        },{
+                            "src": "assets/images/projects/tomra/7.jpg",
+                            "alt": "Tomra Food Sorting NV"
+                        }
+                    ],
+                    "review": {
+                        "author": "Tomra Food Sorting NV",
+                        "date": "6 maart, 2018",
+                        "stars": 5,
+                        "description": "It was a pleasure working with Expo-Mate from the early planning stages through to the execution at the event. Everything was effortless and well thought out - communicative, friendly team. We were very pleased with the end result and received much positive feedback on the Toshiba Business Display Solutions stand itself at ISE 2018, Amsterdam. We look forward to working with you again in the future thanks again, Expo-Mate."
+                    }
+                },
+                {
+                    "title": "Aluminium Verkoop Zuid BV (AVZ)",
+                    "subTitle": "R+T Stuttgart 2018",
+                    "description": "AVZ wilde graag een open en toegankelijke stand die hen de mogelijkheid gaf op de grootste beurs binnen hun vakgebied zowel de nieuwe huisstijl te presenteren alsmede de belangrijkste producten tentoon te stellen. ",
+                    "images": [
+                        {
+                            "src": "assets/images/projects/avz/1.jpg",
+                            "alt": "AVZ"
+                        },{
+                            "src": "assets/images/projects/avz/2.jpg",
+                            "alt": "AVZ"
+                        },{
+                            "src": "assets/images/projects/avz/3.jpg",
+                            "alt": "AVZ"
+                        },{
+                            "src": "assets/images/projects/avz/4.jpg",
+                            "alt": "AVZ"
+                        },{
+                            "src": "assets/images/projects/avz/5.jpg",
+                            "alt": "AVZ"
+                        }
+                    ],
+                    "review": {
+                        "author": "Aluminium Verkoop Zuid BV",
+                        "date": "12 maart, 2018",
+                        "stars": 5,
+                        "description": "It was a pleasure working with the Expo Mate team for the Fruit Logistica Fair in Berlin. From the design phase all the way to the end result at the show, the team helped us realize our ideas. They suggested a creative design, detailed cost overview and the roll-out of the approved plan was good. The booth looked professional, gave us at TOMRA good exposure and branding. The thing I liked most is the personal and close follow-up. If there is anything that was not right (and as all of us know, these things happen during an exhibition :-) ), the team was there to come up with a solution."
+                    }
+                },
+
+                {
+                    "title": "The Scelta Institute BV",
+                    "subTitle": "Anuga Keulen, Sial Parijs en FIE Frankfurt",
+                    "description": "Men wilde een nieuwe stand die voor alle beurzen modulair te bouwen is. Dezelfde look en feel waarbij hun producten worden gepresenteerd, zowel grafisch als door middel van live cooking. ",
+                    "images": [
+                        {
+                            "src": "assets/images/projects/scelta/1.jpg",
+                            "alt": "The Scelta Institute BV"
+                        },{
+                            "src": "assets/images/projects/scelta/2.jpg",
+                            "alt": "The Scelta Institute BV"
+                        },{
+                            "src": "assets/images/projects/scelta/3.jpg",
+                            "alt": "The Scelta Institute BV"
+                        },{
+                            "src": "assets/images/projects/scelta/4.jpg",
+                            "alt": "The Scelta Institute BV"
+                        },{
+                            "src": "assets/images/projects/scelta/5.jpg",
+                            "alt": "The Scelta Institute BV"
+                        }
+                    ],
+                    "review": {
+                        "author": "The Scelta Institute BV",
+                        "date": "6 maart, 2018",
+                        "stars": 5,
+                        "description": "Very professional, friendly and helpful booth builder from the Netherlands."
+                    }
+                },
+                {
+                    "title": "Strong TV",
+                    "subTitle": "ANGA Keulen, IFA Berlijn",
+                    "description": "Het presenteren van WiFi producten maar ook de tv's op 1 stand waarbij de klanten de mogelijkheid wordt geboden om een privé gesprek te kunnen voeren in de meeting ruimtes of een informele kop koffie aan de bar. Producten voeren de boventoon op de technische beurzen waar ze aan deelnemen.",
+                    "images": [
+                        {
+                            "src": "assets/images/projects/strong/1.jpg",
+                            "alt": "Strong TV"
+                        }, {
+                            "src": "assets/images/projects/strong/2.jpg",
+                            "alt": "Strong TV"
+                        },{
+                            "src": "assets/images/projects/strong/3.jpg",
+                            "alt": "Strong TV"
+                        },{
+                            "src": "assets/images/projects/strong/4.jpg",
+                            "alt": "Strong TV"
+                        },{
+                            "src": "assets/images/projects/strong/5.jpg",
+                            "alt": "Strong TV"
+                        }
+                    ],
+                    "review": {
+                        "author": "Strong TV",
+                        "date": "12 maart, 2018",
+                        "stars": 5,
+                        "description": "The booth was completely built up on the day of arrival and all installations had been done. Small last-minute changes where no problem. Also, the communication with the booth builder team was easy (English/German/Dutch) and the team was very helpful."
+                    }
+                },
+                {
+                    "title": "Frankort & Koning BV",
+                    "subTitle": "Fruit Logistica Berlijn 2017-2019",
+                    "description": "De jaarlijkse fruitbeurs in Berlijn biedt Frankort & Koning de mogelijkheid om leveranciers en klanten over de hele wereld te ontmoeten. Een laagdrempelige stand waarbij hospitality hoog in het vaandel staat was het uitgangspunt. ",
+                    "images": [
+                        {
+                            "src": "assets/images/projects/frankfort/1.jpg",
+                            "alt": "Frankort & Koning BV"
+                        },{
+                            "src": "assets/images/projects/frankfort/2.jpg",
+                            "alt": "Frankort & Koning BV"
+                        },{
+                            "src": "assets/images/projects/frankfort/3.jpg",
+                            "alt": "Frankort & Koning BV"
+                        },{
+                            "src": "assets/images/projects/frankfort/4.jpg",
+                            "alt": "Frankort & Koning BV"
+                        }
+                    ],
+                    "review": {
+                        "author": "Frankort & Koning BV",
+                        "date": "6 maart, 2018",
+                        "stars": 5,
+                        "description": "Really Awesome!"
+                    }
+                }
+            ]
+        }
+    },
+    "de": {
+        "nav": {
+            "labels": {
+                "about": "Ons Verhaal",
+                "foundation": "Ons Fundament",
+                "mission": "Onze Missie &amp; Visie",
+                "aboutUs": "Wie zijn wij",
                 "method": "Onze Werkwijze",
                 "process": "Full service Proces",
                 "model": "Ons Expo-Mate Model",
@@ -144,25 +693,6 @@
                         "tile": "ONZE PROJECTEN",
                         "description": "Innovatief en authentiek. Dat zijn de sleutelwoorden van onze ontwerpen. Iedere stand is custom made ontworpen en gebouwd conform de hoogste kwaliteitsnormen. Bekijk hier enkele voorbeelden van door ons ontworpen en gerealiseerde stands. Benieuwd naar wat we voor uw organisatie kunnen betekenen? Neem dan gerust contact met ons op!",
                         "reviewLink": "Bekijk hier de review van deze client.",
-                        "comparisonHeader": "Van design naar realisatie",
-                        "comparisons": [
-                            {
-                                "before": "assets/images/comparison/borusan/slider-before.jpg",
-                                "after": "assets/images/comparison/borusan/slider-after.jpg"
-                            },
-                            {
-                                "before": "assets/images/comparison/toshiba/slider-before.jpg",
-                                "after": "assets/images/comparison/toshiba/slider-after.jpg"
-                            },
-                            {
-                                "before": "assets/images/comparison/lamb/slider-before.jpg",
-                                "after": "assets/images/comparison/lamb/slider-after.jpg"
-                            },
-                            {
-                                "before": "assets/images/comparison/zwan/slider-before.jpg",
-                                "after": "assets/images/comparison/zwan/slider-after.jpg"
-                            }
-                        ],
                         "button": {
                             "label": "Onze Projecten"
                         },
@@ -183,7 +713,28 @@
                             }
                         }
                     }
-
+                },
+                "comparison": {
+                    "title": "Van design naar realisatie",
+                    "description": "Vanaf de eerste schetsen wordt er nagedacht dat het uiteindelijke design ook perfect omgezet moet worden in realiteit. Bekijk hieronder enkele voorbeelden van ontwerpen en het eindresultaat",
+                    "comparisons": [
+                        {
+                            "before": "assets/images/comparison/borusan/slider-before.jpg",
+                            "after": "assets/images/comparison/borusan/slider-after.jpg"
+                        },
+                        {
+                            "before": "assets/images/comparison/toshiba/slider-before.jpg",
+                            "after": "assets/images/comparison/toshiba/slider-after.jpg"
+                        },
+                        {
+                            "before": "assets/images/comparison/lamb/slider-before.jpg",
+                            "after": "assets/images/comparison/lamb/slider-after.jpg"
+                        },
+                        {
+                            "before": "assets/images/comparison/zwan/slider-before.jpg",
+                            "after": "assets/images/comparison/zwan/slider-after.jpg"
+                        }
+                    ]
                 },
                 "footer": {
                     "testimonials": {
@@ -550,6 +1101,7 @@
                 "about": "Ons Verhaal",
                 "foundation": "Ons Fundament",
                 "mission": "Onze Missie &amp; Visie",
+                "aboutUs": "Wie zijn wij",
                 "method": "Onze Werkwijze",
                 "process": "Full service Proces",
                 "model": "Ons Expo-Mate Model",
@@ -689,25 +1241,6 @@
                         "tile": "ONZE PROJECTEN",
                         "description": "Innovatief en authentiek. Dat zijn de sleutelwoorden van onze ontwerpen. Iedere stand is custom made ontworpen en gebouwd conform de hoogste kwaliteitsnormen. Bekijk hier enkele voorbeelden van door ons ontworpen en gerealiseerde stands. Benieuwd naar wat we voor uw organisatie kunnen betekenen? Neem dan gerust contact met ons op!",
                         "reviewLink": "Bekijk hier de review van deze client.",
-                        "comparisonHeader": "Van design naar realisatie",
-                        "comparisons": [
-                            {
-                                "before": "assets/images/comparison/borusan/slider-before.jpg",
-                                "after": "assets/images/comparison/borusan/slider-after.jpg"
-                            },
-                            {
-                                "before": "assets/images/comparison/toshiba/slider-before.jpg",
-                                "after": "assets/images/comparison/toshiba/slider-after.jpg"
-                            },
-                            {
-                                "before": "assets/images/comparison/lamb/slider-before.jpg",
-                                "after": "assets/images/comparison/lamb/slider-after.jpg"
-                            },
-                            {
-                                "before": "assets/images/comparison/zwan/slider-before.jpg",
-                                "after": "assets/images/comparison/zwan/slider-after.jpg"
-                            }
-                        ],
                         "button": {
                             "label": "Onze Projecten"
                         },
@@ -728,552 +1261,28 @@
                             }
                         }
                     }
-
                 },
-                "footer": {
-                    "testimonials": {
-                        "title": "Testimonials"
-                    },
-                    "contacts": {
-                        "header": "Mail Ons",
-                        "jan": {
-                            "title": "Jan Maas",
-                            "links": {
-                                "email": {
-                                    "title": "j.maas@expo-mate.com",
-                                    "src": "mailto:j.maas@expo-mate.com",
-                                    "alt": "Email Jan"
-                                },
-                                "linkedin": {
-                                    "title": "Jan on",
-                                    "src": "https://nl.linkedin.com/in/maasjan",
-                                    "alt": "Jan On LinkedIn"
-                                }
-                            },
-                            "phone": "+31 6 50 28 18 91"
+                "comparison": {
+                    "title": "Van design naar realisatie",
+                    "description": "Vanaf de eerste schetsen wordt er nagedacht dat het uiteindelijke design ook perfect omgezet moet worden in realiteit. Bekijk hieronder enkele voorbeelden van ontwerpen en het eindresultaat",
+                    "comparisons": [
+                        {
+                            "before": "assets/images/comparison/borusan/slider-before.jpg",
+                            "after": "assets/images/comparison/borusan/slider-after.jpg"
                         },
-                        "niek": {
-                            "title": "Niek van Gent",
-                            "links": {
-                                "email": {
-                                    "title": "n.van.gent@expo-mate.com",
-                                    "src": "mailto:n.van.gent@expo-mate.com"
-                                },
-                                "linkedin": {
-                                    "title": "Niek on",
-                                    "src": "https://nl.linkedin.com/in/niek-van-gent-b538781b"
-                                }
-                            },
-                            "phone": "+31 6 50 28 18 91"
+                        {
+                            "before": "assets/images/comparison/toshiba/slider-before.jpg",
+                            "after": "assets/images/comparison/toshiba/slider-after.jpg"
+                        },
+                        {
+                            "before": "assets/images/comparison/lamb/slider-before.jpg",
+                            "after": "assets/images/comparison/lamb/slider-after.jpg"
+                        },
+                        {
+                            "before": "assets/images/comparison/zwan/slider-before.jpg",
+                            "after": "assets/images/comparison/zwan/slider-after.jpg"
                         }
-                    },
-                    "phone": {
-                        "header": "Bel Ons"
-                    },
-                    "visit": {
-                        "header": "Bezoek Ons",
-                        "description": "Garnizoenweg 3 <br/> Building A <br/> PO Box 8064 <br/> 5928 NA Venlo <br/> The Netherlands"
-                    },
-                    "copyright": {
-                        "description": "Copyright 2018, Expo-Mate - None of the Images on the website are owned or affiliated with Expo-mate and are copyrighted by their respectful owners."
-                    }
-                }
-            },
-            "projects": [
-                {
-                    "title": "Borusan Mannesmann",
-                    "subTitle": "TUBE 2018 Düsseldorf",
-                    "description": "Ontwikkelen van een beurs concept waarin Borusan Mannesmann de belangrijkste klanten kan ontvangen tijdens het 60 jarige bestaan. Prestige om het mooiste concept neer te zetten waarin bezoekers comfortabel wat kunnen eten en drinken. ",
-                    "images": [
-                        {
-                            "src": "assets/images/projects/borusan/1.jpg",
-                            "alt": "Borusan Mannesmann"
-                        },
-                        {
-                            "src": "assets/images/projects/borusan/2.jpg",
-                            "alt": "Borusan Mannesmann"
-                        },
-                        {
-                            "src": "assets/images/projects/borusan/3.jpg",
-                            "alt": "Borusan Mannesmann"
-                        },
-                        {
-                            "src": "assets/images/projects/borusan/4.jpg",
-                            "alt": "Borusan Mannesmann"
-                        },
-                        {
-                            "src": "assets/images/projects/borusan/5.jpg",
-                            "alt": "Borusan Mannesmann"
-                        },
-                        {
-                            "src": "assets/images/projects/borusan/6.jpg",
-                            "alt": "Borusan"
-                        },
-                        {
-                            "src": "assets/images/projects/borusan/7.jpg",
-                            "alt": "Borusan Mannesmann"
-                        },
-                        {
-                          "src": "assets/images/projects/borusan/8.jpg",
-                          "alt": "Borusan Mannesmann"
-                        },
-                        {
-                          "src": "assets/images/projects/borusan/9.jpg",
-                          "alt": "Borusan Mannesmann"
-                        }
-                    ],
-                    "review": {
-                        "author": "Borusan Mannesmann",
-                        "date": "6 maart, 2018",
-                        "stars": 5,
-                        "description": "De samenwerking met Expo-Mate verliep vlekkeloos. Alle afspraken zijn goed nagekomen. Ondanks de vele aanpassingen vanuit onze kant, zag de stand er geweldig uit, werd het op tijd opgeleverd en zag de stand er in werkelijkheid hetzelfde uit zoals het ontwerp. Bedankt Expo-Mate!"
-                    }
-                },
-                {
-                    "title": "Toshiba Business Display Solutions",
-                    "subTitle": "ISE Amsterdam 2018",
-                    "description": "De uitdaging waar Toshiba voor stond was om de vele producten en diverse business units overzichtelijk te presenteren.",
-                    "images": [
-                        {
-                            "src": "assets/images/projects/toshiba/1.jpg",
-                            "alt": "Toshiba"
-                        },
-                        {
-                            "src": "assets/images/projects/toshiba/2.jpg",
-                            "alt": "Toshiba"
-                        },
-                        {
-                            "src": "assets/images/projects/toshiba/3.jpg",
-                            "alt": "Toshiba"
-                        },
-                        {
-                            "src": "assets/images/projects/toshiba/4.jpg",
-                            "alt": "Toshiba"
-                        },
-                        {
-                            "src": "assets/images/projects/toshiba/5.jpg",
-                            "alt": "Toshiba"
-                        },
-                        {
-                            "src": "assets/images/projects/toshiba/6.jpg",
-                            "alt": "Toshiba"
-                        },
-                        {
-                            "src": "assets/images/projects/toshiba/7.jpg",
-                            "alt": "Toshiba"
-                        }
-                    ],
-                    "review": {
-                        "author": "Toshiba Business Display Solutions",
-                        "date": "12 maart, 2018",
-                        "stars": 5,
-                        "description": "Ondanks het korte tijdsbestek heeft Expo-Mate een perfect resultaat neergezet.  Door ons volledig te ontzorgen met organisatie en begeleiding, zijn wij ondertussen in staat geweest onze volledige focus te houden op andere zaken. Namens Team Grootkeuken Gilde, Chapeau!"
-                    }
-                },
-                {
-                    "title": "Lamb Weston/Meijer",
-                    "subTitle": "Casual Dining Show London 2018",
-                    "description": "Creëer een concept waarmee we laten zien dat we de key spelers in de Engelse markt begrijpen. Dit is het groeiende pub segment in de UK. Hoe kan men dat beter doen dan door de LambWeston pub te ontwerpen?",
-                    "images": [
-                        {
-                            "src": "assets/images/projects/lamb/1.jpg",
-                            "alt": "Lamb Weston/Meijer"
-                        },{
-                            "src": "assets/images/projects/lamb/2.jpg",
-                            "alt": "Lamb Weston/Meijer"
-                        },{
-                            "src": "assets/images/projects/lamb/3.jpg",
-                            "alt": "Lamb Weston/Meijer"
-                        },{
-                            "src": "assets/images/projects/lamb/4.jpg",
-                            "alt": "Lamb Weston/Meijer"
-                        },{
-                            "src": "assets/images/projects/lamb/5.jpg",
-                            "alt": "Lamb Weston/Meijer"
-                        },{
-                            "src": "assets/images/projects/lamb/6.jpg",
-                            "alt": "Lamb Weston/Meijer"
-                        },{
-                            "src": "assets/images/projects/lamb/7.jpg",
-                            "alt": "Lamb Weston/Meijer"
-                        }
-                    ],
-                    "review": {
-                        "author": "Lamb Weston Meijer",
-                        "date": "6 maart, 2018",
-                        "stars": 5,
-                        "description": "Een zeer professionele maar ook persoonlijke samenwerking met Expo Mate voor onze stand op de Fruit Logistica in Berlijn. Afspraken zijn nagekomen, werkelijkheid was zoals het ontwerp. Met een paar aanpassingen zijn we weer klaar voor editie 2018! Frankort & Koning BV"
-                    }
-                },
-                {
-                    "title": "WvanderZwan",
-                    "subTitle": "Seafood Expo Global Brussel 2018",
-                    "description": "Omzetting van het bestaande concept in een hoogwaardige stand waarbij de bezoekers ook de mogelijkheid wordt geboden om op de bovenverdieping plaats te nemen in de lounge. Klanten kleine hapjes en drankjes aan te bieden in een ongedwongen sfeer.",
-                    "images": [
-                        {
-                            "src": "assets/images/projects/zwan/1.jpg",
-                            "alt": "WvanderZwan"
-                        },{
-                            "src": "assets/images/projects/zwan/2.jpg",
-                            "alt": "WvanderZwan"
-                        },{
-                            "src": "assets/images/projects/zwan/3.jpg",
-                            "alt": "WvanderZwan"
-                        },{
-                            "src": "assets/images/projects/zwan/4.jpg",
-                            "alt": "WvanderZwan"
-                        },{
-                            "src": "assets/images/projects/zwan/5.jpg",
-                            "alt": "WvanderZwan"
-                        },{
-                            "src": "assets/images/projects/zwan/6.jpg",
-                            "alt": "WvanderZwan"
-                        }
-                    ],
-                    "review": {
-                        "author": "WvanderZwan",
-                        "date": "12 maart, 2018",
-                        "stars": 5,
-                        "description": "Zeer tevreden over de succesvolle realisatie van onze nieuwe stand en de betrouwbare begeleiding richting onze deelname aan de SIAL in 2016. Er werd goed meegedacht om van idee en tekening tot een succesvolle beursdeelname te komen."
-                    }
-                },
-                {
-                    "title": "Tomra Food Sorting NV",
-                    "subTitle": "Programma 2018",
-                    "description": "Standing out from the rest, clean & stopping power wilde Tomra graag terug zien. Vanwege het programma met verschillende afmetingen en locaties moeten materialen zoveel mogelijk herbruikbaar zijn. Zodoende kan hier kosten efficient mee omgegaan worden.",
-                    "images": [
-                        {
-                            "src": "assets/images/projects/tomra/tom-1.jpg",
-                            "alt": "Tomra Food Sorting NV"
-                        },{
-                            "src": "assets/images/projects/tomra/2.jpg",
-                            "alt": "Tomra Food Sorting NV"
-                        },{
-                            "src": "assets/images/projects/tomra/3.jpg",
-                            "alt": "Tomra Food Sorting NV"
-                        },{
-                            "src": "assets/images/projects/tomra/4.jpg",
-                            "alt": "Tomra Food Sorting NV"
-                        },{
-                            "src": "assets/images/projects/tomra/5.jpg",
-                            "alt": "Tomra Food Sorting NV"
-                        },{
-                            "src": "assets/images/projects/tomra/6.jpg",
-                            "alt": "Tomra Food Sorting NV"
-                        },{
-                            "src": "assets/images/projects/tomra/7.jpg",
-                            "alt": "Tomra Food Sorting NV"
-                        }
-                    ],
-                    "review": {
-                        "author": "Tomra Food Sorting NV",
-                        "date": "6 maart, 2018",
-                        "stars": 5,
-                        "description": "It was a pleasure working with Expo-Mate from the early planning stages through to the execution at the event. Everything was effortless and well thought out - communicative, friendly team. We were very pleased with the end result and received much positive feedback on the Toshiba Business Display Solutions stand itself at ISE 2018, Amsterdam. We look forward to working with you again in the future thanks again, Expo-Mate."
-                    }
-                },
-                {
-                    "title": "Aluminium Verkoop Zuid BV (AVZ)",
-                    "subTitle": "R+T Stuttgart 2018",
-                    "description": "AVZ wilde graag een open en toegankelijke stand die hen de mogelijkheid gaf op de grootste beurs binnen hun vakgebied zowel de nieuwe huisstijl te presenteren alsmede de belangrijkste producten tentoon te stellen. ",
-                    "images": [
-                        {
-                            "src": "assets/images/projects/avz/1.jpg",
-                            "alt": "AVZ"
-                        },{
-                            "src": "assets/images/projects/avz/2.jpg",
-                            "alt": "AVZ"
-                        },{
-                            "src": "assets/images/projects/avz/3.jpg",
-                            "alt": "AVZ"
-                        },{
-                            "src": "assets/images/projects/avz/4.jpg",
-                            "alt": "AVZ"
-                        },{
-                            "src": "assets/images/projects/avz/5.jpg",
-                            "alt": "AVZ"
-                        }
-                    ],
-                    "review": {
-                        "author": "Aluminium Verkoop Zuid BV",
-                        "date": "12 maart, 2018",
-                        "stars": 5,
-                        "description": "It was a pleasure working with the Expo Mate team for the Fruit Logistica Fair in Berlin. From the design phase all the way to the end result at the show, the team helped us realize our ideas. They suggested a creative design, detailed cost overview and the roll-out of the approved plan was good. The booth looked professional, gave us at TOMRA good exposure and branding. The thing I liked most is the personal and close follow-up. If there is anything that was not right (and as all of us know, these things happen during an exhibition :-) ), the team was there to come up with a solution."
-                    }
-                },
-
-                {
-                    "title": "The Scelta Institute BV",
-                    "subTitle": "Anuga Keulen, Sial Parijs en FIE Frankfurt",
-                    "description": "Men wilde een nieuwe stand die voor alle beurzen modulair te bouwen is. Dezelfde look en feel waarbij hun producten worden gepresenteerd, zowel grafisch als door middel van live cooking. ",
-                    "images": [
-                        {
-                            "src": "assets/images/projects/scelta/1.jpg",
-                            "alt": "The Scelta Institute BV"
-                        },{
-                            "src": "assets/images/projects/scelta/2.jpg",
-                            "alt": "The Scelta Institute BV"
-                        },{
-                            "src": "assets/images/projects/scelta/3.jpg",
-                            "alt": "The Scelta Institute BV"
-                        },{
-                            "src": "assets/images/projects/scelta/4.jpg",
-                            "alt": "The Scelta Institute BV"
-                        },{
-                            "src": "assets/images/projects/scelta/5.jpg",
-                            "alt": "The Scelta Institute BV"
-                        }
-                    ],
-                    "review": {
-                        "author": "The Scelta Institute BV",
-                        "date": "6 maart, 2018",
-                        "stars": 5,
-                        "description": "Very professional, friendly and helpful booth builder from the Netherlands."
-                    }
-                },
-                {
-                    "title": "Strong TV",
-                    "subTitle": "ANGA Keulen, IFA Berlijn",
-                    "description": "Het presenteren van WiFi producten maar ook de televisies op 1 stand waarbij de klanten de mogelijkheid wordt geboden om een privé gesprek te kunnen voeren in de meeting ruimtes of een informele kop koffie aan de bar. Producten voeren de boventoon op de technische beurzen waar ze aan deelnemen.",
-                    "images": [
-                        {
-                            "src": "assets/images/projects/strong/1.jpg",
-                            "alt": "Strong TV"
-                        }, {
-                            "src": "assets/images/projects/strong/2.jpg",
-                            "alt": "Strong TV"
-                        },{
-                            "src": "assets/images/projects/strong/3.jpg",
-                            "alt": "Strong TV"
-                        },{
-                            "src": "assets/images/projects/strong/4.jpg",
-                            "alt": "Strong TV"
-                        },{
-                            "src": "assets/images/projects/strong/5.jpg",
-                            "alt": "Strong TV"
-                        }
-                    ],
-                    "review": {
-                        "author": "Strong TV",
-                        "date": "12 maart, 2018",
-                        "stars": 5,
-                        "description": "The booth was completely built up on the day of arrival and all installations had been done. Small last-minute changes where no problem. Also, the communication with the booth builder team was easy (English/German/Dutch) and the team was very helpful."
-                    }
-                },
-                {
-                    "title": "Frankort & Koning BV",
-                    "subTitle": "Fruit Logistica Berlijn 2017-2019",
-                    "description": "De jaarlijkse fruitbeurs in Berlijn biedt Frankort & Koning de mogelijkheid om leveranciers en klanten over de hele wereld te ontmoeten. Een laagdrempelige stand waarbij hospitality hoog in het vaandel staat was het uitgangspunt. ",
-                    "images": [
-                        {
-                            "src": "assets/images/projects/frankfort/1.jpg",
-                            "alt": "Frankort & Koning BV"
-                        },{
-                            "src": "assets/images/projects/frankfort/2.jpg",
-                            "alt": "Frankort & Koning BV"
-                        },{
-                            "src": "assets/images/projects/frankfort/3.jpg",
-                            "alt": "Frankort & Koning BV"
-                        },{
-                            "src": "assets/images/projects/frankfort/4.jpg",
-                            "alt": "Frankort & Koning BV"
-                        }
-                    ],
-                    "review": {
-                        "author": "Frankort & Koning BV",
-                        "date": "6 maart, 2018",
-                        "stars": 5,
-                        "description": "Really Awesome!"
-                    }
-                }
-            ]
-        }
-    },
-    "de": {
-        "nav": {
-            "labels": {
-                "about": "Ons Verhaal",
-                "foundation": "Ons Fundament",
-                "mission": "Onze Missie &amp; Visie",
-                "method": "Onze Werkwijze",
-                "process": "Full service Proces",
-                "model": "Ons Expo-Mate Model",
-                "comparision": "Van Design naar Realisatie",
-                "values": "Onze Kernwaardes",
-                "projects": "Projecten",
-                "contact": "Contact"
-            }
-        },
-        "pages": {
-            "homepage": {
-                "header": {
-                    "content": {
-                        "title": "Management in Authentic and Trending Exhibition Participations",
-                        "backgroundImageSrc": "assets/images/mobile-bg.jpg",
-                        "backgroundVideoMp4Src": "assets/video/expo-mate.mp4",
-                        "backgroundVideoWebMSrc": "assets/video/expo-mate.webm",
-                        "youtubeURL": "zxgIFrCk_uo"
-                    }
-                },
-                "content": {
-                    "intro": {
-                        "title": "Ons Verhaal",
-                        "description": "We geloven in de kracht van diversiteit. Diversiteit en het samenbrengen van verschillende disciplines zorgt er namelijk voor dat we iedere dag het beste resultaat voor, maar vooral met, onze klanten kunnen realiseren.",
-                        "images": [
-                            {
-                                "src": "assets/images/brands/bo-logo.png",
-                                "alt": "Borusan"
-                            },
-                            {
-                                "src": "assets/images/brands/tomra.jpg",
-                                "alt": "Tomra"
-                            },
-                            {
-                                "src": "assets/images/brands/toshiba.jpg",
-                                "alt": "Toshiba"
-                            },
-                            {
-                                "src": "assets/images/brands/lamb.jpg",
-                                "alt": "LambWeston"
-                            },
-                            {
-                                "src": "assets/images/brands/ra.jpg",
-                                "alt": "Rolled Alloys"
-                            }
-                        ]
-                    },
-                    "about": {
-                        "row1": {
-                            "image": {
-                                "src": "assets/images/1.jpg"
-                            },
-                            "title": "ONS FUNDAMENT",
-                            "description": "10 jaar kennis en ervaring in de beursindustrie gecombineerd met 10 jaar sales en marketing ervaring vormt onze basis. Hierdoor kunnen wij als geen ander unieke beursconcepten bedenken die zorgen voor de hoogste return on investment."
-                        },
-                        "row2": {
-                            "image": {
-                                "src": "assets/images/2.jpg"
-                            },
-                            "title": "ONZE MISSIE & VISIE",
-                            "description": "<p>De kapstok van EXPO-MATE. Alles wat we doen is afgeleid van ons bestaansrecht en onze droom; onze missie en visie.</p><p>Onze missie; Beursdeelnames succesvoller, efficiënter en gemakkelijker maken. </p><p>Onze Visie; EXPO-MATE wil het meest gewaardeerde full service project management bureau zijn binnen de branche en marktleider op het gebied van kwaliteit. Het cre&euml;ren van authentieke, innovatieve en milieubewuste op maat gemaakte projecten zorgt ervoor dat onze klanten meer dan hun (beurs)doelstellingen bereiken. Door onze manier van werken zijn onze klanten niet alleen tevreden met het eindresultaat, maar ook met het totale proces dat daar naartoe leidt. Hierdoor zijn klanten niet langer klanten maar zijn het onze ambassadeurs.</p>"
-                        }
-                    },
-                    "aboutUs": {
-                        "title": "WIE ZIJN WIJ?",
-                        "description": "",
-                        "employees": {
-                            "niek": {
-                                "title": "Niek van Gent",
-                                "description": "Door zelf als commercieel manager te hebben gewerkt begrijp ik als geen ander waar onze klanten behoeftes aan hebben. Iets waarvan ik merk dat het echt een meerwaarde is tijdens het designproces. Doordat ik zelf op de positie zat van mijn gesprekpartner kan ik me goed inleven in de behoeftes. De omzetting van organisatie naar een concreet concept samen met onze klanten is mijn grootste drijfveer! ",
-                                "image": {
-                                    "src": "assets/images/niek.jpg",
-                                    "alt": "Niek van Gent"
-                                }
-                            },
-                            "jan": {
-                                "title": "Jan Maas",
-                                "description": "Na 10 jaar werkzaam geweest te zijn als Project- en Accountmanager bij twee bedrijven binnen de beurzen industrie, ben ik van mening dat persoonlijke aandacht en echt luisteren naar de wensen van de klant het allerbelangrijkste is.Dit was de belangrijkste reden om EXPO-MATE te starten. Door de ervaring op commercieel én technisch gebied kunnen we als volledig klankbord naar onze klanten acteren en hen tijdens het volledige proces ontzorgen. Gezamenlijk de (beurs) doelstellingen bereiken middels een prettige en persoonlijke samenwerking is waar ik voor sta!",
-                                "image": {
-                                    "src": "assets/images/jan.jpg",
-                                    "alt": "Jan Maas"
-                                }
-                            }
-                        }
-                    },
-                    "values": {
-                        "title": "ONZE KERNWAARDES",
-                        "description": "Of we een adviesgesprek voeren, een ontwerp presenteren, of de uiteindelijke stand opleveren, alles wat we doen is gebaseerd op onze kernwaardes welke hieronder zijn weergegeven.",
-                        "image": {
-                            "src": "assets/images/wall.jpg"
-                        },
-                        "values": {
-                            "value1": "De Hoogste Kwaliteit",
-                            "value2": "Full Service",
-                            "value3": "Innovatief & Authentiek",
-                            "value4": "Onafhankelijkheid",
-                            "value5": "Duurzaam",
-                            "value6": "Operational Excellence"
-                        }
-                    },
-                    "method": {
-                        "title": "ONZE WERKWIJZE",
-                        "hoverLabel": "Beweeg met uw muis over de bollen voor meer informatie.",
-                        "description": "Totale ontzorging. Minder vinden we niet goed genoeg voor onze relaties. Door onze verschillende achtergronden en ervaringen hebben we een werkwijze kunnen ontwikkelen die uniek is in de branche en welke ons in staat stelt de hoogst mogelijke return on investment voor onze relaties te behalen.",
-                        "method": {
-                            "intro": {
-                                "title": "Introductie",
-                                "description": "Een persoonlijke kennismaking waarbij de behoeftes, wensen en doelen worden besproken."
-                            },
-                            "design": {
-                                "title": "Design",
-                                "description": "Op basis van uw input aangevuld met de uitkomst van het “EXPO-MATE model” maken we een authentiek en innovatief op maat ontworpen beursconcept."
-                            },
-                            "tuning": {
-                                "title": "Fine tunen",
-                                "description": "Gezamenlijk wordt het ontwerp besproken en eventueel aangepast om tot het optimale definitieve ontwerp te komen."
-                            },
-                            "construction": {
-                                "title": "Technische voorbereiding en realisatie",
-                                "description": "Wij verzorgen de volledige technische voorbereiding en opbouw van de stand. Vanzelfsprekend zijn we als uw samenwerkingspartnerpartner bij de opbouw aanwezig en zijn we uw aanspreekpunt op de beursvloer."
-                            },
-                            "eval": {
-                                "title": "Evaluatie",
-                                "description": "Na afloop bespreken we altijd het project om te zien of doelstellingen zijn behaald, de stand naar tevredenheid is geweest en of er eventuele verbeterpunten zijn voor het eerstvolgende project."
-                            }
-                        }
-                    },
-                    "model": {
-                        "image": {
-                            "src": "assets/images/model.jpg"
-                        },
-                        "title": "Het EXPO-MATE model – van introductie naar design",
-                        "description": "In onze optiek de belangrijkste stap in het gehele proces. Door tijd te investeren en kennis te delen in het begin van het proces, hoeven er geen aannames te worden gedaan bij het ontwerp van het concept, maar gaat om datgene wat telt: Integreren van uw identiteit, wensen en behoeftes als beursdeelnemer. EXPO-MATE heeft een eigen -uniek- model ontwikkeld dat ons in staat stelt om de belangrijkste organisatie kenmerken/waardes en identiteit concreet te verwerken in het ontwerpvoorstel. Wij geloven erin dat alleen dan de hoogste return on investment kan worden behaald. We komen dit model graag gedetailleerd uitleggen en gezamenlijk in de praktijk brengen."
-
-                    },
-                    "projects": {
-                        "tile": "ONZE PROJECTEN",
-                        "description": "Innovatief en authentiek. Dat zijn de sleutelwoorden van onze ontwerpen. Iedere stand is custom made ontworpen en gebouwd conform de hoogste kwaliteitsnormen. Bekijk hier enkele voorbeelden van door ons ontworpen en gerealiseerde stands. Benieuwd naar wat we voor uw organisatie kunnen betekenen? Neem dan gerust contact met ons op!",
-                        "reviewLink": "Bekijk hier de review van deze client.",
-                        "comparisonHeader": "Van design naar realisatie",
-                        "comparisons": [
-                            {
-                                "before": "assets/images/comparison/borusan/slider-before.jpg",
-                                "after": "assets/images/comparison/borusan/slider-after.jpg"
-                            },
-                            {
-                                "before": "assets/images/comparison/toshiba/slider-before.jpg",
-                                "after": "assets/images/comparison/toshiba/slider-after.jpg"
-                            },
-                            {
-                                "before": "assets/images/comparison/lamb/slider-before.jpg",
-                                "after": "assets/images/comparison/lamb/slider-after.jpg"
-                            },
-                            {
-                                "before": "assets/images/comparison/zwan/slider-before.jpg",
-                                "after": "assets/images/comparison/zwan/slider-after.jpg"
-                            }
-                        ],
-                        "button": {
-                            "label": "Onze Projecten"
-                        },
-                        "project1": {
-                            "title": "Borusan Mannesmann",
-                            "button": "Bekijk",
-                            "image": {
-                                "src": "assets/images/projects/borusan/1.jpg",
-                                "alt": "Borusan"
-                            }
-                        },
-                        "project2": {
-                            "title": "Toshiba",
-                            "button": "Bekijk",
-                            "image": {
-                                "src": "assets/images/projects/toshiba/1.jpg",
-                                "alt": "Toshiba"
-                            }
-                        }
-                    }
-
+                    ]
                 },
                 "footer": {
                     "testimonials": {

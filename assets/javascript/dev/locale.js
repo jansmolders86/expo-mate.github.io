@@ -13,6 +13,7 @@ $(function(){
         var about = homepage.content.about;
         var aboutUs = homepage.content.aboutUs;
         var values = homepage.content.values;
+        var comparison = homepage.content.comparison;
         var method = homepage.content.method;
         var model = homepage.content.model;
         var projects = homepage.content.projects;
@@ -27,6 +28,7 @@ $(function(){
            navItem.find('a[href="#preabout"]').html(nav.about);
            navItem.find('a[href="#method"]').html(nav.method);
            navItem.find('a[href="#values"]').html(nav.values);
+           navItem.find('a[href="#aboutUs"]').html(nav.aboutUs);
            navItem.find('a[href="#case-studies"]').html(nav.projects);
            navItem.find('a[href="#footer"]').html(nav.contact);
 
@@ -124,7 +126,6 @@ $(function(){
             $body.find("[data-content='content-projects-title']").html(projects.title);
             $body.find("[data-content='content-projects-desc']").html(projects.description);
             $body.find("[data-content='content-projects-button']").html(projects.button.label);
-            $body.find("[data-content='content-projects-comparisonHeader']").html(projects.comparisonHeader);
 
             $body.find("[data-content='content-project1-image']").attr('src', projects.project1.image.src).attr('alt', projects.project1.image.alt);
             $body.find("[data-content='content-project1-title']").html(projects.project1.title);
@@ -133,6 +134,11 @@ $(function(){
             $body.find("[data-content='content-project2-image']").attr('src', projects.project2.image.src).attr('alt', projects.project2.image.alt);
             $body.find("[data-content='content-project2-title']").html(projects.project2.title);
             $body.find("[data-content='content-project2-btn']").html(projects.project2.button);
+        }
+
+        if(comparison){
+            $body.find("[data-content='content-projects-comparison-title']").html(comparison.title);
+            $body.find("[data-content='content-projects-comparison-desc']").html(comparison.description);
         }
 
         if (footer) {

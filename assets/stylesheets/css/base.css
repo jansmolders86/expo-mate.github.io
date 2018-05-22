@@ -368,16 +368,16 @@
 }
 
 /* line 124, ../sass/_about.sass */
-#about-us {
+#aboutUs {
   background: #fafafa;
   padding: 100px 0;
 }
 /* line 127, ../sass/_about.sass */
-#about-us * {
+#aboutUs * {
   text-align: center;
 }
 /* line 129, ../sass/_about.sass */
-#about-us .employee {
+#aboutUs .employee {
   margin: 40px 0;
 }
 
@@ -1741,11 +1741,11 @@ section#image-scroll .image-scroll-wrapper.fixed .background-image {
   #method #diagram .diagram-logo {
     background: url(../../images/loading-logo.png) no-repeat;
     background-size: contain;
-    width: 250px;
-    height: 250px;
+    width: 200px;
+    height: 200px;
     position: absolute;
-    top: 350px;
-    left: 390px;
+    top: 400px;
+    left: 415px;
   }
 }
 /* line 91, ../sass/_method.sass */
@@ -2340,13 +2340,17 @@ body.open #nav {
   }
 }
 /* line 63, ../sass/_projects.sass */
+.projects-wrapper .project.open .project-review {
+  display: none;
+}
+/* line 65, ../sass/_projects.sass */
 .projects-wrapper .project.open .project-close {
   position: absolute;
   right: 50px;
   top: 50px;
   cursor: pointer;
 }
-/* line 68, ../sass/_projects.sass */
+/* line 70, ../sass/_projects.sass */
 .projects-wrapper .project.open .project-close:before {
   content: "";
   position: absolute;
@@ -2357,28 +2361,28 @@ body.open #nav {
   z-index: 999999;
 }
 @media screen and (max-device-width: 767px) and (orientation: portrait) {
-  /* line 68, ../sass/_projects.sass */
+  /* line 70, ../sass/_projects.sass */
   .projects-wrapper .project.open .project-close:before {
     color: #222;
     text-shadow: none;
   }
 }
-/* line 79, ../sass/_projects.sass */
+/* line 81, ../sass/_projects.sass */
 .projects-wrapper .project.open .project-images {
   width: 100vw;
   height: 100vh;
 }
-/* line 82, ../sass/_projects.sass */
+/* line 84, ../sass/_projects.sass */
 .projects-wrapper .project.open .project-desc-wrapper {
   display: none;
 }
-/* line 85, ../sass/_projects.sass */
+/* line 87, ../sass/_projects.sass */
 .projects-wrapper .project.open .slider {
   height: 100vh;
   width: 100vw;
   margin: 0;
 }
-/* line 89, ../sass/_projects.sass */
+/* line 91, ../sass/_projects.sass */
 .projects-wrapper .project.open .slider .project-image {
   background-size: cover;
   background-repeat: no-repeat;
@@ -2386,29 +2390,29 @@ body.open #nav {
   height: 100vh;
 }
 @media screen and (max-device-width: 767px) and (orientation: portrait) {
-  /* line 89, ../sass/_projects.sass */
+  /* line 91, ../sass/_projects.sass */
   .projects-wrapper .project.open .slider .project-image {
     background-size: contain;
     background-position: center;
   }
 }
-/* line 99, ../sass/_projects.sass */
+/* line 101, ../sass/_projects.sass */
 .projects-wrapper .project:not(.open).show-review {
   height: 800px;
 }
 @media only screen and (max-width: 1199px) {
-  /* line 99, ../sass/_projects.sass */
+  /* line 101, ../sass/_projects.sass */
   .projects-wrapper .project:not(.open).show-review {
     height: auto;
   }
 }
 @media screen and (min-width: 1580px) {
-  /* line 99, ../sass/_projects.sass */
+  /* line 101, ../sass/_projects.sass */
   .projects-wrapper .project:not(.open).show-review {
     height: 1000px;
   }
 }
-/* line 105, ../sass/_projects.sass */
+/* line 107, ../sass/_projects.sass */
 .projects-wrapper .project:not(.open) .project-review {
   height: 0;
   width: 100%;
@@ -2416,51 +2420,51 @@ body.open #nav {
   clear: both;
   position: relative;
 }
-/* line 111, ../sass/_projects.sass */
+/* line 113, ../sass/_projects.sass */
 .projects-wrapper .project:not(.open) .project-review .review-text {
   text-align: center;
   max-width: 45em;
   margin-top: 10px;
 }
 @media only screen and (max-width: 991px) {
-  /* line 111, ../sass/_projects.sass */
+  /* line 113, ../sass/_projects.sass */
   .projects-wrapper .project:not(.open) .project-review .review-text {
     margin: 5px 0 0 0;
   }
 }
 @media screen and (min-width: 1580px) {
-  /* line 111, ../sass/_projects.sass */
+  /* line 113, ../sass/_projects.sass */
   .projects-wrapper .project:not(.open) .project-review .review-text {
     max-width: 65em;
   }
 }
 @media only screen and (max-width: 991px) {
-  /* line 120, ../sass/_projects.sass */
+  /* line 122, ../sass/_projects.sass */
   .projects-wrapper .project:not(.open) .project-review .review * {
     text-align: left !important;
   }
 }
-/* line 123, ../sass/_projects.sass */
+/* line 125, ../sass/_projects.sass */
 .projects-wrapper .project:not(.open) .project-review .review {
   opacity: 0;
 }
-/* line 125, ../sass/_projects.sass */
+/* line 127, ../sass/_projects.sass */
 .projects-wrapper .project:not(.open) .project-review.show {
   height: 100%;
   background: #fdfdfd;
   padding: 50px 0;
 }
 @media only screen and (max-width: 991px) {
-  /* line 125, ../sass/_projects.sass */
+  /* line 127, ../sass/_projects.sass */
   .projects-wrapper .project:not(.open) .project-review.show {
     padding: 20px 0 50px 0;
   }
 }
-/* line 131, ../sass/_projects.sass */
+/* line 133, ../sass/_projects.sass */
 .projects-wrapper .project:not(.open) .project-review.show .review {
   opacity: 1;
 }
-/* line 133, ../sass/_projects.sass */
+/* line 135, ../sass/_projects.sass */
 .projects-wrapper .project:not(.open) .project-review.show .review-close {
   position: absolute;
   right: 50px;
@@ -2468,7 +2472,7 @@ body.open #nav {
   cursor: pointer;
   z-index: 999;
 }
-/* line 139, ../sass/_projects.sass */
+/* line 141, ../sass/_projects.sass */
 .projects-wrapper .project:not(.open) .project-review.show .review-close:before {
   content: "";
   position: absolute;
@@ -2476,7 +2480,7 @@ body.open #nav {
   font-size: 2em;
   color: #000;
 }
-/* line 145, ../sass/_projects.sass */
+/* line 147, ../sass/_projects.sass */
 .projects-wrapper .project:not(.open) .read-review {
   margin-top: 20px;
   font-weight: bold;
@@ -2484,7 +2488,7 @@ body.open #nav {
   display: block;
   color: #000;
 }
-/* line 152, ../sass/_projects.sass */
+/* line 154, ../sass/_projects.sass */
 .projects-wrapper .project:not(.open) .project-images,
 .projects-wrapper .project:not(.open) .project-desc-wrapper {
   width: 50%;
@@ -2493,61 +2497,61 @@ body.open #nav {
   overflow: hidden;
 }
 @media only screen and (max-width: 991px) {
-  /* line 152, ../sass/_projects.sass */
+  /* line 154, ../sass/_projects.sass */
   .projects-wrapper .project:not(.open) .project-images,
   .projects-wrapper .project:not(.open) .project-desc-wrapper {
     width: 100% !important;
   }
 }
-/* line 160, ../sass/_projects.sass */
+/* line 162, ../sass/_projects.sass */
 .projects-wrapper .project:not(.open) .project-images {
   width: 50%;
   height: 100%;
 }
 @media only screen and (max-width: 991px) {
-  /* line 160, ../sass/_projects.sass */
+  /* line 162, ../sass/_projects.sass */
   .projects-wrapper .project:not(.open) .project-images {
     width: 100%;
     height: 320px;
   }
 }
 @media only screen and (min-device-width: 300px) and (max-device-width: 850px) and (orientation: landscape) {
-  /* line 160, ../sass/_projects.sass */
+  /* line 162, ../sass/_projects.sass */
   .projects-wrapper .project:not(.open) .project-images {
     height: 320px;
   }
 }
-/* line 168, ../sass/_projects.sass */
+/* line 170, ../sass/_projects.sass */
 .projects-wrapper .project:not(.open) .project-images .slider {
   height: 100%;
   width: 100%;
   margin: 0;
 }
-/* line 172, ../sass/_projects.sass */
+/* line 174, ../sass/_projects.sass */
 .projects-wrapper .project:not(.open) .project-images .slider .project-image {
   background-size: cover;
   display: none;
   height: 100%;
   width: 100%;
 }
-/* line 177, ../sass/_projects.sass */
+/* line 179, ../sass/_projects.sass */
 .projects-wrapper .project:not(.open) .project-images .slider .project-image:first-child {
   display: block;
   cursor: pointer;
 }
-/* line 180, ../sass/_projects.sass */
+/* line 182, ../sass/_projects.sass */
 .projects-wrapper .project:not(.open) .project-desc-wrapper {
   padding: 7% 100px;
   text-align: left;
 }
 @media only screen and (max-width: 1199px) {
-  /* line 180, ../sass/_projects.sass */
+  /* line 182, ../sass/_projects.sass */
   .projects-wrapper .project:not(.open) .project-desc-wrapper {
     padding-top: 3%;
   }
 }
 @media only screen and (max-width: 991px) {
-  /* line 180, ../sass/_projects.sass */
+  /* line 182, ../sass/_projects.sass */
   .projects-wrapper .project:not(.open) .project-desc-wrapper {
     background: #fff;
     position: relative;
@@ -2557,7 +2561,7 @@ body.open #nav {
   }
 }
 @media only screen and (min-device-width: 300px) and (max-device-width: 850px) and (orientation: landscape) {
-  /* line 180, ../sass/_projects.sass */
+  /* line 182, ../sass/_projects.sass */
   .projects-wrapper .project:not(.open) .project-desc-wrapper {
     background: #fff;
     position: relative;
@@ -2566,49 +2570,49 @@ body.open #nav {
     padding: 20px;
   }
 }
-/* line 197, ../sass/_projects.sass */
+/* line 199, ../sass/_projects.sass */
 .projects-wrapper .project:not(.open) .project-desc-wrapper h2 {
   text-align: left;
   cursor: pointer;
   font-weight: 700;
   margin-bottom: 10px;
 }
-/* line 202, ../sass/_projects.sass */
+/* line 204, ../sass/_projects.sass */
 .projects-wrapper .project:not(.open) .project-desc-wrapper .project-desc {
   max-width: 800px;
   font-size: 1em;
   line-height: 1.85em;
 }
 @media only screen and (max-width: 1199px) {
-  /* line 202, ../sass/_projects.sass */
+  /* line 204, ../sass/_projects.sass */
   .projects-wrapper .project:not(.open) .project-desc-wrapper .project-desc {
     padding-bottom: 20px;
   }
 }
 @media only screen and (min-device-width: 300px) and (max-device-width: 1025px) and (orientation: landscape) {
-  /* line 202, ../sass/_projects.sass */
+  /* line 204, ../sass/_projects.sass */
   .projects-wrapper .project:not(.open) .project-desc-wrapper .project-desc {
     display: block;
     font-size: 0.875em;
   }
 }
-/* line 211, ../sass/_projects.sass */
+/* line 213, ../sass/_projects.sass */
 .projects-wrapper .project:not(.open) .project-sub-title {
   margin-bottom: 20px;
   font-weight: bold;
   font-size: 1.1em;
 }
-/* line 216, ../sass/_projects.sass */
+/* line 218, ../sass/_projects.sass */
 .projects-wrapper .project:not(.open) .slider-for img {
   display: none;
 }
-/* line 218, ../sass/_projects.sass */
+/* line 220, ../sass/_projects.sass */
 .projects-wrapper .project:not(.open) .slider-for img:first-child {
   display: block;
   width: 100%;
   cursor: pointer;
 }
-/* line 222, ../sass/_projects.sass */
+/* line 224, ../sass/_projects.sass */
 .projects-wrapper .project:not(.open) .slider-nav {
   display: none;
 }
@@ -2641,7 +2645,7 @@ body.open #nav {
   overflow: hidden;
   background: #efefef;
 }
-@media screen and (min-width: 1400px) {
+@media screen and (min-width: 1600px) {
   /* line 1, ../sass/_values.sass */
   #values {
     height: 1200px;

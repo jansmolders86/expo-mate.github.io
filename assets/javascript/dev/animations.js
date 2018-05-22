@@ -14,7 +14,7 @@ var brandsAnimationHasRan = false;
 var headerElem = $('#header');
 var aboutElem = $('#about');
 var brandsElem = $('.brandlist');
-var aboutUsElem = $('#about-us');
+var aboutUsElem = $('#aboutUs');
 var valuesElem = $('#values');
 
 $(function(){
