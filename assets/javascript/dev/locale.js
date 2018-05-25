@@ -2,6 +2,11 @@ $(function(){
     var url = './assets/json/content.json';
     var $body = $("body");
 
+    $.ajaxSetup({
+        scriptCharset: "utf-8",
+        contentType: "application/json; charset=utf-8"
+    });
+
     $.getJSON(url, function(data) {
         var loc = getCookie('lang');
         var locData = data[loc];

@@ -3,6 +3,12 @@ $(function(){
     if ($('body').hasClass('projects')){
         var url = './assets/json/content.json';
         var hash = window.location.hash;
+
+        $.ajaxSetup({
+            scriptCharset: "utf-8",
+            contentType: "application/json; charset=utf-8"
+        });
+
         $.getJSON(url, function(data) {
             var loc = getCookie('lang')
             , homeproject = data[loc].pages.homepage.content.projects
