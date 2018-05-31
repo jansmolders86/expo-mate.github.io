@@ -10,11 +10,12 @@ $(function() {
         $.each(projectDetail, function (index, item) {
             var review = item.review
             , author = review.author || ''
+            , desc = review.description || ''
             , reviewDate = review.date || ''
             , identifier = author.replace(/[^A-Z0-9]+/ig, "-").toLowerCase()
             , starCount = review.stars || '';
 
-            if(review) {
+            if (review && review !== undefined && desc !== '' && desc !== undefined){
                 testimonial.addClass('hidden');
                 if(testimonial.length > 0){
                     testimonial.append('<div class="review" id="'+identifier+'">\n' +
@@ -24,15 +25,16 @@ $(function() {
                         '               <div class="review-text">'+review.description+'</div>\n' +
                         '            </div>');
 
-                        if (starCount === 4) {
-                            $('.review-stars').find('.fifth').remove();
-                        }
+                    if (starCount === 4) {
+                        $('.review-stars').find('.fifth').remove();
+                    }
                 }
-                setTimeout(function(){
-                    reviewSlider();
-                },1000);
             }
         });
+
+        setTimeout(function(){
+            reviewSlider();
+        },1000);
     });
 });
 

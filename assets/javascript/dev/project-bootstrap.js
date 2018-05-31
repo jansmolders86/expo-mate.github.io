@@ -22,6 +22,7 @@ $(function(){
                     , count = parseInt(index) + 1
                     , review = item.review
                     , author = review.author || ''
+                    , desc = review.description || ''
                     , reviewDate = review.date || ''
                     , identifier = author.replace(/[^A-Z0-9]+/ig, "-").toLowerCase()
                     , starCount = review.stars || '';
@@ -59,7 +60,7 @@ $(function(){
                                 '			<div class="review-author">'+author+'</div>\n' +
                                 '			<div class="review-date">'+reviewDate+'</div>\n' +
                                 '           <div class="review-stars"><i class="icon-star-full"></i><i class="icon-star-full"></i><i class="icon-star-full"></i><i class="icon-star-full"></i><i class="icon-star-full fifth"></i></div>\n' +
-                                '			<div class="review-text">'+review.description+'</div>\n' +
+                                '			<div class="review-text">'+desc+'</div>\n' +
                                 '		</div>\n' +
                                 '	</div>\n' +
                                 '</div>');
@@ -68,6 +69,9 @@ $(function(){
                     $('.review-stars').find('.fifth').remove();
                 }
 
+                if (review === undefined || desc === '' || desc === undefined){
+                    $('#project'+count).find('.read-review').addClass('hidden');
+                }
 
                 $('.project-images').on('click', function(){
                     if(!$('body').hasClass('open')) {
