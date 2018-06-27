@@ -40,7 +40,7 @@
                           "description": "Path to image uploaded to the image folder in Github",
                           "links": [
                             {
-                              "href": "https://expo-mate.github.io/assets/images/{{self}}.mp4",
+                              "href": "/assets/images/{{self}}.jpg",
                               "mediaType": "image/jpg"
                             }
                           ]
