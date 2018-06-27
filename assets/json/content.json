@@ -586,11 +586,11 @@
                 "aboutUs": "Wer wir sind",
                 "method": "UNSERE ARBEITSWEISE",
                 "process": "Full service Proces",
-                "model": "Ons EXPO-MATE Model",
+                "model": "Unser EXPO-MATE Modell",
                 "comparision": "Von der EinfÃ¼hrung bis zum Design",
                 "values": "Unsere Unternehmenswerte",
                 "projects": "Projekte",
-                "contact": "Contact"
+                "contact": "Kontakt"
             }
         },
         "pages": {
@@ -770,7 +770,7 @@
                         "title": "Testimonials"
                     },
                     "contacts": {
-                        "header": "Mail Ons",
+                        "header": "E-Mailen Sie uns",
                         "jan": {
                             "title": "Jan Maas",
                             "links": {
@@ -780,9 +780,9 @@
                                     "alt": "Email Jan"
                                 },
                                 "linkedin": {
-                                    "title": "Jan op",
+                                    "title": "Jan auf",
                                     "src": "https://nl.linkedin.com/in/maasjan",
-                                    "alt": "Jan On LinkedIn"
+                                    "alt": "Jan auf LinkedIn"
                                 }
                             },
                             "phone": "+31 6 50 28 18 91"
@@ -795,7 +795,7 @@
                                     "src": "mailto:n.van.gent@expo-mate.com"
                                 },
                                 "linkedin": {
-                                    "title": "Niek op",
+                                    "title": "Niek auf",
                                     "src": "https://nl.linkedin.com/in/niek-van-gent-b538781b"
                                 }
                             },
@@ -803,11 +803,11 @@
                         }
                     },
                     "phone": {
-                        "header": "Bel Ons"
+                        "header": "Rufen Sie uns an"
                     },
                     "visit": {
-                        "header": "Bezoek Ons",
-                        "description": "Garnizoenweg 3 <br/> Building A <br/> Postbus 8064 <br/> 5928 NA Venlo <br/> The Netherlands"
+                        "header": "Besuchen Sie uns",
+                        "description": "Garnizoenweg 3 <br/> Building A <br/> Postbus 8064 <br/> 5928 NA Venlo <br/> NiederlÃ¤nde"
                     },
                     "copyright": {
                         "description": "Copyright 2018, Expo-Mate - Alle rechten voorbehouden."
