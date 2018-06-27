@@ -40,7 +40,7 @@
                           "description": "Path to image uploaded to the image folder in Github",
                           "links": [
                             {
-                              "href": "assets/images/{{self}}.mp4",
+                              "href": "https://expo-mate.github.io/assets/images/{{self}}.mp4",
                               "mediaType": "image/jpg"
                             }
                           ]
@@ -50,7 +50,7 @@
                           "description": "Path to MP4 video uploaded to the video folder in Github",
                           "links": [
                             {
-                              "href": "assets/video/{{self}}.mp4",
+                              "href": "https://expo-mate.github.io/assets/video/{{self}}.mp4",
                               "mediaType": "video/mp4"
                             }
                           ]
@@ -60,7 +60,7 @@
                           "description": "Path to WEBM video uploaded to the video folder in Github",
                           "links": [
                             {
-                              "href": "assets/video/{{self}}.webm",
+                              "href": "https://expo-mate.github.io/assets/video/{{self}}.webm",
                               "mediaType": "video/webm"
                             }
                           ]
