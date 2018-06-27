@@ -25,6 +25,9 @@
           "properties": {
             "homepage": {
               "type": "object",
+              "options": {
+                "collapsed": true
+              },
               "properties": {
                 "header": {
                   "type": "object",
@@ -53,7 +56,7 @@
                           "description": "Path to MP4 video uploaded to the video folder in Github",
                           "links": [
                             {
-                              "href": "https://expo-mate.github.io/{{self}}.mp4",
+                              "href": "https://expo-mate.github.io/{{self}}",
                               "mediaType": "video/mp4"
                             }
                           ]
@@ -564,6 +567,9 @@
             },
             "projects": {
               "type": "object",
+              "options": {
+                "collapsed": true
+              },
               "properties": {
                 "title": {
                   "type": "string"
@@ -644,6 +650,9 @@
           "properties": {
             "homepage": {
               "type": "object",
+              "options": {
+                "collapsed": true
+              },
               "properties": {
                 "header": {
                   "type": "object",
@@ -662,7 +671,7 @@
                           "description": "Path to image uploaded to the image folder in Github",
                           "links": [
                             {
-                              "href": "assets/images/{{self}}.mp4",
+                              "href": "https://expo-mate.github.io/{{self}}",
                               "mediaType": "image/jpg"
                             }
                           ]
@@ -672,7 +681,7 @@
                           "description": "Path to MP4 video uploaded to the video folder in Github",
                           "links": [
                             {
-                              "href": "assets/video/{{self}}.mp4",
+                              "href": "https://expo-mate.github.io/{{self}}",
                               "mediaType": "video/mp4"
                             }
                           ]
@@ -682,7 +691,7 @@
                           "description": "Path to WEBM video uploaded to the video folder in Github",
                           "links": [
                             {
-                              "href": "assets/video/{{self}}.webm",
+                              "href": "https://expo-mate.github.io/{{self}}",
                               "mediaType": "video/webm"
                             }
                           ]
@@ -1183,6 +1192,9 @@
             },
             "projects": {
               "type": "object",
+              "options": {
+                "collapsed": true
+              },
               "properties": {
                 "title": {
                   "type": "string"
@@ -1263,6 +1275,9 @@
           "properties": {
             "homepage": {
               "type": "object",
+              "options": {
+                "collapsed": true
+              },
               "properties": {
                 "header": {
                   "type": "object",
@@ -1281,7 +1296,7 @@
                           "description": "Path to image uploaded to the image folder in Github",
                           "links": [
                             {
-                              "href": "assets/images/{{self}}.mp4",
+                              "href": "https://expo-mate.github.io/{{self}}",
                               "mediaType": "image/jpg"
                             }
                           ]
@@ -1291,7 +1306,7 @@
                           "description": "Path to MP4 video uploaded to the video folder in Github",
                           "links": [
                             {
-                              "href": "assets/video/{{self}}.mp4",
+                              "href": "https://expo-mate.github.io/{{self}}",
                               "mediaType": "video/mp4"
                             }
                           ]
@@ -1301,7 +1316,7 @@
                           "description": "Path to WEBM video uploaded to the video folder in Github",
                           "links": [
                             {
-                              "href": "assets/video/{{self}}.webm",
+                              "href": "https://expo-mate.github.io/{{self}}",
                               "mediaType": "video/webm"
                             }
                           ]
@@ -1461,7 +1476,7 @@
                             "wysiwyg": true
                           }
                         },
-                        "methods": {
+                        "method": {
                           "type": "object",
                           "properties": {
                             "intro": {
@@ -1802,6 +1817,9 @@
             },
             "projects": {
               "type": "object",
+              "options": {
+                "collapsed": true
+              },
               "properties": {
                 "title": {
                   "type": "string"
