@@ -566,11 +566,12 @@
               }
             },
             "projects": {
-              "type": "object",
+              "type": "array",
               "options": {
                 "collapsed": true
               },
-              "properties": {
+              "format": "table",
+              "items": {
                 "title": {
                   "type": "string"
                 },
@@ -1191,11 +1192,12 @@
               }
             },
             "projects": {
-              "type": "object",
+              "type": "array",
               "options": {
                 "collapsed": true
               },
-              "properties": {
+              "format": "table",
+              "items": {
                 "title": {
                   "type": "string"
                 },
@@ -1816,11 +1818,12 @@
               }
             },
             "projects": {
-              "type": "object",
+              "type": "array",
               "options": {
                 "collapsed": true
               },
-              "properties": {
+              "format": "table",
+              "items": {
                 "title": {
                   "type": "string"
                 },
