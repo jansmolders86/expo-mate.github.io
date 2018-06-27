@@ -1266,7 +1266,7 @@
                         "title": "WORKING METHOD",
                         "hoverLabel": "Move with your mouse over the orbs to learn more.",
                         "description": "Because of the earlier explained different backgrounds we have been able to develop a working method which is unique within the industry and enables us to deliver the highest return on investment for our clients.",
-                        "method": {
+                        "methods": {
                             "intro": {
                                 "title": "Introduction",
                                 "description": "A personal meet-up in which we discuss your needs, wishes and goals."

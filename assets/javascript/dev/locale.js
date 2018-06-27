@@ -105,20 +105,20 @@ $(function(){
             $body.find("[data-content='content-method-desc']").html(method.description);
             $body.find("[data-content='content-method-hoverLabel']").html(method.hoverLabel);
 
-            $body.find("[data-content='content-method-intro-title']").html(method.method.intro.title);
-            $body.find("[data-content='content-method-intro-desc']").html(method.method.intro.description);
+            $body.find("[data-content='content-method-intro-title']").html(method.methods.intro.title);
+            $body.find("[data-content='content-method-intro-desc']").html(method.methods.intro.description);
 
-            $body.find("[data-content='content-method-design-title']").html(method.method.design.title);
-            $body.find("[data-content='content-method-design-desc']").html(method.method.design.description);
+            $body.find("[data-content='content-method-design-title']").html(method.methods.design.title);
+            $body.find("[data-content='content-method-design-desc']").html(method.methods.design.description);
 
-            $body.find("[data-content='content-method-tuning-title']").html(method.method.tuning.title);
-            $body.find("[data-content='content-method-tuning-desc']").html(method.method.tuning.description);
+            $body.find("[data-content='content-method-tuning-title']").html(method.methods.tuning.title);
+            $body.find("[data-content='content-method-tuning-desc']").html(method.methods.tuning.description);
 
-            $body.find("[data-content='content-method-construction-title']").html(method.method.construction.title);
-            $body.find("[data-content='content-method-construction-desc']").html(method.method.construction.description);
+            $body.find("[data-content='content-method-construction-title']").html(method.methods.construction.title);
+            $body.find("[data-content='content-method-construction-desc']").html(method.methods.construction.description);
 
-            $body.find("[data-content='content-method-eval-title']").html(method.method.eval.title);
-            $body.find("[data-content='content-method-eval-desc']").html(method.method.eval.description);
+            $body.find("[data-content='content-method-eval-title']").html(method.methods.eval.title);
+            $body.find("[data-content='content-method-eval-desc']").html(method.methods.eval.description);
         }
 
         if (model) {

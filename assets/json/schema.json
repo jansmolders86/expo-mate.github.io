@@ -4,6 +4,9 @@
   "properties": {
     "nl": {
       "type": "object",
+      "options": {
+        "collapsed": true
+      },
       "properties": {
         "nav": {
           "type": "object",
@@ -620,6 +623,9 @@
     },
     "en": {
       "type": "object",
+      "options": {
+        "collapsed": true
+      },
       "properties": {
         "nav": {
           "type": "object",
@@ -1236,6 +1242,9 @@
     },
     "de": {
       "type": "object",
+      "options": {
+        "collapsed": true
+      },
       "properties": {
         "nav": {
           "type": "object",
@@ -1452,7 +1461,7 @@
                             "wysiwyg": true
                           }
                         },
-                        "method": {
+                        "methods": {
                           "type": "object",
                           "properties": {
                             "intro": {
