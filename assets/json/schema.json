@@ -1,0 +1,617 @@
+{
+  "title": "expoMate",
+  "type": "object",
+  "properties": {
+    "nav": {
+      "type": "object",
+      "description": "links in menu navigation",
+      "properties": {
+          "labels" : {
+            "type": "object",
+            "properties": {
+              "type": "string"
+            }
+          }
+      }
+    },
+    "pages": {
+      "type": "object",
+      "properties": {
+        "homepage" : {
+          "type": "object",
+          "properties": {
+            "header" : {
+              "type": "object",
+              "properties": {
+                "content" : {
+                  "type": "object",
+                  "properties": {
+                    "title": {
+                      "type": "string",
+                      "description": "Header title",
+                      "minLength": 4,
+                      "default": "Management in Authentic and Trending Exhibition Participations"
+                    },
+                    "backgroundImageSrc": {
+                      "type": "string",
+                      "description": "Path to image uploaded to the image folder in Github",
+                      "links": [
+                        {
+                          "href": "assets/images/{{self}}.mp4",
+                          "mediaType": "image/jpg"
+                        }
+                      ]
+                    },
+                    "backgroundVideoMp4Src": {
+                      "type": "string",
+                      "description": "Path to MP4 video uploaded to the video folder in Github",
+                      "links": [
+                        {
+                          "href": "assets/video/{{self}}.mp4",
+                          "mediaType": "video/mp4"
+                        }
+                      ]
+                    },
+                    "backgroundVideoWebMSrc": {
+                      "type": "string",
+                      "description": "Path to WEBM video uploaded to the video folder in Github",
+                      "links": [
+                        {
+                          "href": "assets/video/{{self}}.webm",
+                          "mediaType": "video/webm"
+                        }
+                      ]
+                    },
+                    "youtubeURL": {
+                      "type": "string",
+                      "description": "Youtube ID"
+                    }
+                  }
+                }
+              }
+            },
+            "content": {
+              "type": "object",
+              "properties": {
+                "intro": {
+                  "type": "object",
+                  "properties": {
+                    "title": {
+                      "type": "string"
+                    },
+                    "description": {
+                      "type": "string",
+                      "format": "html",
+                      "options": {
+                        "wysiwyg": true
+                      }
+                    },
+                    "images": {
+                      "type": "array",
+                      "format": "table",
+                      "items": {
+                        "type": "object",
+                        "title": "Image",
+                        "properties": {
+                          "src": {
+                            "type": "string"
+                          },
+                          "alt": {
+                            "type": "string"
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                "about": {
+                  "type": "object",
+                  "properties": {
+                    "row1": {
+                      "type": "object",
+                      "properties": {
+                        "image": {
+                          "type": "object",
+                          "properties": {
+                            "src": {
+                              "type": "string"
+                            }
+                          }
+                        },
+                        "title": {
+                          "type": "string"
+                        },
+                        "description": {
+                          "type": "string",
+                          "format": "html",
+                          "options": {
+                            "wysiwyg": true
+                          }
+                        }
+                      }
+                    },
+                    "row2": {
+                      "type": "object",
+                      "properties": {
+                        "image": {
+                          "type": "object",
+                          "properties": {
+                            "src": {
+                              "type": "string"
+                            }
+                          }
+                        },
+                        "title": {
+                          "type": "string"
+                        },
+                        "description": {
+                          "type": "string",
+                          "format": "html",
+                          "options": {
+                            "wysiwyg": true
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                "aboutUs": {
+                  "type": "object",
+                  "properties": {
+                    "title": {
+                      "type": "string"
+                    },
+                    "description": {
+                      "type": "string",
+                      "format": "html",
+                      "options": {
+                        "wysiwyg": true
+                      }
+                    },
+                    "image": {
+                      "type": "object",
+                      "properties": {
+                        "src": {
+                          "type": "string"
+                        }
+                      }
+                    },
+                    "values": {
+                      "type": "object",
+                      "properties": {
+                        "value1": {
+                          "type": "string"
+                        },
+                        "value2": {
+                          "type": "string"
+                        },
+                        "value3": {
+                          "type": "string"
+                        },
+                        "value4": {
+                          "type": "string"
+                        },
+                        "value5": {
+                          "type": "string"
+                        },
+                        "value6": {
+                          "type": "string"
+                        }
+                      }
+                    }
+                  }
+                },
+                "method": {
+                  "type": "object",
+                  "properties": {
+                    "title": {
+                      "type": "string"
+                    },
+                    "hoverLabel": {
+                      "type": "string"
+                    },
+                    "description": {
+                      "type": "string",
+                      "format": "html",
+                      "options": {
+                        "wysiwyg": true
+                      }
+                    },
+                    "method": {
+                      "type": "object",
+                      "properties": {
+                        "intro": {
+                          "title": {
+                            "type": "string"
+                          },
+                          "description": {
+                            "type": "string",
+                            "format": "html",
+                            "options": {
+                              "wysiwyg": true
+                            }
+                          }
+                        },
+                        "design": {
+                          "title": {
+                            "type": "string"
+                          },
+                          "description": {
+                            "type": "string",
+                            "format": "html",
+                            "options": {
+                              "wysiwyg": true
+                            }
+                          }
+                        },
+                        "tuning": {
+                          "title": {
+                            "type": "string"
+                          },
+                          "description": {
+                            "type": "string",
+                            "format": "html",
+                            "options": {
+                              "wysiwyg": true
+                            }
+                          }
+                        },
+                        "construction": {
+                          "title": {
+                            "type": "string"
+                          },
+                          "description": {
+                            "type": "string",
+                            "format": "html",
+                            "options": {
+                              "wysiwyg": true
+                            }
+                          }
+                        },
+                        "eval": {
+                          "title": {
+                            "type": "string"
+                          },
+                          "description": {
+                            "type": "string",
+                            "format": "html",
+                            "options": {
+                              "wysiwyg": true
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                "model": {
+                  "image": {
+                    "type": "object",
+                    "properties": {
+                      "src": {
+                        "type": "string"
+                      }
+                    }
+                  },
+                  "type": "object",
+                  "properties": {
+                    "title": {
+                      "type": "string"
+                    },
+                    "description": {
+                      "type": "string",
+                      "format": "html",
+                      "options": {
+                        "wysiwyg": true
+                      }
+                    }
+                  }
+                },
+                "projects": {
+                  "type": "object",
+                  "properties": {
+                    "title": {
+                      "type": "string"
+                    },
+                    "description": {
+                      "type": "string",
+                      "format": "html",
+                      "options": {
+                        "wysiwyg": true
+                      }
+                    },
+                    "reviewLink": {
+                      "type": "string"
+                    },
+                    "button": {
+                      "type": "object",
+                      "properties": {
+                        "label": {
+                          "type": "string"
+                        }
+                      }
+                    },
+                    "project1": {
+                      "type": "object",
+                      "properties": {
+                        "title": {
+                          "type": "string"
+                        },
+                        "button": {
+                          "type": "string"
+                        },
+                        "image": {
+                          "type": "object",
+                          "properties": {
+                            "src": {
+                              "type": "string"
+                            },
+                            "alt": {
+                              "type": "string"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "project2": {
+                      "type": "object",
+                      "properties": {
+                        "title": {
+                          "type": "string"
+                        },
+                        "button": {
+                          "type": "string"
+                        },
+                        "image": {
+                          "type": "object",
+                          "properties": {
+                            "src": {
+                              "type": "string"
+                            },
+                            "alt": {
+                              "type": "string"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                "comparison": {
+                  "type": "object",
+                  "properties": {
+                    "title": {
+                      "type": "string"
+                    },
+                    "description": {
+                      "type": "string",
+                      "format": "html",
+                      "options": {
+                        "wysiwyg": true
+                      }
+                    },
+                    "comparisons": {
+                      "type": "array",
+                      "format": "table",
+                      "items": {
+                        "type": "object",
+                        "title": "comparison",
+                        "properties": {
+                          "before": {
+                            "type": "string"
+                          },
+                          "after": {
+                            "type": "string"
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                "footer": {
+                  "type": "object",
+                  "properties": {
+                    "testimonials": {
+                      "type": "object",
+                      "properties": {
+                        "title": {
+                          "type": "string"
+                        }
+                      }
+                    },
+                    "contacts":{
+                      "type": "object",
+                      "properties": {
+                        "header": {
+                          "type": "string"
+                        },
+                        "jan":{
+                          "type": "object",
+                          "properties": {
+                            "title": {
+                              "type": "string"
+                            },
+                            "links": {
+                              "type": "object",
+                              "properties": {
+                                "email": {
+                                  "type": "object",
+                                  "properties": {
+                                    "title": {
+                                      "type": "string"
+                                    },
+                                    "src": {
+                                      "type": "string"
+                                    },
+                                    "alt": {
+                                      "type": "string"
+                                    }
+                                  }
+                                },
+                                "linkedin": {
+                                  "type": "object",
+                                  "properties": {
+                                    "title": {
+                                      "type": "string"
+                                    },
+                                    "src": {
+                                      "type": "string"
+                                    },
+                                    "alt": {
+                                      "type": "string"
+                                    }
+                                  }
+                                }
+                              }
+                            },
+                            "phone": {
+                              "type": "string"
+                            }
+                          }
+                        },
+                        "niek":{
+                          "type": "object",
+                          "properties": {
+                            "title": {
+                              "type": "string"
+                            },
+                            "links": {
+                              "type": "object",
+                              "properties": {
+                                "email": {
+                                  "type": "object",
+                                  "properties": {
+                                    "title": {
+                                      "type": "string"
+                                    },
+                                    "src": {
+                                      "type": "string"
+                                    },
+                                    "alt": {
+                                      "type": "string"
+                                    }
+                                  }
+                                },
+                                "linkedin": {
+                                  "type": "object",
+                                  "properties": {
+                                    "title": {
+                                      "type": "string"
+                                    },
+                                    "src": {
+                                      "type": "string"
+                                    },
+                                    "alt": {
+                                      "type": "string"
+                                    }
+                                  }
+                                }
+                              }
+                            },
+                            "phone": {
+                              "type": "string"
+                            }
+                          }
+                        },
+                        "phone": {
+                          "type": "object",
+                          "properties": {
+                            "header": {
+                              "type": "string"
+                            }
+                          }
+                        },
+                        "visit": {
+                          "type": "object",
+                          "properties": {
+                            "header": {
+                              "type": "string"
+                            },
+                            "description": {
+                              "type": "string",
+                              "format": "html",
+                              "options": {
+                                "wysiwyg": true
+                              }
+                            }
+                          }
+                        },
+                        "copyright": {
+                          "type": "object",
+                          "properties": {
+                            "description": {
+                              "type": "string",
+                              "format": "html",
+                              "options": {
+                                "wysiwyg": true
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "projects": {
+          "type": "object",
+          "properties": {
+            "title": {
+              "type": "string"
+            },
+            "subTitle": {
+              "type": "string"
+            },
+            "description": {
+              "type": "string",
+              "format": "html",
+              "options": {
+                "wysiwyg": true
+              }
+            },
+            "images": {
+              "type": "array",
+              "format": "table",
+              "items": {
+                "type": "object",
+                "title": "comparison",
+                "properties": {
+                  "src": {
+                    "type": "string"
+                  },
+                  "alt": {
+                    "type": "string"
+                  }
+                }
+              }
+            },
+            "review": {
+              "type": "object",
+              "properties": {
+                "author": {
+                  "type": "string"
+                },
+                "date": {
+                  "type": "string"
+                },
+                "stars": {
+                  "type": "string"
+                },
+                "description": {
+                  "type": "string",
+                  "format": "html",
+                  "options": {
+                    "wysiwyg": true
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
