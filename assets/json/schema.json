@@ -50,7 +50,7 @@
                           "description": "Path to MP4 video uploaded to the video folder in Github",
                           "links": [
                             {
-                              "href": "https://expo-mate.github.io/{self}}.mp4",
+                              "href": "https://expo-mate.github.io/{{self}}.mp4",
                               "mediaType": "video/mp4"
                             }
                           ]
