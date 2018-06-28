@@ -4,11 +4,15 @@
   "properties": {
     "nl": {
       "type": "object",
-      "format": "categories",
+      "options": {
+        "collapsed": true
+      },
       "properties": {
         "nav": {
           "type": "object",
-          "format": "categories",
+          "options": {
+            "collapsed": true
+          },
           "description": "links in menu navigation",
           "properties": {
             "labels": {
@@ -21,10 +25,12 @@
         },
         "pages": {
           "type": "object",
-          "format": "categories",
           "properties": {
             "homepage": {
               "type": "object",
+              "options": {
+                "collapsed": true
+              },
               "properties": {
                 "header": {
                   "type": "object",
@@ -612,6 +618,10 @@
             },
             "projects": {
               "type": "array",
+              "options": {
+                "collapsed": true
+              },
+              "format": "tabs",
               "items": {
                 "header": {
                   "type": "string"
@@ -768,7 +778,13 @@
                               },
                               "alt": {
                                 "type": "string"
-                              }
+                              },
+                              "links": [
+                                {
+                                  "href": "https://expo-mate.github.io/{{self}}",
+                                  "mediaType": "image/jpg"
+                                }
+                              ]
                             }
                           }
                         }
@@ -820,6 +836,75 @@
                       }
                     },
                     "aboutUs": {
+                      "type": "object",
+                      "properties": {
+                        "header": {
+                          "type": "string"
+                        },
+                        "description": {
+                          "type": "string",
+                          "format": "markdown"
+                        },
+                        "employees": {
+                          "type": "object",
+                          "properties": {
+                            "niek": {
+                              "type": "object",
+                              "properties": {
+                                "header": {
+                                  "type": "string"
+                                },
+                                "description": {
+                                  "type": "string",
+                                  "format": "markdown"
+                                },
+                                "image": {
+                                  "type": "object",
+                                  "properties": {
+                                    "src": {
+                                      "type": "string"
+                                    },
+                                    "alt": {
+                                      "type": "string"
+                                    }
+                                  }
+                                }
+                              }
+                            },
+                            "jan": {
+                              "type": "object",
+                              "properties": {
+                                "header": {
+                                  "type": "string"
+                                },
+                                "description": {
+                                  "type": "string",
+                                  "format": "markdown"
+                                },
+                                "image": {
+                                  "type": "object",
+                                  "properties": {
+                                    "src": {
+                                      "type": "string"
+                                    },
+                                    "alt": {
+                                      "type": "string"
+                                    },
+                                    "links": [
+                                      {
+                                        "href": "https://expo-mate.github.io/{{self}}",
+                                        "mediaType": "image/jpg"
+                                      }
+                                    ]
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "values": {
                       "type": "object",
                       "properties": {
                         "header": {
@@ -933,7 +1018,13 @@
                         "properties": {
                           "src": {
                             "type": "string"
-                          }
+                          },
+                          "links": [
+                            {
+                              "href": "https://expo-mate.github.io/{{self}}",
+                              "mediaType": "image/jpg"
+                            }
+                          ]
                         }
                       },
                       "type": "object",
@@ -985,7 +1076,13 @@
                                 },
                                 "alt": {
                                   "type": "string"
-                                }
+                                },
+                                "links": [
+                                  {
+                                    "href": "https://expo-mate.github.io/{{self}}",
+                                    "mediaType": "image/jpg"
+                                  }
+                                ]
                               }
                             }
                           }
@@ -1007,7 +1104,13 @@
                                 },
                                 "alt": {
                                   "type": "string"
-                                }
+                                },
+                                "links": [
+                                  {
+                                    "href": "https://expo-mate.github.io/{{self}}",
+                                    "mediaType": "image/jpg"
+                                  }
+                                ]
                               }
                             }
                           }
@@ -1227,7 +1330,7 @@
                       "type": "string"
                     },
                     "stars": {
-                      "type": "string"
+                      "type": "integer"
                     },
                     "description": {
                       "type": "string",
@@ -1346,7 +1449,13 @@
                               },
                               "alt": {
                                 "type": "string"
-                              }
+                              },
+                              "links": [
+                                {
+                                  "href": "https://expo-mate.github.io/{{self}}",
+                                  "mediaType": "image/jpg"
+                                }
+                              ]
                             }
                           }
                         }
@@ -1398,6 +1507,75 @@
                       }
                     },
                     "aboutUs": {
+                      "type": "object",
+                      "properties": {
+                        "header": {
+                          "type": "string"
+                        },
+                        "description": {
+                          "type": "string",
+                          "format": "markdown"
+                        },
+                        "employees": {
+                          "type": "object",
+                          "properties": {
+                            "niek": {
+                              "type": "object",
+                              "properties": {
+                                "header": {
+                                  "type": "string"
+                                },
+                                "description": {
+                                  "type": "string",
+                                  "format": "markdown"
+                                },
+                                "image": {
+                                  "type": "object",
+                                  "properties": {
+                                    "src": {
+                                      "type": "string"
+                                    },
+                                    "alt": {
+                                      "type": "string"
+                                    }
+                                  }
+                                }
+                              }
+                            },
+                            "jan": {
+                              "type": "object",
+                              "properties": {
+                                "header": {
+                                  "type": "string"
+                                },
+                                "description": {
+                                  "type": "string",
+                                  "format": "markdown"
+                                },
+                                "image": {
+                                  "type": "object",
+                                  "properties": {
+                                    "src": {
+                                      "type": "string"
+                                    },
+                                    "alt": {
+                                      "type": "string"
+                                    },
+                                    "links": [
+                                      {
+                                        "href": "https://expo-mate.github.io/{{self}}",
+                                        "mediaType": "image/jpg"
+                                      }
+                                    ]
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "values": {
                       "type": "object",
                       "properties": {
                         "header": {
@@ -1511,7 +1689,13 @@
                         "properties": {
                           "src": {
                             "type": "string"
-                          }
+                          },
+                          "links": [
+                            {
+                              "href": "https://expo-mate.github.io/{{self}}",
+                              "mediaType": "image/jpg"
+                            }
+                          ]
                         }
                       },
                       "type": "object",
@@ -1563,7 +1747,13 @@
                                 },
                                 "alt": {
                                   "type": "string"
-                                }
+                                },
+                                "links": [
+                                  {
+                                    "href": "https://expo-mate.github.io/{{self}}",
+                                    "mediaType": "image/jpg"
+                                  }
+                                ]
                               }
                             }
                           }
@@ -1585,7 +1775,13 @@
                                 },
                                 "alt": {
                                   "type": "string"
-                                }
+                                },
+                                "links": [
+                                  {
+                                    "href": "https://expo-mate.github.io/{{self}}",
+                                    "mediaType": "image/jpg"
+                                  }
+                                ]
                               }
                             }
                           }
@@ -1805,7 +2001,7 @@
                       "type": "string"
                     },
                     "stars": {
-                      "type": "string"
+                      "type": "integer"
                     },
                     "description": {
                       "type": "string",
