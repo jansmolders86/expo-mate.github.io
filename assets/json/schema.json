@@ -652,7 +652,7 @@
                       "type": "string"
                     },
                     "stars": {
-                      "type": "integer",
+                      "type": "integer"
                     },
                     "description": {
                       "type": "string",
