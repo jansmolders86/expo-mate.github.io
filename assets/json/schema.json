@@ -168,6 +168,69 @@
                           "type": "string",
                           "format": "markdown"
                         },
+                        "employees": {
+                          "type": "object",
+                          "properties": {
+                            "niek": {
+                              "type": "object",
+                              "properties": {
+                                "header": {
+                                  "type": "string"
+                                },
+                                "description": {
+                                  "type": "string",
+                                  "format": "markdown"
+                                },
+                                "image": {
+                                  "type": "object",
+                                  "properties": {
+                                    "src": {
+                                      "type": "string"
+                                    },
+                                    "alt": {
+                                      "type": "string"
+                                    }
+                                  }
+                                }
+                              }
+                            },
+                            "jan": {
+                              "type": "object",
+                              "properties": {
+                                "header": {
+                                  "type": "string"
+                                },
+                                "description": {
+                                  "type": "string",
+                                  "format": "markdown"
+                                },
+                                "image": {
+                                  "type": "object",
+                                  "properties": {
+                                    "src": {
+                                      "type": "string"
+                                    },
+                                    "alt": {
+                                      "type": "string"
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "values": {
+                      "type": "object",
+                      "properties": {
+                        "header": {
+                          "type": "string"
+                        },
+                        "description": {
+                          "type": "string",
+                          "format": "markdown"
+                        },
                         "image": {
                           "type": "object",
                           "properties": {
