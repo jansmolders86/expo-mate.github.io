@@ -8,9 +8,7 @@
       "properties": {
         "nav": {
           "type": "object",
-          "options": {
-            "collapsed": true
-          },
+          "format": "categories",
           "description": "links in menu navigation",
           "properties": {
             "labels": {
@@ -23,10 +21,10 @@
         },
         "pages": {
           "type": "object",
+          "format": "categories",
           "properties": {
             "homepage": {
               "type": "object",
-              "format": "categories",
               "properties": {
                 "header": {
                   "type": "object",
@@ -614,7 +612,6 @@
             },
             "projects": {
               "type": "array",
-              "format": "categories",
               "items": {
                 "header": {
                   "type": "string"
