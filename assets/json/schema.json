@@ -621,720 +621,51 @@
               "options": {
                 "collapsed": true
               },
-              "format": "tabs",
               "items": {
-                "header": {
-                  "type": "string"
-                },
-                "subTitle": {
-                  "type": "string"
-                },
-                "description": {
-                  "type": "string",
-                  "format": "html"
-                },
-                "images": {
-                  "type": "array",
-                  "format": "table",
-                  "items": {
+                "type": "object",
+                "properties": {
+                  "header": {
+                    "type": "string"
+                  },
+                  "subTitle": {
+                    "type": "string"
+                  },
+                  "description": {
+                    "type": "string",
+                    "format": "html"
+                  },
+                  "images": {
+                    "type": "array",
+                    "format": "table",
+                    "items": {
+                      "type": "object",
+                      "header": "comparison",
+                      "properties": {
+                        "src": {
+                          "type": "string"
+                        },
+                        "alt": {
+                          "type": "string"
+                        }
+                      }
+                    }
+                  },
+                  "review": {
                     "type": "object",
-                    "header": "comparison",
                     "properties": {
-                      "src": {
+                      "author": {
                         "type": "string"
                       },
-                      "alt": {
-                        "type": "string"
-                      }
-                    }
-                  }
-                },
-                "review": {
-                  "type": "object",
-                  "properties": {
-                    "author": {
-                      "type": "string"
-                    },
-                    "date": {
-                      "type": "string"
-                    },
-                    "stars": {
-                      "type": "integer"
-                    },
-                    "description": {
-                      "type": "string",
-                      "format": "html"
-                    }
-                  }
-                }
-              }
-            }
-          }
-        }
-      }
-    },
-    "en": {
-      "type": "object",
-      "options": {
-        "collapsed": true
-      },
-      "properties": {
-        "nav": {
-          "type": "object",
-          "options": {
-            "collapsed": true
-          },
-          "description": "links in menu navigation",
-          "properties": {
-            "labels": {
-              "type": "object",
-              "properties": {
-                "type": "string"
-              }
-            }
-          }
-        },
-        "pages": {
-          "type": "object",
-          "properties": {
-            "homepage": {
-              "type": "object",
-              "options": {
-                "collapsed": true
-              },
-              "properties": {
-                "header": {
-                  "type": "object",
-                  "properties": {
-                    "content": {
-                      "type": "object",
-                      "properties": {
-                        "header": {
-                          "type": "string",
-                          "description": "Header title",
-                          "minLength": 4,
-                          "default": "Management in Authentic and Trending Exhibition Participations"
-                        },
-                        "backgroundImageSrc": {
-                          "type": "string",
-                          "description": "Path to image uploaded to the image folder in Github",
-                          "links": [
-                            {
-                              "href": "https://expo-mate.github.io/{{self}}",
-                              "mediaType": "image/jpg"
-                            }
-                          ]
-                        },
-                        "backgroundVideoMp4Src": {
-                          "type": "string",
-                          "description": "Path to MP4 video uploaded to the video folder in Github",
-                          "links": [
-                            {
-                              "href": "https://expo-mate.github.io/{{self}}",
-                              "mediaType": "video/mp4"
-                            }
-                          ]
-                        },
-                        "backgroundVideoWebMSrc": {
-                          "type": "string",
-                          "description": "Path to WEBM video uploaded to the video folder in Github",
-                          "links": [
-                            {
-                              "href": "https://expo-mate.github.io/{{self}}",
-                              "mediaType": "video/webm"
-                            }
-                          ]
-                        },
-                        "youtubeURL": {
-                          "type": "string",
-                          "description": "Youtube ID"
-                        }
-                      }
-                    }
-                  }
-                },
-                "content": {
-                  "type": "object",
-                  "properties": {
-                    "intro": {
-                      "type": "object",
-                      "properties": {
-                        "header": {
-                          "type": "string"
-                        },
-                        "description": {
-                          "type": "string",
-                          "format": "html"
-                        },
-                        "images": {
-                          "type": "array",
-                          "format": "table",
-                          "items": {
-                            "type": "object",
-                            "header": "Image",
-                            "properties": {
-                              "src": {
-                                "type": "string"
-                              },
-                              "alt": {
-                                "type": "string"
-                              },
-                              "links": [
-                                {
-                                  "href": "https://expo-mate.github.io/{{self}}",
-                                  "mediaType": "image/jpg"
-                                }
-                              ]
-                            }
-                          }
-                        }
-                      }
-                    },
-                    "about": {
-                      "type": "object",
-                      "properties": {
-                        "row1": {
-                          "type": "object",
-                          "properties": {
-                            "image": {
-                              "type": "object",
-                              "properties": {
-                                "src": {
-                                  "type": "string"
-                                }
-                              }
-                            },
-                            "header": {
-                              "type": "string"
-                            },
-                            "description": {
-                              "type": "string",
-                              "format": "html"
-                            }
-                          }
-                        },
-                        "row2": {
-                          "type": "object",
-                          "properties": {
-                            "image": {
-                              "type": "object",
-                              "properties": {
-                                "src": {
-                                  "type": "string"
-                                }
-                              }
-                            },
-                            "header": {
-                              "type": "string"
-                            },
-                            "description": {
-                              "type": "string",
-                              "format": "html"
-                            }
-                          }
-                        }
-                      }
-                    },
-                    "aboutUs": {
-                      "type": "object",
-                      "properties": {
-                        "header": {
-                          "type": "string"
-                        },
-                        "description": {
-                          "type": "string",
-                          "format": "html"
-                        },
-                        "employees": {
-                          "type": "object",
-                          "properties": {
-                            "niek": {
-                              "type": "object",
-                              "properties": {
-                                "header": {
-                                  "type": "string"
-                                },
-                                "description": {
-                                  "type": "string",
-                                  "format": "html"
-                                },
-                                "image": {
-                                  "type": "object",
-                                  "properties": {
-                                    "src": {
-                                      "type": "string"
-                                    },
-                                    "alt": {
-                                      "type": "string"
-                                    }
-                                  }
-                                }
-                              }
-                            },
-                            "jan": {
-                              "type": "object",
-                              "properties": {
-                                "header": {
-                                  "type": "string"
-                                },
-                                "description": {
-                                  "type": "string",
-                                  "format": "html"
-                                },
-                                "image": {
-                                  "type": "object",
-                                  "properties": {
-                                    "src": {
-                                      "type": "string"
-                                    },
-                                    "alt": {
-                                      "type": "string"
-                                    },
-                                    "links": [
-                                      {
-                                        "href": "https://expo-mate.github.io/{{self}}",
-                                        "mediaType": "image/jpg"
-                                      }
-                                    ]
-                                  }
-                                }
-                              }
-                            }
-                          }
-                        }
-                      }
-                    },
-                    "values": {
-                      "type": "object",
-                      "properties": {
-                        "header": {
-                          "type": "string"
-                        },
-                        "description": {
-                          "type": "string",
-                          "format": "html"
-                        },
-                        "image": {
-                          "type": "object",
-                          "properties": {
-                            "src": {
-                              "type": "string"
-                            }
-                          }
-                        },
-                        "values": {
-                          "type": "object",
-                          "properties": {
-                            "value1": {
-                              "type": "string"
-                            },
-                            "value2": {
-                              "type": "string"
-                            },
-                            "value3": {
-                              "type": "string"
-                            },
-                            "value4": {
-                              "type": "string"
-                            },
-                            "value5": {
-                              "type": "string"
-                            },
-                            "value6": {
-                              "type": "string"
-                            }
-                          }
-                        }
-                      }
-                    },
-                    "method": {
-                      "type": "object",
-                      "properties": {
-                        "header": {
-                          "type": "string"
-                        },
-                        "hoverLabel": {
-                          "type": "string"
-                        },
-                        "description": {
-                          "type": "string",
-                          "format": "html"
-                        },
-                        "method": {
-                          "type": "object",
-                          "properties": {
-                            "intro": {
-                              "header": {
-                                "type": "string"
-                              },
-                              "description": {
-                                "type": "string",
-                                "format": "html"
-                              }
-                            },
-                            "design": {
-                              "header": {
-                                "type": "string"
-                              },
-                              "description": {
-                                "type": "string",
-                                "format": "html"
-                              }
-                            },
-                            "tuning": {
-                              "header": {
-                                "type": "string"
-                              },
-                              "description": {
-                                "type": "string",
-                                "format": "html"
-                              }
-                            },
-                            "construction": {
-                              "header": {
-                                "type": "string"
-                              },
-                              "description": {
-                                "type": "string",
-                                "format": "html"
-                              }
-                            },
-                            "eval": {
-                              "header": {
-                                "type": "string"
-                              },
-                              "description": {
-                                "type": "string",
-                                "format": "html"
-                              }
-                            }
-                          }
-                        }
-                      }
-                    },
-                    "model": {
-                      "image": {
-                        "type": "object",
-                        "properties": {
-                          "src": {
-                            "type": "string"
-                          },
-                          "links": [
-                            {
-                              "href": "https://expo-mate.github.io/{{self}}",
-                              "mediaType": "image/jpg"
-                            }
-                          ]
-                        }
-                      },
-                      "type": "object",
-                      "properties": {
-                        "header": {
-                          "type": "string"
-                        },
-                        "description": {
-                          "type": "string",
-                          "format": "html"
-                        }
-                      }
-                    },
-                    "projects": {
-                      "type": "object",
-                      "properties": {
-                        "header": {
-                          "type": "string"
-                        },
-                        "description": {
-                          "type": "string",
-                          "format": "html"
-                        },
-                        "reviewLink": {
-                          "type": "string"
-                        },
-                        "button": {
-                          "type": "object",
-                          "properties": {
-                            "label": {
-                              "type": "string"
-                            }
-                          }
-                        },
-                        "project1": {
-                          "type": "object",
-                          "properties": {
-                            "header": {
-                              "type": "string"
-                            },
-                            "button": {
-                              "type": "string"
-                            },
-                            "image": {
-                              "type": "object",
-                              "properties": {
-                                "src": {
-                                  "type": "string"
-                                },
-                                "alt": {
-                                  "type": "string"
-                                },
-                                "links": [
-                                  {
-                                    "href": "https://expo-mate.github.io/{{self}}",
-                                    "mediaType": "image/jpg"
-                                  }
-                                ]
-                              }
-                            }
-                          }
-                        },
-                        "project2": {
-                          "type": "object",
-                          "properties": {
-                            "header": {
-                              "type": "string"
-                            },
-                            "button": {
-                              "type": "string"
-                            },
-                            "image": {
-                              "type": "object",
-                              "properties": {
-                                "src": {
-                                  "type": "string"
-                                },
-                                "alt": {
-                                  "type": "string"
-                                },
-                                "links": [
-                                  {
-                                    "href": "https://expo-mate.github.io/{{self}}",
-                                    "mediaType": "image/jpg"
-                                  }
-                                ]
-                              }
-                            }
-                          }
-                        }
-                      }
-                    },
-                    "comparison": {
-                      "type": "object",
-                      "properties": {
-                        "header": {
-                          "type": "string"
-                        },
-                        "description": {
-                          "type": "string",
-                          "format": "html"
-                        },
-                        "comparisons": {
-                          "type": "array",
-                          "format": "table",
-                          "items": {
-                            "type": "object",
-                            "header": "comparison",
-                            "properties": {
-                              "before": {
-                                "type": "string"
-                              },
-                              "after": {
-                                "type": "string"
-                              }
-                            }
-                          }
-                        }
-                      }
-                    },
-                    "footer": {
-                      "type": "object",
-                      "properties": {
-                        "testimonials": {
-                          "type": "object",
-                          "properties": {
-                            "header": {
-                              "type": "string"
-                            }
-                          }
-                        },
-                        "contacts": {
-                          "type": "object",
-                          "properties": {
-                            "header": {
-                              "type": "string"
-                            },
-                            "jan": {
-                              "type": "object",
-                              "properties": {
-                                "header": {
-                                  "type": "string"
-                                },
-                                "links": {
-                                  "type": "object",
-                                  "properties": {
-                                    "email": {
-                                      "type": "object",
-                                      "properties": {
-                                        "header": {
-                                          "type": "string"
-                                        },
-                                        "src": {
-                                          "type": "string"
-                                        },
-                                        "alt": {
-                                          "type": "string"
-                                        }
-                                      }
-                                    },
-                                    "linkedin": {
-                                      "type": "object",
-                                      "properties": {
-                                        "header": {
-                                          "type": "string"
-                                        },
-                                        "src": {
-                                          "type": "string"
-                                        },
-                                        "alt": {
-                                          "type": "string"
-                                        }
-                                      }
-                                    }
-                                  }
-                                },
-                                "phone": {
-                                  "type": "string"
-                                }
-                              }
-                            },
-                            "niek": {
-                              "type": "object",
-                              "properties": {
-                                "header": {
-                                  "type": "string"
-                                },
-                                "links": {
-                                  "type": "object",
-                                  "properties": {
-                                    "email": {
-                                      "type": "object",
-                                      "properties": {
-                                        "header": {
-                                          "type": "string"
-                                        },
-                                        "src": {
-                                          "type": "string"
-                                        },
-                                        "alt": {
-                                          "type": "string"
-                                        }
-                                      }
-                                    },
-                                    "linkedin": {
-                                      "type": "object",
-                                      "properties": {
-                                        "header": {
-                                          "type": "string"
-                                        },
-                                        "src": {
-                                          "type": "string"
-                                        },
-                                        "alt": {
-                                          "type": "string"
-                                        }
-                                      }
-                                    }
-                                  }
-                                },
-                                "phone": {
-                                  "type": "string"
-                                }
-                              }
-                            },
-                            "phone": {
-                              "type": "object",
-                              "properties": {
-                                "header": {
-                                  "type": "string"
-                                }
-                              }
-                            },
-                            "visit": {
-                              "type": "object",
-                              "properties": {
-                                "header": {
-                                  "type": "string"
-                                },
-                                "description": {
-                                  "type": "string",
-                                  "format": "html"
-                                }
-                              }
-                            },
-                            "copyright": {
-                              "type": "object",
-                              "properties": {
-                                "description": {
-                                  "type": "string",
-                                  "format": "html"
-                                }
-                              }
-                            }
-                          }
-                        }
-                      }
-                    }
-                  }
-                }
-              }
-            },
-            "projects": {
-              "type": "array",
-              "options": {
-                "collapsed": true
-              },
-              "format": "tabs",
-              "items": {
-                "header": {
-                  "type": "string"
-                },
-                "subTitle": {
-                  "type": "string"
-                },
-                "description": {
-                  "type": "string",
-                  "format": "html"
-                },
-                "images": {
-                  "type": "array",
-                  "format": "table",
-                  "items": {
-                    "type": "object",
-                    "header": "comparison",
-                    "properties": {
-                      "src": {
+                      "date": {
                         "type": "string"
                       },
-                      "alt": {
-                        "type": "string"
+                      "stars": {
+                        "type": "integer"
+                      },
+                      "description": {
+                        "type": "string",
+                        "format": "html"
                       }
-                    }
-                  }
-                },
-                "review": {
-                  "type": "object",
-                  "properties": {
-                    "author": {
-                      "type": "string"
-                    },
-                    "date": {
-                      "type": "string"
-                    },
-                    "stars": {
-                      "type": "integer"
-                    },
-                    "description": {
-                      "type": "string",
-                      "format": "html"
                     }
                   }
                 }
@@ -1963,49 +1294,724 @@
               "options": {
                 "collapsed": true
               },
-              "format": "tabs",
               "items": {
-                "header": {
-                  "type": "string"
-                },
-                "subTitle": {
-                  "type": "string"
-                },
-                "description": {
-                  "type": "string",
-                  "format": "html"
-                },
-                "images": {
-                  "type": "array",
-                  "format": "table",
-                  "items": {
+                "type": "object",
+                "properties": {
+                  "header": {
+                    "type": "string"
+                  },
+                  "subTitle": {
+                    "type": "string"
+                  },
+                  "description": {
+                    "type": "string",
+                    "format": "html"
+                  },
+                  "images": {
+                    "type": "array",
+                    "format": "table",
+                    "items": {
+                      "type": "object",
+                      "header": "comparison",
+                      "properties": {
+                        "src": {
+                          "type": "string"
+                        },
+                        "alt": {
+                          "type": "string"
+                        }
+                      }
+                    }
+                  },
+                  "review": {
                     "type": "object",
-                    "header": "comparison",
                     "properties": {
-                      "src": {
+                      "author": {
                         "type": "string"
                       },
-                      "alt": {
+                      "date": {
                         "type": "string"
+                      },
+                      "stars": {
+                        "type": "integer"
+                      },
+                      "description": {
+                        "type": "string",
+                        "format": "html"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "en": {
+      "type": "object",
+      "options": {
+        "collapsed": true
+      },
+      "properties": {
+        "nav": {
+          "type": "object",
+          "options": {
+            "collapsed": true
+          },
+          "description": "links in menu navigation",
+          "properties": {
+            "labels": {
+              "type": "object",
+              "properties": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "pages": {
+          "type": "object",
+          "properties": {
+            "homepage": {
+              "type": "object",
+              "options": {
+                "collapsed": true
+              },
+              "properties": {
+                "header": {
+                  "type": "object",
+                  "properties": {
+                    "content": {
+                      "type": "object",
+                      "properties": {
+                        "header": {
+                          "type": "string",
+                          "description": "Header title",
+                          "minLength": 4,
+                          "default": "Management in Authentic and Trending Exhibition Participations"
+                        },
+                        "backgroundImageSrc": {
+                          "type": "string",
+                          "description": "Path to image uploaded to the image folder in Github",
+                          "links": [
+                            {
+                              "href": "https://expo-mate.github.io/{{self}}",
+                              "mediaType": "image/jpg"
+                            }
+                          ]
+                        },
+                        "backgroundVideoMp4Src": {
+                          "type": "string",
+                          "description": "Path to MP4 video uploaded to the video folder in Github",
+                          "links": [
+                            {
+                              "href": "https://expo-mate.github.io/{{self}}",
+                              "mediaType": "video/mp4"
+                            }
+                          ]
+                        },
+                        "backgroundVideoWebMSrc": {
+                          "type": "string",
+                          "description": "Path to WEBM video uploaded to the video folder in Github",
+                          "links": [
+                            {
+                              "href": "https://expo-mate.github.io/{{self}}",
+                              "mediaType": "video/webm"
+                            }
+                          ]
+                        },
+                        "youtubeURL": {
+                          "type": "string",
+                          "description": "Youtube ID"
+                        }
                       }
                     }
                   }
                 },
-                "review": {
+                "content": {
                   "type": "object",
                   "properties": {
-                    "author": {
-                      "type": "string"
+                    "intro": {
+                      "type": "object",
+                      "properties": {
+                        "header": {
+                          "type": "string"
+                        },
+                        "description": {
+                          "type": "string",
+                          "format": "html"
+                        },
+                        "images": {
+                          "type": "array",
+                          "format": "table",
+                          "items": {
+                            "type": "object",
+                            "header": "Image",
+                            "properties": {
+                              "src": {
+                                "type": "string"
+                              },
+                              "alt": {
+                                "type": "string"
+                              },
+                              "links": [
+                                {
+                                  "href": "https://expo-mate.github.io/{{self}}",
+                                  "mediaType": "image/jpg"
+                                }
+                              ]
+                            }
+                          }
+                        }
+                      }
                     },
-                    "date": {
-                      "type": "string"
+                    "about": {
+                      "type": "object",
+                      "properties": {
+                        "row1": {
+                          "type": "object",
+                          "properties": {
+                            "image": {
+                              "type": "object",
+                              "properties": {
+                                "src": {
+                                  "type": "string"
+                                }
+                              }
+                            },
+                            "header": {
+                              "type": "string"
+                            },
+                            "description": {
+                              "type": "string",
+                              "format": "html"
+                            }
+                          }
+                        },
+                        "row2": {
+                          "type": "object",
+                          "properties": {
+                            "image": {
+                              "type": "object",
+                              "properties": {
+                                "src": {
+                                  "type": "string"
+                                }
+                              }
+                            },
+                            "header": {
+                              "type": "string"
+                            },
+                            "description": {
+                              "type": "string",
+                              "format": "html"
+                            }
+                          }
+                        }
+                      }
                     },
-                    "stars": {
-                      "type": "integer"
+                    "aboutUs": {
+                      "type": "object",
+                      "properties": {
+                        "header": {
+                          "type": "string"
+                        },
+                        "description": {
+                          "type": "string",
+                          "format": "html"
+                        },
+                        "employees": {
+                          "type": "object",
+                          "properties": {
+                            "niek": {
+                              "type": "object",
+                              "properties": {
+                                "header": {
+                                  "type": "string"
+                                },
+                                "description": {
+                                  "type": "string",
+                                  "format": "html"
+                                },
+                                "image": {
+                                  "type": "object",
+                                  "properties": {
+                                    "src": {
+                                      "type": "string"
+                                    },
+                                    "alt": {
+                                      "type": "string"
+                                    }
+                                  }
+                                }
+                              }
+                            },
+                            "jan": {
+                              "type": "object",
+                              "properties": {
+                                "header": {
+                                  "type": "string"
+                                },
+                                "description": {
+                                  "type": "string",
+                                  "format": "html"
+                                },
+                                "image": {
+                                  "type": "object",
+                                  "properties": {
+                                    "src": {
+                                      "type": "string"
+                                    },
+                                    "alt": {
+                                      "type": "string"
+                                    },
+                                    "links": [
+                                      {
+                                        "href": "https://expo-mate.github.io/{{self}}",
+                                        "mediaType": "image/jpg"
+                                      }
+                                    ]
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
                     },
-                    "description": {
-                      "type": "string",
-                      "format": "html"
+                    "values": {
+                      "type": "object",
+                      "properties": {
+                        "header": {
+                          "type": "string"
+                        },
+                        "description": {
+                          "type": "string",
+                          "format": "html"
+                        },
+                        "image": {
+                          "type": "object",
+                          "properties": {
+                            "src": {
+                              "type": "string"
+                            }
+                          }
+                        },
+                        "values": {
+                          "type": "object",
+                          "properties": {
+                            "value1": {
+                              "type": "string"
+                            },
+                            "value2": {
+                              "type": "string"
+                            },
+                            "value3": {
+                              "type": "string"
+                            },
+                            "value4": {
+                              "type": "string"
+                            },
+                            "value5": {
+                              "type": "string"
+                            },
+                            "value6": {
+                              "type": "string"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "method": {
+                      "type": "object",
+                      "properties": {
+                        "header": {
+                          "type": "string"
+                        },
+                        "hoverLabel": {
+                          "type": "string"
+                        },
+                        "description": {
+                          "type": "string",
+                          "format": "html"
+                        },
+                        "method": {
+                          "type": "object",
+                          "properties": {
+                            "intro": {
+                              "header": {
+                                "type": "string"
+                              },
+                              "description": {
+                                "type": "string",
+                                "format": "html"
+                              }
+                            },
+                            "design": {
+                              "header": {
+                                "type": "string"
+                              },
+                              "description": {
+                                "type": "string",
+                                "format": "html"
+                              }
+                            },
+                            "tuning": {
+                              "header": {
+                                "type": "string"
+                              },
+                              "description": {
+                                "type": "string",
+                                "format": "html"
+                              }
+                            },
+                            "construction": {
+                              "header": {
+                                "type": "string"
+                              },
+                              "description": {
+                                "type": "string",
+                                "format": "html"
+                              }
+                            },
+                            "eval": {
+                              "header": {
+                                "type": "string"
+                              },
+                              "description": {
+                                "type": "string",
+                                "format": "html"
+                              }
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "model": {
+                      "image": {
+                        "type": "object",
+                        "properties": {
+                          "src": {
+                            "type": "string"
+                          },
+                          "links": [
+                            {
+                              "href": "https://expo-mate.github.io/{{self}}",
+                              "mediaType": "image/jpg"
+                            }
+                          ]
+                        }
+                      },
+                      "type": "object",
+                      "properties": {
+                        "header": {
+                          "type": "string"
+                        },
+                        "description": {
+                          "type": "string",
+                          "format": "html"
+                        }
+                      }
+                    },
+                    "projects": {
+                      "type": "object",
+                      "properties": {
+                        "header": {
+                          "type": "string"
+                        },
+                        "description": {
+                          "type": "string",
+                          "format": "html"
+                        },
+                        "reviewLink": {
+                          "type": "string"
+                        },
+                        "button": {
+                          "type": "object",
+                          "properties": {
+                            "label": {
+                              "type": "string"
+                            }
+                          }
+                        },
+                        "project1": {
+                          "type": "object",
+                          "properties": {
+                            "header": {
+                              "type": "string"
+                            },
+                            "button": {
+                              "type": "string"
+                            },
+                            "image": {
+                              "type": "object",
+                              "properties": {
+                                "src": {
+                                  "type": "string"
+                                },
+                                "alt": {
+                                  "type": "string"
+                                },
+                                "links": [
+                                  {
+                                    "href": "https://expo-mate.github.io/{{self}}",
+                                    "mediaType": "image/jpg"
+                                  }
+                                ]
+                              }
+                            }
+                          }
+                        },
+                        "project2": {
+                          "type": "object",
+                          "properties": {
+                            "header": {
+                              "type": "string"
+                            },
+                            "button": {
+                              "type": "string"
+                            },
+                            "image": {
+                              "type": "object",
+                              "properties": {
+                                "src": {
+                                  "type": "string"
+                                },
+                                "alt": {
+                                  "type": "string"
+                                },
+                                "links": [
+                                  {
+                                    "href": "https://expo-mate.github.io/{{self}}",
+                                    "mediaType": "image/jpg"
+                                  }
+                                ]
+                              }
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "comparison": {
+                      "type": "object",
+                      "properties": {
+                        "header": {
+                          "type": "string"
+                        },
+                        "description": {
+                          "type": "string",
+                          "format": "html"
+                        },
+                        "comparisons": {
+                          "type": "array",
+                          "format": "table",
+                          "items": {
+                            "type": "object",
+                            "header": "comparison",
+                            "properties": {
+                              "before": {
+                                "type": "string"
+                              },
+                              "after": {
+                                "type": "string"
+                              }
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "footer": {
+                      "type": "object",
+                      "properties": {
+                        "testimonials": {
+                          "type": "object",
+                          "properties": {
+                            "header": {
+                              "type": "string"
+                            }
+                          }
+                        },
+                        "contacts": {
+                          "type": "object",
+                          "properties": {
+                            "header": {
+                              "type": "string"
+                            },
+                            "jan": {
+                              "type": "object",
+                              "properties": {
+                                "header": {
+                                  "type": "string"
+                                },
+                                "links": {
+                                  "type": "object",
+                                  "properties": {
+                                    "email": {
+                                      "type": "object",
+                                      "properties": {
+                                        "header": {
+                                          "type": "string"
+                                        },
+                                        "src": {
+                                          "type": "string"
+                                        },
+                                        "alt": {
+                                          "type": "string"
+                                        }
+                                      }
+                                    },
+                                    "linkedin": {
+                                      "type": "object",
+                                      "properties": {
+                                        "header": {
+                                          "type": "string"
+                                        },
+                                        "src": {
+                                          "type": "string"
+                                        },
+                                        "alt": {
+                                          "type": "string"
+                                        }
+                                      }
+                                    }
+                                  }
+                                },
+                                "phone": {
+                                  "type": "string"
+                                }
+                              }
+                            },
+                            "niek": {
+                              "type": "object",
+                              "properties": {
+                                "header": {
+                                  "type": "string"
+                                },
+                                "links": {
+                                  "type": "object",
+                                  "properties": {
+                                    "email": {
+                                      "type": "object",
+                                      "properties": {
+                                        "header": {
+                                          "type": "string"
+                                        },
+                                        "src": {
+                                          "type": "string"
+                                        },
+                                        "alt": {
+                                          "type": "string"
+                                        }
+                                      }
+                                    },
+                                    "linkedin": {
+                                      "type": "object",
+                                      "properties": {
+                                        "header": {
+                                          "type": "string"
+                                        },
+                                        "src": {
+                                          "type": "string"
+                                        },
+                                        "alt": {
+                                          "type": "string"
+                                        }
+                                      }
+                                    }
+                                  }
+                                },
+                                "phone": {
+                                  "type": "string"
+                                }
+                              }
+                            },
+                            "phone": {
+                              "type": "object",
+                              "properties": {
+                                "header": {
+                                  "type": "string"
+                                }
+                              }
+                            },
+                            "visit": {
+                              "type": "object",
+                              "properties": {
+                                "header": {
+                                  "type": "string"
+                                },
+                                "description": {
+                                  "type": "string",
+                                  "format": "html"
+                                }
+                              }
+                            },
+                            "copyright": {
+                              "type": "object",
+                              "properties": {
+                                "description": {
+                                  "type": "string",
+                                  "format": "html"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "projects": {
+              "type": "array",
+              "options": {
+                "collapsed": true
+              },
+              "items": {
+                "type": "object",
+                "properties": {
+                  "header": {
+                    "type": "string"
+                  },
+                  "subTitle": {
+                    "type": "string"
+                  },
+                  "description": {
+                    "type": "string",
+                    "format": "html"
+                  },
+                  "images": {
+                    "type": "array",
+                    "format": "table",
+                    "items": {
+                      "type": "object",
+                      "header": "comparison",
+                      "properties": {
+                        "src": {
+                          "type": "string"
+                        },
+                        "alt": {
+                          "type": "string"
+                        }
+                      }
+                    }
+                  },
+                  "review": {
+                    "type": "object",
+                    "properties": {
+                      "author": {
+                        "type": "string"
+                      },
+                      "date": {
+                        "type": "string"
+                      },
+                      "stars": {
+                        "type": "integer"
+                      },
+                      "description": {
+                        "type": "string",
+                        "format": "html"
+                      }
                     }
                   }
                 }
