@@ -4,9 +4,7 @@
   "properties": {
     "nl": {
       "type": "object",
-      "options": {
-        "collapsed": true
-      },
+      "format": "categories",
       "properties": {
         "nav": {
           "type": "object",
@@ -28,9 +26,7 @@
           "properties": {
             "homepage": {
               "type": "object",
-              "options": {
-                "collapsed": true
-              },
+              "format": "categories",
               "properties": {
                 "header": {
                   "type": "object",
@@ -107,7 +103,13 @@
                               },
                               "alt": {
                                 "type": "string"
-                              }
+                              },
+                              "links": [
+                                {
+                                  "href": "https://expo-mate.github.io/{{self}}",
+                                  "mediaType": "image/jpg"
+                                }
+                              ]
                             }
                           }
                         }
@@ -212,7 +214,13 @@
                                     },
                                     "alt": {
                                       "type": "string"
-                                    }
+                                    },
+                                    "links": [
+                                      {
+                                        "href": "https://expo-mate.github.io/{{self}}",
+                                        "mediaType": "image/jpg"
+                                      }
+                                    ]
                                   }
                                 }
                               }
@@ -335,7 +343,13 @@
                         "properties": {
                           "src": {
                             "type": "string"
-                          }
+                          },
+                          "links": [
+                            {
+                              "href": "https://expo-mate.github.io/{{self}}",
+                              "mediaType": "image/jpg"
+                            }
+                          ]
                         }
                       },
                       "type": "object",
@@ -387,7 +401,13 @@
                                 },
                                 "alt": {
                                   "type": "string"
-                                }
+                                },
+                                "links": [
+                                  {
+                                    "href": "https://expo-mate.github.io/{{self}}",
+                                    "mediaType": "image/jpg"
+                                  }
+                                ]
                               }
                             }
                           }
@@ -409,7 +429,13 @@
                                 },
                                 "alt": {
                                   "type": "string"
-                                }
+                                },
+                                "links": [
+                                  {
+                                    "href": "https://expo-mate.github.io/{{self}}",
+                                    "mediaType": "image/jpg"
+                                  }
+                                ]
                               }
                             }
                           }
@@ -588,10 +614,7 @@
             },
             "projects": {
               "type": "array",
-              "options": {
-                "collapsed": true
-              },
-              "format": "tabs",
+              "format": "categories",
               "items": {
                 "header": {
                   "type": "string"
@@ -629,7 +652,7 @@
                       "type": "string"
                     },
                     "stars": {
-                      "type": "string"
+                      "type": "integer",
                     },
                     "description": {
                       "type": "string",
