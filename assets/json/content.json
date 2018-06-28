@@ -19,7 +19,7 @@
             "homepage": {
                 "header": {
                     "content": {
-                        "title": "Management in Authentic and Trending Exhibition Participations",
+                        "header": "Management in Authentic and Trending Exhibition Participations",
                         "backgroundImageSrc": "assets/images/mobile-bg.jpg",
                         "backgroundVideoMp4Src": "assets/video/expo-mate.mp4",
                         "backgroundVideoWebMSrc": "assets/video/expo-mate.webm",
@@ -28,7 +28,7 @@
                 },
                 "content": {
                     "intro": {
-                        "title": "Ons Verhaal",
+                        "header": "Ons Verhaal",
                         "description": "We geloven in de kracht van diversiteit. Diversiteit en het samenbrengen van verschillende disciplines zorgt er namelijk voor dat we iedere dag het beste resultaat voor, maar vooral met, onze klanten kunnen realiseren.",
                         "images": [
                             {
@@ -58,23 +58,23 @@
                             "image": {
                                 "src": "assets/images/1.jpg"
                             },
-                            "title": "ONS FUNDAMENT",
+                            "header": "ONS FUNDAMENT",
                             "description": "10 jaar kennis en ervaring in de beursindustrie gecombineerd met 10 jaar sales en marketing ervaring vormt onze basis. Hierdoor kunnen wij als geen ander unieke beursconcepten bedenken die zorgen voor de hoogste return on investment."
                         },
                         "row2": {
                             "image": {
                                 "src": "assets/images/2.jpg"
                             },
-                            "title": "ONZE MISSIE & VISIE",
+                            "header": "ONZE MISSIE & VISIE",
                             "description": "<p>De kapstok van EXPO-MATE. Alles wat we doen is afgeleid van ons bestaansrecht en onze droom; onze missie en visie.</p><p>Onze missie; Beursdeelnames succesvoller, effici&euml;nter en gemakkelijker maken. </p><p>Onze Visie; EXPO-MATE wil het meest gewaardeerde full service project management bureau zijn binnen de branche en marktleider op het gebied van kwaliteit. Het cre&euml;ren van authentieke, innovatieve en milieubewuste op maat gemaakte projecten zorgt ervoor dat onze klanten meer dan hun (beurs)doelstellingen bereiken. Door onze manier van werken zijn onze klanten niet alleen tevreden met het eindresultaat, maar ook met het totale proces dat daar naartoe leidt. Hierdoor zijn klanten niet langer klanten maar zijn het onze ambassadeurs.</p>"
                         }
                     },
                     "aboutUs": {
-                        "title": "WIE ZIJN WIJ?",
+                        "header": "WIE ZIJN WIJ?",
                         "description": "",
                         "employees": {
                             "niek": {
-                                "title": "Niek van Gent",
+                                "header": "Niek van Gent",
                                 "description": "Door zelf als commercieel manager te hebben gewerkt begrijp ik als geen ander waar onze klanten behoeftes aan hebben. Iets waarvan ik merk dat het echt een meerwaarde is tijdens het designproces. Doordat ik zelf op de positie zat van mijn gesprekpartner kan ik me goed inleven in de behoeftes. De omzetting van organisatie naar een concreet concept samen met onze klanten is mijn grootste drijfveer! ",
                                 "image": {
                                     "src": "assets/images/niek.jpg",
@@ -82,7 +82,7 @@
                                 }
                             },
                             "jan": {
-                                "title": "Jan Maas",
+                                "header": "Jan Maas",
                                 "description": "Na 10 jaar werkzaam geweest te zijn als Project- en Accountmanager bij twee bedrijven binnen de beurzen industrie, ben ik van mening dat persoonlijke aandacht en echt luisteren naar de wensen van de klant het allerbelangrijkste is.Dit was de belangrijkste reden om EXPO-MATE te starten. Door de ervaring op commercieel ÃÂ©n technisch gebied kunnen we als volledig klankbord naar onze klanten acteren en hen tijdens het volledige proces ontzorgen. Gezamenlijk de (beurs) doelstellingen bereiken middels een prettige en persoonlijke samenwerking is waar ik voor sta!",
                                 "image": {
                                     "src": "assets/images/jan.jpg",
@@ -92,7 +92,7 @@
                         }
                     },
                     "values": {
-                        "title": "ONZE KERNWAARDES",
+                        "header": "ONZE KERNWAARDES",
                         "description": "Of we een adviesgesprek voeren, een ontwerp presenteren, of de uiteindelijke stand opleveren, alles wat we doen is gebaseerd op onze kernwaardes welke hieronder zijn weergegeven.",
                         "image": {
                             "src": "assets/images/wall.jpg"
@@ -107,28 +107,28 @@
                         }
                     },
                     "method": {
-                        "title": "ONZE WERKWIJZE",
+                        "header": "ONZE WERKWIJZE",
                         "hoverLabel": "Beweeg met uw muis over de bollen voor meer informatie.",
                         "description": "Totale ontzorging. Minder vinden we niet goed genoeg voor onze relaties. Door onze verschillende achtergronden en ervaringen hebben we een werkwijze kunnen ontwikkelen die uniek is in de branche en welke ons in staat stelt de hoogst mogelijke return on investment voor onze relaties te behalen.",
                         "method": {
                             "intro": {
-                                "title": "Introductie",
+                                "header": "Introductie",
                                 "description": "Een persoonlijke kennismaking waarbij de behoeftes, wensen en doelen worden besproken."
                             },
                             "design": {
-                                "title": "Design",
+                                "header": "Design",
                                 "description": "Op basis van uw input aangevuld met de uitkomst van het 'EXPO-MATE model' maken we een authentiek en innovatief op maat ontworpen beursconcept."
                             },
                             "tuning": {
-                                "title": "Fine tunen",
+                                "header": "Fine tunen",
                                 "description": "Gezamenlijk wordt het ontwerp besproken en eventueel aangepast om tot het optimale definitieve ontwerp te komen."
                             },
                             "construction": {
-                                "title": "Technische voorbereiding en realisatie",
+                                "header": "Technische voorbereiding en realisatie",
                                 "description": "Wij verzorgen de volledige technische voorbereiding en opbouw van de stand. Vanzelfsprekend zijn we als uw samenwerkingspartnerpartner bij de opbouw aanwezig en zijn we uw aanspreekpunt op de beursvloer."
                             },
                             "eval": {
-                                "title": "Evaluatie",
+                                "header": "Evaluatie",
                                 "description": "Na afloop bespreken we altijd het project om te zien of doelstellingen zijn behaald, de stand naar tevredenheid is geweest en of er eventuele verbeterpunten zijn voor het eerstvolgende project."
                             }
                         }
@@ -137,7 +137,7 @@
                         "image": {
                             "src": "assets/images/model.jpg"
                         },
-                        "title": "Het EXPO-MATE model: van introductie naar design",
+                        "header": "Het EXPO-MATE model: van introductie naar design",
                         "description": "In onze optiek de belangrijkste stap in het gehele proces. Door tijd te investeren en kennis te delen in het begin van het proces, hoeven er geen aannames te worden gedaan bij het ontwerp van het concept, maar gaat om datgene wat telt: Integreren van uw identiteit, wensen en behoeftes als beursdeelnemer. EXPO-MATE heeft een eigen -uniek- model ontwikkeld dat ons in staat stelt om de belangrijkste organisatie kenmerken/waardes en identiteit concreet te verwerken in het ontwerpvoorstel. Wij geloven erin dat alleen dan de hoogste return on investment kan worden behaald. We komen dit model graag gedetailleerd uitleggen en gezamenlijk in de praktijk brengen."
                     },
                     "projects": {
@@ -148,7 +148,7 @@
                             "label": "Onze Projecten"
                         },
                         "project1": {
-                            "title": "Borusan Mannesmann",
+                            "header": "Borusan Mannesmann",
                             "button": "Bekijk",
                             "image": {
                                 "src": "assets/images/projects/borusan/1.jpg",
@@ -156,7 +156,7 @@
                             }
                         },
                         "project2": {
-                            "title": "Toshiba",
+                            "header": "Toshiba",
                             "button": "Bekijk",
                             "image": {
                                 "src": "assets/images/projects/toshiba/1.jpg",
@@ -165,7 +165,7 @@
                         }
                     },
                     "comparison": {
-                        "title": "Van design naar realisatie",
+                        "header": "Van design naar realisatie",
                         "description": "Vanaf de eerste schetsen wordt er nagedacht dat het uiteindelijke design ook perfect omgezet moet worden in realiteit. Bekijk hieronder enkele voorbeelden van ontwerpen en het eindresultaat",
                         "comparisons": [
                             {
@@ -189,20 +189,20 @@
                 },
                 "footer": {
                     "testimonials": {
-                        "title": "Testimonials"
+                        "header": "Testimonials"
                     },
                     "contacts": {
                         "header": "Mail Ons",
                         "jan": {
-                            "title": "Jan Maas",
+                            "header": "Jan Maas",
                             "links": {
                                 "email": {
-                                    "title": "j.maas@expo-mate.com",
+                                    "header": "j.maas@expo-mate.com",
                                     "src": "mailto:j.maas@expo-mate.com",
                                     "alt": "Email Jan"
                                 },
                                 "linkedin": {
-                                    "title": "Jan op",
+                                    "header": "Jan op",
                                     "src": "https://nl.linkedin.com/in/maasjan",
                                     "alt": "Jan On LinkedIn"
                                 }
@@ -210,14 +210,14 @@
                             "phone": "+31 6 50 28 18 91"
                         },
                         "niek": {
-                            "title": "Niek van Gent",
+                            "header": "Niek van Gent",
                             "links": {
                                 "email": {
-                                    "title": "n.van.gent@expo-mate.com",
+                                    "header": "n.van.gent@expo-mate.com",
                                     "src": "mailto:n.van.gent@expo-mate.com"
                                 },
                                 "linkedin": {
-                                    "title": "Niek op",
+                                    "header": "Niek op",
                                     "src": "https://nl.linkedin.com/in/niek-van-gent-b538781b"
                                 }
                             },
@@ -238,7 +238,7 @@
             },
             "projects": [
                 {
-                    "title": "Borusan Mannesmann",
+                    "header": "Borusan Mannesmann",
                     "subTitle": "TUBE 2018 D&uuml;sseldorf",
                     "description": "Ontwikkelen van een beurs concept waarin Borusan Mannesmann de belangrijkste klanten kan ontvangen tijdens het 60 jarige bestaan. Prestige om het mooiste concept neer te zetten waarin bezoekers comfortabel wat kunnen eten en drinken. ",
                     "images": [
@@ -287,7 +287,7 @@
                     }
                 },
                 {
-                    "title": "Toshiba Business Display Solutions",
+                    "header": "Toshiba Business Display Solutions",
                     "subTitle": "ISE Amsterdam 2018",
                     "description": "De uitdaging waar Toshiba voor stond was om de vele producten en diverse business units overzichtelijk te presenteren.",
                     "images": [
@@ -328,7 +328,7 @@
                     }
                 },
                 {
-                    "title": "Lamb Weston/Meijer",
+                    "header": "Lamb Weston/Meijer",
                     "subTitle": "Casual Dining Show London 2018",
                     "description": "CreÃÂ«er een concept waarmee we laten zien dat we de key spelers in de Engelse markt begrijpen. Dit is het groeiende pub segment in de UK. Hoe kan men dat beter doen dan door de LambWeston pub te ontwerpen?",
                     "images": [
@@ -369,7 +369,7 @@
                     }
                 },
                 {
-                    "title": "WvanderZwan",
+                    "header": "WvanderZwan",
                     "subTitle": "Seafood Expo Global Brussel 2018",
                     "description": "Omzetting van het bestaande concept in een hoogwaardige stand waarbij de bezoekers ook de mogelijkheid wordt geboden om op de bovenverdieping plaats te nemen in de lounge. Klanten kleine hapjes en drankjes aan te bieden in een ongedwongen sfeer.",
                     "images": [
@@ -406,7 +406,7 @@
                     }
                 },
                 {
-                    "title": "Tomra Food Sorting NV",
+                    "header": "Tomra Food Sorting NV",
                     "subTitle": "Programma 2018",
                     "description": "Standing out from the rest, clean & stopping power wilde Tomra graag terug zien. Vanwege het programma met verschillende afmetingen en locaties moeten materialen zoveel mogelijk herbruikbaar zijn. Zodoende kan hier kosten efficient mee omgegaan worden.",
                     "images": [
@@ -447,7 +447,7 @@
                     }
                 },
                 {
-                    "title": "Aluminium Verkoop Zuid BV (AVZ)",
+                    "header": "Aluminium Verkoop Zuid BV (AVZ)",
                     "subTitle": "R+T Stuttgart 2018",
                     "description": "AVZ wilde graag een open en toegankelijke stand die hen de mogelijkheid gaf op de grootste beurs binnen hun vakgebied zowel de nieuwe huisstijl te presenteren alsmede de belangrijkste producten tentoon te stellen. ",
                     "images": [
@@ -480,7 +480,7 @@
                     }
                 },
                 {
-                    "title": "The Scelta Institute BV",
+                    "header": "The Scelta Institute BV",
                     "subTitle": "Anuga Keulen, Sial Parijs en FIE Frankfurt",
                     "description": "Men wilde een nieuwe stand die voor alle beurzen modulair te bouwen is. Dezelfde look en feel waarbij hun producten worden gepresenteerd, zowel grafisch als door middel van live cooking. ",
                     "images": [
@@ -513,7 +513,7 @@
                     }
                 },
                 {
-                    "title": "Strong TV",
+                    "header": "Strong TV",
                     "subTitle": "ANGA Keulen, IFA Berlijn",
                     "description": "Het presenteren van WiFi producten maar ook de tv's op 1 stand waarbij de klanten de mogelijkheid wordt geboden om een priv&eacute; gesprek te kunnen voeren in de meeting ruimtes of een informele kop koffie aan de bar. Producten voeren de boventoon op de technische beurzen waar ze aan deelnemen.",
                     "images": [
@@ -546,7 +546,7 @@
                     }
                 },
                 {
-                    "title": "Frankort & Koning BV",
+                    "header": "Frankort & Koning BV",
                     "subTitle": "Fruit Logistica Berlijn 2017-2019",
                     "description": "De jaarlijkse fruitbeurs in Berlijn biedt Frankort & Koning de mogelijkheid om leveranciers en klanten over de hele wereld te ontmoeten. Een laagdrempelige stand waarbij hospitality hoog in het vaandel staat was het uitgangspunt. ",
                     "images": [
@@ -597,7 +597,7 @@
             "homepage": {
                 "header": {
                     "content": {
-                        "title": "Management in Authentic and Trending Exhibition Participations",
+                        "header": "Management in Authentic and Trending Exhibition Participations",
                         "backgroundImageSrc": "assets/images/mobile-bg.jpg",
                         "backgroundVideoMp4Src": "assets/video/expo-mate.mp4",
                         "backgroundVideoWebMSrc": "assets/video/expo-mate.webm",
@@ -606,7 +606,7 @@
                 },
                 "content": {
                     "intro": {
-                        "title": "Unsere Geschichte",
+                        "header": "Unsere Geschichte",
                         "description": "Wir glauben in die Kraft von DiversitÃ¤t. DiversitÃ¤t und das Zusammenspiel von verschiedenen Disziplinen sorgen dafÃ¼r, dass wir jeden Tag das beste Resultat fÃÂ¼r, aber vor allem mit unseren Kunden realisieren kÃÂ¶nnen.  ",
                         "images": [
                             {
@@ -636,23 +636,23 @@
                             "image": {
                                 "src": "assets/images/1.jpg"
                             },
-                            "title": "Unser Fundament",
+                            "header": "Unser Fundament",
                             "description": "10 Jahre Wissen und Erfahrung in der GeschÃÂ¤ftswelt der Messen, kombiniert mit 10 Jahren Verkauf und Marketing Erfahrung ist unsere Basis. Dadurch kÃÂ¶nnen wir wie kein anderer einzigartige Messestandkonzepte entwerfen, die fÃÂ¼r einen mÃÂ¶glichst hohen Return of Investment sorgen."
                         },
                         "row2": {
                             "image": {
                                 "src": "assets/images/2.jpg"
                             },
-                            "title": "Unsere Mission und Vision",
+                            "header": "Unsere Mission und Vision",
                             "description": "<p>Die Basis von EXPO-MATE. Alles was wir machen baut auf unserer Mission und Vision auf.</p><p>Unsere Mission; Ihre Messeteilnahme erfolgreicher, effizienter und einfacher zu gestalten. </p><p>Unsere Vision; EXPO MATE strebt die MarktfÃÂ¼hrung als Full-Service Dienstleister an, weil wir authentische, innovative, maÃÂgeschneiderte, nachhaltige und zielorientierte Konzepte fÃÂ¼r unsere Auftraggeber anbieten. Durch unsere Arbeit sind unsere Kunden nicht nur zufrieden mit dem Resultat unserer Arbeit, sondern auch mit dem Prozess, der zum dem finalen Ergebnis fÃÂ¼hrt. Dadurch sind unsere Kunden nicht nur Kunden, sondern auch unsere ReprÃÂ¤sentanten.</p>"
                         }
                     },
                     "aboutUs": {
-                        "title": "Wer wir sind?",
+                        "header": "Wer wir sind?",
                         "description": "",
                         "employees": {
                             "niek": {
-                                "title": "Niek van Gent",
+                                "header": "Niek van Gent",
                                 "description": "Aufgrund meiner Erfahrung als kommerzieller Manager verstehe ich schnell, welche BedÃÂ¼rfnisse unsere Kunden haben. Das ist wÃÂ¤hrend des Designprozesses ein echter Mehrwert. Da ich selber lange in der Position meiner GesprÃÂ¤chspartner war, kann ich mich in die BedÃÂ¼rfnisse wirklich gut eindenken. Die Umsetzung vom Unternehmen zum konkreten Konzept zusammen mit unseren Kunden ist einer meiner wichtigsten Motive!  ",
                                 "image": {
                                     "src": "assets/images/niek.jpg",
@@ -660,7 +660,7 @@
                                 }
                             },
                             "jan": {
-                                "title": "Jan Maas",
+                                "header": "Jan Maas",
                                 "description": "Nachdem ich zehn Jahre in zwei verschiedenen Betrieben der Messe-Industrie als Projekt- und Accountmanager gearbeitet habe, habe ich festgestellt, dass die wichtigsten Punkte in der Zusammenarbeit mit unseren Kunden die Aufmerksamkeit und das Beachten der WÃÂ¼nsche der Kunden sind.  Daraufhin habe ich EXPO-MATE aufgebaut. Mit unserer Erfahrung auf kommerzieller und technischer Ebene kÃÂ¶nnen wir mit als absolute Profis in Richtung unserer Kunden auftreten und diese wÃÂ¤hrend des vollstÃÂ¤ndigen Prozesses versorgen. Zusammen die (Messe) Ziele zu erreichen mithilfe einer guten und persÃÂ¶nlichen Zusammenarbeit: dafÃÂ¼r stehe ich! ",
                                 "image": {
                                     "src": "assets/images/jan.jpg",
@@ -670,7 +670,7 @@
                         }
                     },
                     "values": {
-                        "title": "Unsere Unternehmenswerte",
+                        "header": "Unsere Unternehmenswerte",
                         "description": "EXPO-MATEÃ¢ÂÂs Eigenschaften sind die Grundvoraussetzungen fÃÂ¼r alle unsere Handlungen. Von der gemeinsamen Erarbeitung der Messe-Konzepte bis hin zur schlÃÂ¼sselfertigen MessestandÃÂ¼bergabe, begleiten wir Sie professionell und kompetent.",
                         "image": {
                             "src": "assets/images/wall.jpg"
@@ -685,28 +685,28 @@
                         }
                     },
                     "method": {
-                        "title": "UNSERE ARBEITSWEISE",
+                        "header": "UNSERE ARBEITSWEISE",
                         "hoverLabel": "Bewegen Sie die Maus Ã¼ber die GlÃ¼hbirnen fÃ¼r weitere Informationen. ",
                         "description": "Totale Entlastung. Weniger als das finden wir nicht gut genug fÃ¼r unsere Kunden. Durch unsere Erfahrungen in den verschiedensten Berufen haben wir eine fÃ¼r diese Branche einzigartige Arbeitsweise entwickeln kÃ¶nnen. Diese ermÃ¶glicht es uns, fÃ¼r unsere Kunden einen hohen Return of Investment zu erreichen.",
                         "method": {
                             "intro": {
-                                "title": "EinfÃ¤hrung:",
+                                "header": "EinfÃ¤hrung:",
                                 "description": "InformationsgesprÃ¤ch zur Dokumentation von Anforderungen, WÃ¼nschen und Zielen"
                             },
                             "design": {
-                                "title": "Design",
+                                "header": "Design",
                                 "description": "Auf Basis Ihrer WÃ¼nsche und unseres EXPO-MATE Modells entwerfen wir ein authentisches und innovatives Messekonzept nach MaÃ."
                             },
                             "tuning": {
-                                "title": "Feinabstimmung",
+                                "header": "Feinabstimmung",
                                 "description": "Gemeinsame Abstimmungen und Anpassungen der EntwÃÂ¼rfe, um letzten Endes zu einem optimalen definitivem Entwurf zu kommen."
                             },
                             "construction": {
-                                "title": "Technische Vorbereitungen und Realisation",
+                                "header": "Technische Vorbereitungen und Realisation",
                                 "description": "Wir kÃÂ¼mmern uns vollstÃÂ¤ndig um die technischen Vorbereitungen und um den Aufbau des Standes. SelbstverstÃÂ¤ndlich sind wir als Ihre Partner beim Aufbau des Standes auf dem AusstellungsgelÃÂ¤nde anwesend. Unsere Partner sind Profis, die sich QualitÃÂ¤t ganz oben auf Ihre Fahne schreiben. Weiterhin sind wir flexibel und arbeiten lÃÂ¶sungsorientiert."
                             },
                             "eval": {
-                                "title": "Auswertung",
+                                "header": "Auswertung",
                                 "description": "Nachdem die Messe vorbei ist, besprechen wir immer noch mal das ganze Projekt. Damit wollen wir sicher gehen, ob alle Zielstellungen tatsÃÂ¤chlich erreicht wurden, der Stand zur Zufriedenheit war und ob es eventuelle Verbesserungspunkte fÃÂ¼r ein folgendes Projekt gibt. "
                             }
                         }
@@ -715,7 +715,7 @@
                         "image": {
                             "src": "assets/images/model.jpg"
                         },
-                        "title": "EXPO-MATE Modell - Von der EinfÃ¼hrung bis zum Design",
+                        "header": "EXPO-MATE Modell - Von der EinfÃ¼hrung bis zum Design",
                         "description": "Unserer Meinung nach ist dies wohl der wichtigste Schritt im ganzen Prozess. Es ist uns ein groÃÂes Anliegen Ihren Vorstellungen und BedÃÂ¼rfnissen als Kunde gerecht zu werden und das richtige GespÃÂ¼r fÃÂ¼r diese zu entwickeln. DafÃÂ¼r ist es wichtig am Anfang des Projektes Zeit fÃÂ¼r einen gemeinsamen Informationsaustausch zu investieren.<br/><br/>Ein Messestand muss unverwechselbar sein, der Corporate Identity und Markenstrategie entsprechen; fÃÂ¼r die Umsetzung hat EXPO-MATE ein eigenes Modell entwickelt. Durch dieses Modell bekommen unsere Kunden das hÃÂ¶chste Return on Investment.<br/><br/>Gerne erlÃÂ¤utern wir Ihnen das EXPO-MATE Modell ausfÃÂ¼hrlich. Wir stellen Ihnen als unseren potenziellen GeschÃÂ¤ftspartner vor, wie wir die von Ihrem Unternehmen gewÃÂ¼nschten Informationen in einer 3D Visualisierung auf der Messe umsetzen wÃÂ¼rden."
                     },
                     "projects": {
@@ -726,7 +726,7 @@
                             "label": "Unsere Projekte"
                         },
                         "project1": {
-                            "title": "Borusan Mannesmann",
+                            "header": "Borusan Mannesmann",
                             "button": "Bekijk",
                             "image": {
                                 "src": "assets/images/projects/borusan/1.jpg",
@@ -734,7 +734,7 @@
                             }
                         },
                         "project2": {
-                            "title": "Toshiba",
+                            "header": "Toshiba",
                             "button": "Bekijk",
                             "image": {
                                 "src": "assets/images/projects/toshiba/1.jpg",
@@ -743,7 +743,7 @@
                         }
                     },
                     "comparison": {
-                        "title": "Von Design bis zur Realization",
+                        "header": "Von Design bis zur Realization",
                         "description": "Von den ersten Skizze wird angenommen, dass das endgÃ¼ltige Design auch perfekt in die RealitÃ¤t umgesetzt werden muss. Sehen Sie sich einige Beispiele von Designs und das Endergebnis unten an",
                         "comparisons": [
                             {
@@ -767,20 +767,20 @@
                 },
                 "footer": {
                     "testimonials": {
-                        "title": "Testimonials"
+                        "header": "Testimonials"
                     },
                     "contacts": {
                         "header": "E-Mailen Sie uns",
                         "jan": {
-                            "title": "Jan Maas",
+                            "header": "Jan Maas",
                             "links": {
                                 "email": {
-                                    "title": "j.maas@expo-mate.com",
+                                    "header": "j.maas@expo-mate.com",
                                     "src": "mailto:j.maas@expo-mate.com",
                                     "alt": "Email Jan"
                                 },
                                 "linkedin": {
-                                    "title": "Jan auf",
+                                    "header": "Jan auf",
                                     "src": "https://nl.linkedin.com/in/maasjan",
                                     "alt": "Jan auf LinkedIn"
                                 }
@@ -788,14 +788,14 @@
                             "phone": "+31 6 50 28 18 91"
                         },
                         "niek": {
-                            "title": "Niek van Gent",
+                            "header": "Niek van Gent",
                             "links": {
                                 "email": {
-                                    "title": "n.van.gent@expo-mate.com",
+                                    "header": "n.van.gent@expo-mate.com",
                                     "src": "mailto:n.van.gent@expo-mate.com"
                                 },
                                 "linkedin": {
-                                    "title": "Niek auf",
+                                    "header": "Niek auf",
                                     "src": "https://nl.linkedin.com/in/niek-van-gent-b538781b"
                                 }
                             },
@@ -816,7 +816,7 @@
             },
             "projects": [
                 {
-                    "title": "Borusan Mannesmann",
+                    "header": "Borusan Mannesmann",
                     "subTitle": "TUBE 2018 DÃÂ¼sseldorf",
                     "description": "Ontwikkelen van een beurs concept waarin Borusan Mannesmann de belangrijkste klanten kan ontvangen tijdens het 60 jarige bestaan. Prestige om het mooiste concept neer te zetten waarin bezoekers comfortabel wat kunnen eten en drinken. ",
                     "images": [
@@ -865,7 +865,7 @@
                     }
                 },
                 {
-                    "title": "Toshiba Business Display Solutions",
+                    "header": "Toshiba Business Display Solutions",
                     "subTitle": "ISE Amsterdam 2018",
                     "description": "Die Herausforderung von Toshiba an uns war, die vielen Produkte und diversen Business Units insgesamt ÃÂ¼bersichtlicher zu prÃÂ¤sentieren. Weiterhin war das Ziel, so viele neue und bestehende GeschÃÂ¤ftskontakte auf dem Stand willkommen heiÃÂen zu kÃÂ¶nnen. Einen erfrischenden Stand mit Raum fÃÂ¼r die PrÃÂ¤sentationen von Produkten war somit der Ausgangspunkt.",
                     "images": [
@@ -906,7 +906,7 @@
                     }
                 },
                 {
-                    "title": "Lamb Weston/Meijer",
+                    "header": "Lamb Weston/Meijer",
                     "subTitle": "Casual Dining Show London 2018",
                     "description": "Kreiere ein Konzept, mit dem wir prÃÂ¤sentieren kÃÂ¶nnen, dass wir die SchlÃÂ¼sselfiguren auf dem englischen Markt verstanden haben. Diese sind die wachsende Pub-Branche in GroÃÂbritannien. Wie sollte man das besser umsetzen, als durch den Entwurf eines Lamb Weston-Pubs?",
                     "images": [
@@ -947,7 +947,7 @@
                     }
                 },
                 {
-                    "title": "WvanderZwan",
+                    "header": "WvanderZwan",
                     "subTitle": "Seafood Expo Global Brussel 2018",
                     "description": "Omzetting van het bestaande concept in een hoogwaardige stand waarbij de bezoekers ook de mogelijkheid wordt geboden om op de bovenverdieping plaats te nemen in de lounge. Klanten kleine hapjes en drankjes aan te bieden in een ongedwongen sfeer.",
                     "images": [
@@ -984,7 +984,7 @@
                     }
                 },
                 {
-                    "title": "Tomra Food Sorting NV",
+                    "header": "Tomra Food Sorting NV",
                     "subTitle": "Programma 2018",
                     "description": "ÃÂberragendes Design, saubere und anhaltende Kraft waren die Tomras Ziele fÃÂ¼r den Messestand. Eine modulare Bauweise war dabei in jeder Hinsicht notwendig. Tomra is jedes Jahr auf verschiedenen Messen anwesend und benÃÂ¶tigt hier unterschiedliche StandgrÃÂ¶ÃÂen. Auch sollten die Grafiken schnell und einfach ausgetauscht werden kÃÂ¶nnen, so dass jede Produktgruppe ausreichend kommuniziert werden kann. ",
                     "images": [
@@ -1025,7 +1025,7 @@
                     }
                 },
                 {
-                    "title": "Aluminium Verkoop Zuid BV (AVZ)",
+                    "header": "Aluminium Verkoop Zuid BV (AVZ)",
                     "subTitle": "R+T Stuttgart 2018",
                     "description": "AVZ wollte auf der grÃÂ¶ÃÂten Messe ihres Fachgebietes den neuen Hausstil prÃÂ¤sentieren. Dies haben wir durch ein offenes und zugÃÂ¤ngliches Design umgesetzt.",
                     "images": [
@@ -1058,7 +1058,7 @@
                     }
                 },
                 {
-                    "title": "The Scelta Institute BV",
+                    "header": "The Scelta Institute BV",
                     "subTitle": "Anuga Keulen, Sial Parijs und FIE Frankfurt",
                     "description": "Man wollte einen neuen Stand, der fÃÂ¼r alle Messen anders aufzubauen ist. Das Erleben des Standes sollte an die kÃÂ¼rzlich eingebrachten ÃÂnderungen des Hausstils anschlieÃÂen. Auch sollten Produkte prÃÂ¤sentiert werden kÃÂ¶nnen, sowohl grafisch wie auch durch Live Cooking.",
                     "images": [
@@ -1091,7 +1091,7 @@
                     }
                 },
                 {
-                    "title": "Strong TV",
+                    "header": "Strong TV",
                     "subTitle": "ANGA Keulen, IFA Berlijn",
                     "description": "PrÃÂ¤sentation der verschiedenen Produktgruppen, wobei neben den TVs auch Platz sein sollte die Receiver und diverse WLAN-LÃÂ¶sungen zu prÃÂ¤sentieren. Ein offener Stand, auf dem genug Raum ist um viele Besucher begrÃÂ¼ÃÂen zu kÃÂ¶nnen.",
                     "images": [
@@ -1124,7 +1124,7 @@
                     }
                 },
                 {
-                    "title": "Frankort & Koning BV",
+                    "header": "Frankort & Koning BV",
                     "subTitle": "Fruit Logistica Berlijn 2017-2019",
                     "description": "Bestehenden Kunden und Kontakten das GefÃÂ¼hl eines warmen Willkommens geben, inklusive der MÃÂ¶glichkeit, GetrÃÂ¤nke und HÃÂ¤ppchen anbieten zu kÃÂ¶nnen. Insgesamt ein Stand, den man gerne betritt und auf dem genug Platz ist um ein gutes, informelles GesprÃÂ¤ch miteinander zu fÃÂ¼hren.",
                     "images": [
@@ -1175,7 +1175,7 @@
             "homepage": {
                 "header": {
                     "content": {
-                        "title": "Management in Authentic and Trending Exhibition Participations",
+                        "header": "Management in Authentic and Trending Exhibition Participations",
                         "backgroundImageSrc": "assets/images/mobile-bg.jpg",
                         "backgroundVideoMp4Src": "assets/video/expo-mate.mp4",
                         "backgroundVideoWebMSrc": "assets/video/expo-mate.webm",
@@ -1184,7 +1184,7 @@
                 },
                 "content": {
                     "intro": {
-                        "title": "Our Story",
+                        "header": "Our Story",
                         "description": "We believe in the power of diversity. Bringing together all different disciplines. We geloven in de kracht van diversiteit. Diversiteit en het samenbrengen van verschillende disciplines zorgt er namelijk voor dat we iedere dag het beste resultaat voor, maar vooral met, onze klanten kunnen realiseren.",
                         "images": [
                             {
@@ -1214,23 +1214,23 @@
                             "image": {
                                 "src": "assets/images/1.jpg"
                             },
-                            "title": "Our foundation",
+                            "header": "Our foundation",
                             "description": "10 years of knowledge within the exhibition industry combined with 10 years of experience in the field of sales and marketing  ormen our base. Because of the combination of experiences we can accommodate exhibition concepts as no others within the industry delivering the highest return on investment."
                         },
                         "row2": {
                             "image": {
                                 "src": "assets/images/2.jpg"
                             },
-                            "title": "Our Mission Statement and Vision",
+                            "header": "Our Mission Statement and Vision",
                             "description": "<p>Everything we do is at EXPO-MATE is based on our right of existence and our dream; our mission statement and vision.</p><p>Our mission statement: Making exhibition participations more successful, more efficient and easier.</p><p>Our vision: At EXPO-MATE we strive to be the most appreciated, leading quality organization within the industry. Wanting to be market leader as a full service project management company by offering authentic, innovative, sustainable and custom made projects for our clients in order to make them achieve their goals. Our clients are our ambassadors, and we make sure our ambassadors are not only completely satisfied with the end result, but also with the path leading to this realization.</p>"
                         }
                     },
                     "aboutUs": {
-                        "title": "Who we are?",
+                        "header": "Who we are?",
                         "description": "",
                         "employees": {
                             "niek": {
-                                "title": "Niek van Gent",
+                                "header": "Niek van Gent",
                                 "description": "Being active as a commercial manager in a role of exhibition manager I understand the need of our clients as if it was my own. This results into a major value increasing element during the design process. Because of acting in the same role as our conversation partner I can emphasize on their needs and wishes. To make them right conversion of the organization into a 3D concept for our clients is my biggest motivation!",
                                 "image": {
                                     "src": "assets/images/niek.jpg",
@@ -1238,7 +1238,7 @@
                                 }
                             },
                             "jan": {
-                                "title": "Jan Maas",
+                                "header": "Jan Maas",
                                 "description": "After 10 years of working as a Project- and Account Manager within two different companies in the exhibition industry, my opinion is that personal attention and listening to clients and their desires can be a game changer. This was the main reason for me to found EXPOMATE. The experience on both the commercial area as well as the technical aspect within the process we can serve our client as a real soundboard. Commitment towards quality, making sure everything until the smallest detail is taken care of and a personal and nice collaboration making it possible to achieve the (exhibition) goals: That is what drives me!",
                                 "image": {
                                     "src": "assets/images/jan.jpg",
@@ -1248,7 +1248,7 @@
                         }
                     },
                     "values": {
-                        "title": "Our Core Values",
+                        "header": "Our Core Values",
                         "description": "Whether we are having an advising conversation, present a design concept or handing over a realized stand; everything we do is based upon our core values which are listed below:",
                         "image": {
                             "src": "assets/images/wall.jpg"
@@ -1263,28 +1263,28 @@
                         }
                     },
                     "method": {
-                        "title": "WORKING METHOD",
+                        "header": "WORKING METHOD",
                         "hoverLabel": "Move with your mouse over the orbs to learn more.",
                         "description": "Because of the earlier explained different backgrounds we have been able to develop a working method which is unique within the industry and enables us to deliver the highest return on investment for our clients.",
                         "methods": {
                             "intro": {
-                                "title": "Introduction",
+                                "header": "Introduction",
                                 "description": "A personal meet-up in which we discuss your needs, wishes and goals."
                             },
                             "design": {
-                                "title": "Design",
+                                "header": "Design",
                                 "description": "Based on your input in addition to the outcome of our 'EXPO-MATE model' we create a authentic, innovative, custom design specifically for your exhibition concept."
                             },
                             "tuning": {
-                                "title": "Fine tuning",
+                                "header": "Fine tuning",
                                 "description": "We will discuss the design together and if needed, tweak it based on your feedback to create an optimal, desired, definitive design."
                             },
                             "construction": {
-                                "title": "Technical preparations & realization",
+                                "header": "Technical preparations & realization",
                                 "description": "We will completely take care of the technical preparations and construction of your booth. Naturally, we are there on site at the exhibition as your partner overseeing and being your point of contact."
                             },
                             "eval": {
-                                "title": "Evaluation",
+                                "header": "Evaluation",
                                 "description": "After the exhibition has ended, we will discuss the outcome with you to gauge whether or not we have met your goals, if you thought the experience was pleasant and if you have any feedback for us for a potential next project."
                             }
                         }
@@ -1293,7 +1293,7 @@
                         "image": {
                             "src": "assets/images/model.jpg"
                         },
-                        "title": "THE EXPO-MATE MODEL: FROM INTRODUCTION TO DESIGN",
+                        "header": "THE EXPO-MATE MODEL: FROM INTRODUCTION TO DESIGN",
                         "description": "From our point of view the most important step in the complete process. By investing time and knowledge into the beginning of the process, no assumptions have to be made during the creation of the concept but focusing on the only thing that matters; Integrating your identity, desires and needs  as an exhibition participant. EXPO-MATE has developed  an own, unique, model which enables us to implement key characteristics / values from the organization into the design proposal. We believe that only than the highest return on investment can be achieved. We would be happy explaining you in detail how we can bring the EXPO-MATE model in reality together. "
                     },
                     "projects": {
@@ -1304,7 +1304,7 @@
                             "label": "Our Projects"
                         },
                         "project1": {
-                            "title": "Borusan Mannesmann",
+                            "header": "Borusan Mannesmann",
                             "button": "Learn More",
                             "image": {
                                 "src": "assets/images/projects/borusan/1.jpg",
@@ -1312,7 +1312,7 @@
                             }
                         },
                         "project2": {
-                            "title": "Toshiba",
+                            "header": "Toshiba",
                             "button": "Learn More",
                             "image": {
                                 "src": "assets/images/projects/toshiba/1.jpg",
@@ -1321,7 +1321,7 @@
                         }
                     },
                     "comparison": {
-                        "title": "Turn design into realization.",
+                        "header": "Turn design into realization.",
                         "description": "From the first sketches drawn we are thinking on how a potential design could be perfectly turned . from design into reality. Underneath some examples of how the design has been turned into the actual stand. ",
                         "comparisons": [
                             {
@@ -1345,20 +1345,20 @@
                 },
                 "footer": {
                     "testimonials": {
-                        "title": "Testimonials"
+                        "header": "Testimonials"
                     },
                     "contacts": {
                         "header": "Send us an Email",
                         "jan": {
-                            "title": "Jan Maas",
+                            "header": "Jan Maas",
                             "links": {
                                 "email": {
-                                    "title": "j.maas@expo-mate.com",
+                                    "header": "j.maas@expo-mate.com",
                                     "src": "mailto:j.maas@expo-mate.com",
                                     "alt": "Email Jan"
                                 },
                                 "linkedin": {
-                                    "title": "Jan on",
+                                    "header": "Jan on",
                                     "src": "https://nl.linkedin.com/in/maasjan",
                                     "alt": "Jan on LinkedIn"
                                 }
@@ -1366,14 +1366,14 @@
                             "phone": "+31 6 50 28 18 91"
                         },
                         "niek": {
-                            "title": "Niek van Gent",
+                            "header": "Niek van Gent",
                             "links": {
                                 "email": {
-                                    "title": "n.van.gent@expo-mate.com",
+                                    "header": "n.van.gent@expo-mate.com",
                                     "src": "mailto:n.van.gent@expo-mate.com"
                                 },
                                 "linkedin": {
-                                    "title": "Niek on",
+                                    "header": "Niek on",
                                     "src": "https://nl.linkedin.com/in/niek-van-gent-b538781b",
                                     "alt": "Niek on LinkedIn"
                                 }
@@ -1395,7 +1395,7 @@
             },
             "projects": [
                 {
-                    "title": "Borusan Mannesmann",
+                    "header": "Borusan Mannesmann",
                     "subTitle": "TUBE 2018 DÃ¼sseldorf",
                     "description": "Develop an exhibition concept in which Borusan Mannesmann would receive their most valued clients during their 60 years anniversary. Prestige to make the nicest concept to make the clients feel welcome and enjoy a drink and a bite. ",
                     "images": [
@@ -1444,7 +1444,7 @@
                     }
                 },
                 {
-                    "title": "Toshiba Business Display Solutions",
+                    "header": "Toshiba Business Display Solutions",
                     "subTitle": "ISE Amsterdam 2018",
                     "description": "The challenge for Toshiba was to deliver a stand concept in which many products and several business units could present their products in a structured stand concept.  ",
                     "images": [
@@ -1485,7 +1485,7 @@
                     }
                 },
                 {
-                    "title": "Lamb Weston/Meijer",
+                    "header": "Lamb Weston/Meijer",
                     "subTitle": "Casual Dining Show London 2018",
                     "description": "Creating a concept to show that Lamb Weston is a key player in the UK market in the expanding pub segment. How can this be done in a better way than creating a LambWeston pub? ",
                     "images": [
@@ -1526,7 +1526,7 @@
                     }
                 },
                 {
-                    "title": "WvanderZwan & Zonen",
+                    "header": "WvanderZwan & Zonen",
                     "subTitle": "Seafood Expo Global Brussel 2018",
                     "description": "Conversion of the existing concept in a high-quality stand where visitors are also given the possibility to enjoy the second storey lounge. Clients can enjoy small bites and drinks in a casual atmosphere. ",
                     "images": [
@@ -1563,7 +1563,7 @@
                     }
                 },
                 {
-                    "title": "Tomra Food Sorting NV",
+                    "header": "Tomra Food Sorting NV",
                     "subTitle": "Programma 2018",
                     "description": "Standing out from the rest, clean & stopping power; that's what Tomra wanted to see in the stand concept. Because of the given program with different locations and dimensions materials have to be re-usable. This way a cost efficient structure can be setup ",
                     "images": [
@@ -1604,7 +1604,7 @@
                     }
                 },
                 {
-                    "title": "Aluminium Verkoop Zuid BV (AVZ)",
+                    "header": "Aluminium Verkoop Zuid BV (AVZ)",
                     "subTitle": "R+T Stuttgart 2018",
                     "description": "AVZ wanted to have an open and accessible stand which offered them the possibility to demonstrate their new corporate identity & showcase their most important products on the biggest show within their discipline.  ",
                     "images": [
@@ -1637,7 +1637,7 @@
                     }
                 },
                 {
-                    "title": "The Scelta Institute BV",
+                    "header": "The Scelta Institute BV",
                     "subTitle": "Anuga Keulen, Sial Parijs and FIE Frankfurt",
                     "description": "Scelta wanted to invest into a new stand which would be existing of modular elements that could be re-used for different shows. It should maintain the same look & feel and be able to present their products in a graphic way but also by usage of live cooking.",
                     "images": [
@@ -1670,7 +1670,7 @@
                     }
                 },
                 {
-                    "title": "Strong TV",
+                    "header": "Strong TV",
                     "subTitle": "ANGA Keulen, IFA Berlijn",
                     "description": "Presenting WiFi products as well as televisions on 1 stand and be able to host private conversations with clients in meeting rooms or an informal cup of coffee at the bar. Products take the upper hand at the exhibitions that STRONG TV participates at. ",
                     "images": [
@@ -1703,7 +1703,7 @@
                     }
                 },
                 {
-                    "title": "Frankort & Koning BV",
+                    "header": "Frankort & Koning BV",
                     "subTitle": "Fruit Logistica Berlijn 2017-2019",
                     "description": "The yearly fruit exhibition in Berlin offers Frankort & Koning the possibility to meet up with clients and suppliers from all over the world active within their industry. An approachable stand where hospitality plays a major factor and was the starting point. ",
                     "images": [
