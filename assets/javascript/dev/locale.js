@@ -1,5 +1,5 @@
 $(function(){
-    var url = './assets/json/content.json';
+    var url = './assets/json/content.bin';
     var $body = $("body");
 
     $.ajax({
