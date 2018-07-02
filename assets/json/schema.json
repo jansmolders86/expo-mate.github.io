@@ -1635,7 +1635,7 @@
                           "type": "string",
                           "format": "html"
                         },
-                        "method": {
+                        "methods": {
                           "type": "object",
                           "properties": {
                             "intro": {
