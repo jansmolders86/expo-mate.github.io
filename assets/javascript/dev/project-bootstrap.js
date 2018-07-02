@@ -14,8 +14,8 @@ $(function(){
             scriptCharset: "utf-8",
             type: "GET",
             success: function (data) {
-                var actual = JSON.parse(atob(data));
-                var loc = getCookie('lang')
+                var actual = JSON.parse(decodeURIComponent(escape(window.atob(data))))
+                , loc = getCookie('lang')
                 , homeproject = actual[loc].pages.homepage.content.projects
                 , reviewLink = homeproject.reviewLink || ''
                 , projectDetail = actual[loc].pages.projects
