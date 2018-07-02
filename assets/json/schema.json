@@ -93,7 +93,10 @@
                         },
                         "description": {
                           "type": "string",
-                          "format": "html"
+                          "format": "html",
+                          "options": {
+                            "wysiwyg": true
+                          }
                         },
                         "images": {
                           "type": "array",
@@ -138,7 +141,10 @@
                             },
                             "description": {
                               "type": "string",
-                              "format": "html"
+                              "format": "html",
+                              "options": {
+                                "wysiwyg": true
+                              }
                             }
                           }
                         },
@@ -158,7 +164,10 @@
                             },
                             "description": {
                               "type": "string",
-                              "format": "html"
+                              "format": "html",
+                              "options": {
+                                "wysiwyg": true
+                              }
                             }
                           }
                         }
@@ -172,7 +181,10 @@
                         },
                         "description": {
                           "type": "string",
-                          "format": "html"
+                          "format": "html",
+                          "options": {
+                            "wysiwyg": true
+                          }
                         },
                         "employees": {
                           "type": "object",
@@ -185,7 +197,10 @@
                                 },
                                 "description": {
                                   "type": "string",
-                                  "format": "html"
+                                  "format": "html",
+                                  "options": {
+                                    "wysiwyg": true
+                                  }
                                 },
                                 "image": {
                                   "type": "object",
@@ -208,7 +223,10 @@
                                 },
                                 "description": {
                                   "type": "string",
-                                  "format": "html"
+                                  "format": "html",
+                                  "options": {
+                                    "wysiwyg": true
+                                  }
                                 },
                                 "image": {
                                   "type": "object",
@@ -241,7 +259,10 @@
                         },
                         "description": {
                           "type": "string",
-                          "format": "html"
+                          "format": "html",
+                          "options": {
+                            "wysiwyg": true
+                          }
                         },
                         "image": {
                           "type": "object",
@@ -287,54 +308,87 @@
                         },
                         "description": {
                           "type": "string",
-                          "format": "html"
+                          "format": "html",
+                          "options": {
+                            "wysiwyg": true
+                          }
                         },
-                        "method": {
+                        "methods": {
                           "type": "object",
                           "properties": {
                             "intro": {
-                              "header": {
-                                "type": "string"
-                              },
-                              "description": {
-                                "type": "string",
-                                "format": "html"
+                              "type": "object",
+                              "properties": {
+                                "header": {
+                                  "type": "string"
+                                },
+                                "description": {
+                                  "type": "string",
+                                  "format": "html",
+                                  "options": {
+                                    "wysiwyg": true
+                                  }
+                                }
                               }
                             },
                             "design": {
-                              "header": {
-                                "type": "string"
-                              },
-                              "description": {
-                                "type": "string",
-                                "format": "html"
+                              "type": "object",
+                              "properties": {
+                                "header": {
+                                  "type": "string"
+                                },
+                                "description": {
+                                  "type": "string",
+                                  "format": "html",
+                                  "options": {
+                                    "wysiwyg": true
+                                  }
+                                }
                               }
                             },
                             "tuning": {
-                              "header": {
-                                "type": "string"
-                              },
-                              "description": {
-                                "type": "string",
-                                "format": "html"
+                              "type": "object",
+                              "properties": {
+                                "header": {
+                                  "type": "string"
+                                },
+                                "description": {
+                                  "type": "string",
+                                  "format": "html",
+                                  "options": {
+                                    "wysiwyg": true
+                                  }
+                                }
                               }
                             },
                             "construction": {
-                              "header": {
-                                "type": "string"
-                              },
-                              "description": {
-                                "type": "string",
-                                "format": "html"
+                              "type": "object",
+                              "properties": {
+                                "header": {
+                                  "type": "string"
+                                },
+                                "description": {
+                                  "type": "string",
+                                  "format": "html",
+                                  "options": {
+                                    "wysiwyg": true
+                                  }
+                                }
                               }
                             },
                             "eval": {
-                              "header": {
-                                "type": "string"
-                              },
-                              "description": {
-                                "type": "string",
-                                "format": "html"
+                              "type": "object",
+                              "properties": {
+                                "header": {
+                                  "type": "string"
+                                },
+                                "description": {
+                                  "type": "string",
+                                  "format": "html",
+                                  "options": {
+                                    "wysiwyg": true
+                                  }
+                                }
                               }
                             }
                           }
@@ -363,7 +417,10 @@
                         },
                         "description": {
                           "type": "string",
-                          "format": "html"
+                          "format": "html",
+                          "options": {
+                            "wysiwyg": true
+                          }
                         }
                       }
                     },
@@ -375,7 +432,10 @@
                         },
                         "description": {
                           "type": "string",
-                          "format": "html"
+                          "format": "html",
+                          "options": {
+                            "wysiwyg": true
+                          }
                         },
                         "reviewLink": {
                           "type": "string"
@@ -454,7 +514,10 @@
                         },
                         "description": {
                           "type": "string",
-                          "format": "html"
+                          "format": "html",
+                          "options": {
+                            "wysiwyg": true
+                          }
                         },
                         "comparisons": {
                           "type": "array",
@@ -595,7 +658,10 @@
                                 },
                                 "description": {
                                   "type": "string",
-                                  "format": "html"
+                                  "format": "html",
+                                  "options": {
+                                    "wysiwyg": true
+                                  }
                                 }
                               }
                             },
@@ -604,7 +670,10 @@
                               "properties": {
                                 "description": {
                                   "type": "string",
-                                  "format": "html"
+                                  "format": "html",
+                                  "options": {
+                                    "wysiwyg": true
+                                  }
                                 }
                               }
                             }
@@ -632,7 +701,10 @@
                   },
                   "description": {
                     "type": "string",
-                    "format": "html"
+                    "format": "html",
+                    "options": {
+                      "wysiwyg": true
+                    }
                   },
                   "images": {
                     "type": "array",
@@ -664,7 +736,10 @@
                       },
                       "description": {
                         "type": "string",
-                        "format": "html"
+                        "format": "html",
+                        "options": {
+                          "wysiwyg": true
+                        }
                       }
                     }
                   }
@@ -766,7 +841,10 @@
                         },
                         "description": {
                           "type": "string",
-                          "format": "html"
+                          "format": "html",
+                          "options": {
+                            "wysiwyg": true
+                          }
                         },
                         "images": {
                           "type": "array",
@@ -811,7 +889,10 @@
                             },
                             "description": {
                               "type": "string",
-                              "format": "html"
+                              "format": "html",
+                              "options": {
+                                "wysiwyg": true
+                              }
                             }
                           }
                         },
@@ -831,7 +912,10 @@
                             },
                             "description": {
                               "type": "string",
-                              "format": "html"
+                              "format": "html",
+                              "options": {
+                                "wysiwyg": true
+                              }
                             }
                           }
                         }
@@ -845,7 +929,10 @@
                         },
                         "description": {
                           "type": "string",
-                          "format": "html"
+                          "format": "html",
+                          "options": {
+                            "wysiwyg": true
+                          }
                         },
                         "employees": {
                           "type": "object",
@@ -858,7 +945,10 @@
                                 },
                                 "description": {
                                   "type": "string",
-                                  "format": "html"
+                                  "format": "html",
+                                  "options": {
+                                    "wysiwyg": true
+                                  }
                                 },
                                 "image": {
                                   "type": "object",
@@ -881,7 +971,10 @@
                                 },
                                 "description": {
                                   "type": "string",
-                                  "format": "html"
+                                  "format": "html",
+                                  "options": {
+                                    "wysiwyg": true
+                                  }
                                 },
                                 "image": {
                                   "type": "object",
@@ -914,7 +1007,10 @@
                         },
                         "description": {
                           "type": "string",
-                          "format": "html"
+                          "format": "html",
+                          "options": {
+                            "wysiwyg": true
+                          }
                         },
                         "image": {
                           "type": "object",
@@ -960,54 +1056,87 @@
                         },
                         "description": {
                           "type": "string",
-                          "format": "html"
+                          "format": "html",
+                          "options": {
+                            "wysiwyg": true
+                          }
                         },
-                        "method": {
+                        "methods": {
                           "type": "object",
                           "properties": {
                             "intro": {
-                              "header": {
-                                "type": "string"
-                              },
-                              "description": {
-                                "type": "string",
-                                "format": "html"
+                              "type": "object",
+                              "properties": {
+                                "header": {
+                                  "type": "string"
+                                },
+                                "description": {
+                                  "type": "string",
+                                  "format": "html",
+                                  "options": {
+                                    "wysiwyg": true
+                                  }
+                                }
                               }
                             },
                             "design": {
-                              "header": {
-                                "type": "string"
-                              },
-                              "description": {
-                                "type": "string",
-                                "format": "html"
+                              "type": "object",
+                              "properties": {
+                                "header": {
+                                  "type": "string"
+                                },
+                                "description": {
+                                  "type": "string",
+                                  "format": "html",
+                                  "options": {
+                                    "wysiwyg": true
+                                  }
+                                }
                               }
                             },
                             "tuning": {
-                              "header": {
-                                "type": "string"
-                              },
-                              "description": {
-                                "type": "string",
-                                "format": "html"
+                              "type": "object",
+                              "properties": {
+                                "header": {
+                                  "type": "string"
+                                },
+                                "description": {
+                                  "type": "string",
+                                  "format": "html",
+                                  "options": {
+                                    "wysiwyg": true
+                                  }
+                                }
                               }
                             },
                             "construction": {
-                              "header": {
-                                "type": "string"
-                              },
-                              "description": {
-                                "type": "string",
-                                "format": "html"
+                              "type": "object",
+                              "properties": {
+                                "header": {
+                                  "type": "string"
+                                },
+                                "description": {
+                                  "type": "string",
+                                  "format": "html",
+                                  "options": {
+                                    "wysiwyg": true
+                                  }
+                                }
                               }
                             },
                             "eval": {
-                              "header": {
-                                "type": "string"
-                              },
-                              "description": {
-                                "type": "string",
-                                "format": "html"
+                              "type": "object",
+                              "properties": {
+                                "header": {
+                                  "type": "string"
+                                },
+                                "description": {
+                                  "type": "string",
+                                  "format": "html",
+                                  "options": {
+                                    "wysiwyg": true
+                                  }
+                                }
                               }
                             }
                           }
@@ -1036,7 +1165,10 @@
                         },
                         "description": {
                           "type": "string",
-                          "format": "html"
+                          "format": "html",
+                          "options": {
+                            "wysiwyg": true
+                          }
                         }
                       }
                     },
@@ -1048,7 +1180,10 @@
                         },
                         "description": {
                           "type": "string",
-                          "format": "html"
+                          "format": "html",
+                          "options": {
+                            "wysiwyg": true
+                          }
                         },
                         "reviewLink": {
                           "type": "string"
@@ -1127,7 +1262,10 @@
                         },
                         "description": {
                           "type": "string",
-                          "format": "html"
+                          "format": "html",
+                          "options": {
+                            "wysiwyg": true
+                          }
                         },
                         "comparisons": {
                           "type": "array",
@@ -1268,7 +1406,10 @@
                                 },
                                 "description": {
                                   "type": "string",
-                                  "format": "html"
+                                  "format": "html",
+                                  "options": {
+                                    "wysiwyg": true
+                                  }
                                 }
                               }
                             },
@@ -1277,7 +1418,10 @@
                               "properties": {
                                 "description": {
                                   "type": "string",
-                                  "format": "html"
+                                  "format": "html",
+                                  "options": {
+                                    "wysiwyg": true
+                                  }
                                 }
                               }
                             }
@@ -1305,7 +1449,10 @@
                   },
                   "description": {
                     "type": "string",
-                    "format": "html"
+                    "format": "html",
+                    "options": {
+                      "wysiwyg": true
+                    }
                   },
                   "images": {
                     "type": "array",
@@ -1337,7 +1484,10 @@
                       },
                       "description": {
                         "type": "string",
-                        "format": "html"
+                        "format": "html",
+                        "options": {
+                          "wysiwyg": true
+                        }
                       }
                     }
                   }
@@ -1347,7 +1497,7 @@
           }
         }
       }
-    },
+    }
     "en": {
       "type": "object",
       "options": {
@@ -1439,7 +1589,10 @@
                         },
                         "description": {
                           "type": "string",
-                          "format": "html"
+                          "format": "html",
+                          "options": {
+                            "wysiwyg": true
+                          }
                         },
                         "images": {
                           "type": "array",
@@ -1484,7 +1637,10 @@
                             },
                             "description": {
                               "type": "string",
-                              "format": "html"
+                              "format": "html",
+                              "options": {
+                                "wysiwyg": true
+                              }
                             }
                           }
                         },
@@ -1504,7 +1660,10 @@
                             },
                             "description": {
                               "type": "string",
-                              "format": "html"
+                              "format": "html",
+                              "options": {
+                                "wysiwyg": true
+                              }
                             }
                           }
                         }
@@ -1518,7 +1677,10 @@
                         },
                         "description": {
                           "type": "string",
-                          "format": "html"
+                          "format": "html",
+                          "options": {
+                            "wysiwyg": true
+                          }
                         },
                         "employees": {
                           "type": "object",
@@ -1531,7 +1693,10 @@
                                 },
                                 "description": {
                                   "type": "string",
-                                  "format": "html"
+                                  "format": "html",
+                                  "options": {
+                                    "wysiwyg": true
+                                  }
                                 },
                                 "image": {
                                   "type": "object",
@@ -1554,7 +1719,10 @@
                                 },
                                 "description": {
                                   "type": "string",
-                                  "format": "html"
+                                  "format": "html",
+                                  "options": {
+                                    "wysiwyg": true
+                                  }
                                 },
                                 "image": {
                                   "type": "object",
@@ -1587,7 +1755,10 @@
                         },
                         "description": {
                           "type": "string",
-                          "format": "html"
+                          "format": "html",
+                          "options": {
+                            "wysiwyg": true
+                          }
                         },
                         "image": {
                           "type": "object",
@@ -1633,7 +1804,10 @@
                         },
                         "description": {
                           "type": "string",
-                          "format": "html"
+                          "format": "html",
+                          "options": {
+                            "wysiwyg": true
+                          }
                         },
                         "methods": {
                           "type": "object",
@@ -1646,7 +1820,10 @@
                                 },
                                 "description": {
                                   "type": "string",
-                                  "format": "html"
+                                  "format": "html",
+                                  "options": {
+                                    "wysiwyg": true
+                                  }
                                 }
                               }
                             },
@@ -1658,7 +1835,10 @@
                                 },
                                 "description": {
                                   "type": "string",
-                                  "format": "html"
+                                  "format": "html",
+                                  "options": {
+                                    "wysiwyg": true
+                                  }
                                 }
                               }
                             },
@@ -1670,7 +1850,10 @@
                                 },
                                 "description": {
                                   "type": "string",
-                                  "format": "html"
+                                  "format": "html",
+                                  "options": {
+                                    "wysiwyg": true
+                                  }
                                 }
                               }
                             },
@@ -1682,7 +1865,10 @@
                                 },
                                 "description": {
                                   "type": "string",
-                                  "format": "html"
+                                  "format": "html",
+                                  "options": {
+                                    "wysiwyg": true
+                                  }
                                 }
                               }
                             },
@@ -1694,7 +1880,10 @@
                                 },
                                 "description": {
                                   "type": "string",
-                                  "format": "html"
+                                  "format": "html",
+                                  "options": {
+                                    "wysiwyg": true
+                                  }
                                 }
                               }
                             }
@@ -1724,7 +1913,10 @@
                         },
                         "description": {
                           "type": "string",
-                          "format": "html"
+                          "format": "html",
+                          "options": {
+                            "wysiwyg": true
+                          }
                         }
                       }
                     },
@@ -1736,7 +1928,10 @@
                         },
                         "description": {
                           "type": "string",
-                          "format": "html"
+                          "format": "html",
+                          "options": {
+                            "wysiwyg": true
+                          }
                         },
                         "reviewLink": {
                           "type": "string"
@@ -1815,7 +2010,10 @@
                         },
                         "description": {
                           "type": "string",
-                          "format": "html"
+                          "format": "html",
+                          "options": {
+                            "wysiwyg": true
+                          }
                         },
                         "comparisons": {
                           "type": "array",
@@ -1956,7 +2154,10 @@
                                 },
                                 "description": {
                                   "type": "string",
-                                  "format": "html"
+                                  "format": "html",
+                                  "options": {
+                                    "wysiwyg": true
+                                  }
                                 }
                               }
                             },
@@ -1965,7 +2166,10 @@
                               "properties": {
                                 "description": {
                                   "type": "string",
-                                  "format": "html"
+                                  "format": "html",
+                                  "options": {
+                                    "wysiwyg": true
+                                  }
                                 }
                               }
                             }
@@ -1993,7 +2197,10 @@
                   },
                   "description": {
                     "type": "string",
-                    "format": "html"
+                    "format": "html",
+                    "options": {
+                      "wysiwyg": true
+                    }
                   },
                   "images": {
                     "type": "array",
@@ -2025,7 +2232,10 @@
                       },
                       "description": {
                         "type": "string",
-                        "format": "html"
+                        "format": "html",
+                        "options": {
+                          "wysiwyg": true
+                        }
                       }
                     }
                   }
