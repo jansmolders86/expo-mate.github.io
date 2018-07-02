@@ -1639,48 +1639,63 @@
                           "type": "object",
                           "properties": {
                             "intro": {
-                              "header": {
-                                "type": "string"
-                              },
-                              "description": {
-                                "type": "string",
-                                "format": "html"
+                              "type": "object",
+                              "properties": {
+                                "header": {
+                                  "type": "string"
+                                },
+                                "description": {
+                                  "type": "string",
+                                  "format": "html"
+                                }
                               }
                             },
                             "design": {
-                              "header": {
-                                "type": "string"
-                              },
-                              "description": {
-                                "type": "string",
-                                "format": "html"
+                              "type": "object",
+                              "properties": {
+                                "header": {
+                                  "type": "string"
+                                },
+                                "description": {
+                                  "type": "string",
+                                  "format": "html"
+                                }
                               }
                             },
                             "tuning": {
-                              "header": {
-                                "type": "string"
-                              },
-                              "description": {
-                                "type": "string",
-                                "format": "html"
+                              "type": "object",
+                              "properties": {
+                                "header": {
+                                  "type": "string"
+                                },
+                                "description": {
+                                  "type": "string",
+                                  "format": "html"
+                                }
                               }
                             },
                             "construction": {
-                              "header": {
-                                "type": "string"
-                              },
-                              "description": {
-                                "type": "string",
-                                "format": "html"
+                              "type": "object",
+                              "properties": {
+                                "header": {
+                                  "type": "string"
+                                },
+                                "description": {
+                                  "type": "string",
+                                  "format": "html"
+                                }
                               }
                             },
                             "eval": {
-                              "header": {
-                                "type": "string"
-                              },
-                              "description": {
-                                "type": "string",
-                                "format": "html"
+                              "type": "object",
+                              "properties": {
+                                "header": {
+                                  "type": "string"
+                                },
+                                "description": {
+                                  "type": "string",
+                                  "format": "html"
+                                }
                               }
                             }
                           }
