@@ -39,7 +39,7 @@ $(function(){
                 navItem.find('a[href="#mission"]').html(nav.mission);
                 navItem.find('a[href="#model"]').html(nav.model);
                 navItem.find('a[href="#foundation"]').html(nav.foundation);
-                navItem.find('a[href="#comparision"]').html(nav.comparision);
+                navItem.find('a[href="#comparison"]').html(nav.comparison);
             }
 
             if (header) {
