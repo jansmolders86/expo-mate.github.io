@@ -34,7 +34,7 @@ $(function(){
                 navItem.find('a[href="#method"]').html(nav.method);
                 navItem.find('a[href="#values"]').html(nav.values);
                 navItem.find('a[href="#aboutUs"]').html(nav.aboutUs);
-                navItem.find('a[href="#projects"]').html(nav.projects);
+                navItem.find('a[href="projects.html"]').html(nav.projects);
                 navItem.find('a[href="#footer"]').html(nav.contact);
                 navItem.find('a[href="#mission"]').html(nav.mission);
                 navItem.find('a[href="#model"]').html(nav.model);
