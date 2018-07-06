@@ -49,12 +49,12 @@ $(function(){
                                     '		<div class="project-desc-wrapper">\n' +
                                     '			<div class="project-desc-content">\n' +
                                     '				<div class="project-header">\n' +
-                                    '					<h2 class="project-title">'+item.title+'</h2>\n' +
+                                    '					<h2 class="project-title">'+item.header+'</h2>\n' +
                                     '					<div class="project-sub-title">'+item.subTitle+'</div>\n' +
                                     '				</div>\n' +
                                     '				<div class="project-desc"> \n' +
                                     '				   <span>'+item.description+'</span> \n' +
-                                    '				   <a class="read-review" data-count="'+count+'">'+reviewLink+' '+item.title+'</a> \n' +
+                                    '				   <a class="read-review" data-count="'+count+'">'+reviewLink+' '+item.header+'</a> \n' +
                                     '			   </div>\n' +
                                     '			</div>\n' +
                                     '		</div> \n' +
