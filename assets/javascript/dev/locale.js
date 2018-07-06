@@ -31,15 +31,24 @@ $(function(){
             if(nav) {
                 var navItem = $('#nav > ul > li ');
                 navItem.find('a[href="#preabout"]').html(nav.about);
+                navItem.find('a[href="index.html#preabout"]').html(nav.about);
                 navItem.find('a[href="#method"]').html(nav.method);
+                navItem.find('a[href="index.html#method"]').html(nav.method);
                 navItem.find('a[href="#values"]').html(nav.values);
+                navItem.find('a[href="index.html#values"]').html(nav.values);
                 navItem.find('a[href="#aboutUs"]').html(nav.aboutUs);
+                navItem.find('a[href="index.html#aboutUs"]').html(nav.aboutUs);
                 navItem.find('a[href="projects.html"]').html(nav.projects);
                 navItem.find('a[href="#footer"]').html(nav.contact);
+                navItem.find('a[href="#footer"]').html(nav.contact);
                 navItem.find('a[href="#mission"]').html(nav.mission);
+                navItem.find('a[href="index.html#mission"]').html(nav.mission);
                 navItem.find('a[href="#model"]').html(nav.model);
+                navItem.find('a[href="index.html#model"]').html(nav.model);
                 navItem.find('a[href="#foundation"]').html(nav.foundation);
+                navItem.find('a[href="index.html#foundation"]').html(nav.foundation);
                 navItem.find('a[href="#comparison"]').html(nav.comparison);
+                navItem.find('a[href="index.html#comparison"]').html(nav.comparison);
             }
 
             if (header) {
