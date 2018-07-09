@@ -148,7 +148,8 @@ $mobileTextOffset: 150px
       cursor: pointer
       pointer-events: all
       &.construction
-        width: $methodSize + 15px
+        +respond-min-width(lg)
+          width: $methodSize + 15px
       +respond-max-width(md)
         border-radius: 9999px
         font-size: .75em
