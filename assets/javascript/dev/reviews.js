@@ -52,7 +52,7 @@ function reviewSlider(){
         slidesToScroll: 1,
         autoplay: true,
         fade: true,
-        infinite: false,
+        infinite: true,
         autoplaySpeed: 8000,
         arrows: true
     });
