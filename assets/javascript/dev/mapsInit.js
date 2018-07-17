@@ -20,7 +20,7 @@ function googleMapsInit() {
 
     var marker = new google.maps.Marker({
         position: myLatlng,
-        icon: '//jansmolders.nl/expo-mate/assets/images/marker.png',
+        icon: '//expo-mate.github.io/assets/images/marker.png',
         map: map
     });
 
