@@ -13,7 +13,7 @@ $mobileTextOffset: 150px
   background-size: cover
   padding-bottom: 50px
   .method-desc-wrapper
-    +respond-min-width(lg)
+    +respond-min-width(md)
       width: 250px
       height: 350px
       position: absolute
@@ -36,28 +36,47 @@ $mobileTextOffset: 150px
           text-align: center
         &.active
           opacity: 1
-    +respond-max-width(md)
-      width: 60%
-      position: absolute
-      right: 10px
+    +respond-max-width(sm)
+      width: 100%
+      position: relative
+      overflow: hidden 
+      right: auto
       top: 40px
       .method-desc
-        margin-bottom: 30px
+        margin: 0 auto 50px
+        position: relative
+        clear: both
+        left: auto 
+        width: 300px
+        transform: none
+        background: rgba(204,204,204,0.5)
+        padding: 20px
+        p 
+          text-align: center
+        h3 
+          text-align: center
+          line-height: 1.5em
+        &:after
+          content: ''
+          width: 0; 
+          height: 0; 
+          border-left: 150px solid transparent
+          border-right: 150px solid transparent
+          border-top: 30px solid rgba(204,204,204,0.5)
+          position: absolute
+          bottom: -30px
+          left: 50%
+          transform: translateX(-50%)
+          right: auto
+          margin: 0 auto
+          z-index: 0
+        &.eval
+          &:after
+            display: none
   #diagram
-    +respond-max-width(md)
-      height: $mobileMethodSize * 8
-      margin-top: 50px
-      position: relative
-      &:before
-        content: ''
-        width: 1px
-        background-color: #ccc
-        height: 100%
-        position: absolute
-        top: 0
-        left: $mobileMethodSize / 2
-        z-index: 0
-    +respond-min-width(lg)
+    +respond-max-width(sm)
+      display: none
+    +respond-min-width(md)
       height: 790px
       width: 790px
       background: url(../../images/diagram/diagram.png) no-repeat
@@ -94,41 +113,29 @@ $mobileTextOffset: 150px
       position: absolute
       height: $methodSize
       width: $methodSize
-      +respond-max-width(md)
-        height: $mobileMethodSize
+      +respond-max-width(sm)
+        display: none
       &:nth-child(1)
-        top: -20px
-        left: 50%
-        margin-left: -$methodSize / 2
-        +respond-max-width(md)
-          top: 0
-          left: 0
-          margin-left: 0
+        +respond-min-width(md)
+          top: -20px
+          left: 50%
+          margin-left: -$methodSize / 2
       &:nth-child(2)
-        top: $methodSize - 80px
-        right: 0
-        +respond-max-width(md)
-          top: $mobileMethodSize + 40px
-          left: 0
+        +respond-min-width(md)
+          top: $methodSize - 80px
+          right: 0
       &:nth-child(3)
-        top: 470px
-        right: 120px
-        +respond-max-width(md)
-          top: $mobileMethodSize * 2 + 80px
-          left: 0
+        +respond-min-width(md)
+          top: 470px
+          right: 120px
       &:nth-child(4)
-        top: 470px
-        left: 25%
-        margin-left: -$methodSize / 3
-        +respond-max-width(md)
-          top: $mobileMethodSize * 3 + 120px
-          left: 0
-          margin-left: 0
+        +respond-min-width(md)
+          top: 470px
+          left: 25%
+          margin-left: -$methodSize / 3
       &:nth-child(5)
-        top: $methodSize - 80px
-        left: 0
-        +respond-max-width(md)
-          top: $mobileMethodSize * 4 + 160px
+        +respond-min-width(md)
+          top: $methodSize - 80px
           left: 0
     .method-item
       height: $methodSize
@@ -148,26 +155,16 @@ $mobileTextOffset: 150px
       cursor: pointer
       pointer-events: all
       &.construction
-        +respond-min-width(lg)
+        +respond-min-width(md)
           width: $methodSize + 15px
-      +respond-max-width(md)
-        border-radius: 9999px
-        font-size: .75em
-        height: $mobileMethodSize
-        width: $mobileMethodSize
-        padding: $mobileMethodSize / 2.5 $mobileMethodSize / 5 0
-        background: $method-bubble-color
-        transition: all ease .5s
-        box-shadow: -2px 11px 17px 0px rgba(0,0,0,.1)
-        opacity: 1
       .step-content
+        +respond-max-width(sm)
+          display: none
         > span.count
           text-align:  center
           width: 100%
           color: $method-text-color
           font-size: 2em
-          +respond-max-width(md)
-            display: none
         span, i
           display: block
           color: $method-text-color
@@ -177,28 +174,3 @@ $mobileTextOffset: 150px
         i
           font-size: 2em
           color: $method-text-color
-          +respond-max-width(xs)
-            font-size: 1.5em
-      &.intro
-        +respond-max-width(md)
-          background: rgba(61,190,232,1)
-      &.design
-        +respond-max-width(md)
-          background: rgba(54,68,173,1)
-      &.tuning
-        +respond-max-width(md)
-          background: rgba(141,199,1,1)
-      &.construction
-        +respond-max-width(md)
-          padding: 24px 19px 0
-      &.construction,
-      &.eval
-        +respond-max-width(md)
-          background: $method-highlight-bubble-color
-          color: $method-highlight-bubble-text
-          z-index: 6
-          border: 1px solid #ccc
-          .step-content
-            .count, i, span
-              color: $method-highlight-bubble-text
-

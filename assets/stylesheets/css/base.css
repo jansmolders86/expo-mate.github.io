@@ -234,6 +234,12 @@
         #about .right-container .tile-image, #model .left-container .tile-image,
         #model .right-container .tile-image {
           min-height: 450px; } }
+      @media screen and (max-width: 1025px) and (min-width: 1023px) and (orientation: landscape) {
+        #about .left-container .tile-image,
+        #about .right-container .tile-image, #model .left-container .tile-image,
+        #model .right-container .tile-image {
+          min-height: 450px;
+          background-position: right -50px; } }
     #about .left-container .content,
     #about .right-container .content, #model .left-container .content,
     #model .right-container .content {
@@ -1024,7 +1030,7 @@ section#image-scroll {
   background: url(../../images/tile-bg.jpg) no-repeat;
   background-size: cover;
   padding-bottom: 50px; }
-  @media only screen and (min-width: 1200px) {
+  @media only screen and (min-width: 992px) {
     #method .method-desc-wrapper {
       width: 250px;
       height: 350px;
@@ -1048,29 +1054,47 @@ section#image-scroll {
           text-align: center; }
         #method .method-desc-wrapper .method-desc.active {
           opacity: 1; } }
-  @media only screen and (max-width: 1199px) {
+  @media only screen and (max-width: 991px) {
     #method .method-desc-wrapper {
-      width: 60%;
-      position: absolute;
-      right: 10px;
+      width: 100%;
+      position: relative;
+      overflow: hidden;
+      right: auto;
       top: 40px; }
       #method .method-desc-wrapper .method-desc {
-        margin-bottom: 30px; } }
-  @media only screen and (max-width: 1199px) {
+        margin: 0 auto 50px;
+        position: relative;
+        clear: both;
+        left: auto;
+        width: 300px;
+        transform: none;
+        background: rgba(204, 204, 204, 0.5);
+        padding: 20px; }
+        #method .method-desc-wrapper .method-desc p {
+          text-align: center; }
+        #method .method-desc-wrapper .method-desc h3 {
+          text-align: center;
+          line-height: 1.5em; }
+        #method .method-desc-wrapper .method-desc:after {
+          content: '';
+          width: 0;
+          height: 0;
+          border-left: 150px solid transparent;
+          border-right: 150px solid transparent;
+          border-top: 30px solid rgba(204, 204, 204, 0.5);
+          position: absolute;
+          bottom: -30px;
+          left: 50%;
+          transform: translateX(-50%);
+          right: auto;
+          margin: 0 auto;
+          z-index: 0; }
+        #method .method-desc-wrapper .method-desc.eval:after {
+          display: none; } }
+  @media only screen and (max-width: 991px) {
     #method #diagram {
-      height: 960px;
-      margin-top: 50px;
-      position: relative; }
-      #method #diagram:before {
-        content: '';
-        width: 1px;
-        background-color: #ccc;
-        height: 100%;
-        position: absolute;
-        top: 0;
-        left: 60px;
-        z-index: 0; } }
-  @media only screen and (min-width: 1200px) {
+      display: none; } }
+  @media only screen and (min-width: 992px) {
     #method #diagram {
       height: 790px;
       width: 790px;
@@ -1108,48 +1132,31 @@ section#image-scroll {
     position: absolute;
     height: 250px;
     width: 250px; }
-    @media only screen and (max-width: 1199px) {
+    @media only screen and (max-width: 991px) {
       #method #diagram .method-item-wrapper {
-        height: 120px; } }
-    #method #diagram .method-item-wrapper:nth-child(1) {
-      top: -20px;
-      left: 50%;
-      margin-left: -125px; }
-      @media only screen and (max-width: 1199px) {
-        #method #diagram .method-item-wrapper:nth-child(1) {
-          top: 0;
-          left: 0;
-          margin-left: 0; } }
-    #method #diagram .method-item-wrapper:nth-child(2) {
-      top: 170px;
-      right: 0; }
-      @media only screen and (max-width: 1199px) {
-        #method #diagram .method-item-wrapper:nth-child(2) {
-          top: 160px;
-          left: 0; } }
-    #method #diagram .method-item-wrapper:nth-child(3) {
-      top: 470px;
-      right: 120px; }
-      @media only screen and (max-width: 1199px) {
-        #method #diagram .method-item-wrapper:nth-child(3) {
-          top: 320px;
-          left: 0; } }
-    #method #diagram .method-item-wrapper:nth-child(4) {
-      top: 470px;
-      left: 25%;
-      margin-left: -83.33333px; }
-      @media only screen and (max-width: 1199px) {
-        #method #diagram .method-item-wrapper:nth-child(4) {
-          top: 480px;
-          left: 0;
-          margin-left: 0; } }
-    #method #diagram .method-item-wrapper:nth-child(5) {
-      top: 170px;
-      left: 0; }
-      @media only screen and (max-width: 1199px) {
-        #method #diagram .method-item-wrapper:nth-child(5) {
-          top: 640px;
-          left: 0; } }
+        display: none; } }
+    @media only screen and (min-width: 992px) {
+      #method #diagram .method-item-wrapper:nth-child(1) {
+        top: -20px;
+        left: 50%;
+        margin-left: -125px; } }
+    @media only screen and (min-width: 992px) {
+      #method #diagram .method-item-wrapper:nth-child(2) {
+        top: 170px;
+        right: 0; } }
+    @media only screen and (min-width: 992px) {
+      #method #diagram .method-item-wrapper:nth-child(3) {
+        top: 470px;
+        right: 120px; } }
+    @media only screen and (min-width: 992px) {
+      #method #diagram .method-item-wrapper:nth-child(4) {
+        top: 470px;
+        left: 25%;
+        margin-left: -83.33333px; } }
+    @media only screen and (min-width: 992px) {
+      #method #diagram .method-item-wrapper:nth-child(5) {
+        top: 170px;
+        left: 0; } }
   #method #diagram .method-item {
     height: 250px;
     width: 250px;
@@ -1167,28 +1174,17 @@ section#image-scroll {
     transition: all .3s ease;
     cursor: pointer;
     pointer-events: all; }
-    @media only screen and (min-width: 1200px) {
+    @media only screen and (min-width: 992px) {
       #method #diagram .method-item.construction {
         width: 265px; } }
-    @media only screen and (max-width: 1199px) {
-      #method #diagram .method-item {
-        border-radius: 9999px;
-        font-size: .75em;
-        height: 120px;
-        width: 120px;
-        padding: 48px 24px 0;
-        background: #1e212a;
-        transition: all ease .5s;
-        box-shadow: -2px 11px 17px 0px rgba(0, 0, 0, 0.1);
-        opacity: 1; } }
+    @media only screen and (max-width: 991px) {
+      #method #diagram .method-item .step-content {
+        display: none; } }
     #method #diagram .method-item .step-content > span.count {
       text-align: center;
       width: 100%;
       color: #fff;
       font-size: 2em; }
-      @media only screen and (max-width: 1199px) {
-        #method #diagram .method-item .step-content > span.count {
-          display: none; } }
     #method #diagram .method-item .step-content span, #method #diagram .method-item .step-content i {
       display: block;
       color: #fff; }
@@ -1198,29 +1194,6 @@ section#image-scroll {
     #method #diagram .method-item .step-content i {
       font-size: 2em;
       color: #fff; }
-      @media only screen and (max-width: 767px) {
-        #method #diagram .method-item .step-content i {
-          font-size: 1.5em; } }
-    @media only screen and (max-width: 1199px) {
-      #method #diagram .method-item.intro {
-        background: #3dbee8; } }
-    @media only screen and (max-width: 1199px) {
-      #method #diagram .method-item.design {
-        background: #3644ad; } }
-    @media only screen and (max-width: 1199px) {
-      #method #diagram .method-item.tuning {
-        background: #8dc701; } }
-    @media only screen and (max-width: 1199px) {
-      #method #diagram .method-item.construction {
-        padding: 24px 19px 0; } }
-    @media only screen and (max-width: 1199px) {
-      #method #diagram .method-item.construction, #method #diagram .method-item.eval {
-        background: #f5f9fd;
-        color: #000;
-        z-index: 6;
-        border: 1px solid #ccc; }
-        #method #diagram .method-item.construction .step-content .count, #method #diagram .method-item.construction .step-content i, #method #diagram .method-item.construction .step-content span, #method #diagram .method-item.eval .step-content .count, #method #diagram .method-item.eval .step-content i, #method #diagram .method-item.eval .step-content span {
-          color: #000; } }
 
 body.loading .content-wrapper {
   opacity: 0;
