@@ -318,6 +318,8 @@
   background: #fafafa; }
   #model * {
     opacity: 1 !important; }
+  #model p[data-content="content-model-desc"] {
+    margin-top: -20px; }
 
 h1, h2, h3, h4 {
   color: #2a2a2a;
