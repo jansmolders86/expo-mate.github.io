@@ -2,10 +2,14 @@
   height: 900px
   @media screen and (min-width: 1600px)
     height: 1200px
+  +respond-max-width(sm)
+    height: 720px 
   overflow: hidden
   background: #efefef
   h2
     margin-top: 75px
+    +respond-max-width(sm)
+      margin-top: 20px
   p
     text-align: center
     width: 500px
@@ -32,6 +36,8 @@
       padding: 70px 0
     @media screen and (min-device-width: 300px) and (max-device-width: 768px) and (orientation: landscape)
       padding: 50px 0
+    +respond-max-width(sm)
+      padding: 40px 0
     .container
       width: 80%
       margin: 6% auto 0

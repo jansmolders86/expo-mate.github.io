@@ -127,10 +127,16 @@
 #aboutUs
   background: #fafafa
   padding: 100px 0
+  +respond-max-width(sm)
+    padding: 40px 0
+    h2 
+      margin-bottom: 10px
   *
     text-align: center
   .employee
     margin: 40px 0
+    +respond-max-width(sm)
+      margin: 0 0 20px 
 
 
 +respond-max-width(sm)
@@ -197,4 +203,4 @@
   *
     opacity: 1!important
   p[data-content="content-model-desc"]
-    margin-top: -20px
+    margin-top: -20px 

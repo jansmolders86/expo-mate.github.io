@@ -254,10 +254,18 @@
 #aboutUs {
   background: #fafafa;
   padding: 100px 0; }
+  @media only screen and (max-width: 991px) {
+    #aboutUs {
+      padding: 40px 0; }
+      #aboutUs h2 {
+        margin-bottom: 10px; } }
   #aboutUs * {
     text-align: center; }
   #aboutUs .employee {
     margin: 40px 0; }
+    @media only screen and (max-width: 991px) {
+      #aboutUs .employee {
+        margin: 0 0 20px; } }
 
 @media only screen and (max-width: 991px) {
   #preabout {
@@ -1300,6 +1308,9 @@ body:not(.loading) .content-wrapper {
   position: relative;
   overflow: hidden;
   margin-top: 50px; }
+  @media only screen and (max-width: 991px) {
+    #comparison-wrapper {
+      margin-top: 20px; } }
   #comparison-wrapper p {
     text-align: center;
     margin-bottom: 50px; }
@@ -1693,8 +1704,14 @@ body.open {
   @media screen and (min-width: 1600px) {
     #values {
       height: 1200px; } }
+  @media only screen and (max-width: 991px) {
+    #values {
+      height: 720px; } }
   #values h2 {
     margin-top: 75px; }
+    @media only screen and (max-width: 991px) {
+      #values h2 {
+        margin-top: 20px; } }
   #values p {
     text-align: center;
     width: 500px;
@@ -1725,6 +1742,9 @@ body.open {
     @media screen and (min-device-width: 300px) and (max-device-width: 768px) and (orientation: landscape) {
       #values .content-container {
         padding: 50px 0; } }
+    @media only screen and (max-width: 991px) {
+      #values .content-container {
+        padding: 40px 0; } }
     #values .content-container .container {
       width: 80%;
       margin: 6% auto 0; }
