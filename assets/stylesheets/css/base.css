@@ -930,6 +930,9 @@ section#image-scroll {
     @media screen and (min-device-width: 1600px) {
       #footer #contact-info h3 {
         font-size: 1.5em; } }
+    @media only screen and (max-width: 991px) {
+      #footer #contact-info h3 {
+        margin: 0 0 5px 0; } }
     #footer #contact-info .row > div {
       padding: 20px; }
       @media only screen and (max-width: 767px) {
@@ -943,11 +946,13 @@ section#image-scroll {
       word-spacing: 100vw;
       line-height: 1.5em;
       margin-top: 0; }
-      @media only screen and (max-width: 767px) {
+      @media only screen and (max-width: 991px) {
         #footer #contact-info .contact-heading h3 {
           margin-top: 20px;
           padding: 0;
-          word-spacing: normal; } }
+          word-spacing: normal; }
+          #footer #contact-info .contact-heading h3[data-content="footer-contacts-visit-header"] {
+            margin-top: 0; } }
       @media screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
         #footer #contact-info .contact-heading h3 {
           padding: 0;
@@ -956,9 +961,9 @@ section#image-scroll {
       border-right: 1px solid #d9d9d9;
       min-height: 275px;
       line-height: 1.6em; }
-      @media only screen and (max-width: 767px) {
+      @media only screen and (max-width: 991px) {
         #footer #contact-info .contact-content {
-          min-height: 175px; } }
+          min-height: auto !important; } }
       @media screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
         #footer #contact-info .contact-content {
           border: 0; } }
@@ -1040,6 +1045,9 @@ section#image-scroll {
   background: url(../../images/tile-bg.jpg) no-repeat;
   background-size: cover;
   padding-bottom: 50px; }
+  @media only screen and (max-width: 1199px) {
+    #method {
+      padding-top: 40px; } }
   @media only screen and (min-width: 992px) {
     #method .method-desc-wrapper {
       width: 250px;
@@ -1706,7 +1714,7 @@ body.open {
       height: 1200px; } }
   @media only screen and (max-width: 991px) {
     #values {
-      height: 720px; } }
+      height: 700px; } }
   #values h2 {
     margin-top: 75px; }
     @media only screen and (max-width: 991px) {

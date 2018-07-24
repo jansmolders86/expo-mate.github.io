@@ -50,6 +50,8 @@
     h3
       @media screen and (min-device-width: 1600px)
         font-size: 1.5em
+      +respond-max-width(sm)
+        margin: 0 0 5px 0
     .row
       > div
         padding: 20px
@@ -61,10 +63,12 @@
       h3
         padding: 0 0 0 20px
         word-spacing: 100vw
-        +respond-max-width(xs)
+        +respond-max-width(sm)
           margin-top: 20px
           padding: 0
           word-spacing: normal
+          &[data-content="footer-contacts-visit-header"]
+            margin-top: 0
         @media screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape)
           padding: 0
           word-spacing: normal
@@ -73,8 +77,8 @@
     .contact-content
       border-right: 1px solid $footer-border-color
       min-height: 275px
-      +respond-max-width(xs)
-        min-height: 175px
+      +respond-max-width(sm)
+        min-height: auto!important
       @media screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape)
         border: 0
       +respond-max-width(sm)
