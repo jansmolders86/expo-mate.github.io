@@ -1575,6 +1575,8 @@ body.open {
   .projects-wrapper .project:not(.open) .project-images,
   .projects-wrapper .project:not(.open) .project-desc-wrapper {
     width: 50%;
+    margin: 0;
+    paddign: 0;
     float: left;
     position: relative;
     overflow: hidden; }

@@ -20,7 +20,7 @@ $(function() {
                     , identifier = author.replace(/[^A-Z0-9]+/ig, "-").toLowerCase()
                     , starCount = review.stars || '';
 
-                if (review && review !== undefined && desc !== '' && desc !== undefined) {
+                if (review && review !== undefined && desc !== '' && desc !== undefined || starCount !== '' && starCount !== undefined) {
                     testimonial.addClass('hidden');
                     if (testimonial.length > 0) {
                         testimonial.append('<div class="review" id="' + identifier + '">\n' +
