@@ -60,12 +60,20 @@
         @media screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape)
           width: 50% !important
     .contact-heading
+      &:first-child 
+        border: 0 
+        margin: 0
+        padding: 0
+      +respond-max-width(sm)
+        border-top: 1px solid #cccccc
+        margin-top: 20px 
+        padding-top: 20px!important
       h3
         padding: 0 0 0 20px
         word-spacing: 100vw
         +respond-max-width(sm)
           margin-top: 20px
-          padding: 0
+          padding: 0 0 20px 0
           word-spacing: normal
           &[data-content="footer-contacts-visit-header"]
             margin-top: 0

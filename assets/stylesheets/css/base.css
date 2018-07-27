@@ -941,6 +941,15 @@ section#image-scroll {
       @media screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
         #footer #contact-info .row > div {
           width: 50% !important; } }
+    #footer #contact-info .contact-heading:first-child {
+      border: 0;
+      margin: 0;
+      padding: 0; }
+    @media only screen and (max-width: 991px) {
+      #footer #contact-info .contact-heading {
+        border-top: 1px solid #cccccc;
+        margin-top: 20px;
+        padding-top: 20px !important; } }
     #footer #contact-info .contact-heading h3 {
       padding: 0 0 0 20px;
       word-spacing: 100vw;
@@ -949,7 +958,7 @@ section#image-scroll {
       @media only screen and (max-width: 991px) {
         #footer #contact-info .contact-heading h3 {
           margin-top: 20px;
-          padding: 0;
+          padding: 0 0 20px 0;
           word-spacing: normal; }
           #footer #contact-info .contact-heading h3[data-content="footer-contacts-visit-header"] {
             margin-top: 0; } }
