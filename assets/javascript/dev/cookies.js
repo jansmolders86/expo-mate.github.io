@@ -26,6 +26,8 @@ function eraseCookie(name) {
 function chooseCookie(){
     var userLang = navigator.language || navigator.userLanguage;
     var activeCookie = getCookie('lang');
+    console.log('param', getParameterByName('lang'));
+    var queryParam = getParameterByName('lang');
     if(activeCookie === undefined || activeCookie === null || activeCookie === ''){
         if(userLang.match(/de/g)){
             setCookie('lang','en',7);
@@ -38,8 +40,21 @@ function chooseCookie(){
         }
     }
 
+    if (queryParam !== undefined && queryParam === 'de'){
+        setCookie('lang','de',7);
+    }
+
     setTimeout(function(){
         $('#nav .active-loc').html(getCookie('lang'));
     },200);
 }
 
+function getParameterByName(name, url) {
+    if (!url) url = window.location.href;
+    name = name.replace(/[\[\]]/g, '\\$&');
+    var regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'),
+        results = regex.exec(url);
+    if (!results) return null;
+    if (!results[2]) return '';
+    return decodeURIComponent(results[2].replace(/\+/g, ' '));
+}
